@@ -327,6 +327,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </li>
 
+                            <!-- SLIDE 3 -->
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="/assets/images/revo-slider/face-side-thumb.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
+
+                                <!-- MAIN IMAGE -->
+                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            </li>
+                            
+                            <!-- SLIDE 4 -->
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="/assets/images/revo-slider/face-side-thumb.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
+
+                                <!-- MAIN IMAGE -->
+                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_4.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            </li>
+                            
+                            <!-- SLIDE 5 -->
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="/assets/images/revo-slider/face-side-thumb.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
+
+                                <!-- MAIN IMAGE -->
+                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_5.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            </li>
+                            
                         </ul>
 
                     </div>
@@ -357,8 +378,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                             <div class="col-md-6 col-sm-6 pb-10">
                                 <div class="fes5-box wow" >
-                                    <h3>FULLY RESPONSIVE</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+                                    <h3>HISTORY</h3>
+                                    <p>INERRE is an interior design firm capturing each client’s personality and reflecting it through a unified and well tailored design according to their lifestyles and needs.</p>
                                 </div>
                             </div>
 
@@ -949,167 +970,167 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script type="text/javascript" src="/assets/rs-plugin/js/jquery.themepunch.revolution-parallax.min.js"></script>
 
 <!-- SLIDER REVOLUTION INIT  -->
-			<script type="text/javascript">
+    <script type="text/javascript">
 
-				jQuery(document).ready(function() {
-          if ( (navigator.appVersion.indexOf("Win")!=-1) && ( ieDetect == false ) ) {	
-                    jQuery('#rs-fullwidth').revolution(
-                    {
-                      dottedOverlay:"none",
-                      delay:16000,
-                      startwidth:1170,
-                      startheight:665,
-                      hideThumbs:200,
-                      
-                      thumbWidth:100,
-                      thumbHeight:50,
-                      thumbAmount:5,
-                      
-                      //fullScreenAlignForce: "off",
-                      
-                      navigationType:"none",
-                      navigationArrows:"solo",
-                      navigationStyle:"preview4",
-                      
-                      hideTimerBar:"on",
-                      
-                      touchenabled:"on",
-                      onHoverStop:"on",
-                      
-                      swipe_velocity: 0.7,
-                      swipe_min_touches: 1,
-                      swipe_max_touches: 1,
-                      drag_block_vertical: false,
-                                  
-                      parallax:"scroll",
-                      parallaxBgFreeze:"on",
-                      parallaxLevels:[45,40,35,50],
-                      parallaxDisableOnMobile:"on",
-                                  
-                      keyboardNavigation:"off",
-                      
-                      navigationHAlign:"center",
-                      navigationVAlign:"bottom",
-                      navigationHOffset:0,
-                      navigationVOffset:20,
+        jQuery(document).ready(function() {
+  if ( (navigator.appVersion.indexOf("Win")!=-1) && ( ieDetect == false ) ) {	
+            jQuery('#rs-fullwidth').revolution(
+            {
+              dottedOverlay:"none",
+              delay:16000,
+              startwidth:1170,
+              startheight:665,
+              hideThumbs:200,
 
-                      soloArrowLeftHalign:"left",
-                      soloArrowLeftValign:"center",
-                      soloArrowLeftHOffset:20,
-                      soloArrowLeftVOffset:0,
+              thumbWidth:100,
+              thumbHeight:50,
+              thumbAmount:5,
 
-                      soloArrowRightHalign:"right",
-                      soloArrowRightValign:"center",
-                      soloArrowRightHOffset:20,
-                      soloArrowRightVOffset:0,
-                          
-                      shadow:0,
-                      fullWidth:"on",
-                      fullScreen:"off",
+              //fullScreenAlignForce: "off",
 
-                      spinner:"spinner4",
-                      
-                      stopLoop:"off",
-                      stopAfterLoops:-1,
-                      stopAtSlide:-1,
+              navigationType:"none",
+              navigationArrows:"solo",
+              navigationStyle:"preview0",
 
-                      shuffle:"off",
-                      
-                      autoHeight:"off",						
-                      forceFullWidth:"off",						
-                                  
-                      hideThumbsOnMobile:"off",
-                      hideNavDelayOnMobile:1500,						
-                      hideBulletsOnMobile:"off",
-                      hideArrowsOnMobile:"off",
-                      hideThumbsUnderResolution:0,
-                      
-                      hideSliderAtLimit:0,
-                      hideCaptionAtLimit:0,
-                      hideAllCaptionAtLilmit:0,
-                      startWithSlide:0,
-                      //fullScreenOffsetContainer: ""	
-                    });
-          } else {
-                  jQuery('#rs-fullwidth').revolution(
-                    {
-                      dottedOverlay:"none",
-                      delay:16000,
-                      startwidth:1170,
-                      startheight:760,
-                      hideThumbs:200,
-                      
-                      thumbWidth:100,
-                      thumbHeight:50,
-                      thumbAmount:5,
-                      
-                      navigationType:"none",
-                      navigationArrows:"solo",
-                      navigationStyle:"preview4",
-                      
-                      hideTimerBar:"on",
-                      
-                      touchenabled:"on",
-                      onHoverStop:"on",
-                      
-                      swipe_velocity: 0.7,
-                      swipe_min_touches: 1,
-                      swipe_max_touches: 1,
-                      drag_block_vertical: false,
-                                  
-                      parallax:"mouse",
-                      parallaxBgFreeze:"on",
-                      parallaxLevels:[0],
-                      parallaxDisableOnMobile:"on",
-                                  
-                      keyboardNavigation:"off",
-                      
-                      navigationHAlign:"center",
-                      navigationVAlign:"bottom",
-                      navigationHOffset:0,
-                      navigationVOffset:20,
+              hideTimerBar:"on",
 
-                      soloArrowLeftHalign:"left",
-                      soloArrowLeftValign:"center",
-                      soloArrowLeftHOffset:20,
-                      soloArrowLeftVOffset:0,
+              touchenabled:"on",
+              onHoverStop:"on",
 
-                      soloArrowRightHalign:"right",
-                      soloArrowRightValign:"center",
-                      soloArrowRightHOffset:20,
-                      soloArrowRightVOffset:0,
-                          
-                      shadow:0,
-                      fullWidth:"on",
-                      fullScreen:"off",
+              swipe_velocity: 0.7,
+              swipe_min_touches: 1,
+              swipe_max_touches: 1,
+              drag_block_vertical: false,
 
-                      spinner:"spinner4",
-                      
-                      stopLoop:"off",
-                      stopAfterLoops:-1,
-                      stopAtSlide:-1,
+              parallax:"scroll",
+              parallaxBgFreeze:"on",
+              parallaxLevels:[45,40,35,50],
+              parallaxDisableOnMobile:"on",
 
-                      shuffle:"off",
-                      
-                      autoHeight:"off",						
-                      forceFullWidth:"off",						
-                                  
-                      hideThumbsOnMobile:"off",
-                      hideNavDelayOnMobile:1500,						
-                      hideBulletsOnMobile:"off",
-                      hideArrowsOnMobile:"off",
-                      hideThumbsUnderResolution:0,
-                      
-                      hideSliderAtLimit:0,
-                      hideCaptionAtLimit:0,
-                      hideAllCaptionAtLilmit:0,
-                      startWithSlide:0,
-	
-                    });      
-          }									
-				});	//ready
-				
-			</script>
+              keyboardNavigation:"off",
+
+              navigationHAlign:"center",
+              navigationVAlign:"bottom",
+              navigationHOffset:0,
+              navigationVOffset:20,
+
+              soloArrowLeftHalign:"left",
+              soloArrowLeftValign:"center",
+              soloArrowLeftHOffset:20,
+              soloArrowLeftVOffset:0,
+
+              soloArrowRightHalign:"right",
+              soloArrowRightValign:"center",
+              soloArrowRightHOffset:20,
+              soloArrowRightVOffset:0,
+
+              shadow:0,
+              fullWidth:"on",
+              fullScreen:"off",
+
+              spinner:"spinner4",
+
+              stopLoop:"off",
+              stopAfterLoops:-1,
+              stopAtSlide:-1,
+
+              shuffle:"off",
+
+              autoHeight:"off",						
+              forceFullWidth:"off",						
+
+              hideThumbsOnMobile:"off",
+              hideNavDelayOnMobile:1500,						
+              hideBulletsOnMobile:"off",
+              hideArrowsOnMobile:"off",
+              hideThumbsUnderResolution:0,
+
+              hideSliderAtLimit:0,
+              hideCaptionAtLimit:0,
+              hideAllCaptionAtLilmit:0,
+              startWithSlide:0,
+              //fullScreenOffsetContainer: ""	
+            });
+  } else {
+          jQuery('#rs-fullwidth').revolution(
+            {
+              dottedOverlay:"none",
+              delay:16000,
+              startwidth:1170,
+              startheight:760,
+              hideThumbs:200,
+
+              thumbWidth:100,
+              thumbHeight:50,
+              thumbAmount:5,
+
+              navigationType:"none",
+              navigationArrows:"solo",
+              navigationStyle:"preview0",
+
+              hideTimerBar:"on",
+
+              touchenabled:"on",
+              onHoverStop:"on",
+
+              swipe_velocity: 0.7,
+              swipe_min_touches: 1,
+              swipe_max_touches: 1,
+              drag_block_vertical: false,
+
+              parallax:"mouse",
+              parallaxBgFreeze:"on",
+              parallaxLevels:[0],
+              parallaxDisableOnMobile:"on",
+
+              keyboardNavigation:"off",
+
+              navigationHAlign:"center",
+              navigationVAlign:"bottom",
+              navigationHOffset:0,
+              navigationVOffset:20,
+
+              soloArrowLeftHalign:"left",
+              soloArrowLeftValign:"center",
+              soloArrowLeftHOffset:20,
+              soloArrowLeftVOffset:0,
+
+              soloArrowRightHalign:"right",
+              soloArrowRightValign:"center",
+              soloArrowRightHOffset:20,
+              soloArrowRightVOffset:0,
+
+              shadow:0,
+              fullWidth:"on",
+              fullScreen:"off",
+
+              spinner:"spinner4",
+
+              stopLoop:"off",
+              stopAfterLoops:-1,
+              stopAtSlide:-1,
+
+              shuffle:"off",
+
+              autoHeight:"off",						
+              forceFullWidth:"off",						
+
+              hideThumbsOnMobile:"off",
+              hideNavDelayOnMobile:1500,						
+              hideBulletsOnMobile:"off",
+              hideArrowsOnMobile:"off",
+              hideThumbsUnderResolution:0,
+
+              hideSliderAtLimit:0,
+              hideCaptionAtLimit:0,
+              hideAllCaptionAtLilmit:0,
+              startWithSlide:0,
+
+            });      
+  }									
+        });	//ready
+
+    </script>
 
 <!-- JS end -->
 
