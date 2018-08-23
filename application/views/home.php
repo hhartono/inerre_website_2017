@@ -449,7 +449,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="port-title-cont">
                       <h3><a href="portfolio-single1.html">AJ RESIDENCE</a></h3>
-                      <span><p>kitchen</p>
+                      <span><p>KITCHEN</p>
                     </div>
                     <div class="port-btn-cont">
                       <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
@@ -463,17 +463,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <li class="port-item mix design">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/projects-2.jpg" alt="img" >
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-2.jpg" alt="img" >
                   </div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">CALENDAR</a></h3>
-                      <span><a href="#">photography</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                      <h3><a href="portfolio-single1.html">MENTENG</a></h3>
+                      <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
                     </div>
 
