@@ -1048,7 +1048,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             jQuery('#rs-fullwidth').revolution(
             {
               dottedOverlay:"none",
-              delay:16000,
+              delay:3000,
               startwidth:1170,
               startheight:665,
               hideThumbs:200,
@@ -1126,7 +1126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           jQuery('#rs-fullwidth').revolution(
             {
               dottedOverlay:"none",
-              delay:16000,
+              delay:3000,
               startwidth:1170,
               startheight:760,
               hideThumbs:200,
