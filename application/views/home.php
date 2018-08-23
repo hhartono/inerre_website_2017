@@ -120,7 +120,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="logo-container-2">
                                 <div class="logo-2">
                                     <a href="index.html" class="clearfix">
-                                        <img src="/assets/images/logo-white.png" class="logo-img" alt="Logo">
+                                        <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
                                     </a>
                                 </div>
                             </div>
@@ -356,14 +356,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
 
                             <div class="col-md-6 col-sm-6 pb-10">
-                                <div class="fes5-box wow fadeIn" >
+                                <div class="fes5-box wow" >
                                     <h3>FULLY RESPONSIVE</h3>
                                     <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-sm-6 pb-10">
-                                <div class="fes5-box wow fadeIn" data-wow-delay="200ms">
+                                <div class="fes5-box wow">
                                     <h3>RETINA READY</h3>
                                     <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
                                 </div>
@@ -374,14 +374,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
 
                             <div class="col-md-6 col-sm-6 pb-10">
-                                <div class="fes5-box wow fadeIn" data-wow-delay="400ms">
+                                <div class="fes5-box wow">
                                     <h3>UNIQUE DESIGN</h3>
                                     <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
                                 </div>
                             </div>
 
                             <div class="col-md-6 col-sm-6 pb-10">
-                                <div class="fes5-box wow fadeIn"  data-wow-delay="600ms">
+                                <div class="fes5-box wow">
                                     <h3>EASY TO CUSTOMIZE</h3>
                                     <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
                                 </div>
@@ -634,29 +634,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <div class="row">
 
-                    <div class="member col-md-4 col-sm-4 wow">
+                    <div class="member col-md-6 col-sm-4 wow">
                         <div class="member-image">
                             <img src="/assets/images/team/team-1.jpg" alt="img">
                         </div>
                         <h3>NESSA PHOENG</h3>
-                        <span>VP ENGINEERING</span>
+                        <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                            <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
-                    <div class="member col-md-4 col-sm-4 wow" data-wow-delay="200ms">
+                    <div class="member col-md-6 col-sm-4 wow">
                         <div class="member-image">
                             <img src="/assets/images/team/team-2.jpg" alt="img">
                         </div>
                         <h3>HANS HARTONO</h3>
-                        <span>FOUNDER AND CEO</span>
+                        <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="#"><span aria-hidden="true" class="social_facebook"></span></a></li>
-                            <li><a href="#"><span aria-hidden="true" class="social_twitter"></span></a></li>
-                            <li><a href="#"><span aria-hidden="true" class="social_dribbble"></span></a></li>
+                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
@@ -672,11 +668,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-md-6 left-50 wow fadeInRight equal-height">
+                    <div class="col-md-6 left-50 wow equal-height">
                         <div class="fes2-main-text-cont">
                             <div class="title-fs-45">
-                                POWERFUL<br>
-                                <span class="bold">PERFORMANCE</span>
+                                OUR WORKSHOP<br>
                             </div>
                             <div class="line-3-100"></div>
                             <div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.</div>
@@ -698,11 +693,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-md-6 wow fadeInLeft equal-height ">
+                    <div class="col-md-6 wow equal-height ">
                         <div class="fes2-main-text-cont">
                             <div class="title-fs-45">
-                                MORE THAN<br>
-                                <span class="bold">RESPONSIVE</span>
+                                MODERN MACHINERY<br>
                             </div>
                             <div class="line-3-70"></div>
                             <div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.</div>
@@ -724,11 +718,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container-fluid">
                 <div class="row">
 
-                    <div class="col-md-6 left-50 wow fadeInRight equal-height">
+                    <div class="col-md-6 left-50 wow equal-height">
                         <div class="fes2-main-text-cont">
                             <div class="title-fs-45">
-                                POWERFUL<br>
-                                <span class="bold">PERFORMANCE</span>
+                                CRAFTSMEN<br>
                             </div>
                             <div class="line-3-100"></div>
                             <div class="fes2-text-cont">Sed ut perspiciatis unde omnis iste nat eror acus  antium que. Asperiores, ea velit enim labore doloribus.</div>
@@ -760,7 +753,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ADDRESS</span></h3>
-                                <p>Jl. Pasteur No. 11, Bandung, INDONESIA</p>
+                                <p>Jl. Pasteur No.11, Bandung, Indonesia</p>
                             </div>
                         </div>
                     </div>
@@ -771,7 +764,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">EMAIL</span></h3>
-                                <p><a href="mailto:info@inerre.com">INFO@INERRE.COM</a></p>
+                                <p><a href="mailto:info@inerre.com">info@inerre.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -782,7 +775,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CALL US</span></h3>
-                                <p>+62 22 4232200</p>
+                                <p><a href="tel:+62224232200">+62 22 423-2200 (landline)</a></p>
+                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 813 1123-4455 (WhatsApp)</a></p>
                             </div>
                         </div>
                     </div>
@@ -862,11 +856,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Social Links -->
                 <div class="footer-soc-a">
-                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Behance" target="_blank"><i class="fa fa-behance"></i></a>
-                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="LinkedIn+" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    <a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel" title="Dribbble" target="_blank"><i class="fa fa-dribbble"></i></a>
+                    <a href="https://www.facebook.com/inerre.interior/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/inerre_interior/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
                 </div>
 
                 <!-- Copyright -->
