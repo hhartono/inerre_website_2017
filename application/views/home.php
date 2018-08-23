@@ -364,29 +364,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <div class="row">
                     <!-- TESTIMONIALS -->
+                    <!--
                     <div class="col-md-5 pb-40">
                         <blockquote class="quote mb-0 pr-50-min-1169">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, maiores esse temporibus actium quas soluta quis sed rerum.</p>
                             <footer>John Doe, Google Inc.</footer>
                         </blockquote>
                     </div>
+                    -->
 
                     <!-- FEATURES -->
-                    <div class="col-md-7">
+                    <div class="col-md-12">
 
                         <div class="row">
 
-                            <div class="col-md-6 col-sm-6 pb-10">
+                            <div class="col-md-8 col-sm-8 pb-10">
                                 <div class="fes5-box wow" >
                                     <h3>HISTORY</h3>
-                                    <p>INERRE is an interior design firm capturing each client’s personality and reflecting it through a unified and well tailored design according to their lifestyles and needs.</p>
+                                    <p>INERRE is an interior design firm capturing each client’s personality and reflecting it through a unified and well tailored design according to their lifestyles and needs. INERRE comes from a word “inner” in German, which means being situated inside and personal. Driven by a team of passionate people, INERRE believes that a design should be designated for one’s self, and not for the accolades of others.</p>
+                                    
+                                    <p>INERRE is established in 2015 by a design family oriented couple Hans Hartono and Nessa Phoeng. The two spent seven years living in the United States for college and work before they eventually decided to come back home and start INERRE. Both founders together intend to develop an interior design firm that is unique according to their different education backgrounds. INERRE practices an interdisciplinary background combining interior design and technology as a whole.</p>
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-sm-6 pb-10">
+                            <div class="col-md-8 col-sm-8 pb-10">
                                 <div class="fes5-box wow">
-                                    <h3>RETINA READY</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+                                    <h3>OUR MISSION</h3>
+                                    <p>INERRE believes that the smallest details can only be greatly appreciated when crafted by the great attention to detail. Our people are driven by innovation and focus on designing impactful and functional furniture. From idea to installation, from concept to check-in, we devote ourselves to telling the story of every piece of furniture, from the broad narrative down to the smallest most meaningful details.</p>
                                 </div>
                             </div>
 
@@ -394,17 +398,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <div class="row">
 
-                            <div class="col-md-6 col-sm-6 pb-10">
+                            <div class="col-md-8 col-sm-8 pb-10">
                                 <div class="fes5-box wow">
-                                    <h3>UNIQUE DESIGN</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+                                    <h3>OUR WORKSHOP</h3>
+                                    <p>INERRE strongly collaborates the great level of craftsmanship together with the ultimate precision of latest woodworking machines and technology - thanks to the world class German engineering precicion. In our own workshop, we are committed to using the latest and most efficient programs to get a better visualization of the project design, enhancing communication, and coordination between project team members, and reducing the number of costly changes during construction.</p>
                                 </div>
                             </div>
 
-                            <div class="col-md-6 col-sm-6 pb-10">
+                            <div class="col-md-8 col-sm-8 pb-10">
                                 <div class="fes5-box wow">
-                                    <h3>EASY TO CUSTOMIZE</h3>
-                                    <p>Sed ut perspiciatis unde omnis iste nat eror acus  antium que</p>
+                                    <h3>OUR GOAL</h3>
+                                    <p>We demonstrate to have versatile skills to approach the design process in a holistic manner to achieve our ultimate goal, which is our client satisfaction. Our goal is to have a proud portrait of INERRE’s dedication and one that ultimately illuminates a deep understanding of the homeowner’s personality and lifestyle.</p>
                                 </div>
                             </div>
 
