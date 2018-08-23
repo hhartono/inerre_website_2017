@@ -386,16 +386,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <p>INERRE is established in 2015 by a design family oriented couple Hans Hartono and Nessa Phoeng. The two spent seven years living in the United States for college and work before they eventually decided to come back home and start INERRE. Both founders together intend to develop an interior design firm that is unique according to their different education backgrounds. INERRE practices an interdisciplinary background combining interior design and technology as a whole.</p>
                                 </div>
                             </div>
-
+                            
+                            <!--
                             <div class="col-md-8 col-sm-8 pb-10">
                                 <div class="fes5-box wow">
                                     <h3>OUR MISSION</h3>
                                     <p>INERRE believes that the smallest details can only be greatly appreciated when crafted by the great attention to detail. Our people are driven by innovation and focus on designing impactful and functional furniture. From idea to installation, from concept to check-in, we devote ourselves to telling the story of every piece of furniture, from the broad narrative down to the smallest most meaningful details.</p>
                                 </div>
                             </div>
+                            -->
 
                         </div>
 
+                        <!--
                         <div class="row">
 
                             <div class="col-md-8 col-sm-8 pb-10">
@@ -413,6 +416,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
 
                         </div>
+                        -->
 
                     </div>
 
@@ -644,6 +648,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         -->
 
+        
+        
         <!-- TEAM -->
         <div id="team-link" class="page-section pt-110-cont">
             <div class="container">
