@@ -266,7 +266,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="/assets/images/revo-slider/face-side-thumb.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
 
                                 <!-- MAIN IMAGE -->
-                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_main.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                                 <!-- LAYERS -->
 
