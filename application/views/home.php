@@ -733,7 +733,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3>NESSA PHOENG</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/nessaph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
@@ -744,7 +744,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3>HANS HARTONO</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="#"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
