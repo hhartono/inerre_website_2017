@@ -717,11 +717,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
 
                     <div class="col-md-12">
+                        <!--
                         <div class="mb-50">
                             <h2 class="section-title">OUR <span class="bold">FOUNDERS</span></h2>
                         </div>
+                        -->
+                        <div class="mb-50">
+                            <div class="title-fs-45">
+                                OUR FOUNDERS<br>
+                            </div>
+                            <div class="line-3-100"></div>
+                        </div>
                     </div>
-
+                    
                 </div>
 
                 <div class="row">
@@ -1066,7 +1074,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               hideTimerBar:"on",
 
               touchenabled:"on",
-              onHoverStop:"on",
+              onHoverStop:"off",
 
               swipe_velocity: 0.7,
               swipe_min_touches: 1,
@@ -1105,7 +1113,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               stopAfterLoops:-1,
               stopAtSlide:-1,
 
-              shuffle:"off",
+              shuffle:"on",
 
               autoHeight:"off",						
               forceFullWidth:"off",						
@@ -1142,7 +1150,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               hideTimerBar:"on",
 
               touchenabled:"on",
-              onHoverStop:"on",
+              onHoverStop:"off",
 
               swipe_velocity: 0.7,
               swipe_min_touches: 1,
@@ -1181,7 +1189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               stopAfterLoops:-1,
               stopAtSlide:-1,
 
-              shuffle:"off",
+              shuffle:"on",
 
               autoHeight:"off",						
               forceFullWidth:"off",						
