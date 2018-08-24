@@ -484,7 +484,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <li class="port-item mix photography">
                 <a href="portfolio-single1.html">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/projects-2.jpg" alt="img" >
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-3.jpg" alt="img" >
                   </div>
                 </a>
                 <div class="port-overlay-cont">
@@ -494,7 +494,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
                     </div>
 
