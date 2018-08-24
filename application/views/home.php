@@ -490,8 +490,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                      <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
+                      <h3><a href="portfolio-single1.html">AJ RESIDENCE</a></h3>
+                      <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
                       <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
