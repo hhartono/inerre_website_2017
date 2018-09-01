@@ -244,7 +244,7 @@
                 <div class="lightbox-item popup-gallery mb-30">
                   <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg">
                     <div class="port-img-overlay">
-                      <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-01.jpg" alt="img">
+                      <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-01.jpg" alt="img">
                     </div>
                     <div class="port-overlay-cont">
                       <div class="port-btn-cont">
@@ -267,7 +267,7 @@
                   <div class="lightbox-item">
                     <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-02.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-02.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-02.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
@@ -283,7 +283,7 @@
                   <div class="lightbox-item">
                     <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-03.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-03.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-03.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
@@ -299,7 +299,7 @@
                   <div class="lightbox-item">
                     <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-04.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-04.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-04.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
@@ -315,7 +315,7 @@
                   <div class="lightbox-item">
                     <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-05.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-05.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-05.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
@@ -355,7 +355,7 @@
               <div class="lightbox-item">
                 <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-06.jpg">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-06.jpg" alt="img">
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-06.jpg" alt="img">
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -371,7 +371,7 @@
               <div class="lightbox-item">
                 <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-07.jpg">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-07.jpg" alt="img">
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-07.jpg" alt="img">
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -387,7 +387,7 @@
               <div class="lightbox-item">
                 <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-08.jpg">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-08.jpg" alt="img">
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-08.jpg" alt="img">
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
@@ -403,7 +403,7 @@
               <div class="lightbox-item">
                 <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-09.jpg">
                   <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/JBoy-09.jpg" alt="img">
+                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-09.jpg" alt="img">
                   </div>
                   <div class="port-overlay-cont">
                     <div class="port-btn-cont">
