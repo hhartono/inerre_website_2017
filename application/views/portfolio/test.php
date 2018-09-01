@@ -258,7 +258,7 @@
           </div>
 
           <div class="container">
-          	<div class="row mt-30 mb-60 ">
+          	<div class="row mt-30 mb-30 ">
             
               <div class="popup-gallery">
               
@@ -325,7 +325,7 @@
                     </a>  
                   </div>
                 </div>
-
+                  
                 <!-- IMG - 6 - HIDDEN-->
                 <!--
                 <a href="/assets/images/portfolio/test/4.jpg">
@@ -343,97 +343,94 @@
               </div>
 
           	</div>
-          </div>
+              
+            <div class="row mt-30 mb-30 ">
 
-        <div class="container">
-        <div class="row mt-30 mb-60 ">
+              <div class="popup-gallery">
 
-          <div class="popup-gallery">
-
-            <!-- IMG -->
-            <div class="col-sm-3 col-xs-6 mb-20">
-              <div class="lightbox-item">
-                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-06.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-06.jpg" alt="img">
+                <!-- IMG -->
+                <div class="col-sm-3 col-xs-6 mb-20">
+                  <div class="lightbox-item">
+                    <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-06.jpg">
+                      <div class="port-img-overlay">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-06.jpg" alt="img">
+                      </div>
+                      <div class="port-overlay-cont">
+                        <div class="port-btn-cont">
+                          <div aria-hidden="true" class="icon_search"></div>
+                        </div>
+                      </div>
+                    </a>  
                   </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-              </div>
-            </div>
-
-            <!-- IMG -->
-            <div class="col-sm-3 col-xs-6 mb-20">
-              <div class="lightbox-item">
-                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-07.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-07.jpg" alt="img">
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-              </div>
-            </div>
-
-            <!-- IMG -->
-            <div class="col-sm-3 col-xs-6 mb-20">
-              <div class="lightbox-item">
-                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-08.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-08.jpg" alt="img">
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-              </div>
-            </div>
-
-            <!-- IMG -->
-            <div class="col-sm-3 col-xs-6 mb-20">
-              <div class="lightbox-item">
-                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-09.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-09.jpg" alt="img">
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                      <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>  
-              </div>
-            </div>
-
-            <!-- IMG - 6 - HIDDEN-->
-            <!--
-            <a href="/assets/images/portfolio/test/4.jpg">
-              <div class="port-img-overlay">
-                <img class="port-main-img" src="/assets/images/portfolio/test/4.jpg" alt="img">
-              </div>
-              <div class="port-overlay-cont">
-                <div class="port-btn-cont">
-                    <div aria-hidden="true" class="icon_search"></div>
                 </div>
+
+                <!-- IMG -->
+                <div class="col-sm-3 col-xs-6 mb-20">
+                  <div class="lightbox-item">
+                    <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-07.jpg">
+                      <div class="port-img-overlay">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-07.jpg" alt="img">
+                      </div>
+                      <div class="port-overlay-cont">
+                        <div class="port-btn-cont">
+                          <div aria-hidden="true" class="icon_search"></div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                </div>
+
+                <!-- IMG -->
+                <div class="col-sm-3 col-xs-6 mb-20">
+                  <div class="lightbox-item">
+                    <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-08.jpg">
+                      <div class="port-img-overlay">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-08.jpg" alt="img">
+                      </div>
+                      <div class="port-overlay-cont">
+                        <div class="port-btn-cont">
+                          <div aria-hidden="true" class="icon_search"></div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                </div>
+
+                <!-- IMG -->
+                <div class="col-sm-3 col-xs-6 mb-20">
+                  <div class="lightbox-item">
+                    <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-09.jpg">
+                      <div class="port-img-overlay">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-09.jpg" alt="img">
+                      </div>
+                      <div class="port-overlay-cont">
+                        <div class="port-btn-cont">
+                          <div aria-hidden="true" class="icon_search"></div>
+                        </div>
+                      </div>
+                    </a>  
+                  </div>
+                </div>
+
+                <!-- IMG - 6 - HIDDEN-->
+                <!--
+                <a href="/assets/images/portfolio/test/4.jpg">
+                  <div class="port-img-overlay">
+                    <img class="port-main-img" src="/assets/images/portfolio/test/4.jpg" alt="img">
+                  </div>
+                  <div class="port-overlay-cont">
+                    <div class="port-btn-cont">
+                        <div aria-hidden="true" class="icon_search"></div>
+                    </div>
+                  </div>
+                </a>
+                -->
+
               </div>
-            </a>
-            -->
 
+            </div>
           </div>
-
-        </div>
-      </div>
             
-          
           <!-- DIVIDER -->
             <!--
           <hr class="mt-0 mb-0"> 
