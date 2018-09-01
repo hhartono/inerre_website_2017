@@ -258,7 +258,7 @@
           </div>
 
           <div class="container">
-          	<div class="row mt-30 mb-30 ">
+          	<div class="row mt-30 mb-10 ">
             
               <div class="popup-gallery">
               
@@ -344,7 +344,7 @@
 
           	</div>
               
-            <div class="row mt-30 mb-30 ">
+            <div class="row mt-10 mb-30 ">
 
               <div class="popup-gallery">
 
