@@ -436,28 +436,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- PORTFOLIO FILTER -->                    
             <div class="port-filter text-center text-left-767">
               <a href="#" class="filter active" data-filter="*">All Projects</a>
-              <a href="#" class="filter" data-filter=".development">Development</a>
-              <a href="#" class="filter" data-filter=".design">Design</a>
-              <a href="#" class="filter" data-filter=".photography">Photography</a>
+              <a href="#" class="filter" data-filter=".aj">AJ Residence</a>
+              <a href="#" class="filter" data-filter=".dl">DL Residence</a>
+              <a href="#" class="filter" data-filter=".wv">WV Residence</a>
             </div>                    
                     
             <!-- ITEMS GRID -->
             <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
               
               <!-- Item 1 -->
-              <li class="port-item mix development">
-                <a href="portfolio-single1.html">
+              <li class="port-item mix aj">
+                <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20">
                   <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-1.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">AJ RESIDENCE</a></h3>
+                      <h3><a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
                       <span><p>KITCHEN</p>
                     </div>
                     <div class="port-btn-cont">
                       <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
@@ -968,7 +968,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    <a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2019</a>
+                    &copy; INERRE 2019
+                    <!--<a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2019</a>-->
                 </div>
 
             </div>
