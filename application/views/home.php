@@ -437,14 +437,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="port-filter text-center text-left-767">
               <a href="#" class="filter active" data-filter="*">All Projects</a>
               <a href="#" class="filter" data-filter=".aj">AJ Residence</a>
-              <a href="#" class="filter" data-filter=".dl">DL Residence</a>
+              <a href="#" class="filter" data-filter=".menteng">Menteng</a>
               <a href="#" class="filter" data-filter=".wv">WV Residence</a>
             </div>                    
                     
             <!-- ITEMS GRID -->
             <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
               
-              <!-- Item 1 -->
+              <!-- Item 1 - SUDAH BETUL!-->
               <li class="port-item mix aj">
                 <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20">
                   <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-1.jpg" alt="img" ></div>
@@ -464,8 +464,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </li>
 
               <!-- Item 2 -->
-              <li class="port-item mix design">
-                <a href="portfolio-single1.html">
+              <li class="port-item mix menteng">
+                <a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-2.jpg" alt="img" >
                   </div>
@@ -473,20 +473,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">MENTENG</a></h3>
+                      <h3><a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20">MENTENG</a></h3>
                       <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
                       <a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
               </li>
               
               <!-- Item 3 -->
-              <li class="port-item mix photography">
-                <a href="portfolio-single1.html">
+              <li class="port-item mix aj">
+                <a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20">
                   <div class="port-img-overlay">
                     <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-3.jpg" alt="img" >
                   </div>
@@ -494,12 +494,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">AJ RESIDENCE</a></h3>
+                      <h3><a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
                       <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
                       <a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
