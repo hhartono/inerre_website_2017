@@ -715,17 +715,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         
         
-        <!-- TEAM -->
+        <!-- TEAM DISABLED TEMPORARILY-->
+        <!--
         <div id="team-link" class="page-section pt-110-cont">
             <div class="container">
                 <div class="row">
 
                     <div class="col-md-12">
-                        <!--
-                        <div class="mb-50">
-                            <h2 class="section-title">OUR <span class="bold">FOUNDERS</span></h2>
-                        </div>
-                        -->
                         <div class="mb-50">
                             <div class="title-fs-45">
                                 OUR FOUNDERS<br>
@@ -763,11 +759,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        -->
 
         <!-- DIVIDER -->
+        <!--
         <hr class="mt-0 mb-0">
+        -->
 
         <!-- FEATURES 3 -->
+        <!--
         <div id="workshop-link" class="page-section">
             <div class="container-fluid">
                 <div class="row">
@@ -791,8 +791,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        -->
 
         <!-- FEATURES 2 -->
+        <!--
         <div class="page-section">
             <div class="container-fluid">
                 <div class="row">
@@ -816,8 +818,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        -->
 
         <!-- FEATURES 3 -->
+        <!--
         <div class="page-section">
             <div class="container-fluid">
                 <div class="row">
@@ -841,6 +845,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        -->
 
         <!-- DIVIDER -->
         <hr class="mt-0 mb-0">
@@ -890,6 +895,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <!-- GOOGLE MAP & CONTACT FORM -->
+        <!--
         <div class="page-section gray-bg">
             <div class="container-fluid">
                 <div class="row">
@@ -902,32 +908,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-md-6">
                         <div class="contact-form-cont">
-                            <!-- TITLE -->
                             <div class="mb-40">
                                 <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
                             </div>
 
-                            <!-- CONTACT FORM -->
                             <div class="">
                                 <form id="contact-form" action="php/contact-form.php" method="POST">
 
                                     <div class="row">
                                         <div class="col-md-12 mb-30">
-                                            <!-- <label>Your name *</label> -->
                                             <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="NAME" required>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-12 mb-30">
-                                            <!-- <label>Your email address *</label> -->
                                             <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-12 mb-40">
-                                            <!-- <label>Message *</label> -->
                                             <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
                                         </div>
                                     </div>
@@ -953,6 +954,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
         </div>
+        -->
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
@@ -966,7 +968,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    <a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2017</a>
+                    <a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2019</a>
                 </div>
 
             </div>
