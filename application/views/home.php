@@ -157,14 +157,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             </li>
 
                                             <!-- MENU ITEM -->
+                                            <!-- DISABLE TEAM - TEMPORARY
                                             <li>
                                                 <a href="#team-link"><div class="main-menu-title">TEAM</div></a>
                                             </li>
+                                            -->
 
                                             <!-- MENU ITEM -->
+                                            <!-- DISABLE TEAM - TEMPORARY
                                             <li>
                                                 <a href="#workshop-link"><div class="main-menu-title">WORKSHOP</div></a>
                                             </li>
+                                            -->
 
                                             <!-- MENU ITEM -->
                                             <li>
