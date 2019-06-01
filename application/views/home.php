@@ -723,7 +723,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </li>
                 
               <!-- Portfolio 5 - 01.jpg-->
-              <li class="port-item mix portfolio4">
+              <li class="port-item mix portfolio5">
                 <!-- click image on mobile device -->
                 <a href="/assets/images/inerre/portfolio/portfolio5/portfolio/01.jpg" class="lightbox mr-20">
                   <!-- thumbnail -->
@@ -769,7 +769,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </li>    
               
               <!-- Portfolio 5 - 03.jpg-->
-              <li class="port-item mix portfolio4">
+              <li class="port-item mix portfolio5">
                 <!-- click image on mobile device -->
                 <a href="/assets/images/inerre/portfolio/portfolio5/portfolio/03.jpg" class="lightbox mr-20">
                   <!-- thumbnail -->
