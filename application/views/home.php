@@ -1162,8 +1162,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    &copy; INERRE 2019
-                    <!--<a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2019</a>-->
+                    <a href="#home-link">&copy; INERRE 2019</a>
                 </div>
 
             </div>
