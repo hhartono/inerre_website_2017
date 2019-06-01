@@ -653,6 +653,75 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </li>
                 
+              <!-- Portfolio 4 - 01.jpg-->
+              <li class="port-item mix portfolio4">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/01.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio4/thumbnail/01.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio4/portfolio/01.jpg" class="lightbox mr-20">WV RESIDENCE</a></h3>
+                      <span><p>KIDS BEDROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+              </li>
+            
+              <!-- Portfolio 3=4 - 02.jpg-->
+              <li class="port-item mix portfolio4">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/02.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio4/thumbnail/02.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio4/portfolio/02.jpg" class="lightbox mr-20">WV RESIDENCE</a></h3>
+                      <span><p>DINING ROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+              </li>    
+              
+              <!-- Portfolio 4 - 03.jpg-->
+              <li class="port-item mix portfolio4">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/03.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio4/thumbnail/03.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio4/portfolio/03.jpg" class="lightbox mr-20">WV RESIDENCE</a></h3>
+                      <span><p>KIDS BEDROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+              </li>
+                  
             </ul>
           
           </div>
