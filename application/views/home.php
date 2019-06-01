@@ -1052,7 +1052,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
+                                <a href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">
+                                    <div class="icon icon-basic-map"></div>
+                                </a>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ADDRESS</span></h3>
@@ -1063,7 +1065,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-mail"></div>
+                                <a href="mailto:info@inerre.com">
+                                    <div class="icon icon-basic-mail"></div>
+                                </a>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">EMAIL</span></h3>
@@ -1074,7 +1078,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-smartphone"></div>
+                                <a href="https://api.whatsapp.com/send?phone=6281311234455">
+                                    <div class="icon icon-basic-smartphone"></div>
+                                </a>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CALL US</span></h3>
