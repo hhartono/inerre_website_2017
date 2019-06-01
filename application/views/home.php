@@ -1008,6 +1008,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         -->
 
+        
+        <!-- ADS 1 -->
+        <div class="page-section">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 left-50">
+                            <div class="fes2-main-text-cont">
+                                <div class="title-fs-45">
+                                    FOLLOW OUR<br>
+                                    <span class="bold">INSTAGRAM</span>
+                                </div>
+                                <div class="line-3-100"></div>
+                                <div class="fes2-text-cont">Check out our latest projects & updates.</div>
+                        <div class="mt-30">
+                            <a class="button medium thin hover-dark" href="https://www.instagram.com/inerre_interior/"><i class="fa fa-instagram"></i> @inerre_interior</a>
+                        </div>
+                            </div>
+                    </div>
+
+      <div class="col-md-6 right-50 wow fadeInLeft">
+
+                            <div class="ads-img-cont" >
+            <img src="images/ads-phone.jpg" alt="img">
+          </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div> 
+        
+        
         <!-- DIVIDER -->
         <hr class="mt-0 mb-0">
 
