@@ -446,7 +446,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- ITEMS GRID -->
             <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
               
-              <!-- Item 1 - SUDAH BETUL!-->
+              <!-- Portfolio 1 - 01.jpg-->
               <li class="port-item mix portfolio1">
                 <!-- click image on mobile device -->
                 <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/01.jpg" class="lightbox mr-20">
@@ -469,42 +469,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </li>
 
-              <!-- Item 2 -->
-              <li class="port-item mix menteng">
-                <a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-2.jpg" alt="img" >
-                  </div>
+              <!-- Portfolio 1 - 02.jpg-->
+              <li class="port-item mix portfolio1">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/02.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio1/thumbnail/02.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20">MENTENG</a></h3>
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio1/portfolio/02.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
                       <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/thumb-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
               </li>
               
-              <!-- Item 3 -->
-              <li class="port-item mix aj">
-                <a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-3.jpg" alt="img" >
-                  </div>
+              <!-- Portfolio 1 - 03.jpg-->
+              <li class="port-item mix portfolio1">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/03.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio1/thumbnail/03.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
-                      <span><p>LIVING ROOM</p>
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio1/portfolio/03.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <span><p>MASTER BEDROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/thumb-3.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
