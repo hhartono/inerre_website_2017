@@ -1029,11 +1029,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
       <div class="col-md-6 right-50 wow fadeInLeft">
-
+<!--
                             <div class="ads-img-cont" >
             <img src="images/ads-phone.jpg" alt="img">
           </div>
-
+-->
                     </div>
 
                 </div>
