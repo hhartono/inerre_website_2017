@@ -515,69 +515,75 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </li>
               
-              <!-- Item 4 -->
-              <li class="port-item mix development">
-                <a href="portfolio-single1.html">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/projects-2.jpg" alt="img" >
-                  </div>
+              <!-- Portfolio 2 - 01.jpg-->
+              <li class="port-item mix portfolio2">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/01.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio2/thumbnail/01.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">NOW IS NOW</a></h3>
-                      <span><a href="#">design</a><span class="slash-divider">/</span><a href="#">photography</a></span>
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio2/portfolio/01.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <span><p>MASTER BEDROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
               </li>
+            
+              <!-- Portfolio 2 - 02.jpg-->
+              <li class="port-item mix portfolio2">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/02.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio2/thumbnail/02.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio2/portfolio/02.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <span><p>KITCHEN</p>
+                    </div>
+                    <div class="port-btn-cont">
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+              </li>    
               
-              <!-- Item 5 -->
-              <li class="port-item mix design">
-                <a href="portfolio-single1.html">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/projects-2.jpg" alt="img" >
-                  </div>
+              <!-- Portfolio 2 - 03.jpg-->
+              <li class="port-item mix portfolio2">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/03.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio2/thumbnail/03.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                      <span><a href="#">ui elements</a><span class="slash-divider">/</span><a href="#">media</a></span>
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio2/portfolio/03.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <span><p>LIVING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/portfolio2/portfolio/03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
                 </div>
               </li>
-                            
-              <!-- Item 6 -->
-              <li class="port-item mix photography">
-                <a href="portfolio-single1.html">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/inerre/portfolio/projects-2.jpg" alt="img" >
-                  </div>
-                </a>
-                <div class="port-overlay-cont">
-
-                    <div class="port-title-cont">
-                      <h3><a href="portfolio-single1.html">EYES OF THE CAR</a></h3>
-                      <span><a href="#">branding</a><span class="slash-divider">/</span><a href="#">marketing</a></span>
-                    </div>
-                    <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/projects-2.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
-                      <a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>
-                    </div>
-
-                </div>
-              </li>
-              
+                  
               <!-- Item 7 -->
               <li class="port-item mix development">
                 <a href="portfolio-single1.html">
