@@ -436,31 +436,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- PORTFOLIO FILTER -->                    
             <div class="port-filter text-center text-left-767">
               <a href="#" class="filter active" data-filter="*">All Projects</a>
-              <a href="#" class="filter" data-filter=".aj">AJ Residence</a>
-              <a href="#" class="filter" data-filter=".menteng">Menteng</a>
-              <a href="#" class="filter" data-filter=".wv">WV Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio1">AJ Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio2">DH Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio3">DL Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio4">WV Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio5">YC Residence</a>
             </div>                    
                     
             <!-- ITEMS GRID -->
             <ul class="port-grid port-grid-3 port-grid-gut clearfix" id="items-grid">
               
               <!-- Item 1 - SUDAH BETUL!-->
-              <li class="port-item mix aj">
+              <li class="port-item mix portfolio1">
                 <!-- click image on mobile device -->
-                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20">
+                <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/01.jpg" class="lightbox mr-20">
                   <!-- thumbnail -->
-                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-01.jpg" alt="img" ></div>
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio1/thumbnail/01.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
                       <!-- click image title-->
-                      <h3><a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <h3><a href="/assets/images/inerre/portfolio/portfolio1/portfolio/01.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
                       <span><p>KITCHEN</p>
                     </div>
                     <div class="port-btn-cont">
                       <!-- click magnifiying glass icon-->
-                      <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <a href="/assets/images/inerre/portfolio/portfolio1/portfolio/01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
