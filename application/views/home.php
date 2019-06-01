@@ -446,17 +446,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               
               <!-- Item 1 - SUDAH BETUL!-->
               <li class="port-item mix aj">
-                <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20">
-                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/thumb-1.jpg" alt="img" ></div>
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20">
+                  <!-- thumbnail -->
+                  <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-01.jpg" alt="img" ></div>
                 </a>
                 <div class="port-overlay-cont">
 
                     <div class="port-title-cont">
-                      <h3><a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
+                      <!-- click image title-->
+                      <h3><a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20">AJ RESIDENCE</a></h3>
                       <span><p>KITCHEN</p>
                     </div>
                     <div class="port-btn-cont">
-                      <a href="/assets/images/inerre/portfolio/thumb-1.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                      <!-- click magnifiying glass icon-->
+                      <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                       <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
