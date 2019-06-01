@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <!-- LOGO -->
                             <div class="logo-container-2">
                                 <div class="logo-2">
-                                    <a href="index.html" class="clearfix">
+                                    <a href="#home-link" class="clearfix">
                                         <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
                                     </a>
                                 </div>
@@ -435,7 +435,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="relative">
             <!-- PORTFOLIO FILTER -->                    
             <div class="port-filter text-center text-left-767">
-              <a href="#" class="filter active" data-filter="*">All Projects</a>
+              <a href="#" class="filter active" data-filter="*">Show All</a>
               <a href="#" class="filter" data-filter=".portfolio1">AJ Residence</a>
               <a href="#" class="filter" data-filter=".portfolio2">DH Residence</a>
               <a href="#" class="filter" data-filter=".portfolio3">DL Residence</a>
@@ -1023,7 +1023,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ADDRESS</span></h3>
-                                <p>Jl. Pasteur No.11, Bandung, Indonesia</p>
+                                <p><a href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">Jl. Pasteur No.11, Bandung, Indonesia</a></p>
                             </div>
                         </div>
                     </div>
