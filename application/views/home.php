@@ -1084,8 +1084,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CALL US</span></h3>
-                                <p><a href="tel:+62224232200">+62 22 423-2200 (landline)</a></p>
-                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 813 1123-4455 (WhatsApp)</a></p>
+                                <p><a href="tel:+62224232200">+62 22 423-2200 (office)</a></p>
+                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 813 1123-4455 (click for WhatsApp message)</a></p>
                             </div>
                         </div>
                     </div>
