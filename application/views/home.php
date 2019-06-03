@@ -364,6 +364,13 @@ ga('send', 'pageview');
                                 <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_5.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
                             </li>
                             
+                            <!-- SLIDE 6 -->
+                            <li data-transition="zoomout" data-slotamount="1" data-masterspeed="1500" data-thumb="/assets/images/revo-slider/face-side-thumb.jpg"  data-saveperformance="on"  data-title="IMAGINATION">
+
+                                <!-- MAIN IMAGE -->
+                                <img src="/assets/images/revo-slider/dummy.png"  alt="slidebg2" data-lazyload="/assets/images/inerre/home/home_6.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                            </li>
+                            
                         </ul>
 
                     </div>
