@@ -402,6 +402,28 @@ ga('send', 'pageview');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
+                                <div class="icon icon-basic-world"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">WEBSITE</span></h3>
+                                <a class="button medium thin hover-dark" href="http://www.inerre.com">visit our website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-smartphone"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">PHONE NUMBER</span></h3>
+                                <a class="button medium thin hover-dark" href="tel:+62224232200">call us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
                                 <div class="icon icon-basic-mail"></div>
                             </div>
                             <div class="cis-text">
