@@ -402,13 +402,11 @@ ga('send', 'pageview');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <a href="mailto:info@inerre.com">
-                                    <div class="icon icon-basic-mail"></div>
-                                </a>
+                                <div class="icon icon-basic-mail"></div>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">EMAIL</span></h3>
-                                <p><a href="mailto:info@inerre.com">info@inerre.com</a></p>
+                                <a class="button medium thin hover-dark" href="mailto:info@inerre.com">send us email</a>
                             </div>
                         </div>
                     </div>
