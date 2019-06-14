@@ -144,63 +144,6 @@ ga('send', 'pageview');
                             </div>
                         </div>
                     </div>
-
-                    <!-- MAIN MENU CONTAINER -->
-                    <div class="main-menu-container">
-
-                        <div class="container-m-30 clearfix">
-
-                            <!-- MAIN MENU -->
-                            <div id="main-menu">
-                                <div class="navbar navbar-default" role="navigation">
-
-                                    <!-- MAIN MENU LIST -->
-                                    <nav class="collapse collapsing navbar-collapse right-1024">
-                                        <ul id="nav-onepage" class="nav navbar-nav">
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#home-link"><div class="main-menu-title">HOME</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#portfolio-link"><div class="main-menu-title">PORTFOLIO</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <!-- DISABLE TEAM - TEMPORARY
-                                            <li>
-                                                <a href="#team-link"><div class="main-menu-title">TEAM</div></a>
-                                            </li>
-                                            -->
-
-                                            <!-- MENU ITEM -->
-                                            <!-- DISABLE TEAM - TEMPORARY
-                                            <li>
-                                                <a href="#workshop-link"><div class="main-menu-title">WORKSHOP</div></a>
-                                            </li>
-                                            -->
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#contact-link"><div class="main-menu-title">CONTACT</div></a>
-                                            </li>
-
-                                        </ul>
-
-                                    </nav>
-
-                                </div>
-                            </div>
-                            <!-- END main-menu -->
-
-                        </div>
-                        <!-- END container-m-30 -->
-
-                    </div>
-                    <!-- END main-menu-container -->
-
                 </div>
                 <!-- END header-wrapper -->
 
