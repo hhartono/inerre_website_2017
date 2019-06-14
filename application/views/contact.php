@@ -387,15 +387,15 @@ ga('send', 'pageview');
         <!-- CONTACT INFO SECTION 1 -->
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
-                <div class="row">                    
+                <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
+                                <div class="icon icon-basic-message"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
-                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
+                                <h3><span class="bold">WHATSAPP</span></h3>
+                                <a class="button medium thin hover-dark" href="https://api.whatsapp.com/send?phone=6281311234455">send us WA message</a>
                             </div>
                         </div>
                     </div>
@@ -407,6 +407,17 @@ ga('send', 'pageview');
                             <div class="cis-text">
                                 <h3><span class="bold">EMAIL</span></h3>
                                 <a class="button medium thin hover-dark" href="mailto:info@inerre.com">send us email</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-map"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
+                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
                             </div>
                         </div>
                     </div>
