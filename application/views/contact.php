@@ -136,12 +136,6 @@ ga('send', 'pageview');
                                     </a>
                                 </div>
                             </div>
-                            <!-- BUTTON -->
-                            <div class="menu-btn-respons-container">
-                                <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
-                                    <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-                                </button>
-                            </div>
                         </div>
                     </div>
                 </div>
