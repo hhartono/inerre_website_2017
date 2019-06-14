@@ -395,7 +395,7 @@ ga('send', 'pageview');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
-                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">direction</a>
+                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
                             </div>
                         </div>
                     </div>
