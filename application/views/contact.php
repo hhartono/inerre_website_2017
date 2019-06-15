@@ -343,7 +343,7 @@ ga('send', 'pageview');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WEBSITE</span></h3>
-                                <a class="button medium thin hover-dark" href="http://www.inerre.com">visit our website</a>
+                                <a class="button medium thin hover-dark" href="http://www.inerre.com" target="_blank">visit our website</a>
                             </div>
                         </div>
                     </div>
