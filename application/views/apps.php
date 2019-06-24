@@ -217,24 +217,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         -->
 
-        <!-- FOOTER 1 -->
-        <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
-            <div class="container">
-
-                <!-- Social Links -->
-                <div class="footer-soc-a">
-                    <a href="https://www.facebook.com/inerre.interior/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/inerre_interior/" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
-                </div>
-
-                <!-- Copyright -->
-                <div class="footer-copy">
-                    <a href="#home-link">&copy; INERRE 2019</a>
-                </div>
-
-            </div>
-        </footer>
-
         <!-- BACK TO TOP -->
         <p id="back-top">
             <a href="#top" title="Back to Top"><span class="icon icon-arrows-up"></span></a>
