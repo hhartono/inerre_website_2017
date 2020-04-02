@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file leaf-file-name="pano.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/pano.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="15">
+              <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -88,11 +88,11 @@
               <caret line="4" column="5328" lean-forward="false" selection-start-line="4" selection-start-column="5328" selection-end-line="4" selection-end-column="5328" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1515506755009" expanded="true" signature="5069:5107" ph="..." />
-                <marker date="1515506755009" expanded="true" signature="5276:5303" ph="..." />
-                <marker date="1515506755009" expanded="true" signature="5482:5532" ph="..." />
-                <marker date="1515506755009" expanded="true" signature="7711:7761" ph="..." />
-                <marker date="1515506755009" expanded="true" signature="7774:7814" ph="..." />
+                <marker date="1585814460115" expanded="true" signature="5069:5107" ph="..." />
+                <marker date="1585814460115" expanded="true" signature="5276:5303" ph="..." />
+                <marker date="1585814460115" expanded="true" signature="5482:5532" ph="..." />
+                <marker date="1585814460115" expanded="true" signature="7711:7761" ph="..." />
+                <marker date="1585814460115" expanded="true" signature="7774:7814" ph="..." />
               </folding>
             </state>
           </provider>
@@ -136,6 +136,7 @@
         <option value="$PROJECT_DIR$/application/views/vr.html" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
         <option value="$PROJECT_DIR$/application/controllers/Pano.php" />
+        <option value="$PROJECT_DIR$/application/views/pano.php" />
       </list>
     </option>
   </component>
@@ -278,12 +279,12 @@
       <workItem from="1508598267154" duration="2381000" />
       <workItem from="1515506166561" duration="1479000" />
       <workItem from="1515507976643" duration="304000" />
-      <workItem from="1585813666090" duration="408000" />
+      <workItem from="1585813666090" duration="841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19222000" />
+    <option name="totallyTimeSpent" value="19655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
@@ -633,11 +634,11 @@
           <caret line="4" column="5328" lean-forward="false" selection-start-line="4" selection-start-column="5328" selection-end-line="4" selection-end-column="5328" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1515506755009" expanded="true" signature="5069:5107" ph="..." />
-            <marker date="1515506755009" expanded="true" signature="5276:5303" ph="..." />
-            <marker date="1515506755009" expanded="true" signature="5482:5532" ph="..." />
-            <marker date="1515506755009" expanded="true" signature="7711:7761" ph="..." />
-            <marker date="1515506755009" expanded="true" signature="7774:7814" ph="..." />
+            <marker date="1585814460115" expanded="true" signature="5069:5107" ph="..." />
+            <marker date="1585814460115" expanded="true" signature="5276:5303" ph="..." />
+            <marker date="1585814460115" expanded="true" signature="5482:5532" ph="..." />
+            <marker date="1585814460115" expanded="true" signature="7711:7761" ph="..." />
+            <marker date="1585814460115" expanded="true" signature="7774:7814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -685,15 +686,15 @@
     <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pano.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
           <folding />
         </state>
       </provider>

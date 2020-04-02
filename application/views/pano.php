@@ -1,4 +1,4 @@
 <?php
-    header("Location: http://13.228.39.226:8069"); /* Redirect browser */
+    header("Location: http://18.139.219.177"); /* Redirect browser */
     exit();
 ?>
