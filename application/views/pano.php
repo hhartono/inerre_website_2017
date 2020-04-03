@@ -331,56 +331,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-message"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">WHATSAPP</span></h3>
-                                <a class="button medium thin hover-dark" href="https://api.whatsapp.com/send?phone=6281311234455">send us WA message</a>
+                                <h3><span class="bold">AYU - KELAPA GADING</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/ayuvtour/tour.html">see project</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-world"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WEBSITE</span></h3>
-                                <a class="button medium thin hover-dark" href="http://www.inerre.com">visit our website</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-smartphone"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PHONE NUMBER</span></h3>
-                                <a class="button medium thin hover-dark" href="tel:+62224232200">call us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-mail"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">EMAIL</span></h3>
-                                <a class="button medium thin hover-dark" href="mailto:info@inerre.com">send us email</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
-                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </div>
