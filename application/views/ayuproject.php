@@ -239,7 +239,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    <a href="#home-link">&copy; INERRE 2019</a>
+                    <a href="#home-link">&copy; INERRE <?php echo date("Y"); ?></a>
                 </div>
 
             </div>
