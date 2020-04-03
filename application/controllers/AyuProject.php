@@ -20,6 +20,7 @@ class AyuProject extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('ayuproject');
+        $this->load->helper('url');
+        $this->load->view('ayuproject');
 	}
 }

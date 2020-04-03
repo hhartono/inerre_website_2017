@@ -131,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <!-- LOGO -->
                             <div class="logo-container-2">
                                 <div class="logo-2">
-                                    <a href="#home-link" class="clearfix">
+                                    <a href="<?php echo base_url(); ?>" class="clearfix">
                                         <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
                                     </a>
                                 </div>
