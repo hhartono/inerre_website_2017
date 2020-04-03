@@ -55,17 +55,17 @@
         <entry file="file://$PROJECT_DIR$/application/views/ayuproject.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="125" column="101" lean-forward="false" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="101" />
+              <caret line="125" column="113" lean-forward="true" selection-start-line="125" selection-start-column="113" selection-end-line="125" selection-end-column="113" />
               <folding>
-                <marker date="1585930852907" expanded="true" signature="3354:4911" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="3391:3613" ph="..." />
-                <marker date="1585930852907" expanded="false" signature="3564:3577" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="3652:4896" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="3696:3804" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="3844:4168" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="3889:3974" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="4013:4145" ph="..." />
-                <marker date="1585930852907" expanded="true" signature="4209:4877" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3354:4911" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3391:3613" ph="..." />
+                <marker date="1585931091005" expanded="false" signature="3564:3577" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3652:4896" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3696:3804" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3844:4168" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="3889:3974" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="4013:4145" ph="..." />
+                <marker date="1585931091005" expanded="true" signature="4209:4877" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,7 +166,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-76" />
+    <option name="x" value="-200" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="817" />
@@ -270,15 +270,15 @@
       <workItem from="1515507976643" duration="304000" />
       <workItem from="1585813666090" duration="1628000" />
       <workItem from="1585928310838" duration="1794000" />
-      <workItem from="1585930138488" duration="711000" />
+      <workItem from="1585930138488" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22947000" />
+    <option name="totallyTimeSpent" value="23185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-76" y="23" width="1440" height="817" extended-state="0" />
+    <frame x="-200" y="23" width="1440" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -730,17 +730,17 @@
     <entry file="file://$PROJECT_DIR$/application/views/ayuproject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="125" column="101" lean-forward="false" selection-start-line="125" selection-start-column="101" selection-end-line="125" selection-end-column="101" />
+          <caret line="125" column="113" lean-forward="true" selection-start-line="125" selection-start-column="113" selection-end-line="125" selection-end-column="113" />
           <folding>
-            <marker date="1585930852907" expanded="true" signature="3354:4911" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="3391:3613" ph="..." />
-            <marker date="1585930852907" expanded="false" signature="3564:3577" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="3652:4896" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="3696:3804" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="3844:4168" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="3889:3974" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="4013:4145" ph="..." />
-            <marker date="1585930852907" expanded="true" signature="4209:4877" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3354:4911" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3391:3613" ph="..." />
+            <marker date="1585931091005" expanded="false" signature="3564:3577" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3652:4896" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3696:3804" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3844:4168" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="3889:3974" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="4013:4145" ph="..." />
+            <marker date="1585931091005" expanded="true" signature="4209:4877" ph="..." />
           </folding>
         </state>
       </provider>
