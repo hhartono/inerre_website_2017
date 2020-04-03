@@ -331,8 +331,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">AYU - KELAPA GADING</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('AyuProject'); ?>">see project</a>
+                                <h3><span class="bold">AYU - KELAPA GADING - MASTER BEDROOM</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/ayuvtour/tour.html>">see 360 rendering</a>
                             </div>
                         </div>
                     </div>
