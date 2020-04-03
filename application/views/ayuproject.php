@@ -124,7 +124,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
             <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
-                <div class="header-wrapper">
+                <div class="header-wrapper grey-dark-bg">
                     <div class="container-m-30 clearfix">
                         <div class="logo-row">
 
