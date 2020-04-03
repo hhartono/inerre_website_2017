@@ -20,6 +20,7 @@ class Pano extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('pano');
+        $this->load->helper('url');
+        $this->load->view('pano');
 	}
 }

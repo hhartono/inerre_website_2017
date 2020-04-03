@@ -71,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pano.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pano.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/pano.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
+            <state relative-caret-position="3089">
               <caret line="335" column="66" lean-forward="true" selection-start-line="335" selection-start-column="66" selection-end-line="335" selection-end-column="66" />
               <folding>
                 <marker date="1585929659438" expanded="true" signature="3354:4911" ph="..." />
@@ -87,6 +87,16 @@
                 <marker date="1585929659438" expanded="true" signature="4013:4145" ph="..." />
                 <marker date="1585929659438" expanded="true" signature="4209:4877" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pano.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,10 +148,10 @@
         <option value="$PROJECT_DIR$/application/views/vr.php" />
         <option value="$PROJECT_DIR$/application/views/vr.html" />
         <option value="$PROJECT_DIR$/application/views/home.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Pano.php" />
         <option value="$PROJECT_DIR$/application/controllers/AyuPano.php" />
         <option value="$PROJECT_DIR$/application/views/ayupano.php" />
         <option value="$PROJECT_DIR$/application/views/pano.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Pano.php" />
       </list>
     </option>
   </component>
@@ -254,12 +264,12 @@
       <workItem from="1515506166561" duration="1479000" />
       <workItem from="1515507976643" duration="304000" />
       <workItem from="1585813666090" duration="1628000" />
-      <workItem from="1585928310838" duration="1348000" />
+      <workItem from="1585928310838" duration="1472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21790000" />
+    <option name="totallyTimeSpent" value="21914000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="817" extended-state="0" />
@@ -582,14 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/odoo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -679,7 +681,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pano.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
+        <state relative-caret-position="3089">
           <caret line="335" column="66" lean-forward="true" selection-start-line="335" selection-start-column="66" selection-end-line="335" selection-end-column="66" />
           <folding>
             <marker date="1585929659438" expanded="true" signature="3354:4911" ph="..." />
@@ -692,6 +694,14 @@
             <marker date="1585929659438" expanded="true" signature="4013:4145" ph="..." />
             <marker date="1585929659438" expanded="true" signature="4209:4877" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
