@@ -123,7 +123,7 @@ ga('send', 'pageview');
         </div>
         <![endif]-->
 
-        <div class="header-transporent-bg-black">
+        <div class="header-bg-white">
 
             <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
             <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
