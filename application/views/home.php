@@ -607,6 +607,75 @@ ga('send', 'pageview');
                 </div>
             </li>
 
+            <!-- Portfolio 6 - 04.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/04.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/04.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/04.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>BEDROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/04.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Portfolio 6 - 05.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/05.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/05.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/04.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>MASTER BEDROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/05.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Portfolio 6 - 06.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/06.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/06.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/06.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>BEDROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/06.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
               <!-- Portfolio 1 - 01.jpg-->
               <li class="port-item mix portfolio1">
                 <!-- click image on mobile device -->
