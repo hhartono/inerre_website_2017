@@ -62,6 +62,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- ANIMATE -->
     <link rel='stylesheet' href="/assets/css/animate.min.css">
 
+    <!-- FLOATING WA BUTTON -->
+    <link rel='stylesheet' href="/assets/css/floating-wa.css">
+
     <!-- IE Warning CSS -->
     <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css" ><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css" ><![endif]-->
@@ -226,6 +229,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         -->
+
+        <!-- FLOATING WA BUTTON -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
