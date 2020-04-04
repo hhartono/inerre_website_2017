@@ -62,6 +62,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- ANIMATE -->
     <link rel='stylesheet' href="/assets/css/animate.min.css">
 
+    <!-- FLOATING WA BUTTON -->
+    <link rel='stylesheet' href="/assets/css/floating-wa.css">
+
     <!-- IE Warning CSS -->
     <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css" ><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css" ><![endif]-->
