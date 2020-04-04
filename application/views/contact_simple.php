@@ -211,7 +211,7 @@ ga('send', 'pageview');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
+                                <div class="icon icon-basic-signs"></div>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">DRIVING DIRECTION</span></h3>
