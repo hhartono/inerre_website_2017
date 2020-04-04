@@ -208,6 +208,17 @@ ga('send', 'pageview');
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-map"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">DRIVING DIRECTION</span></h3>
+                                <a class="button medium thin hover-dark" href="https://www.waze.com/ul?place=ChIJo-30g0PmaC4RhCuXc95nAkI&ll=-6.90064680%2C107.60327080&navigate=yes">waze direction</a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
