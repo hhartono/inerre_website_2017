@@ -189,7 +189,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="16" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -212,6 +212,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,13 +267,31 @@
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="inerre" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="home" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inerre" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio5" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inerre" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio5" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="thumbnail" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,12 +350,13 @@
       <workItem from="1585991881936" duration="1781000" />
       <workItem from="1585993697460" duration="737000" />
       <workItem from="1585994848653" duration="735000" />
-      <workItem from="1586005971799" duration="104000" />
+      <workItem from="1586005971799" duration="702000" />
+      <workItem from="1586008573314" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29084000" />
+    <option name="totallyTimeSpent" value="29719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="23" width="1440" height="817" extended-state="0" />
