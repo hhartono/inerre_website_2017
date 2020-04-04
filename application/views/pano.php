@@ -232,7 +232,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!-- FLOATING WA BUTTON -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="ig-float" target="_blank">
+        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="igfloat" target="_blank">
             <i class="fa fa-instagram my-float"></i>
         </a>
         <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
