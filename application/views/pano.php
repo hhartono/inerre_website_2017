@@ -235,6 +235,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
             <i class="fa fa-instagram my-float"></i>
         </a>
+        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
+            <i class="fa fa-whatsapp my-float"></i>
+        </a>
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
