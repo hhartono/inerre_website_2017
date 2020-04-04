@@ -462,7 +462,7 @@ ga('send', 'pageview');
               <a href="#" class="filter" data-filter=".portfolio2">DH Residence</a>
               <a href="#" class="filter" data-filter=".portfolio3">DL Residence</a>
               <a href="#" class="filter" data-filter=".portfolio4">WV Residence</a>
-              <a href="#" class="filter" data-filter=".portfolio5">YC Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio5">YC Apartment</a>
             </div>                    
                     
             <!-- ITEMS GRID -->
