@@ -461,6 +461,7 @@ ga('send', 'pageview');
               <a href="#" class="filter" data-filter=".portfolio1">AJ Residence</a>
               <a href="#" class="filter" data-filter=".portfolio2">DH Residence</a>
               <a href="#" class="filter" data-filter=".portfolio3">DL Residence</a>
+              <a href="#" class="filter" data-filter=".portfolio6">RW Residence</a>
               <a href="#" class="filter" data-filter=".portfolio4">WV Residence</a>
               <a href="#" class="filter" data-filter=".portfolio5">YC Apartment</a>
             </div>                    
@@ -479,7 +480,7 @@ ga('send', 'pageview');
 
                     <div class="port-title-cont">
                         <!-- click image title-->
-                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/01.jpg" class="lightbox mr-20">YC RESIDENCE</a></h3>
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/01.jpg" class="lightbox mr-20">YC APARTMENT</a></h3>
                         <span><p>MASTER BEDROOM</p>
                     </div>
                     <div class="port-btn-cont">
@@ -502,7 +503,7 @@ ga('send', 'pageview');
 
                     <div class="port-title-cont">
                         <!-- click image title-->
-                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/02.jpg" class="lightbox mr-20">YC RESIDENCE</a></h3>
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/02.jpg" class="lightbox mr-20">YC APARTMENT</a></h3>
                         <span><p>LIVING & DINING ROOM</p>
                     </div>
                     <div class="port-btn-cont">
@@ -525,12 +526,81 @@ ga('send', 'pageview');
 
                     <div class="port-title-cont">
                         <!-- click image title-->
-                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/03.jpg" class="lightbox mr-20">YC RESIDENCE</a></h3>
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio5/portfolio/03.jpg" class="lightbox mr-20">YC APARTMENT</a></h3>
                         <span><p>KITCHEN</p>
                     </div>
                     <div class="port-btn-cont">
                         <!-- click magnifiying glass icon-->
                         <a href="/assets/images/inerre/portfolio/portfolio5/portfolio/03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Portfolio 6 - 01.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/01.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/01.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/01.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>LIVING ROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/01.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Portfolio 6 - 02.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/02.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/02.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/02.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>LIVING ROOM</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/02.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
+                        <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
+                    </div>
+
+                </div>
+            </li>
+
+            <!-- Portfolio 6 - 03.jpg-->
+            <li class="port-item mix portfolio6">
+                <!-- click image on mobile device -->
+                <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/03.jpg" class="lightbox mr-20">
+                    <!-- thumbnail -->
+                    <div class="port-img-overlay"><img class="port-main-img" src="/assets/images/inerre/portfolio/portfolio6/thumbnail/03.jpg" alt="img" ></div>
+                </a>
+                <div class="port-overlay-cont">
+
+                    <div class="port-title-cont">
+                        <!-- click image title-->
+                        <h3><a href="/assets/images/inerre/portfolio/portfolio6/portfolio/03.jpg" class="lightbox mr-20">RW RESIDENCE</a></h3>
+                        <span><p>KITCHEN</p>
+                    </div>
+                    <div class="port-btn-cont">
+                        <!-- click magnifiying glass icon-->
+                        <a href="/assets/images/inerre/portfolio/portfolio6/portfolio/03.jpg" class="lightbox mr-20" ><div aria-hidden="true" class="icon_search"></div></a>
                         <!--<a href="portfolio-single1.html"><div aria-hidden="true" class="icon_link"></div></a>-->
                     </div>
 
