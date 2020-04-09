@@ -89,11 +89,9 @@ ga('send', 'pageview');
 <body>
 
 <!-- LOADER -->
-<!--
 <div id="loader-overflow">
     <div id="loader3">Please enable JS</div>
 </div>
--->
 
 <div id="wrap" class="boxed ">
     <div class="grey-bg"> <!-- Grey BG  -->
@@ -1402,6 +1400,12 @@ ga('send', 'pageview');
     $(document).ready(function() {
         //ONE PAGE NAV	---------------------------------------------------------------------------
         var top_offset = $('header').height() - 1;  // get height of fixed navbar
+
+        // hide page loader (5 seconds)
+        setTimeout(function(){
+            $("#loader3").fadeOut();
+            $("#loader-overflow").delay(200).fadeOut(700);
+        }, 5000);
 
         $('#nav-onepage').onePageNav({
             currentClass: 'current',
