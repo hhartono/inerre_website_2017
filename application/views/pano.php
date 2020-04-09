@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html>
 <head>
-    <title>INERRE interior</title>
+    <title>INERRE interior - 360 Renders & VR Portals</title>
     <meta charset=utf-8 >
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow" >
