@@ -70,10 +70,10 @@
 	</head>
 	<body>
 	
-		<!-- LOADER -->	
-		<div id="loader-overflow">
-      <div id="loader3">Please enable JS</div>
-    </div>	
+    <!-- LOADER -->
+    <div id="loader-overflow">
+        <div id="loader3">Please enable JS</div>
+    </div>
 
 		<div id="wrap" class="boxed ">
 			<div class="grey-bg"> <!-- Grey BG  -->	
@@ -104,6 +104,8 @@
 					</div>
 				</div>
 				<![endif]-->
+
+            <div class="header-bg-white">
 
                 <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
                 <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
@@ -386,7 +388,7 @@
 
                 <!-- Copyright -->
                 <div class="footer-copy">
-                    <a href="http://themeforest.net/user/abcgomel/portfolio" target="_blank">&copy; INERRE 2017</a>
+                    <a href="#home-link">&copy; INERRE <?php echo date("Y"); ?></a>
                 </div>
 
             </div>
