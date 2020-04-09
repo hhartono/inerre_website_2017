@@ -314,11 +314,11 @@ var htmlT    = $('html'),
 /* --------------------------------------------
   PAGE LOADER
 --------------------------------------------- */
-/*
+
 $("body").imagesLoaded(function(){
   $("#loader3").fadeOut();
   $("#loader-overflow").delay(200).fadeOut(700);
-});*/
+});
 
 /* --------------------------------------------
   MAGNIFIC POPUP SETTINGS
