@@ -32,7 +32,7 @@ ga('send', 'pageview');
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow" >
     <meta name="keywords" content="HTML5 Template" >
-    <meta name="description" content="INERRE interior" >
+    <meta name="description" content="INERRE interior - Contact Us" >
     <meta name="author" content="Hans Hartono">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
