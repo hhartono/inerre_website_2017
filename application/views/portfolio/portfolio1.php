@@ -147,19 +147,15 @@
                   <div class="port-detail">
                     <p>
                       <strong>CLIENT:</strong>
-                        TT RESIDENCE
-                    </p>
-                    <p>
-                      <strong>DATE:</strong>
-                        10 OCTOBER, 2016
+                        JEFFERSON ROOM
                     </p>
                     <p>
                       <strong>CATEGORY:</strong>
-                        PRIVATE RESIDENCE
+                        KIDS BEDROOM
                     </p>
                     <p>
                       <strong>LOCATION:</strong>
-                      PLUIT, JAKARTA, INDONESIA
+                      SETRA DUTA, BANDUNG, INDONESIA
                     </p>
                   </div>
                 </div>
