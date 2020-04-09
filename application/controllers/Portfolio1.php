@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Portfolio extends CI_Controller {
+class Portfolio1 extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
