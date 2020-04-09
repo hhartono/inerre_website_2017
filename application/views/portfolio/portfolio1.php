@@ -104,7 +104,7 @@
 					</div>
 				</div>
 				<![endif]-->
-                
+
                 <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
                 <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
                 <div class="header-wrapper grey-dark-bg">
@@ -118,12 +118,6 @@
                                         <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
                                     </a>
                                 </div>
-                            </div>
-                            <!-- BUTTON -->
-                            <div class="menu-btn-respons-container">
-                                <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
-                                    <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-                                </button>
                             </div>
                         </div>
                     </div>
