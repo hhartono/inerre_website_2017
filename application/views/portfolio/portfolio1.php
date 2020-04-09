@@ -105,38 +105,31 @@
 				</div>
 				<![endif]-->
 
-        <div class="header-bg-white">
+                <div class="header-bg-white">
 
-                <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
-            <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
-                <div class="header-wrapper">
-                    <div class="container-m-30 clearfix">
-                        <div class="logo-row">
+                    <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
+                    <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
+                        <div class="header-wrapper grey-dark-bg">
+                            <div class="container-m-30 clearfix">
+                                <div class="logo-row">
 
-                            <!-- LOGO -->
-                            <div class="logo-container-2">
-                                <div class="logo-2">
-                                    <a href="index.html" class="clearfix">
-                                        <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
-                                    </a>
+                                    <!-- LOGO -->
+                                    <div class="logo-container-2">
+                                        <div class="logo-2">
+                                            <a href="<?php echo base_url(); ?>" class="clearfix">
+                                                <img src="/assets/images/inerre/home/inerre_logo.png" class="logo-img" alt="Logo">
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- BUTTON -->
-                            <div class="menu-btn-respons-container">
-                                <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target="#main-menu .navbar-collapse">
-                                    <span aria-hidden="true" class="icon_menu hamb-mob-icon"></span>
-                                </button>
-                            </div>
                         </div>
-                    </div>
+                        <!-- END header-wrapper -->
 
-                </div>
-                <!-- END header-wrapper -->
+                    </header>
 
-            </header>
-
-            <!-- DIVIDER -->
-            <hr class="mt-0 mb-0">
+                    <!-- DIVIDER -->
+                    <hr class="mt-0 mb-0">
         
         <!-- COTENT CONTAINER -->
         <div class="p-140-cont">
