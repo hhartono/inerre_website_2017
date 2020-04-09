@@ -104,9 +104,11 @@
 					</div>
 				</div>
 				<![endif]-->
-				
-				<!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
-            <header id="nav" class="header header-1 black-header">
+
+        <div class="header-bg-white">
+
+                <!-- HEADER 1 BLACK MOBILE-NO-TRANSPARENT -->
+            <header id="nav" class="header header-1 black-header no-transparent mobile-no-transparent affix-top">
                 <div class="header-wrapper">
                     <div class="container-m-30 clearfix">
                         <div class="logo-row">
@@ -128,84 +130,13 @@
                         </div>
                     </div>
 
-                    <!-- MAIN MENU CONTAINER -->
-                    <div class="main-menu-container">
-
-                        <div class="container-m-30 clearfix">
-
-                            <!-- MAIN MENU -->
-                            <div id="main-menu">
-                                <div class="navbar navbar-default" role="navigation">
-
-                                    <!-- MAIN MENU LIST -->
-                                    <nav class="collapse collapsing navbar-collapse right-1024">
-                                        <ul id="nav-onepage" class="nav navbar-nav">
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#home-link"><div class="main-menu-title">HOME</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#portfolio-link"><div class="main-menu-title">PORTFOLIO</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#team-link"><div class="main-menu-title">TEAM</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#workshop-link"><div class="main-menu-title">WORKSHOP</div></a>
-                                            </li>
-
-                                            <!-- MENU ITEM -->
-                                            <li>
-                                                <a href="#contact-link"><div class="main-menu-title">CONTACT</div></a>
-                                            </li>
-
-                                        </ul>
-
-                                    </nav>
-
-                                </div>
-                            </div>
-                            <!-- END main-menu -->
-
-                        </div>
-                        <!-- END container-m-30 -->
-
-                    </div>
-                    <!-- END main-menu-container -->
-
                 </div>
                 <!-- END header-wrapper -->
 
             </header>
 
-        <!-- PAGE TITLE -->
-        <div class="page-title-cont page-title-big grey-light-bg ">
-          <div class="relative container align-left">
-            <div class="row">
-               
-              <div class="col-md-8">
-                <h1 class="page-title">SINGLE PROJECT</h1>
-                <div class="page-sub-title">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </div>
-              </div>
-               
-              <div class="col-md-4">
-                <div class="breadcrumbs">
-                  <a href="index.html">Home</a><span class="slash-divider">/</span><a href="#">PORTFOLIO</a><span class="slash-divider">/</span><span class="bread-current">SINGLE</span>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </div>
+            <!-- DIVIDER -->
+            <hr class="mt-0 mb-0">
         
         <!-- COTENT CONTAINER -->
         <div class="p-140-cont">
@@ -451,56 +382,6 @@
           </div>
             -->
         </div>
-
-        <!-- DIVIDER -->
-        <hr class="mt-0 mb-0">
-
-        <!-- CONTACT INFO SECTION 1 -->
-        <div id="contact-link" class="page-section p-110-cont">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">ADDRESS</span></h3>
-                                <p>Jl. Pasteur No.11, Bandung, Indonesia</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-mail"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">EMAIL</span></h3>
-                                <p><a href="mailto:info@inerre.com">info@inerre.com</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-smartphone"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">CALL US</span></h3>
-                                <p><a href="tel:+62224232200">+62 22 423-2200 (landline)</a></p>
-                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 813 1123-4455 (WhatsApp)</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-               
-       <!-- DIVIDER -->
-        <hr class="mt-0 mb-0">
                 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
