@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Portfolio.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Portfolio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="landing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/portfolio/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="2430">
               <caret line="162" column="110" lean-forward="false" selection-start-line="162" selection-start-column="110" selection-end-line="162" selection-end-column="110" />
               <folding>
                 <marker date="1586449406297" expanded="true" signature="3474:5031" ph="..." />
@@ -77,6 +77,16 @@
                 <marker date="1586449406297" expanded="true" signature="4133:4265" ph="..." />
                 <marker date="1586449406297" expanded="true" signature="4329:4997" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pano.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -178,9 +188,9 @@
         <option value="$PROJECT_DIR$/application/views/contact_simple.php" />
         <option value="$PROJECT_DIR$/application/views/pano.php" />
         <option value="$PROJECT_DIR$/application/views/ayuproject.php" />
-        <option value="$PROJECT_DIR$/application/controllers/Portfolio.php" />
         <option value="$PROJECT_DIR$/application/controllers/Portfolio1.php" />
         <option value="$PROJECT_DIR$/application/views/portfolio/landing.php" />
+        <option value="$PROJECT_DIR$/application/controllers/Portfolio.php" />
       </list>
     </option>
   </component>
@@ -344,12 +354,12 @@
       <workItem from="1586010706755" duration="492000" />
       <workItem from="1586011999575" duration="259000" />
       <workItem from="1586407271061" duration="566000" />
-      <workItem from="1586448861925" duration="548000" />
+      <workItem from="1586448861925" duration="690000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32544000" />
+    <option name="totallyTimeSpent" value="32686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="0" />
@@ -664,14 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/floating-wa.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -804,14 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -822,7 +816,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/portfolio/landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="2430">
           <caret line="162" column="110" lean-forward="false" selection-start-line="162" selection-start-column="110" selection-end-line="162" selection-end-column="110" />
           <folding>
             <marker date="1586449406297" expanded="true" signature="3474:5031" ph="..." />
@@ -835,6 +829,22 @@
             <marker date="1586449406297" expanded="true" signature="4133:4265" ph="..." />
             <marker date="1586449406297" expanded="true" signature="4329:4997" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Pano.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

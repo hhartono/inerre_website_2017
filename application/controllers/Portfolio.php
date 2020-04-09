@@ -20,6 +20,7 @@ class Portfolio extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('portfolio/landing');
+        $this->load->helper('url');
+        $this->load->view('portfolio/landing');
 	}
 }
