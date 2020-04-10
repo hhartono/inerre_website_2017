@@ -177,7 +177,26 @@
           	<div class="row mt-30 mb-10 ">
             
               <div class="popup-gallery">
-              
+
+              <?php for ($x = 0; $x <= 10; $x+=1) { ?>
+
+                <div class="col-sm-3 col-xs-6 mb-20">
+                  <div class="lightbox-item">
+                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/02.jpg">
+                      <div class="port-img-overlay">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/02.jpg" alt="img">
+                      </div>
+                      <div class="port-overlay-cont">
+                        <div class="port-btn-cont">
+                          <div aria-hidden="true" class="icon_search"></div>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>;
+
+              <?php } ?>
+
                 <!-- IMG -->
                 <div class="col-sm-3 col-xs-6 mb-20">
                   <div class="lightbox-item">
