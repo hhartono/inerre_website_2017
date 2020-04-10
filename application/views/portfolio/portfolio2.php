@@ -196,12 +196,12 @@
               for ($x = 2; $x <= $total_photo; $x+=1) {
 
                   if($x < 10) {
-                      $iterator = '0' + strval($x);
+                      $iterator = '0' . strval($x);
                   }else{
                       $iterator = $x;
                   }
 
-                  echo strval($iterator);
+                  echo $iterator;
               ?>
 
                 <!-- IMG -->
