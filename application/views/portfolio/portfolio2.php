@@ -181,8 +181,17 @@
               <?php
               $directory_name = 'portfoliopage2';
 
-              for ($x = 1; $x <= 10; $x+=1) { ?>
+              $directory = '/assets/images/inerre/portfolio/portfoliopage2';
+              $filecount = 0;
+              $files = glob($directory . '*.jpg');
+              if ($files){
+                  $filecount = count($files);
+              }
+              echo "There were $filecount files";
 
+              for ($x = 2; $x <= 10; $x+=1) { ?>
+
+                <!-- IMG -->
                 <div class="col-sm-3 col-xs-6 mb-20">
                   <div class="lightbox-item">
                     <a href="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/0<?php echo $x;?>.jpg">
@@ -199,84 +208,6 @@
                 </div>
 
               <?php } ?>
-
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/02.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/02.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-                
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/03.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/03.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-                
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/04.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/04.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-                
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/05.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/05.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-                  
-                <!-- IMG - 6 - HIDDEN-->
-                <!--
-                <a href="/assets/images/portfolio/test/4.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/portfolio/test/4.jpg" alt="img">
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                        <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>
-                -->
 
               </div>
 
