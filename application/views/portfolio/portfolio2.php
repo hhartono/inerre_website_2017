@@ -180,7 +180,9 @@
 
               <?php
               $directory_name = 'portfoliopage2';
+              $total_photo = 10;
 
+              /*
               $directory = "/var/www/test_inerre_2017/inerre_website_2017/assets/images/inerre/portfolio/portfoliopage2/portfolio";
               //$directory = "/assets/images/inerre/portfolio/portfoliopage2/portfolio";
               $filecount = 0;
@@ -189,8 +191,9 @@
                   $filecount = count($files);
               }
               echo "There were $filecount files";
+              */
 
-              for ($x = 2; $x <= 10; $x+=1) { ?>
+              for ($x = 2; $x <= $total_photo; $x+=1) { ?>
 
                 <!-- IMG -->
                 <div class="col-sm-3 col-xs-6 mb-20">
