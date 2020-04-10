@@ -34,8 +34,8 @@
       <file leaf-file-name="Portfolio.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="480">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="portfolio1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/portfolio/portfolio1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
+            <state relative-caret-position="1755">
               <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
               <folding>
                 <marker date="1586507626635" expanded="true" signature="2823:4137" ph="..." />
@@ -64,8 +64,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="1182" column="33" lean-forward="true" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
+            <state relative-caret-position="17730">
+              <caret line="1182" column="33" lean-forward="false" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
               <folding>
                 <marker date="1586453588734" expanded="true" signature="3418:4975" ph="..." />
                 <marker date="1586453588734" expanded="true" signature="3455:3677" ph="..." />
@@ -109,7 +109,7 @@
       <file leaf-file-name="landing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/portfolio/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="2040">
               <caret line="136" column="45" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
               <folding>
                 <marker date="1586507375450" expanded="true" signature="3474:5031" ph="..." />
@@ -189,7 +189,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="819" />
@@ -210,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,12 +227,6 @@
               <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -245,12 +240,6 @@
               <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
@@ -272,12 +261,20 @@
               <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="inerre" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inerre" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio7" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -346,15 +343,16 @@
       <workItem from="1586448861925" duration="1877000" />
       <workItem from="1586450764727" duration="1804000" />
       <workItem from="1586452620620" duration="1132000" />
-      <workItem from="1586506573658" duration="1123000" />
+      <workItem from="1586506573658" duration="1716000" />
+      <workItem from="1586508474923" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37932000" />
+    <option name="totallyTimeSpent" value="38756000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -444,7 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,7 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="6" column="5649" lean-forward="false" selection-start-line="6" selection-start-column="5649" selection-end-line="6" selection-end-column="5649" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -759,8 +754,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="1182" column="33" lean-forward="true" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
+        <state relative-caret-position="17730">
+          <caret line="1182" column="33" lean-forward="false" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
           <folding>
             <marker date="1586453588734" expanded="true" signature="3418:4975" ph="..." />
             <marker date="1586453588734" expanded="true" signature="3455:3677" ph="..." />
@@ -775,14 +770,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/portfolio/Portfolio1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/portfolio/Portfolio1.php" />
     <entry file="file://$PROJECT_DIR$/application/controllers/Home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -793,7 +781,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/portfolio/landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="2040">
           <caret line="136" column="45" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
           <folding>
             <marker date="1586507375450" expanded="true" signature="3474:5031" ph="..." />
@@ -811,7 +799,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/portfolio/portfolio1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
+        <state relative-caret-position="1755">
           <caret line="117" column="4" lean-forward="false" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
           <folding>
             <marker date="1586507626635" expanded="true" signature="2823:4137" ph="..." />
@@ -829,8 +817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="35" lean-forward="false" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="480">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
