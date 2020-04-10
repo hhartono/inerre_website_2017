@@ -181,7 +181,7 @@
               <?php
               $directory_name = 'portfoliopage2';
 
-              $directory = '/assets/images/inerre/portfolio/portfoliopage2';
+              $directory = '/var/www/test_inerre_2017/inerre_website_2017/assets/images/inerre/portfolio/portfoliopage2';
               $filecount = 0;
               $files = glob($directory . '*.jpg');
               if ($files){
