@@ -181,7 +181,7 @@
               <?php
               $directory_name = 'portfoliopage2';
 
-              for ($x = 0; $x <= 10; $x+=1) { ?>
+              for ($x = 1; $x <= 10; $x+=1) { ?>
 
                 <div class="col-sm-3 col-xs-6 mb-20">
                   <div class="lightbox-item">
