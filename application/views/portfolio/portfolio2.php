@@ -178,13 +178,16 @@
             
               <div class="popup-gallery">
 
-              <?php for ($x = 0; $x <= 10; $x+=1) { ?>
+              <?php
+              $directory_name = 'portfoliopage2';
+
+              for ($x = 0; $x <= 10; $x+=1) { ?>
 
                 <div class="col-sm-3 col-xs-6 mb-20">
                   <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/02.jpg">
+                    <a href="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/0<?php echo $x;?>.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/02.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/thumbnail/0<?php echo $x;?>.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
@@ -193,7 +196,7 @@
                       </div>
                     </a>
                   </div>
-                </div>;
+                </div>
 
               <?php } ?>
 
