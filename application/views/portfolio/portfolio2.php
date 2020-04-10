@@ -201,7 +201,6 @@
                       $iterator = $x;
                   }
 
-                  echo $iterator;
               ?>
 
                 <!-- IMG -->
@@ -226,91 +225,6 @@
 
           	</div>
               
-            <div class="row mt-10 mb-30 ">
-
-              <div class="popup-gallery">
-
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/06.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/06.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/07.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/07.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/08.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/08.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-
-                <!-- IMG -->
-                <div class="col-sm-3 col-xs-6 mb-20">
-                  <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/portfoliopage2/portfolio/09.jpg">
-                      <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/portfoliopage2/thumbnail/09.jpg" alt="img">
-                      </div>
-                      <div class="port-overlay-cont">
-                        <div class="port-btn-cont">
-                          <div aria-hidden="true" class="icon_search"></div>
-                        </div>
-                      </div>
-                    </a>  
-                  </div>
-                </div>
-
-                <!-- IMG - 6 - HIDDEN-->
-                <!--
-                <a href="/assets/images/portfolio/test/4.jpg">
-                  <div class="port-img-overlay">
-                    <img class="port-main-img" src="/assets/images/portfolio/test/4.jpg" alt="img">
-                  </div>
-                  <div class="port-overlay-cont">
-                    <div class="port-btn-cont">
-                        <div aria-hidden="true" class="icon_search"></div>
-                    </div>
-                  </div>
-                </a>
-                -->
-
-              </div>
-
-            </div>
           </div>
             
           <!-- DIVIDER -->
