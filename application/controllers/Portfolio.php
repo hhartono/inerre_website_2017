@@ -29,4 +29,10 @@ class Portfolio extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('portfolio/portfolio1');
     }
+
+    public function portfolio2()
+    {
+        $this->load->helper('url');
+        $this->load->view('portfolio/portfolio2');
+    }
 }
