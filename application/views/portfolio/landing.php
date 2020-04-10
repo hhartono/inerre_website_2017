@@ -160,7 +160,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">JEFFERSON ROOM</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio1'); ?>">see portfolio</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio/Portfolio1'); ?>">see portfolio</a>
                             </div>
                         </div>
                     </div>
