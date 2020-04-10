@@ -179,8 +179,8 @@
               <div class="popup-gallery">
 
               <?php
-              $directory_name = 'portfoliopage2';
-              $total_photo = 10;
+              $directory_name = 'portfoliopage2'; // enter the portfolio target directory
+              $total_photo = 30; // enter the total photos count
 
               /*
               $directory = "/var/www/test_inerre_2017/inerre_website_2017/assets/images/inerre/portfolio/portfoliopage2/portfolio";
