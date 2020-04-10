@@ -200,6 +200,8 @@
                   }else{
                       $iterator = $x;
                   }
+
+                  echo strval($iterator);
               ?>
 
                 <!-- IMG -->
