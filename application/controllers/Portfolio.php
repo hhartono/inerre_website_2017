@@ -23,4 +23,9 @@ class Portfolio extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('portfolio/landing');
 	}
+
+    public function portfolio1()
+    {
+        $this->load->view('portfolio/portfolio1');
+    }
 }
