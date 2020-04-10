@@ -164,6 +164,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">AJ residence</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio/Portfolio2'); ?>">see portfolio</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -141,15 +141,15 @@
                   <div class="port-detail">
                     <p>
                       <strong>CLIENT:</strong>
-                        JEFFERSON ROOM
+                        AJ residence
                     </p>
                     <p>
                       <strong>CATEGORY:</strong>
-                        KIDS BEDROOM
+                        PRIVATE PROPERTY
                     </p>
                     <p>
                       <strong>LOCATION:</strong>
-                      SETRA DUTA, BANDUNG, INDONESIA
+                      ALAM KANAYAKAN, BANDUNG, INDONESIA
                     </p>
                   </div>
                 </div>
