@@ -196,7 +196,7 @@
               for ($x = 2; $x <= $total_photo; $x+=1) {
 
                   if($x < 10) {
-                      $iterator = '0' + $x;
+                      $iterator = '0' + strval($x);
                   }else{
                       $iterator = $x;
                   }
@@ -205,9 +205,9 @@
                 <!-- IMG -->
                 <div class="col-sm-3 col-xs-6 mb-20">
                   <div class="lightbox-item">
-                    <a href="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/0<?php echo $iterator;?>.jpg">
+                    <a href="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/<?php echo $iterator;?>.jpg">
                       <div class="port-img-overlay">
-                        <img class="port-main-img" src="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/thumbnail/0<?php echo $iterator;?>.jpg" alt="img">
+                        <img class="port-main-img" src="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/thumbnail/<?php echo $iterator;?>.jpg" alt="img">
                       </div>
                       <div class="port-overlay-cont">
                         <div class="port-btn-cont">
