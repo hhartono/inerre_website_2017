@@ -141,7 +141,7 @@
                   <div class="port-detail">
                     <p>
                       <strong>CLIENT:</strong>
-                        AJ residence
+                        AJ RESIDENCE
                     </p>
                     <p>
                       <strong>CATEGORY:</strong>
