@@ -14,7 +14,7 @@
       <file leaf-file-name="ayuproject.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/ayuproject.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="510">
               <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
               <folding>
                 <marker date="1586407712346" expanded="true" signature="3504:5061" ph="..." />
@@ -44,7 +44,7 @@
       <file leaf-file-name="portfolio1.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/portfolio/portfolio1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="1800">
               <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
               <folding>
                 <marker date="1586450866464" expanded="true" signature="2823:4137" ph="..." />
@@ -64,8 +64,8 @@
       <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="1401" column="81" lean-forward="false" selection-start-line="1401" selection-start-column="81" selection-end-line="1401" selection-end-column="81" />
+            <state relative-caret-position="235">
+              <caret line="1182" column="33" lean-forward="true" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
               <folding>
                 <marker date="1586453588734" expanded="true" signature="3418:4975" ph="..." />
                 <marker date="1586453588734" expanded="true" signature="3455:3677" ph="..." />
@@ -84,8 +84,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="319" column="48" lean-forward="true" selection-start-line="318" selection-start-column="2" selection-end-line="319" selection-end-column="48" />
+            <state relative-caret-position="4770">
+              <caret line="320" column="3" lean-forward="false" selection-start-line="320" selection-start-column="3" selection-end-line="320" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1586452630963" expanded="true" signature="24781:24788" ph="×" />
@@ -137,7 +137,7 @@
         </entry>
       </file>
       <file leaf-file-name="Portfolio1.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio1.php">
+        <entry file="file://$PROJECT_DIR$/application/controllers/portfolio/Portfolio1.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
@@ -198,7 +198,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="819" />
@@ -236,6 +236,13 @@
               <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inerre_website_2017" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="inerre_website_2017" type="b2602c69:ProjectViewProjectNode" />
@@ -286,8 +293,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,18 +303,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/xml/krpano" />
-      <recent name="$PROJECT_DIR$/assets/swf/krpano" />
-      <recent name="$PROJECT_DIR$/assets/js/krpano" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/application/views/portfolio" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/assets/css" />
       <recent name="$PROJECT_DIR$/assets/js/krpano" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/controllers/portfolio" />
+      <recent name="$PROJECT_DIR$/assets/xml/krpano" />
+      <recent name="$PROJECT_DIR$/assets/swf/krpano" />
+      <recent name="$PROJECT_DIR$/assets/js/krpano" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,15 +361,16 @@
       <workItem from="1586407271061" duration="566000" />
       <workItem from="1586448861925" duration="1877000" />
       <workItem from="1586450764727" duration="1804000" />
-      <workItem from="1586452620620" duration="970000" />
+      <workItem from="1586452620620" duration="1132000" />
+      <workItem from="1586506573658" duration="425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36647000" />
+    <option name="totallyTimeSpent" value="37234000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -714,23 +723,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-          <folding>
-            <marker date="1586407707234" expanded="true" signature="3504:5061" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="3541:3763" ph="..." />
-            <marker date="1586407707234" expanded="false" signature="3714:3727" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="3802:5046" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="3846:3954" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="3994:4318" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="4039:4124" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="4163:4295" ph="..." />
-            <marker date="1586407707234" expanded="true" signature="4359:5027" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/ayuproject.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="510">
           <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
           <folding>
             <marker date="1586407712346" expanded="true" signature="3504:5061" ph="..." />
@@ -754,7 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/Portfolio1.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/portfolio/Portfolio1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
@@ -798,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/portfolio/portfolio1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="1800">
           <caret line="120" column="34" lean-forward="false" selection-start-line="120" selection-start-column="34" selection-end-line="120" selection-end-column="34" />
           <folding>
             <marker date="1586450866464" expanded="true" signature="2823:4137" ph="..." />
@@ -824,8 +822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="319" column="48" lean-forward="true" selection-start-line="318" selection-start-column="2" selection-end-line="319" selection-end-column="48" />
+        <state relative-caret-position="4770">
+          <caret line="320" column="3" lean-forward="false" selection-start-line="320" selection-start-column="3" selection-end-line="320" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1586452630963" expanded="true" signature="24781:24788" ph="×" />
@@ -837,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="1401" column="81" lean-forward="false" selection-start-line="1401" selection-start-column="81" selection-end-line="1401" selection-end-column="81" />
+        <state relative-caret-position="235">
+          <caret line="1182" column="33" lean-forward="true" selection-start-line="1182" selection-start-column="33" selection-end-line="1182" selection-end-column="33" />
           <folding>
             <marker date="1586453588734" expanded="true" signature="3418:4975" ph="..." />
             <marker date="1586453588734" expanded="true" signature="3455:3677" ph="..." />
