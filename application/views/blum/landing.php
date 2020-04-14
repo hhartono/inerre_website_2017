@@ -15,24 +15,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- Google Analytics -->
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-ga('create', 'UA-57299931-1', 'auto');
-ga('send', 'pageview');
+    ga('create', 'UA-57299931-1', 'auto');
+    ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
 
 <html>
 <head>
-    <title>INERRE interior - Contact Us</title>
+    <title>INERRE interior - E-services</title>
     <meta charset=utf-8 >
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow" >
     <meta name="keywords" content="HTML5 Template" >
-    <meta name="description" content="INERRE interior - Contact Us" >
+    <meta name="description" content="INERRE interior - E-services" >
     <meta name="author" content="Hans Hartono">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -66,8 +66,10 @@ ga('send', 'pageview');
     <link rel='stylesheet' href="/assets/css/floating-wa.css">
 
     <!-- IE Warning CSS -->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css" ><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css" ><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css"><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css"><![endif]-->
 
     <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
 
@@ -99,13 +101,15 @@ ga('send', 'pageview');
         <!--[if lte IE 8]>
         <div id="ie-container">
             <div id="ie-cont-close">
-                <a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+                <a href='#'
+                   onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img
+                        src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
             </div>
-            <div id="ie-cont-content" >
+            <div id="ie-cont-content">
                 <div id="ie-cont-warning">
                     <img src='/assets/images/ie-warn/ie-warning.jpg' alt='Warning!'>
                 </div>
-                <div id="ie-cont-text" >
+                <div id="ie-cont-text">
                     <div id="ie-text-bold">
                         You are using an outdated browser
                     </div>
@@ -113,11 +117,15 @@ ga('send', 'pageview');
                         For a better experience using this site, please upgrade to a modern web browser.
                     </div>
                 </div>
-                <div id="ie-cont-brows" >
-                    <a href='http://www.firefox.com' target='_blank'><img src='/assets/images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-                    <a href='http://www.opera.com/download/' target='_blank'><img src='/assets/images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-                    <a href='http://www.apple.com/safari/download/' target='_blank'><img src='/assets/images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-                    <a href='http://www.google.com/chrome' target='_blank'><img src='/assets/images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+                <div id="ie-cont-brows">
+                    <a href='http://www.firefox.com' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+                    <a href='http://www.opera.com/download/' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+                    <a href='http://www.apple.com/safari/download/' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+                    <a href='http://www.google.com/chrome' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
                 </div>
             </div>
         </div>
@@ -145,7 +153,7 @@ ga('send', 'pageview');
                 <!-- END header-wrapper -->
 
             </header>
-        
+
         <!-- DIVIDER -->
         <hr class="mt-0 mb-0">
 
@@ -153,73 +161,39 @@ ga('send', 'pageview');
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-message"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WHATSAPP</span></h3>
-                                <a class="button medium thin hover-dark" href="https://api.whatsapp.com/send?phone=6281311234455">send us WA message</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-world"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WEBSITE</span></h3>
-                                <a class="button medium thin hover-dark" href="http://www.inerre.com">visit our website</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-smartphone"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PHONE NUMBER</span></h3>
-                                <a class="button medium thin hover-dark" href="tel:+62224232200">call us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-mail"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">EMAIL</span></h3>
-                                <a class="button medium thin hover-dark" href="mailto:info@inerre.com">send us email</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
-                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-signs"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">DRIVING DIRECTION</span></h3>
-                                <a class="button medium thin hover-dark" href="https://www.waze.com/ul?place=ChIJo-30g0PmaC4RhCuXc95nAkI&ll=-6.90064680%2C107.60327080&navigate=yes">waze direction</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="col-md-12">
 
+                        <!--
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">AYU - KELAPA GADING</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ayu_project'); ?>">see project</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/glenn_project'); ?>">see project</a>
+                            </div>
+                        </div>
+                        -->
+
+                        <iframe
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/y9nAJdkR8Pk"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -286,7 +260,7 @@ ga('send', 'pageview');
         </div>
         -->
 
-        <!-- FLOATING WA BUTTON
+        <!-- FLOATING WA BUTTON -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://www.instagram.com/inerre_interior/?hl=en" class="igfloat" target="_blank">
             <i class="fa fa-instagram my-float"></i>
@@ -294,11 +268,6 @@ ga('send', 'pageview');
         <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
-        -->
-            Pano.php
-        <!-- AUTOMATIC WHAT CHAT -->
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-c92c47d3-984e-41e3-8c38-8203a09b5195"></div>
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
@@ -352,7 +321,8 @@ ga('send', 'pageview');
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDzf6Gmc9u7rr2JHijOERAmC_j0gWYtR2c"></script>
 <script type="text/javascript" src="/assets/js/gmap3.min.js"></script>
 
-<!--[if lt IE 10]><script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
+<!--[if lt IE 10]>
+    <script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
 
 <!-- FORMS VALIDATION	-->
 <script src="/assets/js/jquery.validate.min.js"></script>
@@ -399,167 +369,167 @@ ga('send', 'pageview');
 <script type="text/javascript" src="/assets/rs-plugin/js/jquery.themepunch.revolution-parallax.min.js"></script>
 
 <!-- SLIDER REVOLUTION INIT  -->
-    <script type="text/javascript">
+<script type="text/javascript">
 
-        jQuery(document).ready(function() {
-  if ( (navigator.appVersion.indexOf("Win")!=-1) && ( ieDetect == false ) ) {	
+    jQuery(document).ready(function() {
+        if ( (navigator.appVersion.indexOf("Win")!=-1) && ( ieDetect == false ) ) {
             jQuery('#rs-fullwidth').revolution(
-            {
-              dottedOverlay:"none",
-              delay:3000,
-              startwidth:1170,
-              startheight:665,
-              hideThumbs:200,
+                {
+                    dottedOverlay:"none",
+                    delay:3000,
+                    startwidth:1170,
+                    startheight:665,
+                    hideThumbs:200,
 
-              thumbWidth:100,
-              thumbHeight:50,
-              thumbAmount:5,
+                    thumbWidth:100,
+                    thumbHeight:50,
+                    thumbAmount:5,
 
-              //fullScreenAlignForce: "off",
+                    //fullScreenAlignForce: "off",
 
-              navigationType:"none",
-              navigationArrows:"solo",
-              navigationStyle:"preview0",
+                    navigationType:"none",
+                    navigationArrows:"solo",
+                    navigationStyle:"preview0",
 
-              hideTimerBar:"on",
+                    hideTimerBar:"on",
 
-              touchenabled:"on",
-              onHoverStop:"off",
+                    touchenabled:"on",
+                    onHoverStop:"off",
 
-              swipe_velocity: 0.7,
-              swipe_min_touches: 1,
-              swipe_max_touches: 1,
-              drag_block_vertical: false,
+                    swipe_velocity: 0.7,
+                    swipe_min_touches: 1,
+                    swipe_max_touches: 1,
+                    drag_block_vertical: false,
 
-              parallax:"scroll",
-              parallaxBgFreeze:"on",
-              parallaxLevels:[45,40,35,50],
-              parallaxDisableOnMobile:"on",
+                    parallax:"scroll",
+                    parallaxBgFreeze:"on",
+                    parallaxLevels:[45,40,35,50],
+                    parallaxDisableOnMobile:"on",
 
-              keyboardNavigation:"off",
+                    keyboardNavigation:"off",
 
-              navigationHAlign:"center",
-              navigationVAlign:"bottom",
-              navigationHOffset:0,
-              navigationVOffset:20,
+                    navigationHAlign:"center",
+                    navigationVAlign:"bottom",
+                    navigationHOffset:0,
+                    navigationVOffset:20,
 
-              soloArrowLeftHalign:"left",
-              soloArrowLeftValign:"center",
-              soloArrowLeftHOffset:20,
-              soloArrowLeftVOffset:0,
+                    soloArrowLeftHalign:"left",
+                    soloArrowLeftValign:"center",
+                    soloArrowLeftHOffset:20,
+                    soloArrowLeftVOffset:0,
 
-              soloArrowRightHalign:"right",
-              soloArrowRightValign:"center",
-              soloArrowRightHOffset:20,
-              soloArrowRightVOffset:0,
+                    soloArrowRightHalign:"right",
+                    soloArrowRightValign:"center",
+                    soloArrowRightHOffset:20,
+                    soloArrowRightVOffset:0,
 
-              shadow:0,
-              fullWidth:"on",
-              fullScreen:"off",
+                    shadow:0,
+                    fullWidth:"on",
+                    fullScreen:"off",
 
-              spinner:"spinner4",
+                    spinner:"spinner4",
 
-              stopLoop:"off",
-              stopAfterLoops:-1,
-              stopAtSlide:-1,
+                    stopLoop:"off",
+                    stopAfterLoops:-1,
+                    stopAtSlide:-1,
 
-              shuffle:"on",
+                    shuffle:"on",
 
-              autoHeight:"off",						
-              forceFullWidth:"off",						
+                    autoHeight:"off",
+                    forceFullWidth:"off",
 
-              hideThumbsOnMobile:"off",
-              hideNavDelayOnMobile:1500,						
-              hideBulletsOnMobile:"off",
-              hideArrowsOnMobile:"off",
-              hideThumbsUnderResolution:0,
+                    hideThumbsOnMobile:"off",
+                    hideNavDelayOnMobile:1500,
+                    hideBulletsOnMobile:"off",
+                    hideArrowsOnMobile:"off",
+                    hideThumbsUnderResolution:0,
 
-              hideSliderAtLimit:0,
-              hideCaptionAtLimit:0,
-              hideAllCaptionAtLilmit:0,
-              startWithSlide:0,
-              //fullScreenOffsetContainer: ""	
-            });
-  } else {
-          jQuery('#rs-fullwidth').revolution(
-            {
-              dottedOverlay:"none",
-              delay:3000,
-              startwidth:1170,
-              startheight:760,
-              hideThumbs:200,
+                    hideSliderAtLimit:0,
+                    hideCaptionAtLimit:0,
+                    hideAllCaptionAtLilmit:0,
+                    startWithSlide:0,
+                    //fullScreenOffsetContainer: ""
+                });
+        } else {
+            jQuery('#rs-fullwidth').revolution(
+                {
+                    dottedOverlay:"none",
+                    delay:3000,
+                    startwidth:1170,
+                    startheight:760,
+                    hideThumbs:200,
 
-              thumbWidth:100,
-              thumbHeight:50,
-              thumbAmount:5,
+                    thumbWidth:100,
+                    thumbHeight:50,
+                    thumbAmount:5,
 
-              navigationType:"none",
-              navigationArrows:"solo",
-              navigationStyle:"preview0",
+                    navigationType:"none",
+                    navigationArrows:"solo",
+                    navigationStyle:"preview0",
 
-              hideTimerBar:"on",
+                    hideTimerBar:"on",
 
-              touchenabled:"on",
-              onHoverStop:"off",
+                    touchenabled:"on",
+                    onHoverStop:"off",
 
-              swipe_velocity: 0.7,
-              swipe_min_touches: 1,
-              swipe_max_touches: 1,
-              drag_block_vertical: false,
+                    swipe_velocity: 0.7,
+                    swipe_min_touches: 1,
+                    swipe_max_touches: 1,
+                    drag_block_vertical: false,
 
-              parallax:"mouse",
-              parallaxBgFreeze:"on",
-              parallaxLevels:[0],
-              parallaxDisableOnMobile:"on",
+                    parallax:"mouse",
+                    parallaxBgFreeze:"on",
+                    parallaxLevels:[0],
+                    parallaxDisableOnMobile:"on",
 
-              keyboardNavigation:"off",
+                    keyboardNavigation:"off",
 
-              navigationHAlign:"center",
-              navigationVAlign:"bottom",
-              navigationHOffset:0,
-              navigationVOffset:20,
+                    navigationHAlign:"center",
+                    navigationVAlign:"bottom",
+                    navigationHOffset:0,
+                    navigationVOffset:20,
 
-              soloArrowLeftHalign:"left",
-              soloArrowLeftValign:"center",
-              soloArrowLeftHOffset:20,
-              soloArrowLeftVOffset:0,
+                    soloArrowLeftHalign:"left",
+                    soloArrowLeftValign:"center",
+                    soloArrowLeftHOffset:20,
+                    soloArrowLeftVOffset:0,
 
-              soloArrowRightHalign:"right",
-              soloArrowRightValign:"center",
-              soloArrowRightHOffset:20,
-              soloArrowRightVOffset:0,
+                    soloArrowRightHalign:"right",
+                    soloArrowRightValign:"center",
+                    soloArrowRightHOffset:20,
+                    soloArrowRightVOffset:0,
 
-              shadow:0,
-              fullWidth:"on",
-              fullScreen:"off",
+                    shadow:0,
+                    fullWidth:"on",
+                    fullScreen:"off",
 
-              spinner:"spinner4",
+                    spinner:"spinner4",
 
-              stopLoop:"off",
-              stopAfterLoops:-1,
-              stopAtSlide:-1,
+                    stopLoop:"off",
+                    stopAfterLoops:-1,
+                    stopAtSlide:-1,
 
-              shuffle:"on",
+                    shuffle:"on",
 
-              autoHeight:"off",						
-              forceFullWidth:"off",						
+                    autoHeight:"off",
+                    forceFullWidth:"off",
 
-              hideThumbsOnMobile:"off",
-              hideNavDelayOnMobile:1500,						
-              hideBulletsOnMobile:"off",
-              hideArrowsOnMobile:"off",
-              hideThumbsUnderResolution:0,
+                    hideThumbsOnMobile:"off",
+                    hideNavDelayOnMobile:1500,
+                    hideBulletsOnMobile:"off",
+                    hideArrowsOnMobile:"off",
+                    hideThumbsUnderResolution:0,
 
-              hideSliderAtLimit:0,
-              hideCaptionAtLimit:0,
-              hideAllCaptionAtLilmit:0,
-              startWithSlide:0,
+                    hideSliderAtLimit:0,
+                    hideCaptionAtLimit:0,
+                    hideAllCaptionAtLilmit:0,
+                    startWithSlide:0,
 
-            });      
-  }									
-        });	//ready
+                });
+        }
+    });	//ready
 
-    </script>
+</script>
 
 <!-- JS end -->
 
