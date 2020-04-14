@@ -286,7 +286,7 @@ ga('send', 'pageview');
         </div>
         -->
 
-        <!-- FLOATING WA BUTTON -->
+        <!-- FLOATING WA BUTTON
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://www.instagram.com/inerre_interior/?hl=en" class="igfloat" target="_blank">
             <i class="fa fa-instagram my-float"></i>
@@ -294,7 +294,8 @@ ga('send', 'pageview');
         <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
-
+        -->
+            
         <!-- AUTOMATIC WHAT CHAT -->
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-c92c47d3-984e-41e3-8c38-8203a09b5195"></div>
