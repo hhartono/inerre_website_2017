@@ -1338,6 +1338,7 @@ ga('send', 'pageview');
             <i class="fa fa-whatsapp my-float"></i>
         </a>
 
+        <!-- AUTOMATIC WHAT CHAT -->
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-c92c47d3-984e-41e3-8c38-8203a09b5195"></div>
 
