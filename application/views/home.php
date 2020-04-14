@@ -1196,14 +1196,18 @@ ga('send', 'pageview');
                             </div>
                     </div>
 
-      <div class="col-md-6 right-50 wow fadeInLeft">
+                    <div class="col-md-6 right-50">
+                        <div class="fes1-cont">
+                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                            <div class="elfsight-app-eaff4cec-cf57-48b9-9a95-6a995a5b3255"></div>
+
 <!--
                             <div class="ads-img-cont" >
             <img src="images/ads-phone.jpg" alt="img">
           </div>
 -->
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div> 
