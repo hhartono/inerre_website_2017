@@ -65,6 +65,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- FLOATING WA BUTTON -->
     <link rel='stylesheet' href="/assets/css/floating-wa.css">
 
+    <!-- IFRAME YOUTUBE -->
+    <link rel='stylesheet' href="/assets/css/youtube-iframe.css">
+
     <!-- IE Warning CSS -->
     <!--[if lte IE 8]>
     <link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css"><![endif]-->
@@ -184,14 +187,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         -->
 
-                        <iframe
-                                width="560"
-                                height="315"
-                                src="https://www.youtube.com/embed/y9nAJdkR8Pk"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                        </iframe>
+                        <div class="iframe-container">
+                            <iframe
+                                    width="560"
+                                    height="315"
+                                    src="https://www.youtube.com/embed/y9nAJdkR8Pk"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                            </iframe>
+                        </div>
+
+                        <!-- ALTERNATIVE 2 -->
+                        <!--
+                        <div style="width:100%;height:100%; width: 640px; height: 360px; float: none; clear: both; margin: 2px auto;">
+                            <embed src="http://youtu.be/y9nAJdkR8Pk&amp;hl=en_US&amp;rel=0&amp;autohide=1&amp;autoplay=1" wmode="transparent" type="application/x-shockwave-flash" width="100%" height="100%" allowfullscreen="true" title="Adobe Flash Player">
+                        </div>
+                        -->
+
+                        <!-- ALTERNATIVE 3 -->
+                        <!--
+                        <object width="640" height="360">
+                            <param name="movie" value="https://www.youtube.com/embed/y9nAJdkR8Pk"/
+                            <param name="allowFullScreen" value="true"/>
+                            <param name="allowscriptaccess" value="always"/>
+                            <embed width="640" height="360" src="http://www.youtube.com/embed/yt-video-id?html5=1&amp;rel=0&amp;hl=en_US&amp;version=3" class="youtube-player" type="text/html" allowscriptaccess="always" allowfullscreen="true"/>
+                        </object>
+                        -->
 
                     </div>
                 </div>
