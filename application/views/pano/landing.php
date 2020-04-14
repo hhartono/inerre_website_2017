@@ -66,8 +66,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel='stylesheet' href="/assets/css/floating-wa.css">
 
     <!-- IE Warning CSS -->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css" ><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css" ><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css"><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css"><![endif]-->
 
     <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
 
@@ -99,13 +101,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!--[if lte IE 8]>
         <div id="ie-container">
             <div id="ie-cont-close">
-                <a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+                <a href='#'
+                   onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img
+                        src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
             </div>
-            <div id="ie-cont-content" >
+            <div id="ie-cont-content">
                 <div id="ie-cont-warning">
                     <img src='/assets/images/ie-warn/ie-warning.jpg' alt='Warning!'>
                 </div>
-                <div id="ie-cont-text" >
+                <div id="ie-cont-text">
                     <div id="ie-text-bold">
                         You are using an outdated browser
                     </div>
@@ -113,11 +117,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         For a better experience using this site, please upgrade to a modern web browser.
                     </div>
                 </div>
-                <div id="ie-cont-brows" >
-                    <a href='http://www.firefox.com' target='_blank'><img src='/assets/images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
-                    <a href='http://www.opera.com/download/' target='_blank'><img src='/assets/images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
-                    <a href='http://www.apple.com/safari/download/' target='_blank'><img src='/assets/images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
-                    <a href='http://www.google.com/chrome' target='_blank'><img src='/assets/images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+                <div id="ie-cont-brows">
+                    <a href='http://www.firefox.com' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+                    <a href='http://www.opera.com/download/' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+                    <a href='http://www.apple.com/safari/download/' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+                    <a href='http://www.google.com/chrome' target='_blank'><img
+                            src='/assets/images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
                 </div>
             </div>
         </div>
@@ -160,7 +168,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">AYU - KELAPA GADING</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('AyuProject'); ?>">see project</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ayu_project'); ?>">see project</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/glenn_project'); ?>">see project</a>
                             </div>
                         </div>
                     </div>
@@ -291,7 +308,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDzf6Gmc9u7rr2JHijOERAmC_j0gWYtR2c"></script>
 <script type="text/javascript" src="/assets/js/gmap3.min.js"></script>
 
-<!--[if lt IE 10]><script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
+<!--[if lt IE 10]>
+    <script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
 
 <!-- FORMS VALIDATION	-->
 <script src="/assets/js/jquery.validate.min.js"></script>

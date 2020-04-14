@@ -11,7 +11,7 @@
 
 <html>
  	<head>
-		<title>Haswell - Responsive HTML5 Template</title>
+		<title>INERRE interior</title>
 		<meta charset=utf-8 >
 		<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
         <meta name="robots" content="index, follow" >

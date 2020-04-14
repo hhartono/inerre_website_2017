@@ -31,7 +31,7 @@ ga('send', 'pageview');
     <meta charset=utf-8 >
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow" >
-    <meta name="keywords" content="HTML5 Template" >
+    <meta name="keywords" content="inerre interior, interior design, interior design bandung, interior design jakarta" >
     <meta name="description" content="INERRE interior" >
     <meta name="author" content="Hans Hartono">
 

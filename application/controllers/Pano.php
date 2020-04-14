@@ -21,6 +21,18 @@ class Pano extends CI_Controller {
 	public function index()
 	{
         $this->load->helper('url');
-        $this->load->view('pano');
+        $this->load->view('pano/landing');
 	}
+
+    public function glenn_project()
+    {
+        $this->load->helper('url');
+        $this->load->view('pano/glennproject');
+    }
+
+    public function ayu_project()
+    {
+        $this->load->helper('url');
+        $this->load->view('pano/ayuproject');
+    }
 }
