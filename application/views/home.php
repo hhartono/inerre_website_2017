@@ -1198,6 +1198,7 @@ ga('send', 'pageview');
 
                     <div class="col-md-6 right-50">
                         <div class="fes1-cont">
+                            <!-- IG feed widget -->
                             <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                             <div class="elfsight-app-eaff4cec-cf57-48b9-9a95-6a995a5b3255"></div>
 
@@ -1336,6 +1337,9 @@ ga('send', 'pageview');
         <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
+
+        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-c92c47d3-984e-41e3-8c38-8203a09b5195"></div>
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">
