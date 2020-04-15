@@ -29,4 +29,10 @@ class BlumV1 extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('blum/bottleset');
     }
+
+    public function pan_storage()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/panstorage');
+    }
 }
