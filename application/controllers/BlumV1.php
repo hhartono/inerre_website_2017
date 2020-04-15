@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Blum extends CI_Controller {
+class BlumV1 extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -23,4 +23,10 @@ class Blum extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('blum/landing');
 	}
+
+    public function bottle_set()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/bottleset');
+    }
 }

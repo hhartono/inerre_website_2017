@@ -247,7 +247,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     -->
                 </div>
             </div>
+
+            <div class="row mb-30">
+
+                <div class="col-md-12">
+                    <!-- Toggle -->
+                    <dl class="toggle">
+                        <dt>
+                            <a href="#">BLUM ORGA-LINE BOTTLE SET PARTS (IN PDF FORMAT)</a>
+                        </dt>
+                        <dd>
+                            Baki bagian bawah : <a href="/assets/images/inerre/blum/bottle/blum_bottle_02.pdf"> CLICK HERE</a><br>
+                            Divider bagian tengah : <a href="/assets/images/inerre/blum/bottle/blum_bottle_03.pdf"> CLICK HERE</a><br>
+                            List adapter samping : <a href="/assets/images/inerre/blum/bottle/blum_bottle_04.pdf"> CLICK HERE</a><br>
+                            Bottle set : <a href="/assets/images/inerre/blum/bottle/blum_bottle_05.pdf"> CLICK HERE</a><br>
+                        </dd>
+                    </dl>
+                    <!-- End Toggle -->
+                </div>
+            </div>
         </div>
+
+
 
             <!-- CONTACT INFO SECTION 1 -->
             <!--
