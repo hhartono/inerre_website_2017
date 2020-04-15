@@ -160,11 +160,102 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- DIVIDER -->
         <hr class="mt-0 mb-0">
 
-        <!-- CONTACT INFO SECTION 1 -->
+        <div class="container p-140-cont">
+            <div class="row">
+                <!-- CONTENT -->
+                <div class="col-sm-8 blog-main-posts">
+                    <div class="row">
+
+                        <!-- Post Item -->
+                        <div class="col-md-6 pb-70">
+                            <div class="post-prev-title">
+                                <h3><a href="blog-single-sidebar-right.html">BLUM ORGA-LINE BOTTLE SET</a></h3>
+                            </div>
+
+                            <div class="post-prev-text">
+                                Blum Orga-Line bottle set
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Post Item lightbox -->
+                <div class="col-md-6 wow fadeIn pb-70">
+                    <div class="post-prev-img">
+
+                        <div class="lightbox-item">
+                            <a href="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" class="lightbox">
+                                <div class="port-img-overlay">
+                                    <img class="port-main-img" src="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" alt="img">
+                                </div>
+                                <div class="port-overlay-cont">
+                                    <div class="port-btn-cont">
+                                        <div aria-hidden="true" class="icon_search"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <!-- divider line-->
+                    <hr class="mt-0 mb-0">
+
+                    <!--
+                    <div class="post-prev-title">
+                        <h3><a href="blog-single-sidebar-right.html">POST WITH LIGHTBOX</a></h3>
+                    </div>
+
+                    <div class="post-prev-info">
+                        JULE 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
+                    </div>
+
+
+                    <div class="post-prev-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum.
+                    </div>
+                     -->
+
+                </div>
+
+                <!-- Post Item embedded video -->
+                <div class="col-md-6 wow fadeIn pb-70" >
+
+                    <div class="embed-responsive embed-responsive-16by9 mb-25">
+                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/y9nAJdkR8Pk"></iframe>
+                    </div>
+
+                    <!-- divider line-->
+                    <hr class="mt-0 mb-0">
+
+                    <!--
+                    <div class="post-prev-title">
+                        <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
+                    </div>
+
+                    <div class="post-prev-info">
+                        DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
+                    </div>
+
+                    <div class="post-prev-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum.
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+
+            <!-- CONTACT INFO SECTION 1 -->
+            <!--
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
+            -->
 
                         <!--
                         <div class="cis-cont">
@@ -187,6 +278,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         -->
 
+                        <!--
                         <div class="iframe-container">
                             <iframe
                                     width="560"
@@ -197,6 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     allowfullscreen>
                             </iframe>
                         </div>
+                        -->
 
                         <!-- ALTERNATIVE 2 -->
                         <!--
@@ -215,10 +308,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </object>
                         -->
 
+        <!--
                     </div>
                 </div>
             </div>
         </div>
+        -->
 
         <!-- GOOGLE MAP & CONTACT FORM -->
         <!--
