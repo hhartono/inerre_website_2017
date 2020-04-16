@@ -169,11 +169,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- Post Item -->
                         <div class="col-md-6 pb-70">
                             <div class="post-prev-title">
-                                <h3><a href="blog-single-sidebar-right.html">BLUM CUTLERY STORAGE</a></h3>
+                                <h3><a href="blog-single-sidebar-right.html">BLUM ORGA-LINE CUTLERY STORAGE</a></h3>
                             </div>
 
                             <div class="post-prev-text">
-                                Blum cutlery storage, organize your silverwares
+                                Blum Orga-Line cutlery storage, organize your silverwares
                             </div>
 
                         </div>
@@ -226,9 +226,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-6 pb-70" >
 
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
-                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/yryQ98AePwA?start=8"></iframe>
+                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/ZuTtx2LuUbo?start=8"></iframe>
                     </div>
-
+                    
                     <!-- divider line-->
                     <hr class="mt-0 mb-0">
 

@@ -199,11 +199,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>">BLUM CUTLERY STORAGE</a></h3>
+                        <h3><a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>">BLUM ORGA-LINE CUTLERY STORAGE</a></h3>
                     </div>
 
                     <div class="post-prev-text">
-                        Blum cutlery storage, organize your silverwares
+                        Blum Orga-Line cutlery storage, organize your silverwares
                     </div>
                 </div>
             </div>
