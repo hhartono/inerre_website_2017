@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
                         <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/ZuTtx2LuUbo?start=8"></iframe>
                     </div>
-                    
+
                     <!-- divider line-->
                     <hr class="mt-0 mb-0">
 
@@ -254,7 +254,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!-- Toggle -->
                     <dl class="toggle">
                         <dt>
-                            <a href="#">BLUM CUTLERY STORAGE PARTS (IN PDF FORMAT)</a>
+                            <a href="#">BLUM ORGA-LINE CUTLERY STORAGE PARTS (IN PDF FORMAT)</a>
                         </dt>
                         <dd>
                             ZSI.60VEI6 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_02.pdf"> CLICK HERE</a><br>
