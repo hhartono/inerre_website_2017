@@ -184,7 +184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="row">
                 <!-- Post Item lightbox -->
-                <div class="col-md-6 wow fadeIn pb-70">
+                <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
 
                         <div class="lightbox-item">
@@ -223,7 +223,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
 
                 <!-- Post Item embedded video -->
-                <div class="col-md-6 wow fadeIn pb-70" >
+                <div class="col-md-6 pb-70" >
 
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
                         <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/y9nAJdkR8Pk"></iframe>

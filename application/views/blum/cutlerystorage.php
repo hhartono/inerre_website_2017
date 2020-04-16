@@ -169,11 +169,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- Post Item -->
                         <div class="col-md-6 pb-70">
                             <div class="post-prev-title">
-                                <h3><a href="blog-single-sidebar-right.html">BLUM POTS & PANS STORAGE</a></h3>
+                                <h3><a href="blog-single-sidebar-right.html">BLUM CUTLERY STORAGE</a></h3>
                             </div>
 
                             <div class="post-prev-text">
-                                Blum pots & pans storage (with lids holder)
+                                Blum cutlery storage, organize your silverwares
                             </div>
 
                         </div>
@@ -184,13 +184,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="row">
                 <!-- Post Item lightbox -->
-                <div class="col-md-6 pb-70">
+                <div class="col-md-6 wow fadeIn pb-70">
                     <div class="post-prev-img">
 
                         <div class="lightbox-item">
-                            <a href="/assets/images/inerre/blum/pan/blum_pan_01.jpg" class="lightbox">
+                            <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_01.jpg" class="lightbox">
                                 <div class="port-img-overlay">
-                                    <img class="port-main-img" src="/assets/images/inerre/blum/pan/blum_pan_01.jpg" alt="img">
+                                    <img class="port-main-img" src="/assets/images/inerre/blum/cutlery/blum_cutlery_01.jpg" alt="img">
                                 </div>
                                 <div class="port-overlay-cont">
                                     <div class="port-btn-cont">
@@ -226,7 +226,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-6 pb-70" >
 
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
-                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/olvynVlVCjE?start=8"></iframe>
+                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/yryQ98AePwA?start=8"></iframe>
                     </div>
 
                     <!-- divider line-->
@@ -254,12 +254,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <!-- Toggle -->
                     <dl class="toggle">
                         <dt>
-                            <a href="#">BLUM POTS & PANS STORAGE PARTS (IN PDF FORMAT)</a>
+                            <a href="#">BLUM CUTLERY STORAGE PARTS (IN PDF FORMAT)</a>
                         </dt>
                         <dd>
-                            List adapter samping : <a href="/assets/images/inerre/blum/pan/blum_pan_02.pdf"> CLICK HERE</a><br>
-                            Divider untuk tutup panci : <a href="/assets/images/inerre/blum/pan/blum_pan_03.pdf"> CLICK HERE</a><br>
-                            Lateral divider : <a href="/assets/images/inerre/blum/pan/blum_pan_04.pdf"> CLICK HERE</a><br>
+                            ZSI.60VEI6 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_02.pdf"> CLICK HERE</a><br>
+                            ZSI.500BI1N : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_03.pdf"> CLICK HERE</a><br>
+                            ZSI.500BI2N : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_04.pdf"> CLICK HERE</a><br>
+                            ZSI.500BI3 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_05.pdf"> CLICK HERE</a><br>
+                            ZSI.500KI4 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_06.pdf"> CLICK HERE</a><br>
+                            ZSI.500MI3 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_07.pdf"> CLICK HERE</a><br>
                         </dd>
                     </dl>
                     <!-- End Toggle -->

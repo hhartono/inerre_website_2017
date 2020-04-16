@@ -162,7 +162,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="container p-140-cont">
             <div class="row">
-                <!-- Post Item -->
+                <!-- Bottle Set -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
                         <a href="<?php echo site_url('BlumV1/bottle_set'); ?>"><img src="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" alt="img"></a>
@@ -177,7 +177,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <!-- Post Item -->
+                <!-- Pan Storage -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
                         <a href="<?php echo site_url('BlumV1/pan_storage'); ?>"><img src="/assets/images/inerre/blum/pan/blum_pan_01.jpg" alt="img"></a>
@@ -189,6 +189,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="post-prev-text">
                         Blum pots & pans storage (with lids holder)
+                    </div>
+                </div>
+
+                <!-- Cutlery -->
+                <div class="col-md-6 pb-70">
+                    <div class="post-prev-img">
+                        <a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>"><img src="/assets/images/inerre/blum/cutlery/blum_cutlery_01.jpg" alt="img"></a>
+                    </div>
+
+                    <div class="post-prev-title">
+                        <h3><a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>">BLUM CUTLERY STORAGE</a></h3>
+                    </div>
+
+                    <div class="post-prev-text">
+                        Blum cutlery storage, organize your silverwares
                     </div>
                 </div>
             </div>
