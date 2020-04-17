@@ -47,4 +47,10 @@ class BlumV1 extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('blum/foodstorage');
     }
+
+    public function sink_unit()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/sinkunit');
+    }
 }

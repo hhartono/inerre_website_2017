@@ -29,11 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="819" />
-  </component>
   <component name="ProjectId" id="1aelhHJ4yIMum6imCxgULCzS4os" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,23 +38,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/inerre/blum/food" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/controllers/archieve" />
-      <recent name="$PROJECT_DIR$/application/controllers/portfolio" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/food" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/application/views/blum" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/food" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/cutlery" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/pan" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -117,7 +112,7 @@
       <workItem from="1587104613643" duration="69000" />
       <workItem from="1587104706052" duration="238000" />
       <workItem from="1587105009278" duration="347000" />
-      <workItem from="1587118833971" duration="807000" />
+      <workItem from="1587118833971" duration="1580000" />
     </task>
     <servers />
   </component>
