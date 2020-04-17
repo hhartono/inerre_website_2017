@@ -226,12 +226,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-6 pb-70" >
 
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
-                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/watch?v=UR08T1DwT48"></iframe>
+                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/UR08T1DwT48"></iframe>
                     </div>
 
                     <!-- divider line-->
                     <hr class="mt-0 mb-0">
-
+                    
                     <!--
                     <div class="post-prev-title">
                         <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
