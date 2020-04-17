@@ -167,8 +167,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">GLENN - TITISWARI - PANTRY & LIVING</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/glennvtour/tour.html">see 360 rendering</a>
+                                <h3><span class="bold">GLENN - TITISWARI - PANTRY & LIVING LANTAI 1</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/glennvtourlt1/tour.html">see 360 rendering</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI - LIVING LANTAI 2</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/glennvtourlt2/tour.html">see 360 rendering</a>
                             </div>
                         </div>
                     </div>

@@ -21,10 +21,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cutlerystorage.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cutlerystorage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/blum/cutlerystorage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
+            <state relative-caret-position="15">
               <caret line="256" column="55" lean-forward="false" selection-start-line="256" selection-start-column="55" selection-end-line="256" selection-end-column="55" />
               <folding>
                 <marker date="1587051750285" expanded="true" signature="3579:5288" ph="..." />
@@ -51,10 +51,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="glennproject.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/pano/glennproject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+              <folding>
+                <marker date="1587096806028" expanded="true" signature="3512:5221" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="3549:3814" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="3578:3795" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="3691:3791" ph="..." />
+                <marker date="1587096806028" expanded="false" signature="3765:3778" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="3853:5206" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="3896:4004" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4044:4367" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4088:4173" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4212:4344" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4408:5187" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4478:4590" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4483:4586" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4668:4776" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4673:4772" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4861:4971" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="4866:4967" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="5047:5164" ph="..." />
+                <marker date="1587096806028" expanded="true" signature="5052:5160" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="landing.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/blum/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="3075">
               <caret line="205" column="39" lean-forward="false" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
               <folding>
                 <marker date="1587051606207" expanded="true" signature="3579:5288" ph="..." />
@@ -174,7 +204,6 @@
         <option value="$PROJECT_DIR$/application/views/portfolio/landing.php" />
         <option value="$PROJECT_DIR$/application/views/portfolio/portfolio1.php" />
         <option value="$PROJECT_DIR$/application/views/portfolio/portfolio2.php" />
-        <option value="$PROJECT_DIR$/application/views/pano/glennproject.php" />
         <option value="$PROJECT_DIR$/application/views/pano.php" />
         <option value="$PROJECT_DIR$/application/controllers/Pano.php" />
         <option value="$PROJECT_DIR$/application/views/pano/landing.php" />
@@ -189,6 +218,7 @@
         <option value="$PROJECT_DIR$/application/views/blum/bottleset.php" />
         <option value="$PROJECT_DIR$/application/views/blum/landing.php" />
         <option value="$PROJECT_DIR$/application/views/blum/cutlerystorage.php" />
+        <option value="$PROJECT_DIR$/application/views/pano/glennproject.php" />
       </list>
     </option>
   </component>
@@ -220,8 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +379,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,12 +464,13 @@
       <workItem from="1586941488152" duration="1048000" />
       <workItem from="1586943613554" duration="1035000" />
       <workItem from="1587050414845" duration="925000" />
-      <workItem from="1587051570878" duration="181000" />
+      <workItem from="1587051570878" duration="222000" />
+      <workItem from="1587096740379" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59503000" />
+    <option name="totallyTimeSpent" value="59617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="6" />
@@ -677,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/pano/glennproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="111" lean-forward="false" selection-start-line="170" selection-start-column="111" selection-end-line="170" selection-end-column="111" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/pano/ayupano.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -838,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/blum/landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="3075">
           <caret line="205" column="39" lean-forward="false" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
           <folding>
             <marker date="1587051606207" expanded="true" signature="3579:5288" ph="..." />
@@ -866,7 +890,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/blum/cutlerystorage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
+        <state relative-caret-position="15">
           <caret line="256" column="55" lean-forward="false" selection-start-line="256" selection-start-column="55" selection-end-line="256" selection-end-column="55" />
           <folding>
             <marker date="1587051750285" expanded="true" signature="3579:5288" ph="..." />
@@ -888,6 +912,34 @@
             <marker date="1587051750285" expanded="true" signature="4933:5034" ph="..." />
             <marker date="1587051750285" expanded="true" signature="5114:5231" ph="..." />
             <marker date="1587051750285" expanded="true" signature="5119:5227" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/pano/glennproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="180" column="34" lean-forward="true" selection-start-line="180" selection-start-column="34" selection-end-line="180" selection-end-column="34" />
+          <folding>
+            <marker date="1587096806028" expanded="true" signature="3512:5221" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="3549:3814" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="3578:3795" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="3691:3791" ph="..." />
+            <marker date="1587096806028" expanded="false" signature="3765:3778" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="3853:5206" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="3896:4004" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4044:4367" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4088:4173" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4212:4344" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4408:5187" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4478:4590" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4483:4586" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4668:4776" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4673:4772" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4861:4971" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="4866:4967" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="5047:5164" ph="..." />
+            <marker date="1587096806028" expanded="true" signature="5052:5160" ph="..." />
           </folding>
         </state>
       </provider>
