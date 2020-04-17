@@ -53,4 +53,10 @@ class BlumV1 extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('blum/sinkunit');
     }
+
+    public function spice_holder()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/spiceholder');
+    }
 }
