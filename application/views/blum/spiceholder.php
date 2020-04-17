@@ -162,94 +162,106 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="container p-140-cont">
             <div class="row">
-                <!-- Bottle Set -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/bottle_set'); ?>"><img src="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" alt="img"></a>
-                    </div>
+                <!-- CONTENT -->
+                <div class="col-sm-8 blog-main-posts">
+                    <div class="row">
 
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/bottle_set'); ?>">BLUM ORGA-LINE BOTTLE SET</a></h3>
-                    </div>
+                        <!-- Post Item -->
+                        <div class="col-md-6 pb-70">
+                            <div class="post-prev-title">
+                                <h3><a href="blog-single-sidebar-right.html">BLUM ORGA-LINE Spice Holder</a></h3>
+                            </div>
 
-                    <div class="post-prev-text">
-                        Blum Orga-Line bottle set
+                            <div class="post-prev-text">
+                                Blum Orga-Line spice holder, organize your spices
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
+            </div>
 
-                <!-- Pan Storage -->
+            <div class="row">
+                <!-- Post Item lightbox -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/pan_storage'); ?>"><img src="/assets/images/inerre/blum/pan/blum_pan_01.jpg" alt="img"></a>
+
+                        <div class="lightbox-item">
+                            <a href="/assets/images/inerre/blum/spice/blum_spice_01.jpg" class="lightbox">
+                                <div class="port-img-overlay">
+                                    <img class="port-main-img" src="/assets/images/inerre/blum/spice/blum_spice_01.jpg" alt="img">
+                                </div>
+                                <div class="port-overlay-cont">
+                                    <div class="port-btn-cont">
+                                        <div aria-hidden="true" class="icon_search"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
                     </div>
 
+                    <!-- divider line-->
+                    <hr class="mt-0 mb-0">
+
+                    <!--
                     <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/pan_storage'); ?>">BLUM POTS & PANS STORAGE</a></h3>
+                        <h3><a href="blog-single-sidebar-right.html">POST WITH LIGHTBOX</a></h3>
                     </div>
+
+                    <div class="post-prev-info">
+                        JULE 10<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
+                    </div>
+
 
                     <div class="post-prev-text">
-                        Blum pots & pans storage (with lids holder)
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum.
                     </div>
+                     -->
+
                 </div>
 
-                <!-- Cutlery -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>"><img src="/assets/images/inerre/blum/cutlery/blum_cutlery_01.jpg" alt="img"></a>
+                <!-- Post Item embedded video -->
+                <div class="col-md-6 pb-70" >
+
+                    <div class="embed-responsive embed-responsive-16by9 mb-25">
+                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/0virAiCCxnQ"></iframe>
                     </div>
 
+                    <!-- divider line-->
+                    <hr class="mt-0 mb-0">
+
+                    <!--
                     <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/cutlery_storage'); ?>">BLUM ORGA-LINE CUTLERY STORAGE</a></h3>
+                        <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
+                    </div>
+
+                    <div class="post-prev-info">
+                        DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
                     </div>
 
                     <div class="post-prev-text">
-                        Blum Orga-Line cutlery storage, organize your silverwares
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum.
                     </div>
+                    -->
                 </div>
+            </div>
 
-                <!-- Food -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/food_storage'); ?>"><img src="/assets/images/inerre/blum/food/blum_food_01.jpg" alt="img"></a>
-                    </div>
+            <div class="row mb-30">
 
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/food_storage'); ?>">BLUM FOOD STORAGE DIVIDER</a></h3>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Blum food storage divider
-                    </div>
-                </div>
-
-                <!-- Sink -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/sink_unit'); ?>"><img src="/assets/images/inerre/blum/sink/blum_sink_01.jpg" alt="img"></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/sink_unit'); ?>">BLUM SINK CABINET</a></h3>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Blum sink cabinet, storage under the sink
-                    </div>
-                </div>
-
-                <!-- Spice -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/spice_holder'); ?>"><img src="/assets/images/inerre/blum/spice/blum_spice_01.jpg" alt="img"></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/spice_holder'); ?>">BLUM ORGA-LINE Spice Holder</a></h3>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Blum Orga-Line spice holder, organize your spices
-                    </div>
+                <div class="col-md-12">
+                    <!-- Toggle -->
+                    <dl class="toggle">
+                        <dt>
+                            <a href="#">BLUM ORGA-LINE SPICE HOLDER PARTS (IN PDF FORMAT)</a>
+                        </dt>
+                        <dd>
+                            SPICE HOLDER (FOR 30 CM CABINET) : <a href="/assets/images/inerre/blum/spice/blum_spice_02.pdf"> CLICK HERE</a><br>
+                            SPICE HOLDER (FOR 45 CM CABINET : <a href="/assets/images/inerre/blum/spice/blum_spice_03.pdf"> CLICK HERE</a><br>
+                        </dd>
+                    </dl>
+                    <!-- End Toggle -->
                 </div>
             </div>
         </div>
