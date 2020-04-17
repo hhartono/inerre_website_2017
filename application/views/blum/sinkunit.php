@@ -231,7 +231,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <!-- divider line-->
                     <hr class="mt-0 mb-0">
-                    
+
                     <!--
                     <div class="post-prev-title">
                         <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
