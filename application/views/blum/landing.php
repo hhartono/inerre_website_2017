@@ -162,6 +162,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="container p-140-cont">
             <div class="row">
+                <!-- Spice -->
+                <div class="col-md-6 pb-70">
+                    <div class="post-prev-img">
+                        <a href="<?php echo site_url('BlumV1/spice_holder'); ?>"><img src="/assets/images/inerre/blum/spice/blum_spice_01.jpg" alt="img"></a>
+                    </div>
+
+                    <div class="post-prev-title">
+                        <h3><a href="<?php echo site_url('BlumV1/spice_holder'); ?>">BLUM ORGA-LINE Spice Holder</a></h3>
+                    </div>
+
+                    <div class="post-prev-text">
+                        Blum Orga-Line spice holder, organize your spices
+                    </div>
+                </div>
+
                 <!-- Bottle Set -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
@@ -174,21 +189,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="post-prev-text">
                         Blum Orga-Line bottle set
-                    </div>
-                </div>
-
-                <!-- Pan Storage -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/pan_storage'); ?>"><img src="/assets/images/inerre/blum/pan/blum_pan_01.jpg" alt="img"></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/pan_storage'); ?>">BLUM POTS & PANS STORAGE</a></h3>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Blum pots & pans storage (with lids holder)
                     </div>
                 </div>
 
@@ -237,6 +237,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
 
+                <!-- Pan Storage -->
+                <div class="col-md-6 pb-70">
+                    <div class="post-prev-img">
+                        <a href="<?php echo site_url('BlumV1/pan_storage'); ?>"><img src="/assets/images/inerre/blum/pan/blum_pan_01.jpg" alt="img"></a>
+                    </div>
+
+                    <div class="post-prev-title">
+                        <h3><a href="<?php echo site_url('BlumV1/pan_storage'); ?>">BLUM POTS & PANS STORAGE</a></h3>
+                    </div>
+
+                    <div class="post-prev-text">
+                        Blum pots & pans storage (with lids holder)
+                    </div>
+                </div>
+
                 <!-- Sink -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
@@ -249,21 +264,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="post-prev-text">
                         Blum sink cabinet, storage under the sink
-                    </div>
-                </div>
-
-                <!-- Spice -->
-                <div class="col-md-6 pb-70">
-                    <div class="post-prev-img">
-                        <a href="<?php echo site_url('BlumV1/spice_holder'); ?>"><img src="/assets/images/inerre/blum/spice/blum_spice_01.jpg" alt="img"></a>
-                    </div>
-
-                    <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('BlumV1/spice_holder'); ?>">BLUM ORGA-LINE Spice Holder</a></h3>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Blum Orga-Line spice holder, organize your spices
                     </div>
                 </div>
             </div>
