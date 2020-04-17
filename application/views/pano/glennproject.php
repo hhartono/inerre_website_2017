@@ -178,7 +178,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">GLENN - TITISWARI - LIVING LANTAI 2</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/glennvtourlt2/tour.html">see 360 rendering</a>
-                            </div>
+                            </div>]
                         </div>
                     </div>
                 </div>

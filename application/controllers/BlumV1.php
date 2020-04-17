@@ -42,4 +42,9 @@ class BlumV1 extends CI_Controller {
         $this->load->view('blum/cutlerystorage');
     }
 
+    public function food_storage()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/foodstorage');
+    }
 }
