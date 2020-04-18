@@ -38,23 +38,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/inerre/blum/utensil" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/inerre/AR" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/AR" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/utensil" />
+      <recent name="$PROJECT_DIR$/application/views/blum" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/spice" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/controllers/archieve" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/utensil" />
-      <recent name="$PROJECT_DIR$/application/views/blum" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/spice" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/food" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -112,7 +112,8 @@
       <workItem from="1587104613643" duration="69000" />
       <workItem from="1587104706052" duration="238000" />
       <workItem from="1587105009278" duration="347000" />
-      <workItem from="1587118833971" duration="3689000" />
+      <workItem from="1587118833971" duration="3750000" />
+      <workItem from="1587221480513" duration="655000" />
     </task>
     <servers />
   </component>
