@@ -35,6 +35,8 @@ ga('send', 'pageview');
     <meta name="description" content="INERRE interior - Contact Us" >
     <meta name="author" content="Hans Hartono">
 
+    <meta property="og:image" content="/assets/images/inerre/logo-yoursite.png"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- FAVICONS -->

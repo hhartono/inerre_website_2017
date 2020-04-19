@@ -35,6 +35,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <meta name="description" content="INERRE interior - 360 Renders & VR Portals" >
     <meta name="author" content="Hans Hartono">
 
+    <meta property="og:image" content="/assets/images/inerre/logo-yoursite.png"/>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- FAVICONS -->
