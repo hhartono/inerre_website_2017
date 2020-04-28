@@ -151,156 +151,25 @@ ga('send', 'pageview');
         <!-- DIVIDER -->
         <hr class="mt-0 mb-0">
 
-        <!-- CONTACT INFO SECTION 1 -->
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-message"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WHATSAPP</span></h3>
-                                <a class="button medium thin hover-dark" href="https://api.whatsapp.com/send?phone=6281311234455">send us WA message</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-world"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WEBSITE</span></h3>
-                                <a class="button medium thin hover-dark" href="http://www.inerre.com">visit our website</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-smartphone"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PHONE NUMBER</span></h3>
-                                <a class="button medium thin hover-dark" href="tel:+62224232200">call us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-mail"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">EMAIL</span></h3>
-                                <a class="button medium thin hover-dark" href="mailto:info@inerre.com">send us email</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-map"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">SHOWROOM ADDRESS</span></h3>
-                                <a class="button medium thin hover-dark" href="https://goo.gl/maps/8hgmy1qPvT4hWcrp6">google maps direction</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-signs"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">DRIVING DIRECTION</span></h3>
-                                <a class="button medium thin hover-dark" href="https://www.waze.com/ul?place=ChIJo-30g0PmaC4RhCuXc95nAkI&ll=-6.90064680%2C107.60327080&navigate=yes">waze direction</a>
-                            </div>
-                        </div>
-                    </div>
+
+                    <?php
+                        error_reporting(E_ALL);
+
+                        $query = $this->db->query("SELECT customer_keyword, customer_name FROM customer_table");
+
+                        foreach ($query->result() as $row)
+                        {
+                            echo $row->customer_keyword;
+                            echo $row->customer_name;
+                        }
+                    ?>
 
                 </div>
             </div>
         </div>
-
-        <!-- GOOGLE MAP & CONTACT FORM -->
-        <!--
-        <div class="page-section gray-bg">
-            <div class="container-fluid">
-                <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="row">
-                            <div data-address="Jalan Pasteur No. 11, Bandung" id="google-map"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="contact-form-cont">
-                            <div class="mb-40">
-                                <h2 class="section-title">CONTACT <span class="bold">US</span></h2>
-                            </div>
-
-                            <div class="">
-                                <form id="contact-form" action="php/contact-form.php" method="POST">
-
-                                    <div class="row">
-                                        <div class="col-md-12 mb-30">
-                                            <input type="text" value="" data-msg-required="Please enter your name" maxlength="100" class="controled" name="name" id="name" placeholder="NAME" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12 mb-30">
-                                            <input type="email" value="" data-msg-required="Please enter your email address" data-msg-email="Please enter a valid email address" maxlength="100" class="controled" name="email" id="email" placeholder="EMAIL" required>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12 mb-40">
-                                            <textarea maxlength="5000" data-msg-required="Please enter your message" rows="3" class="controled" name="message" id="message" placeholder="MESSAGE" required></textarea>
-                                        </div>
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-12 text-center-xxs">
-                                            <input type="submit" value="SEND MESSAGE" class="button medium gray" data-loading-text="Loading...">
-                                        </div>
-                                    </div>
-
-                                </form>
-                                <div class="alert alert-success hidden animated fadeIn" id="contactSuccess" >
-                                    <strong>Success!</strong> Your message has been sent to us.
-                                </div>
-
-                                <div class="alert alert-danger hidden animated shake" id="contactError">
-                                    <strong>Error!</strong> There was an error sending your message.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        -->
-
-        <!-- FLOATING WA BUTTON
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://www.instagram.com/inerre_interior/?hl=en" class="igfloat" target="_blank">
-            <i class="fa fa-instagram my-float"></i>
-        </a>
-        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-        </a>
-        -->
-
-        <!-- AUTOMATIC WHAT CHAT -->
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-c92c47d3-984e-41e3-8c38-8203a09b5195"></div>
 
         <!-- FOOTER 1 -->
         <footer id="footer1" class="page-section text-center pt-100-b-80-cont">

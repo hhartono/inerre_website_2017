@@ -38,23 +38,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/inerre" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/AR" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/utensil" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/controllers/archieve" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/AR" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/utensil" />
-      <recent name="$PROJECT_DIR$/application/views/blum" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/spice" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -116,11 +116,18 @@
       <workItem from="1587221480513" duration="740000" />
       <workItem from="1587263052963" duration="2095000" />
       <workItem from="1588044796806" duration="2519000" />
-      <workItem from="1588069670634" duration="504000" />
+      <workItem from="1588069670634" duration="629000" />
+      <workItem from="1588089179599" duration="2515000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1588089773146">
+      <screen x="0" y="23" width="1440" height="819" />
+    </state>
+    <state x="392" y="166" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1588089773146" />
   </component>
 </project>
