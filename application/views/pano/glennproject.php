@@ -197,12 +197,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
 
-                <div id="tabs" class="mb-100 bs-docs-section">
-                    <div class="heading-underline h3-line">
-                        <h3 class="mb-20" >ANIMATION RENDERING</h3>
+                <div class="row">
+                    <div id="tabs" class="mb-10 bs-docs-section">
+                        <div class="heading-underline h3-line">
+                            <h3 class="mb-20" >ANIMATION RENDERING</h3>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="row col-md-6 pb-70" >
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
                         <div class="cis-cont">
                             <div class="cis-icon">
                                 <div class="icon"></div>
@@ -213,6 +217,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mb-25">
                             <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/3dyfr8Btyi8"></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI - STAIR LANDING 2A</span></h3>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-25">
+                            <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/lq7oHg6WhV0"></iframe>
                         </div>
                     </div>
                 </div>
