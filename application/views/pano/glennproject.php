@@ -182,6 +182,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/glennvtourlt2/tour.html">see 360 rendering</a>
                             </div>
                         </div>
+                        <!--
                         <div class="cis-cont">
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
@@ -192,6 +193,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 NOTES: AR for iOS only
                             </div>
                         </div>
+                        -->
                     </div>
                 </div>
 
