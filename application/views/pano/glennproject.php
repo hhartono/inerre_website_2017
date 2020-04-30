@@ -200,7 +200,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div id="tabs" class="mb-10 bs-docs-section">
                         <div class="heading-underline h3-line">
-                            <h3 class="mb-20" >ANIMATION RENDERING</h3>
+                            <h3 class="mb-20" >ANIMATION RENDERING - ALTERNATIVE 1</h3>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI - STAIR LANDING 1B</span></h3>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-25">
+                            <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/11xUDqL2ks0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="tabs" class="mb-10 bs-docs-section">
+                        <div class="heading-underline h3-line">
+                            <h3 class="mb-20" >ANIMATION RENDERING - ALTERNATIVE 2</h3>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-md-6 pb-10" >
                         <div class="cis-cont">
@@ -233,6 +257,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mb-25">
                             <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/lq7oHg6WhV0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">GLENN - TITISWARI - STAIR LANDING 2B</span></h3>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-25">
+                            <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/AXBfKXw5NGQ"></iframe>
                         </div>
                     </div>
                 </div>
