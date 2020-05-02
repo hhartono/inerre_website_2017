@@ -68,8 +68,10 @@ ga('send', 'pageview');
     <link rel='stylesheet' href="/assets/css/floating-wa.css">
 
     <!-- IE Warning CSS -->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css" ><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css" ><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie-warning.css"><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" type="text/css" href="/assets/css/ie8-fix.css"><![endif]-->
 
     <!-- Magnific popup  in style.css	Owl Carousel Assets in style.css -->
 
@@ -154,19 +156,57 @@ ga('send', 'pageview');
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <div class="row">
+                    <div id="tables" class="mb-100 bs-docs-section">
+                        <h4>INERRE customer detail</h4>
+                        <table class="table table-striped mb-40">
+                            <tbody>
 
-                    <?php
-                        error_reporting(E_ALL);
+                            <?php
+                                $query = $this->db->get_where('customer_table', array('customer_keyword' => $keyword));
+                                if($query){
+                                    $customer_detail = $query->result();
+                                    $first_customer = $customer_detail[0];
 
-                        $query = $this->db->query("SELECT customer_keyword, customer_name FROM customer_table");
+                                    echo '<tr>';
+                                    echo '<td><b>Project Keyword</b></td>';
+                                    echo '<td>' . $first_customer->customer_keyword . '</td>';
+                                    echo '</tr>';
 
-                        foreach ($query->result() as $row)
-                        {
-                            echo $row->customer_keyword;
-                            echo $row->customer_name;
-                        }
-                    ?>
+                                    echo '<tr>';
+                                    echo '<td><b>Customer Name</b></td>';
+                                    echo '<td>' . $first_customer->customer_name . '</td>';
+                                    echo '</tr>';
 
+                                    echo '<tr>';
+                                    echo '<td><b>Project Address</b></td>';
+                                    echo '<td>' . $first_customer->customer_address . '</td>';
+                                    echo '</tr>';
+
+                                    echo '<tr>';
+                                    echo '<td><b>Customer Telephone</b></td>';
+                                    echo '<td>' . $first_customer->customer_telephone . '</td>';
+                                    echo '</tr>';
+
+                                    echo '<tr>';
+                                    echo '<td><b>Customer Email</b></td>';
+                                    echo '<td>' . $first_customer->customer_email . '</td>';
+                                    echo '</tr>';
+
+                                    echo '<tr>';
+                                    echo '<td><b>Project Google Maps Link</b></td>';
+                                    echo '<td>' . $first_customer->customer_url_gmaps . '</td>';
+                                    echo '</tr>';
+
+                                    echo '<tr>';
+                                    echo '<td><b>Project Waze Link</b></td>';
+                                    echo '<td>' . $first_customer->customer_url_waze . '</td>';
+                                    echo '</tr>';
+                                }
+                            ?>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -223,7 +263,8 @@ ga('send', 'pageview');
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyDzf6Gmc9u7rr2JHijOERAmC_j0gWYtR2c"></script>
 <script type="text/javascript" src="/assets/js/gmap3.min.js"></script>
 
-<!--[if lt IE 10]><script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
+<!--[if lt IE 10]>
+    <script type="text/javascript" src="/assets/js/jquery.placeholder.js"></script><![endif]-->
 
 <!-- FORMS VALIDATION	-->
 <script src="/assets/js/jquery.validate.min.js"></script>

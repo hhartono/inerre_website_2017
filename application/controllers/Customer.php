@@ -21,6 +21,20 @@ class Customer extends CI_Controller {
 	public function index()
 	{
         $this->load->helper('url');
-        $this->load->view('customer');
+        $this->load->view('customer/customer_landing');
 	}
+
+	public function customer_detail($customer_keyword = NULL)
+    {
+        if($customer_keyword) {
+            $data = array(
+                'keyword' => $customer_keyword
+            );
+
+            $this->load->helper('url');
+            $this->load->view('customer/customer_detail', $data);
+        }else{
+            echo'Please specify customer keyword';
+        }
+    }
 }
