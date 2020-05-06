@@ -24,6 +24,18 @@ class Customer extends CI_Controller {
         $this->load->view('customer/customer_landing');
 	}
 
+    public function customer_form()
+    {
+        $this->load->helper('url');
+        $this->load->view('customer/customer_form');
+    }
+
+    public function submit_form()
+    {
+        // submit / update data to database
+        print_r($this->input->post('name'));
+    }
+
 	public function customer_detail($customer_keyword = NULL)
     {
         if($customer_keyword) {

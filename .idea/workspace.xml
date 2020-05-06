@@ -25,23 +25,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/customer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/pano" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/customer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
-      <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/application/views/pano" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/assets/images/inerre" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/AR" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
+      <recent name="$PROJECT_DIR$/application/views/customer" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
+      <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -109,7 +109,8 @@
       <workItem from="1588173060239" duration="128000" />
       <workItem from="1588178875910" duration="707000" />
       <workItem from="1588222297708" duration="537000" />
-      <workItem from="1588404458599" duration="8114000" />
+      <workItem from="1588404458599" duration="10376000" />
+      <workItem from="1588781066277" duration="1271000" />
     </task>
     <servers />
   </component>
