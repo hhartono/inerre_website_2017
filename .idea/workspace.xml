@@ -25,22 +25,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/pano" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/pano" />
-      <recent name="$PROJECT_DIR$/application/views/customer" />
-      <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
+      <recent name="$PROJECT_DIR$/application/views" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
+      <recent name="$PROJECT_DIR$/application/views/pano" />
+      <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
@@ -110,7 +110,8 @@
       <workItem from="1588178875910" duration="707000" />
       <workItem from="1588222297708" duration="537000" />
       <workItem from="1588404458599" duration="10376000" />
-      <workItem from="1588781066277" duration="1271000" />
+      <workItem from="1588781066277" duration="1332000" />
+      <workItem from="1589297188855" duration="352000" />
     </task>
     <servers />
   </component>
