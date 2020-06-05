@@ -24,23 +24,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/pano" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/pano" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
+      <recent name="$PROJECT_DIR$/application/views/customer" />
+      <recent name="$PROJECT_DIR$/application/views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
-      <recent name="$PROJECT_DIR$/application/views" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
-      <recent name="$PROJECT_DIR$/application/views/pano" />
-      <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
@@ -113,7 +114,8 @@
       <workItem from="1588781066277" duration="1332000" />
       <workItem from="1589297188855" duration="457000" />
       <workItem from="1589549606944" duration="269000" />
-      <workItem from="1591106141867" duration="51000" />
+      <workItem from="1591106141867" duration="262000" />
+      <workItem from="1591327654478" duration="216000" />
     </task>
     <servers />
   </component>
