@@ -170,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">CHELSEA - DESIGN PRESENTATION</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/marco/Marco_Presentation_05.06.2020.pdf">download PDF document</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/chelsea/Chelsea_Presentation_19.06.2020.pdf">download PDF document</a>
                             </div>
                         </div>
                     </div>
