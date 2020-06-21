@@ -169,7 +169,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MARCO - DESIGN PRESENTATION</span></h3>
+                                <h3><span class="bold">MARCO - DESIGN PRESENTATION - REV1</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/marco/Marco_Presentation_19.06.2020.pdf">download PDF document</a>
                             </div>
                         </div>
@@ -183,7 +183,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MARCO - NEWTON HILL - MASTER BEDROOM</span></h3>
+                                <h3><span class="bold">MARCO - NEWTON HILL - MASTER BEDROOM - REV1</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/marcovtour/tour.html">see 360 rendering</a>
                             </div>
                         </div>
