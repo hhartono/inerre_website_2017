@@ -120,7 +120,8 @@
       <workItem from="1591781572217" duration="170000" />
       <workItem from="1592560979467" duration="531000" />
       <workItem from="1592751087263" duration="503000" />
-      <workItem from="1593523434365" duration="821000" />
+      <workItem from="1593523434365" duration="978000" />
+      <workItem from="1593787521042" duration="63000" />
     </task>
     <servers />
   </component>
@@ -132,10 +133,10 @@
       <screen x="0" y="23" width="1440" height="822" />
     </state>
     <state x="444" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1588412305253" />
-    <state x="374" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1593523435498">
+    <state x="374" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1593787521973">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
-    <state x="374" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1593523435498" />
+    <state x="374" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1593787521973" />
     <state x="374" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1592751149987" />
     <state x="392" y="166" width="670" height="676" key="search.everywhere.popup" timestamp="1588089773146">
       <screen x="0" y="23" width="1440" height="819" />
