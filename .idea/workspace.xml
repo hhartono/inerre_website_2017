@@ -30,18 +30,18 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
-      <recent name="$PROJECT_DIR$/application/views/customer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
-      <recent name="$PROJECT_DIR$/application/views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/application/views/panoexisting" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
+      <recent name="$PROJECT_DIR$/application/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
+      <recent name="$PROJECT_DIR$/application/views/customer" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
       <recent name="$PROJECT_DIR$/application/views" />
     </key>
   </component>
@@ -121,7 +121,7 @@
       <workItem from="1592560979467" duration="531000" />
       <workItem from="1592751087263" duration="503000" />
       <workItem from="1593523434365" duration="978000" />
-      <workItem from="1593787521042" duration="63000" />
+      <workItem from="1593787521042" duration="465000" />
     </task>
     <servers />
   </component>
