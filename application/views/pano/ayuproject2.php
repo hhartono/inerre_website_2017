@@ -183,7 +183,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MARCO - KELAPA GADING - MASTER BEDROOM - REV2</span></h3>
+                                <h3><span class="bold">AYU - KELAPA GADING - MASTER BEDROOM - REV2</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/ayuvtour/tour.html">see 360 rendering</a>
                             </div>
                         </div>
