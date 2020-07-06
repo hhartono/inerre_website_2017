@@ -170,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">AYU - DESIGN PRESENTATION - REV2</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/ayu/Ayu_Presentation_03072020.pdf">download PDF document</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/ayu/Ayu_Presentation_06072020.pdf">download PDF document</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">AYU - KELAPA GADING - MASTER BEDROOM - REV2</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/ayuvtour/tour.html">see 360 rendering</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/ayuvtour_rev2/tour.html">see 360 rendering</a>
                             </div>
                         </div>
                     </div>
