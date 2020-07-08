@@ -168,36 +168,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">AYU - KELAPA GADING</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ayu_project_rev2'); ?>">see project</a>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">CHELSEA - DESIGN PRESENTATION - REV2</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/chelsea/Chelsea_Presentation_???.pdf">download PDF document</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">CHELSEA - TASIKMALAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/chelsea_project_rev2'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">GLENN - TITISWARI</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/glenn_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">MARCO - NEWTON HILL</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/marco_project_rev1'); ?>">see project</a>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">CHELSEA - TASIKMALAYA - LIVING & PANTRY - REV2</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/chelseavtour_rev2/tour.html">see 360 rendering</a>
                             </div>
                         </div>
                     </div>
