@@ -27,7 +27,7 @@ class LibraryV1 extends CI_Controller {
     public function smoke_walnut()
     {
         $this->load->helper('url');
-        $this->load->view('blum/smokewalnut');
+        $this->load->view('library/smokewalnut');
     }
 
 }
