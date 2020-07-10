@@ -65,7 +65,13 @@ class Pano extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('pano/chelseaproject3');
     }
-    
+
+    public function chelsea_project_rev3()
+    {
+        $this->load->helper('url');
+        $this->load->view('pano/chelseaproject4');
+    }
+
     public function test_eksisting()
     {
         $this->load->helper('url');
