@@ -26,16 +26,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/pano" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/pano" />
+      <recent name="$PROJECT_DIR$/application/views/library" />
       <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/views/panoexisting" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
-      <recent name="$PROJECT_DIR$/application/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
@@ -128,7 +128,7 @@
       <workItem from="1594139539546" duration="165000" />
       <workItem from="1594177095726" duration="112000" />
       <workItem from="1594212291580" duration="548000" />
-      <workItem from="1594393183087" duration="174000" />
+      <workItem from="1594393183087" duration="937000" />
     </task>
     <servers />
   </component>
