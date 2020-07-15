@@ -24,6 +24,24 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/landing');
 	}
 
+    public function duco_black_matte()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/hpl/duco_black_matte');
+    }
+
+    public function duco_softgray2_matte()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/hpl/duco_softgray2_matte');
+    }
+
+    public function duco_tundragray2_matte()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/hpl/duco_tundragray2_matte');
+    }
+
     public function lamitak_taglio_marcello_walnut()
     {
         $this->load->helper('url');
