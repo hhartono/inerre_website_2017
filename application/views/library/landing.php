@@ -167,11 +167,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!-- Smoke Walnut -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
-                        <a href="<?php echo site_url('LibraryV1/smoke_walnut'); ?>"><img src="/assets/images/inerre/library/veneer/smoke_walnut.jpg" alt="img"></a>
+                        <a href="<?php echo site_url('LibraryV1/walnut_smoke'); ?>"><img src="/assets/images/inerre/library/veneer/smoke_walnut.jpg" alt="img"></a>
                     </div>
 
                     <div class="post-prev-title">
-                        <h3><a href="<?php echo site_url('LibraryV1/smoke_walnut'); ?>">Smoke Walnut</a></h3>
+                        <h3><a href="<?php echo site_url('LibraryV1/walnut_smoke'); ?>">Smoke Walnut</a></h3>
                     </div>
 
                     <div class="post-prev-text">

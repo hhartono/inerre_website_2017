@@ -26,17 +26,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library/veneer" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/library" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/application/views/pano" />
-      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
-      <recent name="$PROJECT_DIR$/application/views/customer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
@@ -44,6 +37,24 @@
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/library/veneer" />
+      <recent name="$PROJECT_DIR$/application/views/library" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views/pano" />
+      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="library" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/application/views/library" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.library" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,7 +139,8 @@
       <workItem from="1594139539546" duration="165000" />
       <workItem from="1594177095726" duration="112000" />
       <workItem from="1594212291580" duration="548000" />
-      <workItem from="1594393183087" duration="1681000" />
+      <workItem from="1594393183087" duration="2023000" />
+      <workItem from="1594819773984" duration="283000" />
     </task>
     <servers />
   </component>
@@ -136,14 +148,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="444" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588412305253">
-      <screen x="0" y="23" width="1440" height="822" />
+    <state x="444" y="218" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594819962699">
+      <screen x="0" y="23" width="1440" height="809" />
     </state>
+    <state x="444" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.809@0.23.1440.809" timestamp="1594819962699" />
     <state x="444" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1588412305253" />
     <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594394829106">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.809@0.23.1440.809" timestamp="1594394829106" />
+    <state x="363" y="75" key="#library" timestamp="1594819914735">
+      <screen x="0" y="23" width="1440" height="809" />
+    </state>
+    <state x="363" y="75" key="#library/0.23.1440.809@0.23.1440.809" timestamp="1594819914735" />
     <state x="374" y="264" key="com.intellij.ide.util.TipDialog" timestamp="1593787521973">
       <screen x="0" y="23" width="1440" height="809" />
     </state>

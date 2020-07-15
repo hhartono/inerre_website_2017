@@ -24,10 +24,10 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/landing');
 	}
 
-    public function smoke_walnut()
+    public function walnut_smoke()
     {
         $this->load->helper('url');
-        $this->load->view('library/smokewalnut');
+        $this->load->view('library/veneer/walnut_smoke');
     }
 
 }
