@@ -30,4 +30,10 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/walnut_smoke');
     }
 
+    public function walnut_smoke_barcode()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/veneer/walnut_smoke_barcode');
+    }
+
 }
