@@ -24,6 +24,18 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/landing');
 	}
 
+    public function oak_coffeeopenpore()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/veneer/oak_coffeeopenpore');
+    }
+
+    public function oak_coffeeopenpore_barcode()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/veneer/oak_coffeeopenpore_barcode');
+    }
+
     public function walnut_smoke()
     {
         $this->load->helper('url');
@@ -36,4 +48,9 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/walnut_smoke_barcode');
     }
 
+    public function walnut_natural_CNC1()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/veneer/walnut_natural_cnc1');
+    }
 }
