@@ -24,6 +24,18 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/landing');
 	}
 
+    public function lamitak_taglio_marcello_walnut()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_taglio_marcello_walnut');
+    }
+
+    public function lamitak_tito_ercolano()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_tito_ercolano');
+    }
+
     public function oak_coffeeopenpore()
     {
         $this->load->helper('url');
