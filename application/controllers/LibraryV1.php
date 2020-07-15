@@ -48,6 +48,12 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/walnut_smoke_barcode');
     }
 
+    public function walnut_natural()
+    {
+        $this->load->helper('url');
+        $this->load->view('library/veneer/walnut_natural');
+    }
+
     public function walnut_natural_CNC1()
     {
         $this->load->helper('url');
