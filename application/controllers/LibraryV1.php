@@ -27,19 +27,19 @@ class LibraryV1 extends CI_Controller {
     public function duco_black_matte()
     {
         $this->load->helper('url');
-        $this->load->view('library/hpl/duco_black_matte');
+        $this->load->view('library/duco/duco_black_matte');
     }
 
     public function duco_softgray2_matte()
     {
         $this->load->helper('url');
-        $this->load->view('library/hpl/duco_softgray2_matte');
+        $this->load->view('library/duco/duco_softgray2_matte');
     }
 
     public function duco_tundragray2_matte()
     {
         $this->load->helper('url');
-        $this->load->view('library/hpl/duco_tundragray2_matte');
+        $this->load->view('library/duco/duco_tundragray2_matte');
     }
 
     public function lamitak_taglio_marcello_walnut()
