@@ -26,23 +26,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library/duco" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library/hpl" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/library/hpl" />
+      <recent name="$PROJECT_DIR$/application/views/library/duco" />
+      <recent name="$PROJECT_DIR$/application/views/library/veneer" />
+      <recent name="$PROJECT_DIR$/application/views/library" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/pano" />
       <recent name="$PROJECT_DIR$/application/views/customer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/blum/sink" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/blum/bottle" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/library/duco" />
-      <recent name="$PROJECT_DIR$/application/views/library/hpl" />
-      <recent name="$PROJECT_DIR$/application/views/library/veneer" />
-      <recent name="$PROJECT_DIR$/application/views/library" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
     </key>
   </component>
   <component name="RunManager">
@@ -140,7 +140,8 @@
       <workItem from="1594177095726" duration="112000" />
       <workItem from="1594212291580" duration="548000" />
       <workItem from="1594393183087" duration="2023000" />
-      <workItem from="1594819773984" duration="1676000" />
+      <workItem from="1594819773984" duration="1832000" />
+      <workItem from="1595412715033" duration="481000" />
     </task>
     <servers />
   </component>
