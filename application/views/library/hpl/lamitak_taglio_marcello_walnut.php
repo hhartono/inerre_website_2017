@@ -195,6 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
 
+                        <!--
                         <div class="lightbox-item">
                             <a href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png" class="lightbox">
                                 <div class="port-img-overlay">
@@ -207,9 +208,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </a>
                         </div>
+                        -->
 
                         <!-- testing -->
-                        <a data-fancybox="gallery" href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png"><img src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png"></a>
+                        <div class="lightbox-item">
+                            <a data-fancybox="gallery" href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png">
+                                <div class="port-img-overlay">
+                                    <img class="port-main-img" src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png" alt="img">
+                                </div>
+                                <div class="port-overlay-cont">
+                                    <div class="port-btn-cont">
+                                        <div aria-hidden="true" class="icon_search"></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
 
                     </div>
 
