@@ -213,14 +213,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- testing -->
                         <div class="lightbox-item">
                             <a data-fancybox="gallery" href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png">
-                                <div>
-                                    <img class="port-main-img" src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png" alt="img">
-                                </div>
-                                <div class="port-overlay-cont">
-                                    <div class="port-btn-cont">
-                                        <div aria-hidden="true" class="icon_search"></div>
-                                    </div>
-                                </div>
+                                <img class="port-main-img" src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png" alt="img">
                             </a>
                         </div>
 
