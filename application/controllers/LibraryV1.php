@@ -44,8 +44,12 @@ class LibraryV1 extends CI_Controller {
 
     public function lamitak_taglio_marcello_walnut()
     {
+        $data['title'] = "Taglio Marcello Walnut";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+
         $this->load->helper('url');
-        $this->load->view('library/hpl/lamitak_taglio_marcello_walnut');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+        //$this->load->view('library/hpl/lamitak_taglio_marcello_walnut');
     }
 
     public function lamitak_tito_ercolano()
