@@ -163,29 +163,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <?php
-                if(!empty($title) && !empty($pdf_url)) {
-                    $pdf_html = '
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="cis-cont">
-                                    <div class="cis-icon">
-                                        <div class="icon icon-basic-pin1"></div>
-                                    </div>
-                                    <div class="cis-text demo-buttons">
-                                        <h3><span class="bold">' . $title . ' </span>
-                                        </h3>
-                                        <a class="button medium thin hover-dark" href="' . $pdf_url . '">download PDF document</a>
+                if(!empty($rows)) {
+
+                    $i =0;
+                    foreach ($rows as $row) {
+                        if (!empty($row[$i]['title']) && !empty($row[$i]['pdf_url'])) {
+                            $pdf_html = '
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="cis-cont">
+                                        <div class="cis-icon">
+                                            <div class="icon icon-basic-pin1"></div>
+                                        </div>
+                                        <div class="cis-text demo-buttons">
+                                            <h3><span class="bold">' . $row[$i]['title'] . ' </span>
+                                            </h3>
+                                            <a class="button medium thin hover-dark" href="' . $row[$i]['pdf_url'] . '">download PDF document</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>';
-                }else{
-                    $pdf_html = '';
+                            </div>';
+                        } else {
+                            $pdf_html = '';
+                        }
+
+                        echo $pdf_html;
+                        $i++;
+                    }
                 }
-
-                echo $pdf_html;
-
-                print_r($rows);
                 ?>
                 
                 <div class="row">
