@@ -178,7 +178,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-6 pb-70">
                             <div class="post-prev-title">
                                 <h3>
-                                    <a href="blog-single-sidebar-right.html">
+                                    <a>
                                         <?php if (!empty($title)) {
                                             echo $title;
                                         } ?>
