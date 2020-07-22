@@ -163,7 +163,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
                 <?php
-                if(!empty($title)) {
+                if(!empty($title) && !empty($pdf_url)) {
                     $pdf_html = '
                         <div class="row">
                             <div class="col-md-4 col-sm-6">
@@ -174,7 +174,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <div class="cis-text demo-buttons">
                                         <h3><span class="bold">' . $title . ' </span>
                                         </h3>
-                                        <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/chelsea/Chelsea_Presentation_09.07.2020.pdf">download PDF document</a>
+                                        <a class="button medium thin hover-dark" href="' . $pdf_url . '">download PDF document</a>
                                     </div>
                                 </div>
                             </div>

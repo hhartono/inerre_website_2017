@@ -75,7 +75,7 @@ class Pano extends CI_Controller {
     public function rinny_project()
     {
         $data['title'] = "RINNY - DESIGN PRESENTATION";
-        $data['pdf_url'] = "";
+        $data['pdf_url'] = ""; // sample: http://18.139.219.177/pdf/chelsea/Chelsea_Presentation_09.07.2020.pdf
         $data['krpano_url'] = "";
 
         $this->load->helper('url');
