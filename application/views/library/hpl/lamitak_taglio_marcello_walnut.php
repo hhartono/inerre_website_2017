@@ -89,6 +89,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <!-- fancy box - TEST -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <!-- Modernizr -->
     <!-- <script src="js/modernizr.js"></script> -->
 
@@ -201,6 +207,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </a>
                         </div>
+
+                        <!-- testing -->
+                        <a data-fancybox="gallery" href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png"><img src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png"></a>
 
                     </div>
 
