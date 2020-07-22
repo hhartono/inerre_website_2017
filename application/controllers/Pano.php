@@ -72,6 +72,16 @@ class Pano extends CI_Controller {
         $this->load->view('pano/chelseaproject4');
     }
 
+    public function rinny_project()
+    {
+        $data['title'] = "RINNY - DESIGN PRESENTATION";
+        $data['pdf_url'] = "";
+        $data['krpano_url'] = "";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function test_eksisting()
     {
         $this->load->helper('url');
