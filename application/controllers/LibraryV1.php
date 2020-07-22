@@ -46,6 +46,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Taglio Marcello Walnut";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);

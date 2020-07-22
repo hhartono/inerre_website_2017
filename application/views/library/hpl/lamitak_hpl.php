@@ -177,11 +177,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- Post Item -->
                         <div class="col-md-6 pb-70">
                             <div class="post-prev-title">
-                                <h3><a href="blog-single-sidebar-right.html"><?php echo $title;?></a></h3>
+                                <h3>
+                                    <a href="blog-single-sidebar-right.html">
+                                        <?php if (!empty($title)) {
+                                            echo $title;
+                                        } ?>
+                                    </a>
+                                </h3>
                             </div>
 
                             <div class="post-prev-text">
-                                <?php echo $subtitle;?>
+                                <?php if (!empty($subtitle)) {
+                                    echo $subtitle;
+                                } ?>
                             </div>
 
                         </div>
@@ -212,8 +220,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <!-- testing -->
                         <!--<div class="lightbox-item">-->
-                            <a data-fancybox="gallery" href="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png">
-                                <img class="port-main-img" src="/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png" alt="img">
+                            <?php if (empty($sample_url)) {
+                                // NOT FOUND
+                                $sample_url = "";
+                            }?>
+
+                            <a data-fancybox="gallery" href="<?php echo $sample_url;?>">
+                                <img class="port-main-img" src="<?php echo $sample_url;?>" alt="img">
                             </a>
                         <!--</div>-->
 
