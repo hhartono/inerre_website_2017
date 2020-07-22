@@ -205,7 +205,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <!-- divider line-->
-                    <hr class="mt-0 mb-0">
+                    <!--<hr class="mt-0 mb-0">-->
 
                     <!--
                     <div class="post-prev-title">
