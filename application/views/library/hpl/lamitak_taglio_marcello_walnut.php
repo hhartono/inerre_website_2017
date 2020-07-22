@@ -171,11 +171,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <!-- Post Item -->
                         <div class="col-md-6 pb-70">
                             <div class="post-prev-title">
-                                <h3><a href="blog-single-sidebar-right.html">BLUM ORGA-LINE Spice Holder</a></h3>
+                                <h3><a href="blog-single-sidebar-right.html">Taglio Marcello Walnut</a></h3>
                             </div>
 
                             <div class="post-prev-text">
-                                Blum Orga-Line spice holder, organize your spices
+                                HPL Lamitak
                             </div>
 
                         </div>
@@ -224,48 +224,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 </div>
 
-                <!-- Post Item embedded video -->
-                <div class="col-md-6 pb-70" >
-
-                    <div class="embed-responsive embed-responsive-16by9 mb-25">
-                        <iframe frameborder="0" allowfullscreen="" src="https://www.youtube.com/embed/0virAiCCxnQ"></iframe>
-                    </div>
-
-                    <!-- divider line-->
-                    <hr class="mt-0 mb-0">
-
-                    <!--
-                    <div class="post-prev-title">
-                        <h3><a href="blog-single-sidebar-right.html">POST WITH EMBEDDED VIDEO</a></h3>
-                    </div>
-
-                    <div class="post-prev-info">
-                        DECEMBER 21<span class="slash-divider">/</span><a href="http://themeforest.net/user/abcgomel/portfolio?ref=abcgomel">JOHN DOE</a><span class="slash-divider">/</span><a href="#">DESIGN</a>, <a href="#">DEVELOPMENT</a>
-                    </div>
-
-                    <div class="post-prev-text">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, nostrum, cumque culpa provident aliquam commodi assumenda laudantium magnam illo nostrum.
-                    </div>
-                    -->
-                </div>
             </div>
 
-            <div class="row mb-30">
-
-                <div class="col-md-12">
-                    <!-- Toggle -->
-                    <dl class="toggle">
-                        <dt>
-                            <a href="#">BLUM ORGA-LINE SPICE HOLDER PARTS (IN PDF FORMAT)</a>
-                        </dt>
-                        <dd>
-                            SPICE HOLDER (FOR 30 CM CABINET) : <a href="/assets/images/inerre/blum/spice/blum_spice_02.pdf"> CLICK HERE</a><br>
-                            SPICE HOLDER (FOR 45 CM CABINET : <a href="/assets/images/inerre/blum/spice/blum_spice_03.pdf"> CLICK HERE</a><br>
-                        </dd>
-                    </dl>
-                    <!-- End Toggle -->
-                </div>
-            </div>
         </div>
 
 
