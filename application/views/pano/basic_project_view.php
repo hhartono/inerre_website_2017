@@ -165,7 +165,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <?php
                 if(!empty($rows)) {
                     foreach ($rows as $row) {
-                        if (!empty($row['title']) && !empty($row['pdf_url'])) {
+                        if (!empty($row['title']) && !empty($row['url']) && !empty($row['button_title'])) {
                             $pdf_html = '
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -174,9 +174,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                             <div class="icon icon-basic-pin1"></div>
                                         </div>
                                         <div class="cis-text demo-buttons">
-                                            <h3><span class="bold">' . $row[$i]['title'] . ' </span>
+                                            <h3><span class="bold">' . $row['title'] . ' </span>
                                             </h3>
-                                            <a class="button medium thin hover-dark" href="' . $row[$i]['pdf_url'] . '">download PDF document</a>
+                                            <a class="button medium thin hover-dark" href="' . $row['url'] . '">' . $row['button_title'] . '</a>
                                         </div>
                                     </div>
                                 </div>
