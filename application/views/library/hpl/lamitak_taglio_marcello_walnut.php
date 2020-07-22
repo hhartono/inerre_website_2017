@@ -181,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
 
                             <div class="post-prev-text">
-                                HPL Lamitak
+                                HPL Lamitak (TAP to ENLARGE)
                             </div>
 
                         </div>
