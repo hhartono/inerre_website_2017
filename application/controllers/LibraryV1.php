@@ -64,14 +64,22 @@ class LibraryV1 extends CI_Controller {
 
     public function oak_coffeeopenpore()
     {
+        $data['title'] = "Oak - Coffee Open Pore";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/oak_coffeeopenpore');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 
     public function oak_coffeeopenpore_barcode()
     {
+        $data['title'] = "Oak - Coffee Open Pore - Barcode";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/oak_coffeeopenpore_barcode');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 
     public function walnut_smoke()
