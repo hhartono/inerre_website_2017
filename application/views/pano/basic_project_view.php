@@ -164,10 +164,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="container">
                 <?php
                 if(!empty($rows)) {
-
-                    $i =0;
                     foreach ($rows as $row) {
-                        if (!empty($row[$i]['title']) && !empty($row[$i]['pdf_url'])) {
+                        if (!empty($row['title']) && !empty($row['pdf_url'])) {
                             $pdf_html = '
                             <div class="row">
                                 <div class="col-md-4 col-sm-6">
@@ -188,7 +186,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         }
 
                         echo $pdf_html;
-                        $i++;
                     }
                 }
                 ?>
