@@ -184,6 +184,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
 
                 echo $pdf_html;
+
+                print_r($rows);
                 ?>
                 
                 <div class="row">
