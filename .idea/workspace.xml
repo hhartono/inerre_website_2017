@@ -26,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library/veneer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/library/duco" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -38,10 +38,10 @@
       <recent name="$PROJECT_DIR$/application/views/customer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/library/duco" />
       <recent name="$PROJECT_DIR$/application/views/library/veneer" />
       <recent name="$PROJECT_DIR$/application/views/library/hpl" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-      <recent name="$PROJECT_DIR$/application/views/library/duco" />
       <recent name="$PROJECT_DIR$/application/views/library" />
     </key>
   </component>
@@ -142,7 +142,7 @@
       <workItem from="1594393183087" duration="2023000" />
       <workItem from="1594819773984" duration="1832000" />
       <workItem from="1595412715033" duration="2573000" />
-      <workItem from="1595425100587" duration="2065000" />
+      <workItem from="1595425100587" duration="2547000" />
     </task>
     <servers />
   </component>

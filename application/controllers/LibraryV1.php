@@ -24,24 +24,46 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/landing');
 	}
 
+    /*
+    *
+    * DUCO SECTION
+    *
+    */
     public function duco_black_matte()
     {
+        $data['title'] = "Black - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
+
         $this->load->helper('url');
-        $this->load->view('library/duco/duco_black_matte');
+        $this->load->view('library/duco/duco_view', $data);
     }
 
     public function duco_softgray2_matte()
     {
+        $data['title'] = "Soft Gray No 2 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+
         $this->load->helper('url');
-        $this->load->view('library/duco/duco_softgray2_matte');
+        $this->load->view('library/duco/duco_view', $data);
     }
 
     public function duco_tundragray2_matte()
     {
+        $data['title'] = "Tundra Gray No 2 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+
         $this->load->helper('url');
-        $this->load->view('library/duco/duco_tundragray2_matte');
+        $this->load->view('library/duco/duco_view', $data);
     }
 
+    /*
+    *
+    * HPL SECTION
+    *
+    */
     public function lamitak_taglio_marcello_walnut()
     {
         $data['title'] = "Taglio Marcello Walnut";
@@ -62,6 +84,11 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    /*
+     *
+     * VENEER SECTION
+     *
+     */
     public function oak_coffeeopenpore()
     {
         $data['title'] = "Oak - Coffee Open Pore";
@@ -84,25 +111,41 @@ class LibraryV1 extends CI_Controller {
 
     public function walnut_smoke()
     {
+        $data['title'] = "Walnut - Smoke";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/walnut_smoke');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 
     public function walnut_smoke_barcode()
     {
+        $data['title'] = "Walnut - Smoke - Barcode";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/walnut_smoke_barcode');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 
     public function walnut_natural()
     {
+        $data['title'] = "Walnut - Natural";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/walnut_natural');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 
     public function walnut_natural_CNC1()
     {
+        $data['title'] = "Walnut - Natural - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+
         $this->load->helper('url');
-        $this->load->view('library/veneer/walnut_natural_cnc1');
+        $this->load->view('library/veneer/veneer_view', $data);
     }
 }
