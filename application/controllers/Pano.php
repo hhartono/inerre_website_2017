@@ -74,11 +74,11 @@ class Pano extends CI_Controller {
 
     public function rinny_project()
     {
-        $data['rows'][0]['title'] = "RINNY - CINERE - RTU";
+        $data['rows'][0]['title'] = "RINNY - CINERE - Master Bedroom";
         $data['rows'][0]['url'] = "http://18.139.219.177/rinnyrtuvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "RINNY - CINERE - RTU";
+        $data['rows'][1]['title'] = "RINNY - CINERE - Kids Bedroom 1";
         $data['rows'][1]['url'] = "http://18.139.219.177/rinnyrtavtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
