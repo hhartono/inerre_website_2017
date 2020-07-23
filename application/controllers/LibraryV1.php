@@ -94,6 +94,76 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    public function lamitak_fico_florentina_marble()
+    {
+        $data['title'] = "Fico Florentina Marble";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_fico_florentina_marble.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_ciara_marmol_suprema()
+    {
+        $data['title'] = "Ciara Marmol Suprema";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_ciara_marmol_suprema.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_stoffa_grigio()
+    {
+        $data['title'] = "Stoffa Grigio";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_stoffa_mocca()
+    {
+        $data['title'] = "Stoffa Mocca";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_mocca.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_aiden_pashley()
+    {
+        $data['title'] = "Aiden Pashley";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_aiden_pashley.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_tanned_rosenheim_maple()
+    {
+        $data['title'] = "Tanned Rosenheim Maple";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_tanned_rosenheim_maple.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_biaggio_noce_roma()
+    {
+        $data['title'] = "Biaggio Noce Roma";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_biaggio_noce_roma.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
     /*
      *
      * VENEER SECTION
