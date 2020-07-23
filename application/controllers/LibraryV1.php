@@ -49,6 +49,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/duco/duco_view', $data);
     }
 
+    public function duco_softgray2_barcode_matte()
+    {
+        $data['title'] = "Soft Gray No 2 - Barcode - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_barcode_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
     public function duco_tundragray2_matte()
     {
         $data['title'] = "Tundra Gray No 2 - Matte";
