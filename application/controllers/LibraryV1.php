@@ -209,6 +209,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/veneer_view', $data);
     }
 
+    public function walnut_smoke_CNC1()
+    {
+        $data['title'] = "Walnut - Smoke - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
     public function walnut_natural()
     {
         $data['title'] = "Walnut - Natural";
