@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/blum/cutlerystorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/blum/cutlerystorage.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +148,7 @@
       <workItem from="1595425100587" duration="5660000" />
       <workItem from="1595473354950" duration="2953000" />
       <workItem from="1595667283267" duration="356000" />
-      <workItem from="1595950832597" duration="73000" />
+      <workItem from="1595950832597" duration="351000" />
     </task>
     <servers />
   </component>

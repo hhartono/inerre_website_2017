@@ -265,6 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             ZSI.500BI3 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_05.pdf"> CLICK HERE</a><br>
                             ZSI.500KI4 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_06.pdf"> CLICK HERE</a><br>
                             ZSI.500MI3 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_07.pdf"> CLICK HERE</a><br>
+                            ZSI.500FI1 : <a href="/assets/images/inerre/blum/cutlery/blum_cutlery_08.pdf"> CLICK HERE</a><br>
                         </dd>
                     </dl>
                     <!-- End Toggle -->
