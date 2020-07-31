@@ -228,7 +228,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="col-md-6 pb-70" >
 
                     <div class="embed-responsive embed-responsive-16by9 mb-25">
-                        <iframe frameborder="0" allowfullscreen src="https://www.youtube.com/embed/IOT9LBK8m1s?rel=0&amp;autoplay=1;fs=0;autohide=0;hd=0;mute=1;"></iframe>
+                        <iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://www.youtube.com/embed/IOT9LBK8m1s?autoplay=1"></iframe>
                     </div>
 
                     <!-- divider line-->
