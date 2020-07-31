@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="post-prev-img">
 
                         <div class="lightbox-item">
-                            <a href="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" class="lightbox">
+                            <a href="https://youtu.be/IOT9LBK8m1s" class="lightbox">
                                 <div class="port-img-overlay">
                                     <img class="port-main-img" src="/assets/images/inerre/blum/bottle/blum_bottle_01.jpg" alt="img">
                                 </div>
