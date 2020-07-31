@@ -184,7 +184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">360 Existing Site Photos</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Existing'); ?>">see 360 photoso</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Existing'); ?>">see 360 photos</a>
                             </div>
                         </div>
                     </div>
@@ -198,7 +198,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">Blum - Kitchen Organizers</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('BlumV1'); ?>">see Blum E-services</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('BlumV1'); ?>">see Blum demo</a>
                             </div>
                         </div>
                     </div>
@@ -211,8 +211,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MIELE - Built in Dishwasher</span></h3>
-                                <a class="button medium thin hover-dark" href="https://youtu.be/CaZq_09eQYI">see DEMO video</a>
+                                <h3><span class="bold">Miele - Built in Appliances</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('AppliancesV1/miele'); ?>">see Miele demo</a>
                             </div>
                         </div>
                     </div>
