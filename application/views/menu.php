@@ -225,7 +225,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">INERRE Material Library</span></h3>
+                                <h3><span class="bold">INERRE Material Library (beta)</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('LibraryV1'); ?>">see INERRE library</a>
                             </div>
                         </div>
@@ -239,7 +239,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">INERRE Portfolio</span></h3>
+                                <h3><span class="bold">INERRE Portfolio (beta)</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">see INERRE portfolio</a>
                             </div>
                         </div>
