@@ -71,7 +71,7 @@ class LibraryV1 extends CI_Controller {
 
     /*
     *
-    * HPL SECTION
+    * HPL Lamitak SECTION
     *
     */
     public function lamitak_taglio_marcello_walnut()
@@ -162,6 +162,21 @@ class LibraryV1 extends CI_Controller {
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    /*
+    *
+    * HPL AICA SECTION
+    *
+    */
+    public function aica_antique_white_leather()
+    {
+        $data['title'] = "Antique White Leather";
+        $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
     }
 
     /*
