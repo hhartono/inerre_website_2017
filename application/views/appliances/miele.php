@@ -189,6 +189,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">MIELE - Built in Oven</span></h3>
+                                <a class="button medium thin hover-dark" href="https://youtu.be/1KeQyGxOxUE">see DEMO video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">MIELE - Built in Dishwasher</span></h3>
+                                <a class="button medium thin hover-dark" href="https://youtu.be/CaZq_09eQYI">see DEMO video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">MIELE - Built in Cooking Hood</span></h3>
+                                <a class="button medium thin hover-dark" href="https://youtu.be/ECosHVybubE">see DEMO video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">MIELE - Built in Induction Cooker, Grill, Teppanyaki</span></h3>
+                                <a class="button medium thin hover-dark" href="https://youtu.be/M1OuQSd0KBk">see DEMO video</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
