@@ -32,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
     <meta name="robots" content="index, follow" >
     <meta name="keywords" content="HTML5 Template" >
-    <meta name="description" content="INERRE interior - 360 Renders & VR Portals" >
+    <meta name="description" content="INERRE interior - E-services" >
     <meta name="author" content="Hans Hartono">
 
     <meta property="og:image" content="/assets/images/inerre/logo-yoursite.png"/>
