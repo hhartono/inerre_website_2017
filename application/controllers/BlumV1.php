@@ -24,6 +24,12 @@ class BlumV1 extends CI_Controller {
         $this->load->view('blum/landing');
 	}
 
+    public function test()
+    {
+        $this->load->helper('url');
+        $this->load->view('blum/test');
+    }
+
     public function bottle_set()
     {
         $this->load->helper('url');
