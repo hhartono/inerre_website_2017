@@ -183,8 +183,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MIELE - Built in Steamer</span></h3>
-                                <a class="button medium thin hover-dark" href="https://youtu.be/2kfd3CZ2qfk">see DEMO video</a>
+                                <h3><span class="bold">360 Existing Site Photos</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Existing'); ?>">see 360 photoso</a>
                             </div>
                         </div>
                     </div>
@@ -197,8 +197,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">MIELE - Built in Oven</span></h3>
-                                <a class="button medium thin hover-dark" href="https://youtu.be/1KeQyGxOxUE">see DEMO video</a>
+                                <h3><span class="bold">Blum - Kitchen Organizers</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('BlumV1'); ?>">see Blum E-services</a>
                             </div>
                         </div>
                     </div>
