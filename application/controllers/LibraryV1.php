@@ -41,6 +41,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][3]['controller'] = "LibraryV1/duco_tundragray2_matte";
         $data['ducos'][3]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
 
+        /* HPL Lamitak section */
+        $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
+        $data['lamitaks'][0]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][0]['controller'] = "LibraryV1/lamitak_taglio_marcello_walnut";
+        $data['lamitaks'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png";
+
 	    /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
