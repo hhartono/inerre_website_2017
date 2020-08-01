@@ -221,6 +221,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row"></div>
 
             <!-- Veneer Section -->
+            <div class="heading-line h2-line">
+                <h2>Veneer Section</h2>
+            </div>
+
             <?php
                 if(!empty($veneers)) {
                     foreach ($veneers as $row) {
