@@ -189,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             $site_url = site_url($row['controller']);
 
                             $pdf_html = '
-                            <div class="row">
+                            <div>
                                 <div class="col-md-6 pb-70">
                                     <div class="post-prev-img">
                                         <a href=" '. $site_url .' "><img src=" '. $row['sample_url'] .' " alt="img"></a>

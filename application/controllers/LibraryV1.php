@@ -29,7 +29,7 @@ class LibraryV1 extends CI_Controller {
         $data['rows'][1]['subtitle'] = "Veneer";
         $data['rows'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
         $data['rows'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
-        
+
         $data['rows'][2]['title'] = "Walnut - Smoke";
         $data['rows'][2]['subtitle'] = "Veneer";
         $data['rows'][2]['controller'] = "LibraryV1/walnut_smoke";
