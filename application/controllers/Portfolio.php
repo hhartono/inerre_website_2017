@@ -35,4 +35,13 @@ class Portfolio extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('portfolio/portfolio2');
     }
+
+    public function portfolio3()
+    {
+        $data['directory_name'] = 'portfoliopage2';
+        $data['total_photo'] = '30';
+
+        $this->load->helper('url');
+        $this->load->view('portfolio/portfolio_basic', $data);
+    }
 }
