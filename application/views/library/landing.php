@@ -214,6 +214,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             }
             ?>
 
+            <div class="row"></div>
+
             <!-- Veneer Section -->
             <?php
                 if(!empty($veneers)) {
