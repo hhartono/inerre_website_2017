@@ -43,7 +43,7 @@ class Portfolio extends CI_Controller {
         $data['location'] = 'HEGARMANAH RESIDENCE, BANDUNG, INDONESIA';
 
         $data['directory_name'] = 'portfoliopage3';
-        $data['total_photo'] = '2';
+        $data['total_photo'] = '3';
 
         $this->load->helper('url');
         $this->load->view('portfolio/portfolio_basic', $data);
