@@ -20,40 +20,40 @@ class LibraryV1 extends CI_Controller {
 	 */
 	public function index()
 	{
-        $data['rows'][0]['title'] = "Oak - Coffee Open Pore";
-        $data['rows'][0]['subtitle'] = "Veneer";
-        $data['rows'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
-        $data['rows'][0]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
+        $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
+        $data['veneers'][0]['subtitle'] = "Veneer";
+        $data['veneers'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
+        $data['veneers'][0]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
 
-        $data['rows'][1]['title'] = "Oak - Coffee Open Pore - Barcode";
-        $data['rows'][1]['subtitle'] = "Veneer";
-        $data['rows'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
-        $data['rows'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+        $data['veneers'][1]['title'] = "Oak - Coffee Open Pore - Barcode";
+        $data['veneers'][1]['subtitle'] = "Veneer";
+        $data['veneers'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
+        $data['veneers'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
 
-        $data['rows'][2]['title'] = "Walnut - Smoke";
-        $data['rows'][2]['subtitle'] = "Veneer";
-        $data['rows'][2]['controller'] = "LibraryV1/walnut_smoke";
-        $data['rows'][2]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $data['veneers'][2]['title'] = "Walnut - Smoke";
+        $data['veneers'][2]['subtitle'] = "Veneer";
+        $data['veneers'][2]['controller'] = "LibraryV1/walnut_smoke";
+        $data['veneers'][2]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
 
-        $data['rows'][3]['title'] = "Walnut - Smoke - Barcode";
-        $data['rows'][3]['subtitle'] = "Veneer";
-        $data['rows'][3]['controller'] = "LibraryV1/walnut_smoke_barcode";
-        $data['rows'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+        $data['veneers'][3]['title'] = "Walnut - Smoke - Barcode";
+        $data['veneers'][3]['subtitle'] = "Veneer";
+        $data['veneers'][3]['controller'] = "LibraryV1/walnut_smoke_barcode";
+        $data['veneers'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
 
-        $data['rows'][4]['title'] = "Walnut - Smoke - CNC1";
-        $data['rows'][4]['subtitle'] = "Veneer";
-        $data['rows'][4]['controller'] = "LibraryV1/walnut_smoke_CNC1";
-        $data['rows'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+        $data['veneers'][4]['title'] = "Walnut - Smoke - CNC1";
+        $data['veneers'][4]['subtitle'] = "Veneer";
+        $data['veneers'][4]['controller'] = "LibraryV1/walnut_smoke_CNC1";
+        $data['veneers'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
 
-        $data['rows'][5]['title'] = "Walnut - Natural";
-        $data['rows'][5]['subtitle'] = "Veneer";
-        $data['rows'][5]['controller'] = "LibraryV1/walnut_natural";
-        $data['rows'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+        $data['veneers'][5]['title'] = "Walnut - Natural";
+        $data['veneers'][5]['subtitle'] = "Veneer";
+        $data['veneers'][5]['controller'] = "LibraryV1/walnut_natural";
+        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
 
-        $data['rows'][6]['title'] = "Walnut - Natural - CNC1";
-        $data['rows'][6]['subtitle'] = "Veneer";
-        $data['rows'][6]['controller'] = "LibraryV1/walnut_natural_CNC1";
-        $data['rows'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+        $data['veneers'][6]['title'] = "Walnut - Natural - CNC1";
+        $data['veneers'][6]['subtitle'] = "Veneer";
+        $data['veneers'][6]['controller'] = "LibraryV1/walnut_natural_CNC1";
+        $data['veneers'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
 
         $this->load->helper('url');
         $this->load->view('library/landing', $data);

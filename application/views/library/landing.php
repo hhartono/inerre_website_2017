@@ -183,8 +183,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- Veneer Section -->
             <?php
-                if(!empty($rows)) {
-                    foreach ($rows as $row) {
+                if(!empty($veneers)) {
+                    foreach ($veneers as $row) {
                         if (!empty($row['title']) && !empty($row['subtitle']) && !empty($row['controller']) && !empty($row['sample_url'])) {
                             $site_url = site_url($row['controller']);
 
