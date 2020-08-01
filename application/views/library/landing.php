@@ -203,7 +203,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <h3><a href=" '. $site_url .' "> '. $row['title'] .' </a></h3>
                                     </div>
                 
-                                    <div class="post-prev-text">
+                                    <div class="post-prev-title">
                                         '. $row['subtitle'] .'
                                     </div>
                                 </div>
@@ -242,7 +242,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                         <h3><a href=" '. $site_url .' "> '. $row['title'] .' </a></h3>
                                     </div>
                 
-                                    <div class="post-prev-text">
+                                    <div class="post-prev-title">
                                         '. $row['subtitle'] .'
                                     </div>
                                 </div>
