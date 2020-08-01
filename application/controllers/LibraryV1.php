@@ -87,7 +87,13 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][8]['controller'] = "LibraryV1/lamitak_biaggio_noce_roma";
         $data['lamitaks'][8]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_biaggio_noce_roma.png";
 
-	    /* veneer section */
+        /* HPL AICA section */
+        $data['aicas'][0]['title'] = "Antique White Leather";
+        $data['aicas'][0]['subtitle'] = "HPL AICA";
+        $data['aicas'][0]['controller'] = "LibraryV1/aica_antique_white_leather";
+        $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; / TEMPORARY
+
+        /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
         $data['veneers'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
