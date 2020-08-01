@@ -186,15 +186,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 if(!empty($rows)) {
                     foreach ($rows as $row) {
                         if (!empty($row['title']) && !empty($row['subtitle']) && !empty($row['controller']) && !empty($row['sample_url'])) {
+                            $site_url = site_url($row['controller']);
+
                             $pdf_html = '
                             <div class="row">
                                 <div class="col-md-6 pb-70">
                                     <div class="post-prev-img">
-                                        <a href="<?php echo site_url(" '. $row['controller'] .' "); ?>"><img src=" '. $row['sample_url'] .' " alt="img"></a>
+                                        <a href=" '. $site_url .' "><img src=" '. $row['sample_url'] .' " alt="img"></a>
                                     </div>
                 
                                     <div class="post-prev-title">
-                                        <h3><a href="<?php echo site_url(" '. $row['controller'] .' "); ?>"> '. $row['title'] .' </a></h3>
+                                        <h3><a href=" '. $site_url .' "> '. $row['title'] .' </a></h3>
                                     </div>
                 
                                     <div class="post-prev-text">
