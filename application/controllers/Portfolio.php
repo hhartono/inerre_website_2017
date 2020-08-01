@@ -38,12 +38,12 @@ class Portfolio extends CI_Controller {
 
     public function portfolio3()
     {
-        $data['client'] = 'AJ RESIDENCE';
-        $data['category'] = 'PRIVATE PROPERTY';
-        $data['location'] = 'ALAM KANAYAKAN, BANDUNG, INDONESIA';
+        $data['client'] = 'AJ RESIDENCE test';
+        $data['category'] = 'PRIVATE PROPERTY test';
+        $data['location'] = 'ALAM KANAYAKAN, BANDUNG, INDONESIA test';
 
         $data['directory_name'] = 'portfoliopage2';
-        $data['total_photo'] = '30';
+        $data['total_photo'] = '5';
 
         $this->load->helper('url');
         $this->load->view('portfolio/portfolio_basic', $data);
