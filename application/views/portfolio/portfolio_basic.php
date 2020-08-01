@@ -187,12 +187,6 @@
                       } else {
                           $iterator = $x;
                       }
-                  }
-              } else {
-                  $directory_name = '';
-                  $total_photo = 0;
-                  $iterator = 0;
-              }
 
               ?>
 
@@ -212,7 +206,11 @@
                   </div>
                 </div>
 
-              <?php } ?>
+              <?php } // end of for loop
+              } else {
+                  $directory_name = '';
+                  $total_photo = 0;
+              } ?>
 
               </div>
 
