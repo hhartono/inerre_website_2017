@@ -160,7 +160,7 @@
                 <div class="lightbox-item popup-gallery mb-30">
                   <a href="/assets/images/inerre/portfolio/jboi/portfolio/JBoy-01.jpg">
                     <div class="port-img-overlay">
-                      <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/thumbnail/Jboy-01.jpg" alt="img">
+                      <img class="port-main-img" src="/assets/images/inerre/portfolio/jboi/portfolio/Jboy-01.jpg" alt="img">
                     </div>
                     <div class="port-overlay-cont">
                       <div class="port-btn-cont">

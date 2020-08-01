@@ -180,7 +180,7 @@
                 <div class="lightbox-item popup-gallery mb-30">
                   <a href="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/01.jpg">
                     <div class="port-img-overlay">
-                      <img class="port-main-img" src="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/thumbnail/01.jpg" alt="img">
+                      <img class="port-main-img" src="/assets/images/inerre/portfolio/<?php echo $directory_name;?>/portfolio/01.jpg" alt="img">
                     </div>
                     <div class="port-overlay-cont">
                       <div class="port-btn-cont">
