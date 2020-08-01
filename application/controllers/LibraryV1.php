@@ -47,6 +47,16 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][0]['controller'] = "LibraryV1/lamitak_taglio_marcello_walnut";
         $data['lamitaks'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_taglio_marcello_walnut.png";
 
+        $data['lamitaks'][1]['title'] = "Tito Ercolano";
+        $data['lamitaks'][1]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][1]['controller'] = "LibraryV1/lamitak_tito_ercolano";
+        $data['lamitaks'][1]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_tito_ercolano.png";
+
+        $data['lamitaks'][2]['title'] = "Fico Florentina Marble";
+        $data['lamitaks'][2]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][2]['controller'] = "LibraryV1/lamitak_fico_florentina_marble";
+        $data['lamitaks'][2]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_fico_florentina_marble.png";
+
 	    /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
