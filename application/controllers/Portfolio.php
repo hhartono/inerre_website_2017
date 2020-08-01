@@ -38,6 +38,10 @@ class Portfolio extends CI_Controller {
 
     public function portfolio3()
     {
+        $data['client'] = 'AJ RESIDENCE';
+        $data['category'] = 'PRIVATE PROPERTY';
+        $data['location'] = 'ALAM KANAYAKAN, BANDUNG, INDONESIA';
+
         $data['directory_name'] = 'portfoliopage2';
         $data['total_photo'] = '30';
 

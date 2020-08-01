@@ -141,15 +141,33 @@
                   <div class="port-detail">
                     <p>
                       <strong>CLIENT:</strong>
-                        AJ RESIDENCE
+                        <?php
+                            if(!empty($client)){
+                                echo $client;
+                            }else{
+                                echo 'Not Defined';
+                            }
+                        ?>
                     </p>
                     <p>
                       <strong>CATEGORY:</strong>
-                        PRIVATE PROPERTY
+                        <?php
+                            if(!empty($category)){
+                                echo $category;
+                            }else{
+                                echo 'Not Defined';
+                            }
+                        ?>
                     </p>
                     <p>
                       <strong>LOCATION:</strong>
-                      ALAM KANAYAKAN, BANDUNG, INDONESIA
+                        <?php
+                        if(!empty($location)){
+                            echo $location;
+                        }else{
+                            echo 'Not Defined';
+                        }
+                        ?>
                     </p>
                   </div>
                 </div>
