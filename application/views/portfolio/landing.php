@@ -181,6 +181,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">IS RESIDENCE</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio/Portfolio4'); ?>">see portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">YC APARTMENT</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio/Portfolio3'); ?>">see portfolio</a>
                             </div>

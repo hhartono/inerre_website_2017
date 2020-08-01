@@ -48,4 +48,17 @@ class Portfolio extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('portfolio/portfolio_basic', $data);
     }
+
+    public function portfolio4()
+    {
+        $data['client'] = 'IS RESIDENCE';
+        $data['category'] = 'PRIVATE PROPERTY';
+        $data['location'] = 'RANGGAMALELA, BANDUNG, INDONESIA';
+
+        $data['directory_name'] = 'portfoliopage4';
+        $data['total_photo'] = '5';
+
+        $this->load->helper('url');
+        $this->load->view('portfolio/portfolio_basic', $data);
+    }
 }
