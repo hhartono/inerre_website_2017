@@ -181,6 +181,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             -->
 
+            <!-- Duco Section -->
+            <?php
+            if(!empty($ducos)) {
+                foreach ($ducos as $row) {
+                    if (!empty($row['title']) && !empty($row['subtitle']) && !empty($row['controller']) && !empty($row['sample_url'])) {
+                        $site_url = site_url($row['controller']);
+
+                        $pdf_html = '
+                            <div> <!-- bisa ditambah class="row" kalau perlu -->
+                                <div class="col-md-6 pb-70">
+                                    <div class="post-prev-img">
+                                        <a href=" '. $site_url .' "><img src=" '. $row['sample_url'] .' " alt="img"></a>
+                                    </div>
+                
+                                    <div class="post-prev-title">
+                                        <h3><a href=" '. $site_url .' "> '. $row['title'] .' </a></h3>
+                                    </div>
+                
+                                    <div class="post-prev-text">
+                                        '. $row['subtitle'] .'
+                                    </div>
+                                </div>
+                            </div>';
+                    }
+                    else {
+                        $pdf_html = '';
+                    }
+
+                    echo $pdf_html;
+                }
+            }
+            ?>
+
             <!-- Veneer Section -->
             <?php
                 if(!empty($veneers)) {

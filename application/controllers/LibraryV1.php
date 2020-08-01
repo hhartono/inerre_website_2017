@@ -20,6 +20,13 @@ class LibraryV1 extends CI_Controller {
 	 */
 	public function index()
 	{
+        /* duco section */
+        $data['ducos'][0]['title'] = "Black - Matte";
+        $data['ducos'][0]['subtitle'] = "Duco";
+        $data['ducos'][0]['controller'] = "LibraryV1/duco_black_matte";
+        $data['ducos'][0]['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
+
+	    /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
         $data['veneers'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
