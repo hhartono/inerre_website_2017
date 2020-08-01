@@ -182,6 +182,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             -->
 
             <!-- Duco Section -->
+            <div class="heading-line h2-line">
+                <h2>Duco Section</h2>
+            </div>
+
             <?php
             if(!empty($ducos)) {
                 foreach ($ducos as $row) {
