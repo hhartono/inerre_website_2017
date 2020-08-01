@@ -163,8 +163,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <hr class="mt-0 mb-0">
 
         <div class="container p-140-cont">
+            <!--
             <div class="row">
-                <!-- Smoke Walnut -->
                 <div class="col-md-6 pb-70">
                     <div class="post-prev-img">
                         <a href="<?php echo site_url('LibraryV1/walnut_smoke'); ?>"><img src="/assets/images/inerre/library/veneer/walnut_smoke.jpg" alt="img"></a>
@@ -179,6 +179,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
+            -->
+
+            <!-- Veneer Section -->
+            <?php
+                if(!empty($rows)) {
+                    foreach ($rows as $row) {
+                        if (!empty($row['title']) && !empty($row['subtitle']) && !empty($row['controller']) && !empty($row['sample_url'])) {
+                            $pdf_html = '
+                            <div class="row">
+                                <div class="col-md-6 pb-70">
+                                    <div class="post-prev-img">
+                                        <a href="<?php echo site_url(" '. $row['controller'] .' "); ?>"><img src=" '. $row['sample_url'] .' " alt="img"></a>
+                                    </div>
+                
+                                    <div class="post-prev-title">
+                                        <h3><a href="<?php echo site_url(" '. $row['controller'] .' "); ?>"> '. $row['title'] .' </a></h3>
+                                    </div>
+                
+                                    <div class="post-prev-text">
+                                        '. $row['subtitle'] .'
+                                    </div>
+                                </div>
+                            </div>';
+                        }
+                        else {
+                            $pdf_html = '';
+                        }
+
+                        echo $pdf_html;
+                    }
+                }
+            ?>
+
         </div>
 
         <!-- FLOATING WA BUTTON -->

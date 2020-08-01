@@ -20,8 +20,13 @@ class LibraryV1 extends CI_Controller {
 	 */
 	public function index()
 	{
+        $data['rows'][0]['title'] = "Walnut - Smoke";
+        $data['rows'][0]['subtitle'] = "Veneer";
+        $data['rows'][0]['controller'] = "LibraryV1/walnut_smoke";
+        $data['rows'][0]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+
         $this->load->helper('url');
-        $this->load->view('library/landing');
+        $this->load->view('library/landing', $data);
 	}
 
     /*
