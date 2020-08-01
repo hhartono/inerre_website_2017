@@ -72,6 +72,21 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][5]['controller'] = "LibraryV1/lamitak_stoffa_mocca";
         $data['lamitaks'][5]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
 
+        $data['lamitaks'][6]['title'] = "Aiden Pashley";
+        $data['lamitaks'][6]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][6]['controller'] = "LibraryV1/lamitak_aiden_pashley";
+        $data['lamitaks'][6]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_aiden_pashley.png";
+
+        $data['lamitaks'][7]['title'] = "Tanned Rosenheim Maple";
+        $data['lamitaks'][7]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][7]['controller'] = "LibraryV1/lamitak_tanned_rosenheim_maple";
+        $data['lamitaks'][7]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_tanned_rosenheim_maple.png";
+
+        $data['lamitaks'][8]['title'] = "Biaggio Noce Roma";
+        $data['lamitaks'][8]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][8]['controller'] = "LibraryV1/lamitak_biaggio_noce_roma";
+        $data['lamitaks'][8]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_biaggio_noce_roma.png";
+
 	    /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
