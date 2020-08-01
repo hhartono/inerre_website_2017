@@ -35,6 +35,26 @@ class LibraryV1 extends CI_Controller {
         $data['rows'][2]['controller'] = "LibraryV1/walnut_smoke";
         $data['rows'][2]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
 
+        $data['rows'][3]['title'] = "Walnut - Smoke - Barcode";
+        $data['rows'][3]['subtitle'] = "Veneer";
+        $data['rows'][3]['controller'] = "LibraryV1/walnut_smoke_barcode";
+        $data['rows'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+
+        $data['rows'][4]['title'] = "Walnut - Smoke - CNC1";
+        $data['rows'][4]['subtitle'] = "Veneer";
+        $data['rows'][4]['controller'] = "LibraryV1/walnut_smoke_CNC1";
+        $data['rows'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+
+        $data['rows'][5]['title'] = "Walnut - Natural";
+        $data['rows'][5]['subtitle'] = "Veneer";
+        $data['rows'][5]['controller'] = "LibraryV1/walnut_natural";
+        $data['rows'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+
+        $data['rows'][6]['title'] = "Walnut - Natural - CNC1";
+        $data['rows'][6]['subtitle'] = "Veneer";
+        $data['rows'][6]['controller'] = "LibraryV1/walnut_natural_CNC1";
+        $data['rows'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
 	}
