@@ -20,10 +20,20 @@ class LibraryV1 extends CI_Controller {
 	 */
 	public function index()
 	{
-        $data['rows'][0]['title'] = "Walnut - Smoke";
+        $data['rows'][0]['title'] = "Oak - Coffee Open Pore";
         $data['rows'][0]['subtitle'] = "Veneer";
-        $data['rows'][0]['controller'] = "LibraryV1/walnut_smoke";
-        $data['rows'][0]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $data['rows'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
+        $data['rows'][0]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
+
+        $data['rows'][1]['title'] = "Oak - Coffee Open Pore - Barcode";
+        $data['rows'][1]['subtitle'] = "Veneer";
+        $data['rows'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
+        $data['rows'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+        
+        $data['rows'][2]['title'] = "Walnut - Smoke";
+        $data['rows'][2]['subtitle'] = "Veneer";
+        $data['rows'][2]['controller'] = "LibraryV1/walnut_smoke";
+        $data['rows'][2]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
 
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
