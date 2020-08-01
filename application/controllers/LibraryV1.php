@@ -26,6 +26,21 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][0]['controller'] = "LibraryV1/duco_black_matte";
         $data['ducos'][0]['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
 
+        $data['ducos'][1]['title'] = "Soft Gray No 2 - Matte";
+        $data['ducos'][1]['subtitle'] = "Duco";
+        $data['ducos'][1]['controller'] = "LibraryV1/duco_softgray2_mattee";
+        $data['ducos'][1]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+
+        $data['ducos'][2]['title'] = "Soft Gray No 2 - Barcode - Matte";
+        $data['ducos'][2]['subtitle'] = "Duco";
+        $data['ducos'][2]['controller'] = "LibraryV1/duco_softgray2_barcode_matte";
+        $data['ducos'][2]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_barcode_matte.png";
+
+        $data['ducos'][3]['title'] = "Tundra Gray No 2 - Matte";
+        $data['ducos'][3]['subtitle'] = "Duco";
+        $data['ducos'][3]['controller'] = "LibraryV1/duco_tundragray2_matte";
+        $data['ducos'][3]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+
 	    /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
