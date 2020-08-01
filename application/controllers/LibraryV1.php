@@ -91,7 +91,7 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
         $data['aicas'][0]['controller'] = "LibraryV1/aica_antique_white_leather";
-        $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; / TEMPORARY
+        $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
 
         /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
