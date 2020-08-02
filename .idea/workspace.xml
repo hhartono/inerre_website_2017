@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/views/portfolio/portfolio1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/portfolio/portfolio1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/portfolio/21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage4/thumbnail/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Portfolio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +189,8 @@
       <workItem from="1596209239233" duration="3339000" />
       <workItem from="1596270120038" duration="4750000" />
       <workItem from="1596278956970" duration="4806000" />
-      <workItem from="1596293945820" duration="786000" />
+      <workItem from="1596293945820" duration="1222000" />
+      <workItem from="1596368302078" duration="95000" />
     </task>
     <servers />
   </component>
