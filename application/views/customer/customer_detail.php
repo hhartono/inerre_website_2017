@@ -213,12 +213,6 @@ ga('send', 'pageview');
                             </tbody>
                         </table>
 
-                        <?php
-                            $php_message = "";
-
-                            if(!empty($first_customer->customer_keyword)
-                        ?>
-
                         <button class="btn" data-clipboard-text="<?php echo $php_message; ?>">
                             Copy info to clipboard
                         </button>
