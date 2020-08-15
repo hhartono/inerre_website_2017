@@ -206,6 +206,10 @@ ga('send', 'pageview');
 
                             </tbody>
                         </table>
+
+                        <button class="btn" data-clipboard-text="Testing">
+                            Copy to clipboard
+                        </button>
                     </div>
                 </div>
             </div>
@@ -238,6 +242,17 @@ ga('send', 'pageview');
 </div><!-- End wrap -->
 
 <!-- JS begin -->
+<script>
+    var clip = new Clipboard('.btn');
+
+    clip.on("success", function() {
+        document.body.insertAdjacentHTML('beforeend', '<div>that worked.</div>');
+    });
+
+    clip.on("error", function() {
+        document.body.insertAdjacentHTML('beforeend', '<div>that didn\'t work.</div>');
+    });
+</script>
 
 <!-- jQuery  -->
 <script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
