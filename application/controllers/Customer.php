@@ -34,6 +34,17 @@ class Customer extends CI_Controller {
     {
         // submit / update data to database
         print_r($this->input->post('name'));
+
+        /* REFERENCE: ini sudah jalan untuk insert ke DB
+         $data = array(
+            'customer_keyword' => 'Toby',
+            'customer_name' => 'Toby Walton',
+        );
+        $result = $this->db->insert('customer_table', $data);
+        echo 'DB result = ';
+        var_dump($result);
+         */
+
     }
 
 	public function customer_detail($customer_keyword = NULL)

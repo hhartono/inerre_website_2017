@@ -182,14 +182,14 @@ ga('send', 'pageview');
                         //$this->db->query($insert_sql);
                         //echo $this->db->affected_rows();
 
-                        // Test input - Query Builder
-                        $data = array(
-                            'customer_keyword' => 'Toby',
-                            'customer_name' => 'Toby Walton',
-                        );
-                        $result = $this->db->insert('customer_table', $data);
-                        echo 'DB result = ';
-                        var_dump($result);
+                        // Test input - Query Builder - WORKING!
+                        //$data = array(
+                        //    'customer_keyword' => 'Toby',
+                        //    'customer_name' => 'Toby Walton',
+                        //);
+                        //$result = $this->db->insert('customer_table', $data);
+                        //echo 'DB result = ';
+                        //var_dump($result);
                     ?>
 
                 </div>
