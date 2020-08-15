@@ -163,6 +163,8 @@ ga('send', 'pageview');
 
                             <?php
                                 $query = $this->db->get_where('customer_table', array('customer_keyword' => $keyword));
+                                $php_message = "";
+
                                 if($query){
                                     $customer_detail = $query->result();
                                     $first_customer = $customer_detail[0];
@@ -171,6 +173,10 @@ ga('send', 'pageview');
                                     echo '<td><b>Project Keyword</b></td>';
                                     echo '<td>' . $first_customer->customer_keyword . '</td>';
                                     echo '</tr>';
+
+                                    if(!empty($first_customer->customer_keyword)){
+                                        $php_message .= "KEYWORD: " . $first_customer->customer_keyword;
+                                    }
 
                                     echo '<tr>';
                                     echo '<td><b>Customer Name</b></td>';
@@ -208,7 +214,9 @@ ga('send', 'pageview');
                         </table>
 
                         <?php
-                            $php_message = "PHP Test";
+                            $php_message = "";
+
+                            if(!empty($first_customer->customer_keyword)
                         ?>
 
                         <button class="btn" data-clipboard-text="<?php echo $php_message; ?>">
