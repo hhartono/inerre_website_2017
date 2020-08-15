@@ -175,13 +175,17 @@ ga('send', 'pageview');
                                     echo '</tr>';
 
                                     if(!empty($first_customer->customer_keyword)){
-                                        $php_message .= "KEYWORD: " . $first_customer->customer_keyword;
+                                        $php_message .= "KEYWORD: " . $first_customer->customer_keyword . "\r\n\r\n";
                                     }
 
                                     echo '<tr>';
                                     echo '<td><b>Customer Name</b></td>';
                                     echo '<td>' . $first_customer->customer_name . '</td>';
                                     echo '</tr>';
+
+                                    if(!empty($first_customer->customer_name)){
+                                        $php_message .= "NAMA CLIENT: " . $first_customer->customer_name . "\r\n\r\n";
+                                    }
 
                                     echo '<tr>';
                                     echo '<td><b>Project Address</b></td>';
