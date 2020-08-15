@@ -242,8 +242,9 @@ ga('send', 'pageview');
 </div><!-- End wrap -->
 
 <!-- JS begin -->
-<script src="/assets/js/clipboard.js-master/src/clipboard.js"></script>
-
+<!--<script src="/assets/js/clipboard.js-master/src/clipboard.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    
 <script>
     var clip = new Clipboard('.btn');
 

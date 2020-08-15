@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.github/issue_template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.github/stale.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/contributing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/constructor-node.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/constructor-nodelist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/constructor-selector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/function-target.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/function-text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/target-div.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/target-input.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/demo/target-textarea.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/dist/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/dist/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/src/clipboard-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/src/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/test/clipboard-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/test/clipboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/clipboard.js-master/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/customer/customer_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/customer/customer_detail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +158,7 @@
       <workItem from="1596278956970" duration="4806000" />
       <workItem from="1596293945820" duration="1222000" />
       <workItem from="1596368302078" duration="197000" />
-      <workItem from="1597462091257" duration="3185000" />
+      <workItem from="1597462091257" duration="3267000" />
     </task>
     <servers />
   </component>
