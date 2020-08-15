@@ -175,7 +175,7 @@ ga('send', 'pageview');
                                     echo '</tr>';
 
                                     if(!empty($first_customer->customer_keyword)){
-                                        $php_message .= "KEYWORD: " . $first_customer->customer_keyword . "\r\n\r\n";
+                                        $php_message .= "*KEYWORD:* " . $first_customer->customer_keyword . "\r\n\r\n";
                                     }
 
                                     echo '<tr>';
@@ -184,7 +184,7 @@ ga('send', 'pageview');
                                     echo '</tr>';
 
                                     if(!empty($first_customer->customer_name)){
-                                        $php_message .= "NAMA CLIENT: " . $first_customer->customer_name . "\r\n\r\n";
+                                        $php_message .= "*NAMA CLIENT:* " . $first_customer->customer_name . "\r\n\r\n";
                                     }
 
                                     echo '<tr>';
@@ -193,7 +193,7 @@ ga('send', 'pageview');
                                     echo '</tr>';
 
                                     if(!empty($first_customer->customer_name)){
-                                        $php_message .= "ALAMAT PROYEK: " . $first_customer->customer_address . "\r\n\r\n";
+                                        $php_message .= "*ALAMAT PROYEK:* " . $first_customer->customer_address . "\r\n\r\n";
                                     }
 
                                     echo '<tr>';
@@ -212,7 +212,7 @@ ga('send', 'pageview');
                                     echo '</tr>';
 
                                     if(!empty($first_customer->customer_name)){
-                                        $php_message .= "LINK GOOGLE MAPS: " . $first_customer->customer_url_gmaps . "\r\n\r\n";
+                                        $php_message .= "*LINK GOOGLE MAPS:* " . $first_customer->customer_url_gmaps . "\r\n\r\n";
                                     }
 
                                     echo '<tr>';
