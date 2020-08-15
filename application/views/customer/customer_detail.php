@@ -192,6 +192,10 @@ ga('send', 'pageview');
                                     echo '<td>' . $first_customer->customer_address . '</td>';
                                     echo '</tr>';
 
+                                    if(!empty($first_customer->customer_name)){
+                                        $php_message .= "ALAMAT PROYEK: " . $first_customer->customer_address . "\r\n\r\n";
+                                    }
+
                                     echo '<tr>';
                                     echo '<td><b>Customer Telephone</b></td>';
                                     echo '<td>' . $first_customer->customer_telephone . '</td>';
@@ -206,6 +210,10 @@ ga('send', 'pageview');
                                     echo '<td><b>Project Google Maps Link</b></td>';
                                     echo '<td><a href="' . $first_customer->customer_url_gmaps . '">' . $first_customer->customer_url_gmaps . '</a></td>';
                                     echo '</tr>';
+
+                                    if(!empty($first_customer->customer_name)){
+                                        $php_message .= "LINK GOOGLE MAPS: " . $first_customer->customer_url_gmaps . "\r\n\r\n";
+                                    }
 
                                     echo '<tr>';
                                     echo '<td><b>Project Waze Link</b></td>';
