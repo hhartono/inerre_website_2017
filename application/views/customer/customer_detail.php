@@ -194,12 +194,12 @@ ga('send', 'pageview');
 
                                     echo '<tr>';
                                     echo '<td><b>Project Google Maps Link</b></td>';
-                                    echo '<td><a>' . $first_customer->customer_url_gmaps . '</a></td>';
+                                    echo '<td><a href="' . $first_customer->customer_url_gmaps . '">' . $first_customer->customer_url_gmaps . '</a></td>';
                                     echo '</tr>';
 
                                     echo '<tr>';
                                     echo '<td><b>Project Waze Link</b></td>';
-                                    echo '<td><a>' . $first_customer->customer_url_waze . '</a></td>';
+                                    echo '<td><a href="' . $first_customer->customer_url_waze . '">' . $first_customer->customer_url_waze . '</a></td>';
                                     echo '</tr>';
                                 }
                             ?>
