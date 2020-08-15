@@ -207,8 +207,12 @@ ga('send', 'pageview');
                             </tbody>
                         </table>
 
-                        <button class="btn" data-clipboard-text="Testing">
-                            Copy to clipboard
+                        <?php
+                            $php_message = "PHP Test";
+                        ?>
+
+                        <button class="btn" data-clipboard-text="<?php echo $php_message; ?>">
+                            Copy info to clipboard
                         </button>
                     </div>
                 </div>
@@ -242,7 +246,8 @@ ga('send', 'pageview');
 </div><!-- End wrap -->
 
 <!-- JS begin -->
-<!--<script src="/assets/js/clipboard.js-master/src/clipboard.js"></script>-->
+
+<!-- ClipboardJS start -->
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
 
 <script>
@@ -256,8 +261,9 @@ ga('send', 'pageview');
         document.body.insertAdjacentHTML('beforeend', '<div>that didn\'t work.</div>');
     });
 </script>
+<!-- ClipboardJS end -->
 
-<!-- jQuery  -->
+    <!-- jQuery  -->
 <script type="text/javascript" src="/assets/js/jquery-1.11.2.min.js"></script>
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
