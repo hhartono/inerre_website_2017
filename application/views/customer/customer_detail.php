@@ -192,7 +192,7 @@ ga('send', 'pageview');
                                     echo '<td>' . $first_customer->customer_address . '</td>';
                                     echo '</tr>';
 
-                                    if(!empty($first_customer->customer_name)){
+                                    if(!empty($first_customer->customer_address)){
                                         $php_message .= "*ALAMAT PROYEK:* " . $first_customer->customer_address . "\r\n\r\n";
                                     }
 
@@ -211,7 +211,7 @@ ga('send', 'pageview');
                                     echo '<td><a href="' . $first_customer->customer_url_gmaps . '">' . $first_customer->customer_url_gmaps . '</a></td>';
                                     echo '</tr>';
 
-                                    if(!empty($first_customer->customer_name)){
+                                    if(!empty($first_customer->customer_url_gmaps)){
                                         $php_message .= "*LINK GOOGLE MAPS:* " . $first_customer->customer_url_gmaps . "\r\n\r\n";
                                     }
 
