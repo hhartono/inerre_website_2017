@@ -242,6 +242,8 @@ ga('send', 'pageview');
 </div><!-- End wrap -->
 
 <!-- JS begin -->
+<script src="/assets/js/clipboard.js-master/src/clipboard.js"></script>
+
 <script>
     var clip = new Clipboard('.btn');
 
