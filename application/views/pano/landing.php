@@ -218,6 +218,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/rinny_project'); ?>">see project</a>
                             </div>
                         </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">SOEGIHARTO - GRENN GARDEN</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/soegiharto_project'); ?>">see project</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
