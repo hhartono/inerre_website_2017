@@ -140,7 +140,7 @@ class Pano extends CI_Controller {
         $data['rows'][5]['url'] = "http://18.139.219.177/dennynava/06_quotation_furniture.pdf";
         $data['rows'][5]['button_title'] = "open PDF document";
 
-        $data['rows'][6]['title'] = "DENNY - RENDERING SIPIL v2";
+        $data['rows'][6]['title'] = "DENNY - QUOTATION SIPIL v2";
         $data['rows'][6]['url'] = "http://18.139.219.177/dennynava/07_quotation_sipil.pdf";
         $data['rows'][6]['button_title'] = "open PDF document";
 
