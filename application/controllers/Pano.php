@@ -114,6 +114,40 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function denny_project()
+    {
+        $data['rows'][0]['title'] = "DENNY - DESIGN PRESENTATION";
+        $data['rows'][0]['url'] = "http://18.139.219.177/dennynava/01_presentation_19082020.pdf";
+        $data['rows'][0]['button_title'] = "open PDF document";
+
+        $data['rows'][1]['title'] = "DENNY - TOP TABLE ALTERNATIVE";
+        $data['rows'][1]['url'] = "http://18.139.219.177/dennynava/02_top_table.pdf";
+        $data['rows'][1]['button_title'] = "open PDF document";
+
+        $data['rows'][2]['title'] = "DENNY - APPLIANCES & SINK ALTERNATIVE";
+        $data['rows'][2]['url'] = "http://18.139.219.177/dennynava/03_appliances_sink.pdf";
+        $data['rows'][2]['button_title'] = "open PDF document";
+
+        $data['rows'][3]['title'] = "DENNY - OVEN ALTERNATIVE";
+        $data['rows'][3]['url'] = "http://18.139.219.177/dennynava/04_oven.pdf";
+        $data['rows'][3]['button_title'] = "open PDF document";
+
+        $data['rows'][4]['title'] = "DENNY - WINE DRAWER DETAIL";
+        $data['rows'][4]['url'] = "http://18.139.219.177/dennynava/05_wine_drawer_detail.png";
+        $data['rows'][4]['button_title'] = "open PNG image";
+
+        $data['rows'][5]['title'] = "DENNY - QUOTATION v4";
+        $data['rows'][5]['url'] = "http://18.139.219.177/dennynava/06_quotation.pdf";
+        $data['rows'][5]['button_title'] = "open PDF image";
+
+        $data['rows'][6]['title'] = "DENNY - RENDERING v4";
+        $data['rows'][6]['url'] = "http://18.139.219.177/dennynava/07_rendering.pdf";
+        $data['rows'][6]['button_title'] = "open PDF image";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function test_eksisting()
     {
         $this->load->helper('url');
