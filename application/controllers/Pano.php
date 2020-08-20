@@ -137,16 +137,20 @@ class Pano extends CI_Controller {
         $data['rows'][4]['button_title'] = "open PNG image";
 
         $data['rows'][5]['title'] = "DENNY - QUOTATION FURNITURE v4";
-        $data['rows'][5]['url'] = "http://18.139.219.177/dennynava/06_quotation_furniture.pdf";
+        $data['rows'][5]['url'] = "http://18.139.219.177/dennynava/06_quotation_furniture_v4.pdf";
         $data['rows'][5]['button_title'] = "open PDF document";
 
-        $data['rows'][6]['title'] = "DENNY - QUOTATION SIPIL v2";
-        $data['rows'][6]['url'] = "http://18.139.219.177/dennynava/07_quotation_sipil.pdf";
+        $data['rows'][6]['title'] = "DENNY - QUOTATION FURNITURE v5";
+        $data['rows'][6]['url'] = "http://18.139.219.177/dennynava/06_quotation_furniture_v5.pdf";
         $data['rows'][6]['button_title'] = "open PDF document";
 
-        $data['rows'][7]['title'] = "DENNY - RENDERING v4";
-        $data['rows'][7]['url'] = "http://18.139.219.177/dennynava/08_rendering.pdf";
+        $data['rows'][7]['title'] = "DENNY - QUOTATION SIPIL v2";
+        $data['rows'][7]['url'] = "http://18.139.219.177/dennynava/07_quotation_sipil.pdf";
         $data['rows'][7]['button_title'] = "open PDF document";
+
+        $data['rows'][8]['title'] = "DENNY - RENDERING v4";
+        $data['rows'][8]['url'] = "http://18.139.219.177/dennynava/08_rendering.pdf";
+        $data['rows'][8]['button_title'] = "open PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
