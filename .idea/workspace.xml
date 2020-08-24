@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/duco/duco_bronze_plate_matte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/duco/duco_gray3_plate_matte.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/LibraryV1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LibraryV1.php" afterDir="false" />
     </list>
@@ -36,19 +38,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/portfolio" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
-      <recent name="$PROJECT_DIR$/application/views/appliances" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/application/views/portfolio" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/portfolio" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
+      <recent name="$PROJECT_DIR$/application/views/appliances" />
     </key>
   </component>
   <component name="RunManager">
@@ -167,7 +169,8 @@
       <workItem from="1597850937479" duration="577000" />
       <workItem from="1597897442766" duration="111000" />
       <workItem from="1598086334243" duration="311000" />
-      <workItem from="1598261305561" duration="314000" />
+      <workItem from="1598261305561" duration="496000" />
+      <workItem from="1598286286518" duration="218000" />
     </task>
     <servers />
   </component>

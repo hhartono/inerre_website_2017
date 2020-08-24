@@ -190,9 +190,9 @@ class LibraryV1 extends CI_Controller {
 
     public function duco_gray3_plate_matte()
     {
-        $data['title'] = "TEST1";
-        $data['subtitle'] = "Duco (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+        $data['title'] = "Gray No 3 - Matte";
+        $data['subtitle'] = "Steel Plate - Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
@@ -200,9 +200,9 @@ class LibraryV1 extends CI_Controller {
 
     public function duco_bronze_plate_matte()
     {
-        $data['title'] = "TEST2";
-        $data['subtitle'] = "Duco (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+        $data['title'] = "Bronze - Matte";
+        $data['subtitle'] = "Steel Plate - Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
