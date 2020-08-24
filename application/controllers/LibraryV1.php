@@ -41,6 +41,16 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][3]['controller'] = "LibraryV1/duco_tundragray2_matte";
         $data['ducos'][3]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
 
+        $data['ducos'][4]['title'] = "Gray No 3 - Matte";
+        $data['ducos'][4]['subtitle'] = "Steel Plate - Duco";
+        $data['ducos'][4]['controller'] = "LibraryV1/duco_gray3_plate_matte";
+        $data['ducos'][4]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+
+        $data['ducos'][5]['title'] = "Bronze - Matte";
+        $data['ducos'][5]['subtitle'] = "Steel Plate - Duco";
+        $data['ducos'][5]['controller'] = "LibraryV1/duco_bronze_plate_matte";
+        $data['ducos'][5]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
         $data['lamitaks'][0]['subtitle'] = "HPL Lamitak";
@@ -171,6 +181,26 @@ class LibraryV1 extends CI_Controller {
     public function duco_tundragray2_matte()
     {
         $data['title'] = "Tundra Gray No 2 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_gray3_plate_matte()
+    {
+        $data['title'] = "TEST1";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_bronze_plate_matte()
+    {
+        $data['title'] = "TEST2";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
 
