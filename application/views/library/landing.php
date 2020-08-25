@@ -261,7 +261,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <!-- HPL AICA Section -->
             <div class="heading-line h2-line">
-                <h2>HPL AICA Section</h2>
+                <h2>HPL AICA & EDL Section</h2>
             </div>
 
             <?php
@@ -295,6 +295,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 }
             }
             ?>
+
+            <div class="row"></div>
 
             <!-- Veneer Section -->
             <div class="heading-line h2-line">

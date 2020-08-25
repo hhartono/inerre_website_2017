@@ -103,6 +103,11 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][0]['controller'] = "LibraryV1/aica_antique_white_leather";
         $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
 
+        $data['aicas'][1]['title'] = "Linen Walk the Line";
+        $data['aicas'][1]['subtitle'] = "HPL EDL";
+        $data['aicas'][1]['controller'] = "LibraryV1/edl_linen_walk";
+        $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
+
         /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
         $data['veneers'][0]['subtitle'] = "Veneer";
@@ -312,6 +317,16 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Antique White Leather";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function edl_linen_walk()
+    {
+        $data['title'] = "Linen Walk the Line";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
 
         $this->load->helper('url');
