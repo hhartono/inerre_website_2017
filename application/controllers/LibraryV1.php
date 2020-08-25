@@ -41,20 +41,25 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][3]['controller'] = "LibraryV1/duco_tundragray2_matte";
         $data['ducos'][3]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
 
-        $data['ducos'][4]['title'] = "Gray No 3 - Matte";
-        $data['ducos'][4]['subtitle'] = "Steel Plate - Duco";
-        $data['ducos'][4]['controller'] = "LibraryV1/duco_gray3_plate_matte";
-        $data['ducos'][4]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $data['ducos'][4]['title'] = "Tundra Gray No 2 - Barcode - Matte";
+        $data['ducos'][4]['subtitle'] = "Duco";
+        $data['ducos'][4]['controller'] = "LibraryV1/duco_tundragray2_barcode_matte";
+        $data['ducos'][4]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
 
-        $data['ducos'][5]['title'] = "Bronze - Matte";
+        $data['ducos'][5]['title'] = "Gray No 3 - Matte";
         $data['ducos'][5]['subtitle'] = "Steel Plate - Duco";
-        $data['ducos'][5]['controller'] = "LibraryV1/duco_bronze_plate_matte";
-        $data['ducos'][5]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+        $data['ducos'][5]['controller'] = "LibraryV1/duco_gray3_plate_matte";
+        $data['ducos'][5]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
 
-        $data['ducos'][6]['title'] = "Gray No 3 - Matte";
-        $data['ducos'][6]['subtitle'] = "Duco";
-        $data['ducos'][6]['controller'] = "LibraryV1/duco_gray3_matte";
-        $data['ducos'][6]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $data['ducos'][6]['title'] = "Bronze - Matte";
+        $data['ducos'][6]['subtitle'] = "Steel Plate - Duco";
+        $data['ducos'][6]['controller'] = "LibraryV1/duco_bronze_plate_matte";
+        $data['ducos'][6]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+
+        $data['ducos'][7]['title'] = "Gray No 3 - Matte";
+        $data['ducos'][7]['subtitle'] = "Duco";
+        $data['ducos'][7]['controller'] = "LibraryV1/duco_gray3_matte";
+        $data['ducos'][7]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
 
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
@@ -124,35 +129,40 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
         $data['veneers'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
 
-        $data['veneers'][2]['title'] = "Walnut - Smoke";
+        $data['veneers'][2]['title'] = "Oak - Coffee Open Pore - 2 x 2";
         $data['veneers'][2]['subtitle'] = "Veneer";
-        $data['veneers'][2]['controller'] = "LibraryV1/walnut_smoke";
-        $data['veneers'][2]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $data['veneers'][2]['controller'] = "LibraryV1/oak_coffeeopenpore_2x2";
+        $data['veneers'][2]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
 
-        $data['veneers'][3]['title'] = "Walnut - Smoke - Barcode";
+        $data['veneers'][3]['title'] = "Walnut - Smoke";
         $data['veneers'][3]['subtitle'] = "Veneer";
-        $data['veneers'][3]['controller'] = "LibraryV1/walnut_smoke_barcode";
-        $data['veneers'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+        $data['veneers'][3]['controller'] = "LibraryV1/walnut_smoke";
+        $data['veneers'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
 
-        $data['veneers'][4]['title'] = "Walnut - Smoke - 2 x 2";
+        $data['veneers'][4]['title'] = "Walnut - Smoke - Barcode";
         $data['veneers'][4]['subtitle'] = "Veneer";
-        $data['veneers'][4]['controller'] = "LibraryV1/walnut_smoke_2x2";
-        $data['veneers'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png"; // TEMPORARY
+        $data['veneers'][4]['controller'] = "LibraryV1/walnut_smoke_barcode";
+        $data['veneers'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
 
-        $data['veneers'][5]['title'] = "Walnut - Smoke - CNC1";
+        $data['veneers'][5]['title'] = "Walnut - Smoke - 2 x 2";
         $data['veneers'][5]['subtitle'] = "Veneer";
-        $data['veneers'][5]['controller'] = "LibraryV1/walnut_smoke_CNC1";
-        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+        $data['veneers'][5]['controller'] = "LibraryV1/walnut_smoke_2x2";
+        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png"; // TEMPORARY
 
-        $data['veneers'][6]['title'] = "Walnut - Natural";
+        $data['veneers'][6]['title'] = "Walnut - Smoke - CNC1";
         $data['veneers'][6]['subtitle'] = "Veneer";
-        $data['veneers'][6]['controller'] = "LibraryV1/walnut_natural";
-        $data['veneers'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+        $data['veneers'][6]['controller'] = "LibraryV1/walnut_smoke_CNC1";
+        $data['veneers'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
 
-        $data['veneers'][7]['title'] = "Walnut - Natural - CNC1";
+        $data['veneers'][7]['title'] = "Walnut - Natural";
         $data['veneers'][7]['subtitle'] = "Veneer";
-        $data['veneers'][7]['controller'] = "LibraryV1/walnut_natural_CNC1";
-        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+        $data['veneers'][7]['controller'] = "LibraryV1/walnut_natural";
+        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+
+        $data['veneers'][8]['title'] = "Walnut - Natural - CNC1";
+        $data['veneers'][8]['subtitle'] = "Veneer";
+        $data['veneers'][8]['controller'] = "LibraryV1/walnut_natural_CNC1";
+        $data['veneers'][8]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
 
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
@@ -198,6 +208,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Tundra Gray No 2 - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_tundragray2_barcode_matte()
+    {
+        $data['title'] = "Tundra Gray No 2 - Barcode - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
@@ -373,6 +393,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Oak - Coffee Open Pore - Barcode";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_coffeeopenpore_2x2()
+    {
+        $data['title'] = "Oak - Coffee Open Pore - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
