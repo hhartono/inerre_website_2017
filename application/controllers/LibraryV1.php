@@ -51,6 +51,11 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][5]['controller'] = "LibraryV1/duco_bronze_plate_matte";
         $data['ducos'][5]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
 
+        $data['ducos'][6]['title'] = "Gray No 3 - Matte";
+        $data['ducos'][6]['subtitle'] = "Duco";
+        $data['ducos'][6]['controller'] = "LibraryV1/duco_gray3_matte";
+        $data['ducos'][6]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
         $data['lamitaks'][0]['subtitle'] = "HPL Lamitak";
@@ -213,6 +218,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Bronze - Matte";
         $data['subtitle'] = "Steel Plate - Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_gray3_matte()
+    {
+        $data['title'] = "Gray No 3 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
