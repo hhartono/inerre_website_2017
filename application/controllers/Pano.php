@@ -166,6 +166,20 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function chrisna_project()
+    {
+        $data['rows'][0]['title'] = "CHRISNA - LAMANDAU - Lantai 2 SketchUp";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/chrisna/ChrisnaGrace_Lt2_280820.skp";
+        $data['rows'][0]['button_title'] = "download SketchUp file";
+
+        $data['rows'][1]['title'] = "CHRISNA - LAMANDAU - Lantai 2 Material Palette";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/chrisna/ChrisnaGrace_Material_Lt2_280820.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function test_eksisting()
     {
         $this->load->helper('url');
