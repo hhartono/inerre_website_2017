@@ -180,6 +180,16 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function davin_project()
+    {
+        $data['rows'][0]['title'] = "DAVIN - CINERE - DESIGN PRESENTATION PHASE 1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/davin/Davin_Phase1_280820.pdf";
+        $data['rows'][0]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function test_eksisting()
     {
         $this->load->helper('url');
