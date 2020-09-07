@@ -21,45 +21,59 @@ class LibraryV1 extends CI_Controller {
 	public function index()
 	{
         /* duco section */
-        $data['ducos'][0]['title'] = "Black - Matte";
-        $data['ducos'][0]['subtitle'] = "Duco";
-        $data['ducos'][0]['controller'] = "LibraryV1/duco_black_matte";
-        $data['ducos'][0]['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
+        $ducoiter = 0;
+        $data['ducos'][$ducoiter]['title'] = "Black - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_black_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][1]['title'] = "Soft Gray No 2 - Matte";
-        $data['ducos'][1]['subtitle'] = "Duco";
-        $data['ducos'][1]['controller'] = "LibraryV1/duco_softgray2_mattee";
-        $data['ducos'][1]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][2]['title'] = "Soft Gray No 2 - Barcode - Matte";
-        $data['ducos'][2]['subtitle'] = "Duco";
-        $data['ducos'][2]['controller'] = "LibraryV1/duco_softgray2_barcode_matte";
-        $data['ducos'][2]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_barcode_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - High Gloss";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_gloss";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png"; // TEMPORARY
+        $ducoiter++;
 
-        $data['ducos'][3]['title'] = "Tundra Gray No 2 - Matte";
-        $data['ducos'][3]['subtitle'] = "Duco";
-        $data['ducos'][3]['controller'] = "LibraryV1/duco_tundragray2_matte";
-        $data['ducos'][3]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Barcode - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_barcode_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_barcode_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][4]['title'] = "Tundra Gray No 2 - Barcode - Matte";
-        $data['ducos'][4]['subtitle'] = "Duco";
-        $data['ducos'][4]['controller'] = "LibraryV1/duco_tundragray2_barcode_matte";
-        $data['ducos'][4]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Tundra Gray No 2 - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_tundragray2_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][5]['title'] = "Gray No 3 - Matte";
-        $data['ducos'][5]['subtitle'] = "Steel Plate - Duco";
-        $data['ducos'][5]['controller'] = "LibraryV1/duco_gray3_plate_matte";
-        $data['ducos'][5]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Tundra Gray No 2 - Barcode - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_tundragray2_barcode_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][6]['title'] = "Bronze - Matte";
-        $data['ducos'][6]['subtitle'] = "Steel Plate - Duco";
-        $data['ducos'][6]['controller'] = "LibraryV1/duco_bronze_plate_matte";
-        $data['ducos'][6]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Gray No 3 - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Steel Plate - Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_gray3_plate_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $ducoiter++;
 
-        $data['ducos'][7]['title'] = "Gray No 3 - Matte";
-        $data['ducos'][7]['subtitle'] = "Duco";
-        $data['ducos'][7]['controller'] = "LibraryV1/duco_gray3_matte";
-        $data['ducos'][7]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $data['ducos'][$ducoiter]['title'] = "Bronze - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Steel Plate - Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_bronze_plate_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_bronze_plate_matte.png";
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Gray No 3 - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_gray3_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
 
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
@@ -107,16 +121,26 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][8]['controller'] = "LibraryV1/lamitak_biaggio_noce_roma";
         $data['lamitaks'][8]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_biaggio_noce_roma.png";
 
+        $data['lamitaks'][9]['title'] = "Kiro Shizuoka Oak";
+        $data['lamitaks'][9]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][9]['controller'] = "LibraryV1/lamitak_kiro_shizuoka_oak";
+        $data['lamitaks'][9]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_kiro_shizuoka_oak.png";
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
         $data['aicas'][0]['controller'] = "LibraryV1/aica_antique_white_leather";
         $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
 
-        $data['aicas'][1]['title'] = "Linen Walk the Line";
-        $data['aicas'][1]['subtitle'] = "HPL EDL";
-        $data['aicas'][1]['controller'] = "LibraryV1/edl_linen_walk";
+        $data['aicas'][1]['title'] = "Light Gray Rasen";
+        $data['aicas'][1]['subtitle'] = "HPL AICA";
+        $data['aicas'][1]['controller'] = "LibraryV1/aica_light_gray_rasen";
         $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
+
+        $data['aicas'][2]['title'] = "Linen Walk the Line";
+        $data['aicas'][2]['subtitle'] = "HPL EDL";
+        $data['aicas'][2]['controller'] = "LibraryV1/edl_linen_walk";
+        $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
 
         /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
@@ -186,6 +210,16 @@ class LibraryV1 extends CI_Controller {
     public function duco_softgray2_matte()
     {
         $data['title'] = "Soft Gray No 2 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_softgray2_gloss()
+    {
+        $data['title'] = "Soft Gray No 2 - High Gloss";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
 
@@ -348,6 +382,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    public function lamitak_kiro_shizuoka_oak()
+    {
+        $data['title'] = "Kiro Shizuoka Oak";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_kiro_shizuoka_oak.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
     /*
     *
     * HPL AICA SECTION
@@ -358,6 +402,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Antique White Leather";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function aica_light_gray_rasen()
+    {
+        $data['title'] = "Light Gray Rasen";
+        $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_light_gray_rasen.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
