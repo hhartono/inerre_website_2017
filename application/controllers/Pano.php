@@ -74,8 +74,12 @@ class Pano extends CI_Controller {
 
     public function ayu_project()
     {
+        //$data['rows'][0]['title'] = "AYU - KELAPA GADING - Master Bedroom Lantai 2";
+        //$data['rows'][0]['url'] = "http://18.139.219.177/ayurtu2vtour1/tour.html";
+        //$data['rows'][0]['button_title'] = "see 360 rendering";
+
         $data['rows'][0]['title'] = "AYU - KELAPA GADING - Master Bedroom Lantai 2";
-        $data['rows'][0]['url'] = "http://18.139.219.177/ayurtu2vtour1/tour.html";
+        $data['rows'][0]['url'] = "http://18.139.219.177/ayurtu2vtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
