@@ -188,6 +188,11 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][8]['controller'] = "LibraryV1/walnut_natural_CNC1";
         $data['veneers'][8]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
 
+        $data['veneers'][9]['title'] = "Walnut - Natural - Barcode";
+        $data['veneers'][9]['subtitle'] = "Veneer";
+        $data['veneers'][9]['controller'] = "LibraryV1/walnut_natural_barcode";
+        $data['veneers'][9]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_barcode.png";
+
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
 	}
@@ -517,6 +522,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Walnut - Natural - CNC1";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function walnut_natural_barcode()
+    {
+        $data['title'] = "Walnut - Natural - Barcode";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_barcode.png";
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
