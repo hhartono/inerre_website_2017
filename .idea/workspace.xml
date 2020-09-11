@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/hpl/aica_antique_white_leather.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/hpl/aica_light_gray_rasen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/hpl/edl_linen_walk_line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/LibraryV1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LibraryV1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +36,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/portfolio" />
-      <recent name="$PROJECT_DIR$/application/views/appliances" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/js" />
@@ -184,7 +180,7 @@
       <workItem from="1599544288568" duration="706000" />
       <workItem from="1599659006610" duration="745000" />
       <workItem from="1599664527814" duration="121000" />
-      <workItem from="1599829973115" duration="1217000" />
+      <workItem from="1599829973115" duration="1458000" />
     </task>
     <servers />
   </component>

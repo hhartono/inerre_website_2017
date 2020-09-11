@@ -171,7 +171,7 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][5]['title'] = "Walnut - Smoke - 2 x 2";
         $data['veneers'][5]['subtitle'] = "Veneer";
         $data['veneers'][5]['controller'] = "LibraryV1/walnut_smoke_2x2";
-        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png"; // TEMPORARY
+        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png"; // TEMPORARY
 
         $data['veneers'][6]['title'] = "Walnut - Smoke - CNC1";
         $data['veneers'][6]['subtitle'] = "Veneer";
