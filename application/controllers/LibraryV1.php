@@ -37,7 +37,7 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - High Gloss";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_gloss";
-        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_gloss.png"; 
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_gloss.png";
         $ducoiter++;
 
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Barcode - Matte";
@@ -104,7 +104,7 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][5]['title'] = "Stoffa Mocca";
         $data['lamitaks'][5]['subtitle'] = "HPL Lamitak";
         $data['lamitaks'][5]['controller'] = "LibraryV1/lamitak_stoffa_mocca";
-        $data['lamitaks'][5]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_grigio.png"; // TEMPORARY
+        $data['lamitaks'][5]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_stoffa_mocca.png";
 
         $data['lamitaks'][6]['title'] = "Aiden Pashley";
         $data['lamitaks'][6]['subtitle'] = "HPL Lamitak";
