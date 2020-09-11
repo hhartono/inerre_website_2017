@@ -37,7 +37,7 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - High Gloss";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_gloss";
-        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png"; // TEMPORARY
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_gloss.png"; 
         $ducoiter++;
 
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Barcode - Matte";
@@ -231,7 +231,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Soft Gray No 2 - High Gloss";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_gloss.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
