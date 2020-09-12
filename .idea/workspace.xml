@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/LibraryV1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LibraryV1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/controllers/Pricing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/pricing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,10 +33,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/application/views/portfolio" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
@@ -42,21 +51,19 @@
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/portfolio" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/js" />
-      <recent name="$PROJECT_DIR$/application/views/portfolio" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-      <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.assets">
+    <configuration name="assets" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/assets" />
+      <method v="2" />
+    </configuration>
     <configuration name="library" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/application/views/library" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.assets" />
         <item itemvalue="PHPUnit.library" />
       </list>
     </recent_temporary>
@@ -180,7 +187,8 @@
       <workItem from="1599544288568" duration="706000" />
       <workItem from="1599659006610" duration="745000" />
       <workItem from="1599664527814" duration="121000" />
-      <workItem from="1599829973115" duration="1458000" />
+      <workItem from="1599829973115" duration="2106000" />
+      <workItem from="1599874802083" duration="657000" />
     </task>
     <servers />
   </component>
@@ -191,12 +199,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596280351812">
+    <state x="488" y="151" key="#assets" timestamp="1599877779349">
+      <screen x="0" y="23" width="1680" height="982" />
+    </state>
+    <state x="488" y="151" key="#assets/0.23.1680.982@0.23.1680.982" timestamp="1599877779349" />
+    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599877797542">
       <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state x="444" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.809@0.23.1440.809" timestamp="1594819962699" />
-    <state x="444" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.822@0.23.1440.822" timestamp="1588412305253" />
-    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.982@0.23.1680.982" timestamp="1596280351812" />
+    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.982@0.23.1680.982" timestamp="1599877797542" />
     <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594394829106">
       <screen x="0" y="23" width="1440" height="809" />
     </state>
@@ -215,6 +226,5 @@
       <screen x="0" y="23" width="1440" height="809" />
     </state>
     <state x="392" y="164" width="670" height="668" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1595426097600" />
-    <state x="392" y="166" width="670" height="676" key="search.everywhere.popup/0.23.1440.819@0.23.1440.819" timestamp="1588089773146" />
   </component>
 </project>
