@@ -124,7 +124,7 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
-    public function soegiharto_project()
+    public function soegiharto_project_rev2()
     {
         /*$data['rows'][0]['title'] = "SOEGIHARTO - DESIGN PRESENTATION";
         $data['rows'][0]['url'] = "http://18.139.219.177/pdf/soegiharto/Soegiharto_Presentation_19.08.2020.pdf";
