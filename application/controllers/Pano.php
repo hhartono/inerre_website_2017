@@ -124,6 +124,20 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function soegiharto_project() // TEMPORARY: lupa diganti di pdfnya
+    {
+        $data['rows'][0]['title'] = "SOEGIHARTO - DESIGN PRESENTATION - REVISION 2";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/soegiharto/Soegiharto_Presentation_16.09.2020.pdf";
+        $data['rows'][0]['button_title'] = "download PDF document";
+
+        $data['rows'][1]['title'] = "SOEGIHARTO - GREEN GARDEN - Master Bedroom & WIC - REVISION 2";
+        $data['rows'][1]['url'] = "http://18.139.219.177/soegihartortuvtour2/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function soegiharto_project_rev2()
     {
         /*$data['rows'][0]['title'] = "SOEGIHARTO - DESIGN PRESENTATION";
