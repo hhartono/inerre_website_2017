@@ -138,15 +138,20 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][0]['controller'] = "LibraryV1/aica_antique_white_leather";
         $data['aicas'][0]['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
 
-        $data['aicas'][1]['title'] = "Light Gray Rasen";
+        $data['aicas'][1]['title'] = "Medium Berry Teak";
         $data['aicas'][1]['subtitle'] = "HPL AICA";
-        $data['aicas'][1]['controller'] = "LibraryV1/aica_light_gray_rasen";
-        $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/hpl/aica_light_gray_rasen.png";
+        $data['aicas'][1]['controller'] = "LibraryV1/aica_medium_berry_teak";
+        $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
-        $data['aicas'][2]['title'] = "Linen Walk the Line";
-        $data['aicas'][2]['subtitle'] = "HPL EDL";
-        $data['aicas'][2]['controller'] = "LibraryV1/edl_linen_walk";
-        $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
+        $data['aicas'][2]['title'] = "Light Gray Rasen";
+        $data['aicas'][2]['subtitle'] = "HPL AICA";
+        $data['aicas'][2]['controller'] = "LibraryV1/aica_light_gray_rasen";
+        $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/hpl/aica_light_gray_rasen.png";
+
+        $data['aicas'][3]['title'] = "Linen Walk the Line";
+        $data['aicas'][3]['subtitle'] = "HPL EDL";
+        $data['aicas'][3]['controller'] = "LibraryV1/edl_linen_walk";
+        $data['aicas'][3]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
         /* veneer section */
         $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
@@ -428,6 +433,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Antique White Leather";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_antique_white_leather.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function aica_medium_berry_teak()
+    {
+        $data['title'] = "Medium Berry Teak";
+        $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
