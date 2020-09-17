@@ -78,7 +78,7 @@ class LibraryV1 extends CI_Controller {
 
         $data['ducos'][$ducoiter]['title'] = "Anthracite Gray - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/anthracite_gray_matte";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_anthracite_gray_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         /* HPL Lamitak section */
@@ -532,7 +532,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Walnut - Smoke - CNC2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
