@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/inerre/library/sample_dummy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/LibraryV1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LibraryV1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +37,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/application/views/portfolio" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/thumbnail" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage3/portfolio" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -189,7 +190,8 @@
       <workItem from="1599829973115" duration="2106000" />
       <workItem from="1599874802083" duration="657000" />
       <workItem from="1600263416724" duration="545000" />
-      <workItem from="1600267291169" duration="47000" />
+      <workItem from="1600267291169" duration="71000" />
+      <workItem from="1600341151774" duration="347000" />
     </task>
     <servers />
   </component>

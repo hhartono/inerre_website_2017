@@ -74,6 +74,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_gray3_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Anthracite Gray - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/anthracite_gray_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/sample_dummy.png"; // DUMMY
 
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
@@ -171,7 +177,7 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][5]['title'] = "Walnut - Smoke - 2 x 2";
         $data['veneers'][5]['subtitle'] = "Veneer";
         $data['veneers'][5]['controller'] = "LibraryV1/walnut_smoke_2x2";
-        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png"; // TEMPORARY
+        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png";
 
         $data['veneers'][6]['title'] = "Walnut - Smoke - CNC1";
         $data['veneers'][6]['subtitle'] = "Veneer";
@@ -181,7 +187,7 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][7]['title'] = "Walnut - Smoke - CNC2";
         $data['veneers'][7]['subtitle'] = "Veneer";
         $data['veneers'][7]['controller'] = "LibraryV1/walnut_smoke_CNC2";
-        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
+        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/sample_dummy.png"; // DUMMY
 
         $data['veneers'][8]['title'] = "Walnut - Natural";
         $data['veneers'][8]['subtitle'] = "Veneer";
@@ -292,6 +298,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Gray No 3 - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_gray3_plate_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_anthracite_gray_matte()
+    {
+        $data['title'] = "Anthracite Gray - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/duco/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
