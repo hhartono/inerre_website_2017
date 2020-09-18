@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/application/controllers/Production.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/views/production.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/home.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +37,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/assets/js" />
-      <recent name="$PROJECT_DIR$/application/views/portfolio" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/team" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/assets/js" />
+      <recent name="$PROJECT_DIR$/application/views/portfolio" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -191,7 +192,8 @@
       <workItem from="1600263416724" duration="545000" />
       <workItem from="1600267291169" duration="71000" />
       <workItem from="1600341151774" duration="817000" />
-      <workItem from="1600400888436" duration="3139000" />
+      <workItem from="1600400888436" duration="3360000" />
+      <workItem from="1600440575050" duration="118000" />
     </task>
     <servers />
   </component>
