@@ -993,7 +993,7 @@ ga('send', 'pageview');
                 <div class="row">
 
                     <div class="member col-md-4 col-sm-4 wow">
-                        <a href="/assets/images/team/team-1-desc.jpg.jpg" class="lightbox mr-20">
+                        <a href="/assets/images/team/team-1-desc.jpg" class="lightbox mr-20">
                             <div class="member-image">
                                 <img src="/assets/images/team/team-1.jpg" alt="img">
                             </div>
@@ -1006,7 +1006,7 @@ ga('send', 'pageview');
                     </div>
 
                     <div class="member col-md-4 col-sm-4 wow">
-                        <a href="/assets/images/team/team-2-desc.jpg.jpg" class="lightbox mr-20">
+                        <a href="/assets/images/team/team-2-desc.jpg" class="lightbox mr-20">
                             <div class="member-image">
                                 <img src="/assets/images/team/team-2.jpg" alt="img">
                             </div>
