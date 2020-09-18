@@ -974,7 +974,7 @@ ga('send', 'pageview');
 	    
       </div>
 
-        // ABOUT - START
+        <!-- ABOUT - START -->
         <div id="about-link" class="page-section pt-110-cont">
             <div class="container">
                 <div class="row">
@@ -996,7 +996,7 @@ ga('send', 'pageview');
                         <div class="member-image">
                             <img src="/assets/images/team/team-1.jpg" alt="img">
                         </div>
-                        <h3>NESSA PHOENG</h3>
+                        <h3>HANS HARTONO</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
@@ -1007,7 +1007,7 @@ ga('send', 'pageview');
                         <div class="member-image">
                             <img src="/assets/images/team/team-2.jpg" alt="img">
                         </div>
-                        <h3>HANS HARTONO</h3>
+                        <h3>NESSA PHOENG</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
@@ -1017,7 +1017,7 @@ ga('send', 'pageview');
                 </div>
             </div>
         </div>
-        // ABOUT - END
+        <!-- ABOUT - END -->
 
         <!-- WORK PROCESS 1 -->
         <!--
