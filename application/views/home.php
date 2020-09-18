@@ -998,7 +998,7 @@ ga('send', 'pageview');
                                 <img src="/assets/images/team/team-1.jpg" alt="img">
                             </div>
                         </a>
-                        <h3><a href="/assets/images/team/team-1-desc.jpg" class="lightbox mr-20">HANS HARTONO</a>a</h3>
+                        <h3><a href="/assets/images/team/team-1-desc.jpg" class="lightbox mr-20">HANS HARTONO</a></h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
