@@ -998,8 +998,10 @@ ga('send', 'pageview');
                                 <img src="/assets/images/team/team-1.jpg" alt="img">
                             </div>
                         </a>
-                        <h3>HANS HARTONO</h3>
-                        <span>CO-FOUNDER AND OWNER</span>
+                        <a href="/assets/images/team/team-1-desc.jpg" class="lightbox mr-20">
+                            <h3>HANS HARTONO</h3>
+                            <span>CO-FOUNDER AND OWNER</span>
+                        </a>
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
@@ -1011,8 +1013,10 @@ ga('send', 'pageview');
                                 <img src="/assets/images/team/team-2.jpg" alt="img">
                             </div>
                         </a>
-                        <h3>NESSA PHOENG</h3>
-                        <span>CO-FOUNDER AND OWNER</span>
+                        <a href="/assets/images/team/team-1-desc.jpg" class="lightbox mr-20">
+                            <h3>NESSA PHOENG</h3>
+                            <span>CO-FOUNDER AND OWNER</span>
+                        </a>
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
