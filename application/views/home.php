@@ -174,6 +174,11 @@ ga('send', 'pageview');
                                             </li>
 
                                             <!-- MENU ITEM -->
+                                            <li>
+                                                <a href="#about-link"><div class="main-menu-title">ABOUT</div></a>
+                                            </li>
+
+                                            <!-- MENU ITEM -->
                                             <!-- DISABLE TEAM - TEMPORARY
                                             <li>
                                                 <a href="#team-link"><div class="main-menu-title">TEAM</div></a>
@@ -968,6 +973,51 @@ ga('send', 'pageview');
         </div>
 	    
       </div>
+
+        // ABOUT - START
+        <div id="about-link" class="page-section pt-110-cont">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="mb-50">
+                            <div class="title-fs-45">
+                                ABOUT US<br>
+                            </div>
+                            <div class="line-3-100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="member col-md-6 col-sm-4 wow">
+                        <div class="member-image">
+                            <img src="/assets/images/team/team-1.jpg" alt="img">
+                        </div>
+                        <h3>NESSA PHOENG</h3>
+                        <span>CO-FOUNDER AND OWNER</span>
+                        <ul class="team-social">
+                            <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="member col-md-6 col-sm-4 wow">
+                        <div class="member-image">
+                            <img src="/assets/images/team/team-2.jpg" alt="img">
+                        </div>
+                        <h3>HANS HARTONO</h3>
+                        <span>CO-FOUNDER AND OWNER</span>
+                        <ul class="team-social">
+                            <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        // ABOUT - END
 
         <!-- WORK PROCESS 1 -->
         <!--
