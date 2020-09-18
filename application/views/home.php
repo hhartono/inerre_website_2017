@@ -1019,6 +1019,9 @@ ga('send', 'pageview');
         </div>
         <!-- ABOUT - END -->
 
+        <!-- DIVIDER -->
+        <hr class="mt-0 mb-0">
+
         <!-- WORK PROCESS 1 -->
         <!--
         <div class="page-section work-proc-1-bg" >
