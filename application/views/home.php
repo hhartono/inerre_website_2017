@@ -175,6 +175,11 @@ ga('send', 'pageview');
 
                                             <!-- MENU ITEM -->
                                             <li>
+                                                <a href="http://18.139.219.177/pdf/production/inerre_production_facility.pdf"><div class="main-menu-title">PRODUCTION</div></a>
+                                            </li>
+
+                                            <!-- MENU ITEM -->
+                                            <li>
                                                 <a href="#about-link"><div class="main-menu-title">ABOUT</div></a>
                                             </li>
 
