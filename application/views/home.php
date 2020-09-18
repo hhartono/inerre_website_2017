@@ -992,25 +992,25 @@ ga('send', 'pageview');
 
                 <div class="row">
 
-                    <div class="member col-md-6 col-sm-4 wow">
+                    <div class="member col-md-4 col-sm-4 wow">
                         <div class="member-image">
                             <img src="/assets/images/team/team-1.jpg" alt="img">
                         </div>
                         <h3>HANS HARTONO</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
-                    <div class="member col-md-6 col-sm-4 wow">
+                    <div class="member col-md-4 col-sm-4 wow">
                         <div class="member-image">
                             <img src="/assets/images/team/team-2.jpg" alt="img">
                         </div>
                         <h3>NESSA PHOENG</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
-                            <li><a href="https://www.instagram.com/hhartono/"><span aria-hidden="true" class="social_instagram"></span></a></li>
+                            <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
                     </div>
 
