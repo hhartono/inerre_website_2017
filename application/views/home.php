@@ -993,9 +993,11 @@ ga('send', 'pageview');
                 <div class="row">
 
                     <div class="member col-md-4 col-sm-4 wow">
-                        <div class="member-image">
-                            <img src="/assets/images/team/team-1.jpg" alt="img">
-                        </div>
+                        <a href="/assets/images/inerre/portfolio/portfolio4/portfolio/03.jpg" class="lightbox mr-20">
+                            <div class="member-image">
+                                <img src="/assets/images/team/team-1.jpg" alt="img">
+                            </div>
+                        </a>
                         <h3>HANS HARTONO</h3>
                         <span>CO-FOUNDER AND OWNER</span>
                         <ul class="team-social">
