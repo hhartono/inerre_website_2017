@@ -1004,6 +1004,15 @@ ga('send', 'pageview');
                     </div>
 
                     <div class="member col-md-4 col-sm-4 wow">
+                        <div class="fes2-text-cont">Hans Kristian Hartono is a founder and Chief Production Officer of INERRE Interior. He is the mastermind behind the exquisite build and technical details of INERRE custom furniture. Majoring in Computer Science, Hans received his Bachelor of Science Degree from Purdue University and Master of Science Degree from University of Southern California (USC) in the United States. With this strong educational background, he develops the meticulous furniture details and manufacturing process using the latest 4.0 industry-standard.
+
+                            He custom develops advanced presentation methods, such as virtual reality (VR) and augmented reality (AR) to make sure that INERRE clients have a clear understanding of their project.
+
+                            As a Chief Production Officer, Hans has applied 4.0 industry-standard to INERRE design & manufacturing pipeline to make sure the highest precision & perfection of every single product that the company has to offer.
+
+                            Outside his work at INERRE, Hans enjoys writing computer programs & taking photographs of his beautiful family.
+                        </div>
+                        <!--
                         <div class="member-image">
                             <img src="/assets/images/team/team-2.jpg" alt="img">
                         </div>
@@ -1012,6 +1021,7 @@ ga('send', 'pageview');
                         <ul class="team-social">
                             <li><a href="https://www.instagram.com/nessa_ph/"><span aria-hidden="true" class="social_instagram"></span></a></li>
                         </ul>
+                        -->
                     </div>
 
                 </div>
