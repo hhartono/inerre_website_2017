@@ -232,7 +232,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/pdf/davin/Davin_Phase1_280820.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
-        $data['rows'][1]['title'] = "DAVIN - CINERE - DESIGN PRESENTATION PHASE 1";
+        $data['rows'][1]['title'] = "DAVIN - CINERE - 360 RENDERING PHASE 1";
         $data['rows'][1]['url'] = "http://18.139.219.177/davinvtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
