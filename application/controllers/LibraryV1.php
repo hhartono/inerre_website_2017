@@ -432,7 +432,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Fondue Ash";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/library/sample_dummy.png"; //DUMMY
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
