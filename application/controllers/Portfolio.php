@@ -68,7 +68,7 @@ class Portfolio extends CI_Controller {
         $data['category'] = 'PRIVATE PROPERTY';
         $data['location'] = 'SINGGASANA PRADANA, BANDUNG, INDONESIA';
 
-        $data['directory_name'] = 'portfoliopage7';
+        $data['directory_name'] = 'portfoliopage5';
         $data['total_photo'] = '39';
 
         $this->load->helper('url');
