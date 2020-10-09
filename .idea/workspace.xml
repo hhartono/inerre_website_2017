@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Portfolio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +36,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/team" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/assets/js" />
       <recent name="$PROJECT_DIR$/application/views/portfolio" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7" />
+      <recent name="$PROJECT_DIR$/assets/images/team" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -197,7 +198,9 @@
       <workItem from="1600833937353" duration="888000" />
       <workItem from="1601277250514" duration="228000" />
       <workItem from="1601987579372" duration="609000" />
-      <workItem from="1602082401237" duration="214000" />
+      <workItem from="1602082401237" duration="258000" />
+      <workItem from="1602221134894" duration="514000" />
+      <workItem from="1602251137070" duration="174000" />
     </task>
     <servers />
   </component>
