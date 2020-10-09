@@ -2,85 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Portfolio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/portfolio/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/portfolio/39.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/08.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/08.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/09.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/09.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/28.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/29.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/30.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/31.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/32.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/33.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/34.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/35.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/36.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/37.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/38.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7/thumbnail/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage5/thumbnail/39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/portfolio/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/portfolio/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +45,11 @@
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage6" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfolio7" />
       <recent name="$PROJECT_DIR$/assets/images/team" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -277,7 +201,7 @@
       <workItem from="1601987579372" duration="609000" />
       <workItem from="1602082401237" duration="258000" />
       <workItem from="1602221134894" duration="514000" />
-      <workItem from="1602251137070" duration="335000" />
+      <workItem from="1602251137070" duration="644000" />
     </task>
     <servers />
   </component>
