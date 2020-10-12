@@ -151,7 +151,7 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][1]['title'] = "Medium Berry Teak";
         $data['aicas'][1]['subtitle'] = "HPL AICA";
         $data['aicas'][1]['controller'] = "LibraryV1/aica_medium_berry_teak";
-        $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['aicas'][1]['sample_url'] = "/assets/images/inerre/library/hpl/aica_medium_berry_teak";
 
         $data['aicas'][2]['title'] = "Gray Artizan Oak";
         $data['aicas'][2]['subtitle'] = "HPL AICA";
@@ -207,7 +207,7 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][7]['title'] = "Walnut - Smoke - CNC2";
         $data['veneers'][7]['subtitle'] = "Veneer";
         $data['veneers'][7]['controller'] = "LibraryV1/walnut_smoke_CNC2";
-        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
 
         $data['veneers'][8]['title'] = "Walnut - Natural";
         $data['veneers'][8]['subtitle'] = "Veneer";
@@ -477,7 +477,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Medium Berry Teak";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_medium_berry_teak.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
@@ -592,7 +592,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Walnut - Smoke - CNC2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
