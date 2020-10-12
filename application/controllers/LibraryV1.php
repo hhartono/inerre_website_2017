@@ -137,6 +137,11 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][10]['controller'] = "LibraryV1/lamitak_fondue_ash";
         $data['lamitaks'][10]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
+        $data['lamitaks'][11]['title'] = "Urban Slate";
+        $data['lamitaks'][11]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][11]['controller'] = "LibraryV1/lamitak_urban_slate";
+        $data['lamitaks'][11]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
@@ -436,6 +441,16 @@ class LibraryV1 extends CI_Controller {
     public function lamitak_fondue_ash()
     {
         $data['title'] = "Fondue Ash";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_urban_slate()
+    {
+        $data['title'] = "Urban Slate";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
 
