@@ -156,7 +156,7 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][2]['title'] = "Gray Artizan Oak";
         $data['aicas'][2]['subtitle'] = "HPL AICA";
         $data['aicas'][2]['controller'] = "LibraryV1/aica_gray_artizan_oak";
-        $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/hpl/aica_gray_artizan_oak.png";
 
         $data['aicas'][3]['title'] = "Light Gray Rasen";
         $data['aicas'][3]['subtitle'] = "HPL AICA";
@@ -487,7 +487,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Gray Artizan Oak";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; //DUMMY
+        $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_gray_artizan_oak.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
