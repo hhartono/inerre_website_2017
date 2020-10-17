@@ -28,6 +28,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
         $ducoiter++;
 
+        $data['ducos'][$ducoiter]['title'] = "Black - High Gloss";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_black_gloss";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_matte";
@@ -169,60 +175,78 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
         /* veneer section */
-        $data['veneers'][0]['title'] = "Oak - Coffee Open Pore";
-        $data['veneers'][0]['subtitle'] = "Veneer";
-        $data['veneers'][0]['controller'] = "LibraryV1/oak_coffeeopenpore";
-        $data['veneers'][0]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
+        $veneeriter = 0;
+        $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore.png";
+        $veneeriter++;
 
-        $data['veneers'][1]['title'] = "Oak - Coffee Open Pore - Barcode";
-        $data['veneers'][1]['subtitle'] = "Veneer";
-        $data['veneers'][1]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
-        $data['veneers'][1]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+        $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore - Barcode";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore_barcode";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_barcode.png";
+        $veneeriter++;
 
-        $data['veneers'][2]['title'] = "Oak - Coffee Open Pore - 2 x 2";
-        $data['veneers'][2]['subtitle'] = "Veneer";
-        $data['veneers'][2]['controller'] = "LibraryV1/oak_coffeeopenpore_2x2";
-        $data['veneers'][2]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+        $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore - 2 x 2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore_2x2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+        $veneeriter++;
 
-        $data['veneers'][3]['title'] = "Walnut - Smoke";
-        $data['veneers'][3]['subtitle'] = "Veneer";
-        $data['veneers'][3]['controller'] = "LibraryV1/walnut_smoke";
-        $data['veneers'][3]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $data['veneers'][$veneeriter]['title'] = "Rough Cut Oak - Mink Oak";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/roughcutoak_minkoak";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
 
-        $data['veneers'][4]['title'] = "Walnut - Smoke - Barcode";
-        $data['veneers'][4]['subtitle'] = "Veneer";
-        $data['veneers'][4]['controller'] = "LibraryV1/walnut_smoke_barcode";
-        $data['veneers'][4]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoke";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoke";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $veneeriter++;
 
-        $data['veneers'][5]['title'] = "Walnut - Smoke - 2 x 2";
-        $data['veneers'][5]['subtitle'] = "Veneer";
-        $data['veneers'][5]['controller'] = "LibraryV1/walnut_smoke_2x2";
-        $data['veneers'][5]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoke - Barcode";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoke_barcode";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_barcode.png";
+        $veneeriter++;
 
-        $data['veneers'][6]['title'] = "Walnut - Smoke - CNC1";
-        $data['veneers'][6]['subtitle'] = "Veneer";
-        $data['veneers'][6]['controller'] = "LibraryV1/walnut_smoke_CNC1";
-        $data['veneers'][6]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoke - 2 x 2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoke_2x2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png";
+        $veneeriter++;
 
-        $data['veneers'][7]['title'] = "Walnut - Smoke - CNC2";
-        $data['veneers'][7]['subtitle'] = "Veneer";
-        $data['veneers'][7]['controller'] = "LibraryV1/walnut_smoke_CNC2";
-        $data['veneers'][7]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoke - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoke_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+        $veneeriter++;
 
-        $data['veneers'][8]['title'] = "Walnut - Natural";
-        $data['veneers'][8]['subtitle'] = "Veneer";
-        $data['veneers'][8]['controller'] = "LibraryV1/walnut_natural";
-        $data['veneers'][8]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoke - CNC2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoke_CNC2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
+        $veneeriter++;
 
-        $data['veneers'][9]['title'] = "Walnut - Natural - CNC1";
-        $data['veneers'][9]['subtitle'] = "Veneer";
-        $data['veneers'][9]['controller'] = "LibraryV1/walnut_natural_CNC1";
-        $data['veneers'][9]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Natural";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+        $veneeriter++;
 
-        $data['veneers'][10]['title'] = "Walnut - Natural - Barcode";
-        $data['veneers'][10]['subtitle'] = "Veneer";
-        $data['veneers'][10]['controller'] = "LibraryV1/walnut_natural_barcode";
-        $data['veneers'][10]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_barcode.png";
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Natural - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_cnc1.png";
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Natural - Barcode";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural_barcode";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_barcode.png";
+        $veneeriter++;
 
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
@@ -238,6 +262,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Black - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_black_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_black_gloss()
+    {
+        $data['title'] = "Black - High Gloss";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
@@ -543,6 +577,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Oak - Coffee Open Pore - 2 x 2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function roughcutoak_minkoak()
+    {
+        $data['title'] = "Rough Cut Oak - Mink Oak";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
