@@ -270,7 +270,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SOEGIHARTO - GREEN GARDEN</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/soegiharto_project_rev3'); ?>">see project</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/soegiharto_project_rev4'); ?>">see project</a>
                             </div>
                         </div>
                     </div>
