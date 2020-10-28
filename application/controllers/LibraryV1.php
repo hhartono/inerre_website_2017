@@ -432,6 +432,26 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    public function lamitak_stoffa_nero()
+    {
+        $data['title'] = "Stoffa Nero";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_georgian_slate()
+    {
+        $data['title'] = "Georgian Slate";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
     public function lamitak_aiden_pashley()
     {
         $data['title'] = "Aiden Pashley";
