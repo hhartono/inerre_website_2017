@@ -252,6 +252,14 @@ class Pano extends CI_Controller {
         $data['rows'][1]['url'] = "http://18.139.219.177/pdf/chrisna/ChrisnaGrace_Material_Lt2_280820.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
+        $data['rows'][2]['title'] = "CHRISNA - LAMANDAU - Lantai 1 - 360 Rendering";
+        $data['rows'][2]['url'] = "http://18.139.219.177/chrisnavtourlt1/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
+
+        $data['rows'][3]['title'] = "CHRISNA - LAMANDAU - Lantai 2 - 360 Rendering";
+        $data['rows'][3]['url'] = "http://18.139.219.177/chrisnavtourlt2/tour.html";
+        $data['rows'][3]['button_title'] = "see 360 rendering";
+        
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
