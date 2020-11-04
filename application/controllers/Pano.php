@@ -290,7 +290,7 @@ class Pano extends CI_Controller {
 
     public function timothy_project()
     {
-        $data['rows'][0]['title'] = "TIMOTHY - 360 RENDERING PHASE 1";
+        $data['rows'][0]['title'] = "TIMOTHY - 360 RENDERING";
         $data['rows'][0]['url'] = "http://18.139.219.177/timothyvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
