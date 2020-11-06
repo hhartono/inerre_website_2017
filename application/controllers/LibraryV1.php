@@ -148,6 +148,21 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][11]['controller'] = "LibraryV1/lamitak_urban_slate";
         $data['lamitaks'][11]['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_urban_slate.png";
 
+        $data['lamitaks'][12]['title'] = "Hermes Marcello Walnut";
+        $data['lamitaks'][12]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][12]['controller'] = "LibraryV1/lamitak_hermes_marcello_walnut";
+        $data['lamitaks'][12]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][13]['title'] = "Febe Noce Portofino";
+        $data['lamitaks'][13]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][13]['controller'] = "LibraryV1/lamitak_febe_noce_portofino";
+        $data['lamitaks'][13]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][14]['title'] = "Gloss Wheat";
+        $data['lamitaks'][14]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][14]['controller'] = "LibraryV1/lamitak_gloss_wheat";
+        $data['lamitaks'][14]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
@@ -507,6 +522,36 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Urban Slate";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/lamitak_urban_slate.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_hermes_marcello_walnut()
+    {
+        $data['title'] = "Hermes Marcello Walnut";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_febe_noce_portofino()
+    {
+        $data['title'] = "Febe Noce Portofino";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_gloss_wheat()
+    {
+        $data['title'] = "Gloss Wheat";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
