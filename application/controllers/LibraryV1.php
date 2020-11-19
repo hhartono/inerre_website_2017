@@ -251,6 +251,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Natural - 2 x 2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural_2x2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
+
         $data['veneers'][$veneeriter]['title'] = "Walnut - Natural - CNC1";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural_CNC1";
@@ -712,6 +718,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Walnut - Natural";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function walnut_natural_2x2()
+    {
+        $data['title'] = "Walnut - Natural - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
