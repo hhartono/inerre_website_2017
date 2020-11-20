@@ -625,7 +625,7 @@ class LibraryV1 extends CI_Controller {
 
     public function taco_olivie_afromosia()
     {
-        $data['title'] = "Olivie Afromosia;";
+        $data['title'] = "Olivie Afromosia";
         $data['subtitle'] = "HPL TACO (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
