@@ -189,6 +189,11 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][4]['controller'] = "LibraryV1/edl_linen_walk";
         $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
+        $data['aicas'][5]['title'] = "Olivie Afromosia;";
+        $data['aicas'][5]['subtitle'] = "HPL TACO";
+        $data['aicas'][5]['controller'] = "LibraryV1/taco_olivie_afromosia";
+        $data['aicas'][5]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
         /* veneer section */
         $veneeriter = 0;
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore";
@@ -537,7 +542,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Hermes Marcello Walnut";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
@@ -547,7 +552,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Febe Noce Portofino";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
@@ -557,7 +562,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Gloss Wheat";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
@@ -613,6 +618,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Linen Walk the Line";
         $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function taco_olivie_afromosia()
+    {
+        $data['title'] = "Olivie Afromosia;";
+        $data['subtitle'] = "HPL TACO (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
