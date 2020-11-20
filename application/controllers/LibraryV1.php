@@ -189,7 +189,7 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][4]['controller'] = "LibraryV1/edl_linen_walk";
         $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
-        $data['aicas'][5]['title'] = "Olivie Afromosia;";
+        $data['aicas'][5]['title'] = "Olivie Afromosia";
         $data['aicas'][5]['subtitle'] = "HPL TACO";
         $data['aicas'][5]['controller'] = "LibraryV1/taco_olivie_afromosia";
         $data['aicas'][5]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
