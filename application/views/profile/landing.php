@@ -162,6 +162,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- CONTACT INFO SECTION 1 -->
         <div id="contact-link" class="page-section p-110-cont">
             <div class="container">
+
+                <div class="row">
+                    <div id="tabs" class="mb-10 bs-docs-section">
+                        <div class="heading-underline h3-line">
+                            <h3 class="mb-20" >INERRE WORKSHOP</h3>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
@@ -204,6 +213,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">WORKSHOP: Skillful Installer Team</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">20+ Years Experienced Installer</a>
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="tabs" class="mb-10 bs-docs-section">
+                        <div class="heading-underline h3-line">
+                            <h3 class="mb-20" >INERRE DESIGN</h3>
                         </div>
                     </div>
                 </div>
