@@ -185,10 +185,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">WORKSHOP: High Quality Material</span></h3>
-                                <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">wood veneer</a>
+                                <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">Wood Veneer</a>
                                 <a class="button medium thin hover-dark" href="https://international.lamitak.com/collections/patterns">Lamitak HPL</a>
                                 <a class="button medium thin hover-dark" href="http://www.milesi.com/en">Milesi Finishing</a>
                                 <a class="button medium thin hover-dark" href="http://www.smip.co.id/product.html">Full Meranti Plywood</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">WORKSHOP: Skillful Installer Team</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">20+ Years Experienced Installer</a>
                             </div>
                         </div>
                     </div>
