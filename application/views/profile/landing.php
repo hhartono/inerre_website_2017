@@ -208,6 +208,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">DESIGN: Real Sample for Our Client</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('LibraryV1'); ?>">see INERRE samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
