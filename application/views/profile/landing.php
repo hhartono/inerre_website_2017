@@ -178,7 +178,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">WORKSHOP: Production Facility</span></h3>
+                                <h3><span class="bold">01. Production Facility</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/inerre_profile/01_inerre_production_facility.pdf">see facility (PDF)</a>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano'); ?>">see facility (VIDEO)</a>
                             </div>
@@ -193,7 +193,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">WORKSHOP: High Quality Material</span></h3>
+                                <h3><span class="bold">02. High Quality Material</span></h3>
                                 <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">Wood Veneer</a>
                                 <a class="button medium thin hover-dark" href="https://international.lamitak.com/collections/patterns">Lamitak HPL</a>
                                 <a class="button medium thin hover-dark" href="http://www.milesi.com/en">Milesi Finishing</a>
@@ -210,7 +210,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">WORKSHOP: Skillful Installer Team</span></h3>
+                                <h3><span class="bold">03. Skillful Installer Team</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">20+ Years Experienced Installer</a>
                             </div>
                         </div>
@@ -232,7 +232,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">DESIGN: Real Sample for Our Client</span></h3>
+                                <h3><span class="bold">01. Real Sample for Our Client</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('LibraryV1'); ?>">see INERRE samples</a>
                             </div>
                         </div>
@@ -246,7 +246,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">DESIGN: Detailed Presentation + 360 Rendering</span></h3>
+                                <h3><span class="bold">02. Detailed Presentation + 360 Rendering</span></h3>
                                 <a class="button medium thin hover-dark" href="http://inerre.com/index.php/Pano/chelsea_project_rev3">see INERRE presentation</a>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">DESIGN: Strong Designer Team</span></h3>
+                                <h3><span class="bold">03. Strong Designer Team</span></h3>
                                 <a class="button medium thin hover-dark" href="http://inerre.com/#about-link">see INERRE design principal</a>
                             </div>
                         </div>
@@ -274,7 +274,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">DESIGN: Attention to Detail</span></h3>
+                                <h3><span class="bold">04. Attention to Detail</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">see INERRE portfolio</a>
                             </div>
                         </div>
