@@ -169,9 +169,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">Production Facility</span></h3>
+                                <h3><span class="bold">WORKSHOP: Production Facility</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/inerre_profile/01_inerre_production_facility.pdf">see facility (PDF)</a>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano'); ?>">see facility</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano'); ?>">see facility (VIDEO)</a>
                             </div>
                         </div>
                     </div>
@@ -184,8 +184,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">360 Existing Site Photos</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Existing'); ?>">see 360 photos</a>
+                                <h3><span class="bold">WORKSHOP: High Quality Material</span></h3>
+                                <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">wood veneer</a>
+                                <a class="button medium thin hover-dark" href="https://international.lamitak.com/collections/patterns">Lamitak HPL</a>
+                                <a class="button medium thin hover-dark" href="http://www.milesi.com/en">Milesi Finishing</a>
+                                <a class="button medium thin hover-dark" href="http://www.smip.co.id/product.html">Full Meranti Plywood</a>
                             </div>
                         </div>
                     </div>
