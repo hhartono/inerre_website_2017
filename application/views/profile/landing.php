@@ -185,6 +185,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">WORKSHOP: High Quality Material</span></h3>
+                                <h1><span class="bold">NOTES: Material can be seen at INERRE Showroom</span></h1>
                                 <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">Wood Veneer</a>
                                 <a class="button medium thin hover-dark" href="https://international.lamitak.com/collections/patterns">Lamitak HPL</a>
                                 <a class="button medium thin hover-dark" href="http://www.milesi.com/en">Milesi Finishing</a>
