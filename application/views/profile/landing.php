@@ -175,7 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-basic-hammer"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">01. Production Facility</span></h3>
@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-basic-hammer"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">02. High Quality Material</span></h3>
@@ -207,7 +207,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-basic-hammer"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">03. Skillful Installer Team</span></h3>
@@ -229,7 +229,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">01. Real Sample for Our Client</span></h3>
@@ -243,7 +243,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">02. Detailed Presentation + 360 Rendering</span></h3>
@@ -257,7 +257,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">03. Strong Designer Team</span></h3>
@@ -271,7 +271,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
+                                <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">04. Attention to Detail</span></h3>
