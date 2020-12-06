@@ -232,7 +232,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">01. Real Sample for Our Client</span></h3>
+                                <h3><span class="bold">01. Real Samples</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('LibraryV1'); ?>">see INERRE samples</a>
                             </div>
                         </div>
@@ -260,7 +260,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">03. Strong Designer Team</span></h3>
+                                <h3><span class="bold">03. Solid Design Team</span></h3>
                                 <a class="button medium thin hover-dark" href="http://inerre.com/#about-link">see INERRE design principal</a>
                             </div>
                         </div>
@@ -274,7 +274,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-software-pencil"></div>
                             </div>
                             <div class="cis-text demo-buttons">
-                                <h3><span class="bold">04. Attention to Detail</span></h3>
+                                <h3><span class="bold">04. Our Portfolios</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Portfolio'); ?>">see INERRE portfolio</a>
                             </div>
                         </div>
