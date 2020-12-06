@@ -185,7 +185,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">WORKSHOP: High Quality Material</span></h3>
-                                <h5>NOTES: Material can be seen at INERRE Showroom</h5>
                                 <a class="button medium thin hover-dark" href="https://www.thearchitectsguide.com/blog/wood-veneer">Wood Veneer</a>
                                 <a class="button medium thin hover-dark" href="https://international.lamitak.com/collections/patterns">Lamitak HPL</a>
                                 <a class="button medium thin hover-dark" href="http://www.milesi.com/en">Milesi Finishing</a>
@@ -218,6 +217,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">DESIGN: Real Sample for Our Client</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('LibraryV1'); ?>">see INERRE samples</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
+                                <h3><span class="bold">DESIGN: Detailed Presentation + 360 Rendering</span></h3>
+                                <a class="button medium thin hover-dark" href="http://inerre.com/index.php/Pano/chelsea_project_rev3">see INERRE presentation</a>
                             </div>
                         </div>
                     </div>
