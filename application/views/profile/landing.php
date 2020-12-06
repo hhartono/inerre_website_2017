@@ -170,6 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text demo-buttons">
                                 <h3><span class="bold">Production Facility</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/inerre_profile/01_inerre_production_facility.pdf">see facility (PDF)</a>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano'); ?>">see facility</a>
                             </div>
                         </div>
