@@ -288,17 +288,21 @@ class Pano extends CI_Controller {
 
     public function sariwati_project()
     {
-        $data['rows'][0]['title'] = "SARIWATI - ANCOL - DESIGN PRESENTATION PHASE 1";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/sariwati/Sariwati_Presentation_27.11.2020.pdf";
+        $data['rows'][0]['title'] = "SARIWATI - ANCOL - DESIGN PRESENTATION - STUDY ROOM";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/sariwati/Sariwati_Presentation_08.01.2020.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
-        $data['rows'][1]['title'] = "SARIWATI - ANCOL - 360 RENDERING PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/sariwatirta1vtour/tour.html";
+        $data['rows'][1]['title'] = "SARIWATI - ANCOL - 360 RENDERING - STUDY ROOM";
+        $data['rows'][1]['url'] = "http://18.139.219.177/sariwatistudyroomvtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
-        $data['rows'][2]['title'] = "SARIWATI - ANCOL - 360 RENDERING PHASE 2";
-        $data['rows'][2]['url'] = "http://18.139.219.177/sariwatistudyroomvtour/tour.html";
-        $data['rows'][2]['button_title'] = "see 360 rendering";
+        $data['rows'][2]['title'] = "SARIWATI - ANCOL - DESIGN PRESENTATION - RTA1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/sariwati/Sariwati_Presentation_27.11.2020.pdf";
+        $data['rows'][2]['button_title'] = "download PDF document";
+
+        $data['rows'][3]['title'] = "SARIWATI - ANCOL - 360 RENDERING - RTA1";
+        $data['rows'][3]['url'] = "http://18.139.219.177/sariwatirta1vtour/tour.html";
+        $data['rows'][3]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
