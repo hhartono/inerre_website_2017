@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/LibraryV1.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/LibraryV1.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,8 @@
       <workItem from="1608738607064" duration="252000" />
       <workItem from="1609727854902" duration="417000" />
       <workItem from="1610026732959" duration="642000" />
-      <workItem from="1610085969500" duration="138000" />
+      <workItem from="1610085969500" duration="264000" />
+      <workItem from="1610099453969" duration="344000" />
     </task>
     <servers />
   </component>
@@ -239,32 +240,13 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="151" key="#assets" timestamp="1599877779349">
+    <state x="526" y="227" key="run.anything.popup" timestamp="1610099739839">
       <screen x="0" y="23" width="1680" height="982" />
     </state>
-    <state x="488" y="151" key="#assets/0.23.1680.982@0.23.1680.982" timestamp="1599877779349" />
-    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599877797542">
+    <state x="526" y="227" key="run.anything.popup/0.23.1680.982@0.23.1680.982" timestamp="1610099739839" />
+    <state x="526" y="229" width="670" height="676" key="search.everywhere.popup" timestamp="1610099754958">
       <screen x="0" y="23" width="1680" height="982" />
     </state>
-    <state x="444" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.809@0.23.1440.809" timestamp="1594819962699" />
-    <state x="518" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.982@0.23.1680.982" timestamp="1599877797542" />
-    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594394829106">
-      <screen x="0" y="23" width="1440" height="809" />
-    </state>
-    <state x="458" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.809@0.23.1440.809" timestamp="1594394829106" />
-    <state x="363" y="75" key="#library" timestamp="1594819914735">
-      <screen x="0" y="23" width="1440" height="809" />
-    </state>
-    <state x="363" y="75" key="#library/0.23.1440.809@0.23.1440.809" timestamp="1594819914735" />
-    <state x="436" y="316" key="com.intellij.ide.util.TipDialog" timestamp="1595950834512">
-      <screen x="0" y="23" width="1680" height="982" />
-    </state>
-    <state x="374" y="264" key="com.intellij.ide.util.TipDialog/0.23.1440.809@0.23.1440.809" timestamp="1593787521973" />
-    <state x="374" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1592751149987" />
-    <state x="436" y="316" key="com.intellij.ide.util.TipDialog/0.23.1680.982@0.23.1680.982" timestamp="1595950834512" />
-    <state x="392" y="164" width="670" height="668" key="search.everywhere.popup" timestamp="1595426097600">
-      <screen x="0" y="23" width="1440" height="809" />
-    </state>
-    <state x="392" y="164" width="670" height="668" key="search.everywhere.popup/0.23.1440.809@0.23.1440.809" timestamp="1595426097600" />
+    <state x="526" y="229" width="670" height="676" key="search.everywhere.popup/0.23.1680.982@0.23.1680.982" timestamp="1610099754958" />
   </component>
 </project>
