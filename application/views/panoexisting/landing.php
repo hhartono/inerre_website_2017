@@ -268,7 +268,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">LUCIANA - GURUMINDA</span></h3>
+                                <h3><span class="bold">LUSIANA - GURUMINDA</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/lusiana/tour.html">see existing</a>
                             </div>
                         </div>
