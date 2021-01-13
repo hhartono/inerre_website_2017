@@ -229,7 +229,7 @@
       <workItem from="1609727854902" duration="417000" />
       <workItem from="1610026732959" duration="642000" />
       <workItem from="1610085969500" duration="264000" />
-      <workItem from="1610099453969" duration="344000" />
+      <workItem from="1610099453969" duration="453000" />
     </task>
     <servers />
   </component>
@@ -244,9 +244,9 @@
       <screen x="0" y="23" width="1680" height="982" />
     </state>
     <state x="526" y="227" key="run.anything.popup/0.23.1680.982@0.23.1680.982" timestamp="1610099739839" />
-    <state x="526" y="229" width="670" height="676" key="search.everywhere.popup" timestamp="1610099754958">
+    <state x="526" y="229" width="670" height="158" key="search.everywhere.popup" timestamp="1610526127257">
       <screen x="0" y="23" width="1680" height="982" />
     </state>
-    <state x="526" y="229" width="670" height="676" key="search.everywhere.popup/0.23.1680.982@0.23.1680.982" timestamp="1610099754958" />
+    <state x="526" y="229" width="670" height="158" key="search.everywhere.popup/0.23.1680.982@0.23.1680.982" timestamp="1610526127257" />
   </component>
 </project>
