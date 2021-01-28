@@ -368,9 +368,13 @@ class Pano extends CI_Controller {
 
     public function lusiana_project()
     {
-        $data['rows'][0]['title'] = "LUSIANA - 360 RENDERING - PHASE 1";
-        $data['rows'][0]['url'] = "http://18.139.219.177/lusianavtour/tour.html";
-        $data['rows'][0]['button_title'] = "see 360 rendering";
+        $data['rows'][0]['title'] = "LUSIANA - DESIGN PRESENTATION - PHASE 1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/lusiana/Lusiana_Presentation_29.01.2021.pdf";
+        $data['rows'][0]['button_title'] = "download PDF document";
+
+        $data['rows'][1]['title'] = "LUSIANA - 360 RENDERING - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/lusianavtour/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
