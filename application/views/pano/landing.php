@@ -260,17 +260,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">LUSIANA - KOTA BARU PARAHYANGAN - FASE 1</span></h3>
+                                <h3><span class="bold">LUSIANA - KOTA BARU PARAHYANGAN - FASE 1 & 2</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/lusiana_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">LUSIANA - KOTA BARU PARAHYANGAN  - FASE 2</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/lusiana_project_2'); ?>">see project</a>
                             </div>
                         </div>
                         <div class="cis-cont">
