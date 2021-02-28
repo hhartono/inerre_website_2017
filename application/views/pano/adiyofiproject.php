@@ -201,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="row">
                     <div id="tabs" class="mb-10 bs-docs-section">
                         <div class="heading-underline h3-line">
-                            <h3 class="mb-20" >PANTRY - SKETCHUP MODEL</h3>
+                            <h3 class="mb-20" >PANTRY - ONLINE SKETCHUP MODEL</h3>
                         </div>
                     </div>
                 </div>
@@ -213,7 +213,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">For the Sketchup Model, best viewed using Mac or PC</span></h3>
+                                <h3><span class="bold">For the Sketchup Model, best viewed using Mac or PC, click below to start</span></h3>
                             </div>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9 mb-25">
