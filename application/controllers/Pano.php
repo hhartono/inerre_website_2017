@@ -30,6 +30,12 @@ class Pano extends CI_Controller {
         $this->load->view('pano/glennproject');
     }
 
+    public function adiyofi_project()
+    {
+        $this->load->helper('url');
+        $this->load->view('pano/adiyofiproject');
+    }
+
     public function ayu_project_rev2()
     {
         $this->load->helper('url');

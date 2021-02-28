@@ -169,8 +169,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">ADI & YOFI - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/adiyofi_project'); ?>">see project</a>
+                                <h3><span class="bold">ADI YOFI - SETRA DUTA - PANTRY - Presentation</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/adiyofi/AdiYofi_Presentation_01.03.2021.pdf">download PDF</a>
                             </div>
                         </div>
                         <div class="cis-cont">
@@ -178,193 +178,50 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">ALVIN - CIREBON</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/alvin_project'); ?>">see project</a>
+                                <h3><span class="bold">ADI YOFI - SETRA DUTA - PANTRY - Quotation</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/pdf/adiyofi/AdiYofi_Quotation_01.03.2021.pdf">download PDF</a>
                             </div>
                         </div>
+
+                        <!--
                         <div class="cis-cont">
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">AYU - KELAPA GADING</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ayu_project_rev2'); ?>">RTU1</a>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ayu_project'); ?>">RTU2</a>
+                                <h3><span class="bold">GLENN - TITISWARI - RTA 1</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/inerre_ar/glenn/glenn_rta1.usdz">download AR model</a><br>
+                                NOTES: AR for iOS only
                             </div>
                         </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">CHELSEA - TASIKMALAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/chelsea_project_rev3'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">CHRISNA - LAMANDAU</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/chrisna_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">DAVIN - CINERE</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/davin_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">EDWARD - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/edward_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">ERLINA - SURABAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/erlina_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">FABIOLA - TASIKMALAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/fabiola_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">FERRY - CIPAGANTI</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/ferry_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">GLENN - TITISWARI</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/glenn_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">LUSIANA - KOTA BARU PARAHYANGAN - FASE 1 & 2</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/lusiana_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">MARCO - NEWTON HILL</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/marco_project_rev1'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PRISCILIA - SURABAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/priscilia_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PUJA - JAKARTA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/puja_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">PUTRI - JAKARTA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/putri_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">RINNY - CINERE</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/rinny_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">SARIWATI - ANCOL</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/sariwati_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">MR. SHEN - KOTA BARU PARAHYANGAN</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/shen_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">SOEGIHARTO - GREEN GARDEN</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/soegiharto_project_rev4'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">TIMOTHY - KELAPA GADING</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/timothy_project'); ?>">see project</a>
-                            </div>
-                        </div>
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">WILLIAM - KOTA BARU PARAHYANGAN</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/william_project'); ?>">see project</a>
-                            </div>
+                        -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div id="tabs" class="mb-10 bs-docs-section">
+                        <div class="heading-underline h3-line">
+                            <h3 class="mb-20" >PANTRY - SKETCHUP MODEL</h3>
                         </div>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">For the Sketchup Model, best viewed using Mac or PC</span></h3>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-25">
+                            <iframe src="https://3dwarehouse.sketchup.com/embed/d1828802-429f-4945-8737-9d3a73f0b5dd" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
