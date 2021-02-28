@@ -286,7 +286,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="row">
+                    <div class="col-md-6 pb-10" >
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">TESTING SKP</span></h3>
+                            </div>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9 mb-25">
+                            <iframe src="https://3dwarehouse.sketchup.com/embed/b72c3b6c-453f-4994-8067-ab6719880128" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="580" height="326" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
