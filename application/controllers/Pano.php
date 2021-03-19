@@ -347,7 +347,7 @@ class Pano extends CI_Controller {
     public function david_project()
     {
         $data['rows'][0]['title'] = "DAVID - DESIGN PRESENTATION - RTU & WIC UTAMA";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/david/David_Presentation_18.03.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/david/David_Presentation_19.03.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][1]['title'] = "DAVID - 360 RENDERING - RTU & WIC UTAMA";
@@ -375,7 +375,7 @@ class Pano extends CI_Controller {
     public function edward_project_2()
     {
         $data['rows'][0]['title'] = "EDWARD - DESIGN PRESENTATION - RTU & WIC UTAMA";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/edward/Edward_Presentation_17.03.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/edward/Edward_Presentation_19.03.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - RTU & WIC UTAMA";
