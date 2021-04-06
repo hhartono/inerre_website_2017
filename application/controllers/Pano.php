@@ -417,7 +417,7 @@ class Pano extends CI_Controller {
     public function putri_project_3()
     {
         $data['rows'][0]['title'] = "PUTRI - DESIGN PRESENTATION - PHASE 3";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/putri/Putri_Presentation_05.04.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/putri/Putri_Presentation_06.04.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][1]['title'] = "PUTRI - 360 RENDERING - PHASE 3";
