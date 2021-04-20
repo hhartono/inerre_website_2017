@@ -416,13 +416,13 @@ class Pano extends CI_Controller {
 
     public function putri_project_3()
     {
-        $data['rows'][0]['title'] = "PUTRI - DESIGN PRESENTATION - PHASE 3";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/putri/Putri_Presentation_06.04.2021.pdf";
-        $data['rows'][0]['button_title'] = "download PDF document";
+        //$data['rows'][0]['title'] = "PUTRI - DESIGN PRESENTATION - PHASE 3";
+        //$data['rows'][0]['url'] = "http://18.139.219.177/pdf/putri/Putri_Presentation_06.04.2021.pdf";
+        //$data['rows'][0]['button_title'] = "download PDF document";
 
-        $data['rows'][1]['title'] = "PUTRI - 360 RENDERING - PHASE 3";
-        $data['rows'][1]['url'] = "http://18.139.219.177/putrivtour3/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
+        $data['rows'][0]['title'] = "PUTRI - 360 RENDERING - PHASE 3 - REV1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/putrivtour3/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
@@ -499,6 +499,20 @@ class Pano extends CI_Controller {
         $data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - PHASE 1";
         $data['rows'][1]['url'] = "http://18.139.219.177/williamvtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function william_project_2()
+    {
+        //$data['rows'][0]['title'] = "WILLIAM - DESIGN PRESENTATION - PHASE 1";
+        //$data['rows'][0]['url'] = "http://18.139.219.177/pdf/william/William_Presentation_26.03.2021.pdf";
+        //$data['rows'][0]['button_title'] = "download PDF document";
+
+        $data['rows'][0]['title'] = "WILLIAM - 360 RENDERING - PHASE 2";
+        $data['rows'][0]['url'] = "http://18.139.219.177/williamvtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
