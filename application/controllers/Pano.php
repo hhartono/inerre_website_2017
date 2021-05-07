@@ -530,9 +530,13 @@ class Pano extends CI_Controller {
 
     public function ellen_project()
     {
-        $data['rows'][0]['title'] = "ELLEN - 360 RENDERING - PHASE 1";
-        $data['rows'][0]['url'] = "http://18.139.219.177/ellenvtour/tour.html";
-        $data['rows'][0]['button_title'] = "see 360 rendering";
+        $data['rows'][0]['title'] = "ELLEN - DESIGN PRESENTATION - PHASE 1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/ellen/Ellen_Presentation_07.05.2021.pdf";
+        $data['rows'][0]['button_title'] = "download PDF document";
+
+        $data['rows'][1]['title'] = "ELLEN - 360 RENDERING - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/ellenvtour/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
