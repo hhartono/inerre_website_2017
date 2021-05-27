@@ -906,7 +906,7 @@ class LibraryV1 extends CI_Controller {
     {
         $data['title'] = "Oak - Dune";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_dune.png";
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
