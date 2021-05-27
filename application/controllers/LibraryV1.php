@@ -325,7 +325,7 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['title'] = "Oak - Dune";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_dune";
-        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_dune.png";
         $veneeriter++;
 
         $this->load->helper('url');
