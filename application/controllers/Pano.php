@@ -479,7 +479,7 @@ class Pano extends CI_Controller {
         //$data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][0]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 1 - REV2 (BEST VIEWED USING PC or MAC)";
-        $data['rows'][0]['url'] = "https://view.genial.ly/606be980daada5101a9fd551/interactive-image-mr-shen-isometric-detail-pantry";
+        $data['rows'][0]['url'] = "https://view.genial.ly/60a4c9f1de04a30d2bea4d25/interactive-image-mr-shenisometric-detail-pantry19052021";
         $data['rows'][0]['button_title'] = "see presentation";
 
         $data['rows'][1]['title'] = "MR. SHEN - 360 RENDERING - PHASE 1 - REV2";
