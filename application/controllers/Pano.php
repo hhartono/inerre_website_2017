@@ -514,7 +514,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/williamvtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "WILLIAM - INTERACTIVE PANTRY PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
+        $data['rows'][1]['title'] = "WILLIAM - INTERACTIVE BAR PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
         $data['rows'][1]['url'] = "https://view.genial.ly/60bee0836bb3ae1003112e55/interactive-image-williamdetail-entertainmentbar15062021";
         $data['rows'][1]['button_title'] = "see presentation";
 
