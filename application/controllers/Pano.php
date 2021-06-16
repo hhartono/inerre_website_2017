@@ -566,6 +566,14 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/lenyvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "LENY - FLOOR PLAN - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/denah/Leny_RTU_Denah1.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
+
+        $data['rows'][2]['title'] = "LENY - RENDERING - PHASE 1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/leny/rendering/Leny_RTU_Rendering1.pdf";
+        $data['rows'][2]['button_title'] = "download PDF document";
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
