@@ -549,7 +549,7 @@ class Pano extends CI_Controller {
     public function intercontinental_project()
     {
         $data['rows'][0]['title'] = "INTERCONTINENTAL - DESIGN PRESENTATION - PHASE 1";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/intercontinental/Intercontinental_Presentation_28.05.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/intercontinental/Intercontinental_Presentation_25.06.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][1]['title'] = "INTERCONTINENTAL - 360 RENDERING - PHASE 1";
