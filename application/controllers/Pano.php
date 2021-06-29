@@ -594,9 +594,13 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/ernivtour1/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "ERNI - SUPPORTING DOCUMENT - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/erni/Erni_Presentation_15.06.2021.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
+        $data['rows'][1]['title'] = "ERNI - INTERACTIVE PRESENTATION - PHASE 1 (BEST VIEWED USING PC or MAC)";
+        $data['rows'][1]['url'] = "https://view.genial.ly/60d30b98b285430ffc07a2df/interactive-image-ernidetail-living-dining-pantry";
+        $data['rows'][1]['button_title'] = "see presentation";
+
+        $data['rows'][2]['title'] = "ERNI - PRESENTATION - PHASE 1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/erni/Erni_Presentation_29.06.2021.pdf";
+        $data['rows'][2]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
