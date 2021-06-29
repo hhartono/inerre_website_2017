@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Portfolio.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Portfolio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/portfolio/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/portfolio/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,19 +37,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage8" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7/portfolio" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7" />
+      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/views/pano" />
       <recent name="$PROJECT_DIR$/application/views" />
       <recent name="$PROJECT_DIR$/application/controllers" />
       <recent name="$PROJECT_DIR$/application/views/profile" />
       <recent name="$PROJECT_DIR$/assets/js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7/portfolio" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-      <recent name="$PROJECT_DIR$/assets/images/inerre/library/duco" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -286,7 +286,8 @@
       <workItem from="1623827818803" duration="374000" />
       <workItem from="1623831017014" duration="411000" />
       <workItem from="1624632458638" duration="137000" />
-      <workItem from="1624890353779" duration="252000" />
+      <workItem from="1624890353779" duration="335000" />
+      <workItem from="1624958262965" duration="292000" />
     </task>
     <servers />
   </component>
