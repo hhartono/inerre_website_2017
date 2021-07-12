@@ -524,21 +524,29 @@ class Pano extends CI_Controller {
 
     public function william_project_3()
     {
-        $data['rows'][0]['title'] = "WILLIAM - 360 RENDERING - STUDY ROOM - PHASE 3";
-        $data['rows'][0]['url'] = "http://18.139.219.177/williamvtour6/tour.html";
+        $data['rows'][0]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 1 - PHASE 3";
+        $data['rows'][0]['url'] = "http://18.139.219.177/williamvtour7A/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - KIDS BEDROOM - PHASE 3";
-        $data['rows'][1]['url'] = "http://18.139.219.177/williamvtour5/tour.html";
+        $data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 2 - PHASE 3";
+        $data['rows'][1]['url'] = "http://18.139.219.177/williamvtour7B/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
-        $data['rows'][2]['title'] = "WILLIAM - 360 RENDERING - WET KITCHEN - PHASE 3";
-        $data['rows'][2]['url'] = "http://18.139.219.177/williamvtour4/tour.html";
+        $data['rows'][2]['title'] = "WILLIAM - 360 RENDERING - STUDY ROOM - PHASE 3";
+        $data['rows'][2]['url'] = "http://18.139.219.177/williamvtour6/tour.html";
         $data['rows'][2]['button_title'] = "see 360 rendering";
 
-        $data['rows'][3]['title'] = "WILLIAM - 360 RENDERING - PARENTS BEDROOM - PHASE 3";
-        $data['rows'][3]['url'] = "http://18.139.219.177/williamvtour3/tour.html";
+        $data['rows'][3]['title'] = "WILLIAM - 360 RENDERING - KIDS BEDROOM - PHASE 3";
+        $data['rows'][3]['url'] = "http://18.139.219.177/williamvtour5/tour.html";
         $data['rows'][3]['button_title'] = "see 360 rendering";
+
+        $data['rows'][4]['title'] = "WILLIAM - 360 RENDERING - WET KITCHEN - PHASE 3";
+        $data['rows'][4]['url'] = "http://18.139.219.177/williamvtour4/tour.html";
+        $data['rows'][4]['button_title'] = "see 360 rendering";
+
+        $data['rows'][5]['title'] = "WILLIAM - 360 RENDERING - PARENTS BEDROOM - PHASE 3";
+        $data['rows'][5]['url'] = "http://18.139.219.177/williamvtour3/tour.html";
+        $data['rows'][5]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
