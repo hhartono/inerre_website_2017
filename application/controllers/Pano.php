@@ -478,8 +478,14 @@ class Pano extends CI_Controller {
         //$data['rows'][0]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Presentation_05.02.2021.pdf";
         //$data['rows'][0]['button_title'] = "download PDF document";
 
-        $data['rows'][0]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 1 - REV2 (BEST VIEWED USING PC or MAC)";
-        $data['rows'][0]['url'] = "https://view.genial.ly/60a4c9f1de04a30d2bea4d25/interactive-image-mr-shenisometric-detail-pantry19052021";
+        // REV2
+        //$data['rows'][0]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 1 - REV2 (BEST VIEWED USING PC or MAC)";
+        //$data['rows'][0]['url'] = "https://view.genial.ly/60a4c9f1de04a30d2bea4d25/interactive-image-mr-shenisometric-detail-pantry19052021";
+        //$data['rows'][0]['button_title'] = "see presentation";
+
+        // REV3
+        $data['rows'][0]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 1 - REV3 (BEST VIEWED USING PC or MAC)";
+        $data['rows'][0]['url'] = "https://view.genial.ly/60f51e9b18617d0fadf929c2/interactive-image-mr-shenisometric-detail-pantry19072021";
         $data['rows'][0]['button_title'] = "see presentation";
 
         $data['rows'][1]['title'] = "MR. SHEN - 360 RENDERING - PHASE 1 - REV2";
