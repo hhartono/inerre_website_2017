@@ -917,4 +917,14 @@ class LibraryV1 extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
     }
+
+    public function oak_dune_2x2()
+    {
+        $data['title'] = "Oak - Dune - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_dune.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
 }
