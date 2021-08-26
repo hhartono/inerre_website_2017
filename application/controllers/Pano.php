@@ -546,13 +546,13 @@ class Pano extends CI_Controller {
 
     public function william_project_3()
     {
-        $data['rows'][0]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 1 - PHASE 3";
+        $data['rows'][0]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM - PHASE 3";
         $data['rows'][0]['url'] = "http://18.139.219.177/williamvtour7A/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 2 - PHASE 3";
-        $data['rows'][1]['url'] = "http://18.139.219.177/williamvtour7B/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
+        //$data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 2 - PHASE 3";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/williamvtour7B/tour.html";
+        //$data['rows'][1]['button_title'] = "see 360 rendering";
 
         $data['rows'][2]['title'] = "WILLIAM - 360 RENDERING - STUDY ROOM - PHASE 3";
         $data['rows'][2]['url'] = "http://18.139.219.177/williamvtour6/tour.html";
