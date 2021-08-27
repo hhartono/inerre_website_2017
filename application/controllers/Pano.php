@@ -562,13 +562,17 @@ class Pano extends CI_Controller {
         $data['rows'][3]['url'] = "http://18.139.219.177/williamvtour5/tour.html";
         $data['rows'][3]['button_title'] = "see 360 rendering";
 
-        $data['rows'][4]['title'] = "WILLIAM - 360 RENDERING - WET KITCHEN - PHASE 3";
-        $data['rows'][4]['url'] = "http://18.139.219.177/williamvtour4/tour.html";
-        $data['rows'][4]['button_title'] = "see 360 rendering";
+        $data['rows'][4]['title'] = "WILLIAM - INTERACTIVE (INSIDE) - WET KITCHEN - PHASE 3";
+        $data['rows'][4]['url'] = "https://view.genial.ly/6125e9f83ad2b1101e790d25/interactive-image-williaminteractivewetkitchen";
+        $data['rows'][4]['button_title'] = "see inside wet kitchen cabinet";
 
-        $data['rows'][5]['title'] = "WILLIAM - 360 RENDERING - PARENTS BEDROOM - PHASE 3";
-        $data['rows'][5]['url'] = "http://18.139.219.177/williamvtour3/tour.html";
+        $data['rows'][5]['title'] = "WILLIAM - 360 RENDERING - WET KITCHEN - PHASE 3";
+        $data['rows'][5]['url'] = "http://18.139.219.177/williamvtour4/tour.html";
         $data['rows'][5]['button_title'] = "see 360 rendering";
+
+        $data['rows'][6]['title'] = "WILLIAM - 360 RENDERING - PARENTS BEDROOM - PHASE 3";
+        $data['rows'][6]['url'] = "http://18.139.219.177/williamvtour3/tour.html";
+        $data['rows'][6]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
