@@ -547,7 +547,7 @@ class Pano extends CI_Controller {
     public function william_project_3()
     {
         $data['rows'][0]['title'] = "WILLIAM - DESIGN PRESENTATION - PHASE 3";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/william/William_Presentation_27.08.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/william/William_Presentation_02.09.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         //$data['rows'][1]['title'] = "WILLIAM - 360 RENDERING - GUEST BEDROOM ALT 2 - PHASE 3";
