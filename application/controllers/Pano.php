@@ -658,12 +658,12 @@ class Pano extends CI_Controller {
 
     public function wandi_project()
     {
-        $data['rows'][0]['title'] = "WANDI - 360 RENDERING - PHASE 1";
+        $data['rows'][0]['title'] = "WANDI - 360 RENDERING - PHASE 1 -  REV1";
         $data['rows'][0]['url'] = "http://18.139.219.177/wandivtour1/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "WANDI - PRESENTATION - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/wandi/Wandi_Presentation_16.07.2021.pdf";
+        $data['rows'][1]['title'] = "WANDI - PRESENTATION - PHASE 1 -  REV1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/wandi/Wandi_Presentation_02.09.2021.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
