@@ -468,7 +468,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SUMARKO - JAKARTA</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/sumarko_project_rev4'); ?>">see project</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/sumarko_project'); ?>">see project</a>
                             </div>
                         </div>
                         <div class="cis-cont">
