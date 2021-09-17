@@ -712,9 +712,9 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
-    public function sumarko_project()
+    public function sample_idea()
     {
-        $data['rows'][0]['title'] = "BPK SUMARKO - 360 RENDERING - SAMPLE IDEA 1";
+        $data['rows'][0]['title'] = "SAMPLE IDEA 1 - 360 RENDERING";
         $data['rows'][0]['url'] = "http://18.139.219.177/samplevtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
