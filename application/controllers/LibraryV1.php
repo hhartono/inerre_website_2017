@@ -243,10 +243,15 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][4]['controller'] = "LibraryV1/edl_linen_walk";
         $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
-        $data['aicas'][5]['title'] = "Olivie Afromosia";
+        $data['aicas'][5]['title'] = "Mocassin Ivory";
         $data['aicas'][5]['subtitle'] = "HPL TACO";
-        $data['aicas'][5]['controller'] = "LibraryV1/taco_olivie_afromosia";
+        $data['aicas'][5]['controller'] = "LibraryV1/taco_mocassin_ivory";
         $data['aicas'][5]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][6]['title'] = "Olivie Afromosia";
+        $data['aicas'][6]['subtitle'] = "HPL TACO";
+        $data['aicas'][6]['controller'] = "LibraryV1/taco_olivie_afromosia";
+        $data['aicas'][6]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         /* veneer section */
         $veneeriter = 0;
@@ -350,6 +355,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_dune_2x2";
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_dune.png";
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Oak - Dune - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_dune_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $veneeriter++;
 
         $this->load->helper('url');
@@ -801,6 +812,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/aica_hpl', $data);
     }
 
+    public function taco_mocassin_ivory()
+    {
+        $data['title'] = "Mocassin Ivory";
+        $data['subtitle'] = "HPL TACO (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
     /*
      *
      * VENEER SECTION
@@ -971,6 +992,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Oak - Dune - 2 x 2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_dune.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_dune_CNC1()
+    {
+        $data['title'] = "Oak - Dune - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
