@@ -622,13 +622,17 @@ class Pano extends CI_Controller {
 
     public function leny_project()
     {
-        $data['rows'][0]['title'] = "LENY - 360 RENDERING - PHASE 1";
+        $data['rows'][0]['title'] = "LENY - 360 RENDERING - PHASE 1 - REV 1";
         $data['rows'][0]['url'] = "http://18.139.219.177/lenyvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_03.09.2021.pdf";
+        $data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 1 - REV 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_21.09.2021.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
+
+        //$data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 1";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_03.09.2021.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
 
         //$data['rows'][2]['title'] = "LENY - RENDERING - PHASE 1";
         //$data['rows'][2]['url'] = "http://18.139.219.177/pdf/leny/rendering/Leny_RTU_Rendering1.pdf";
