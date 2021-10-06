@@ -700,9 +700,9 @@ class Pano extends CI_Controller {
 
     public function kevin_project()
     {
-        $data['rows'][1]['title'] = "KEVIN - INTERACTIVE PRESENTATION - PHASE 1 (BEST VIEWED USING PC or MAC)";
-        $data['rows'][1]['url'] = "https://view.genial.ly/615aafd5acecfa100b9f8732/interactive-image-kevin-soenaryo-pantry-interactive";
-        $data['rows'][1]['button_title'] = "see presentation";
+        $data['rows'][0]['title'] = "KEVIN - INTERACTIVE PRESENTATION - PHASE 1 (BEST VIEWED USING PC or MAC)";
+        $data['rows'][0]['url'] = "https://view.genial.ly/615aafd5acecfa100b9f8732/interactive-image-kevin-soenaryo-pantry-interactive";
+        $data['rows'][0]['button_title'] = "see presentation";
 
         $data['rows'][1]['title'] = "KEVIN - RENDERING - PHASE 1";
         $data['rows'][1]['url'] = "http://18.139.219.177/pdf/kevin/Kevin_Rendering_06.10.2021.pdf";
