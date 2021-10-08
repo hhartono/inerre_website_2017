@@ -642,6 +642,24 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function leny_project_2()
+    {
+        $data['rows'][0]['title'] = "LENY - KIDS BEDROOM 1 - 360 RENDERING - PHASE 2";
+        $data['rows'][0]['url'] = "http://18.139.219.177/lenyvtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][1]['title'] = "LENY - KIDS BEDROOM 2 - 360 RENDERING - PHASE 2";
+        $data['rows'][1]['url'] = "http://18.139.219.177/lenyvtour3/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $data['rows'][2]['title'] = "LENY - PRESENTATION - PHASE 2";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_08.10.2021.pdf";
+        $data['rows'][2]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function erni_project()
     {
         $data['rows'][0]['title'] = "ERNI - 360 RENDERING - PHASE 1";
@@ -675,6 +693,10 @@ class Pano extends CI_Controller {
         $data['rows'][0]['title'] = "SUMARKO - 360 RENDERING - PHASE 1";
         $data['rows'][0]['url'] = "http://18.139.219.177/sumarkovtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][1]['title'] = "SUMARKO - PRESENTATION - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/sumarko/Sumarko_Presentation_08.10.2021.pdf";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
