@@ -494,7 +494,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">SOHPIA - GREEN GARDEN</span></h3>
+                                <h3><span class="bold">SOHPIA - PALEMBANG</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/sohpia_project'); ?>">see project</a>
                             </div>
                         </div>
