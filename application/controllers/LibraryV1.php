@@ -142,6 +142,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
+        $data['ducos'][$ducoiter]['title'] = "Acid - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_acid_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
         $data['lamitaks'][0]['subtitle'] = "HPL Lamitak";
@@ -222,6 +228,11 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][15]['subtitle'] = "HPL Lamitak";
         $data['lamitaks'][15]['controller'] = "LibraryV1/lamitak_stoffa_grigio_custom_1";
         $data['lamitaks'][15]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][16]['title'] = "Fiona Marmol Suprema";
+        $data['lamitaks'][16]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][16]['controller'] = "LibraryV1/lamitak_fiona_marmol_suprema";
+        $data['lamitaks'][16]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
@@ -578,6 +589,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/duco/duco_view', $data);
     }
 
+    public function duco_acid_matte()
+    {
+        $data['title'] = "Acid - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
     /*
     *
     * HPL Lamitak SECTION
@@ -756,6 +777,16 @@ class LibraryV1 extends CI_Controller {
     public function lamitak_stoffa_grigio_custom_1()
     {
         $data['title'] = "Stoffa Grigio - Custom 1";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_fiona_marmol_suprema()
+    {
+        $data['title'] = "Fiona Marmol Suprema";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
