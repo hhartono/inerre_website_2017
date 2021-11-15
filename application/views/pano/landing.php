@@ -405,7 +405,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MAYA - KOTA BARU PARAHYANGAN</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/maya_project_rev1'); ?>">see project</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/maya_project'); ?>">see project</a>
                             </div>
                         </div>
                         <div class="cis-cont">
