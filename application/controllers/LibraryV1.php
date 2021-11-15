@@ -142,12 +142,6 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
-        $data['ducos'][$ducoiter]['title'] = "Acid - Matte";
-        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_acid_matte";
-        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
-        $ducoiter++;
-
         /* HPL Lamitak section */
         $data['lamitaks'][0]['title'] = "Taglio Marcello Walnut";
         $data['lamitaks'][0]['subtitle'] = "HPL Lamitak";
@@ -582,16 +576,6 @@ class LibraryV1 extends CI_Controller {
     public function duco_beige_4x2_matte()
     {
         $data['title'] = "Beige - Matte - 4 x 2";
-        $data['subtitle'] = "Duco (TAP to ENLARGE)";
-        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
-
-        $this->load->helper('url');
-        $this->load->view('library/duco/duco_view', $data);
-    }
-
-    public function duco_acid_matte()
-    {
-        $data['title'] = "Acid - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
