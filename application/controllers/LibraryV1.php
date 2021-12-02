@@ -100,6 +100,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
+        $data['ducos'][$ducoiter]['title'] = "Lava Gray - Matte - CNC1";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_lava_gray_CNC1_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
         $data['ducos'][$ducoiter]['title'] = "Espresso - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_espresso_matte";
@@ -506,6 +512,16 @@ class LibraryV1 extends CI_Controller {
     public function duco_lava_gray_2x2_matte()
     {
         $data['title'] = "Anthracite Gray - Matte - 2 x 2";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_lava_gray_CNC1_matte()
+    {
+        $data['title'] = "Anthracite Gray - Matte - CNC1";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
