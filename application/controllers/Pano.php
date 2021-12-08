@@ -512,6 +512,24 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function shen_project_2()
+    {
+        $data['rows'][0]['title'] = "MR. SHEN - 360 RENDERING - PHASE 2";
+        $data['rows'][0]['url'] = "http://18.139.219.177/shenvtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "MR. SHEN - MATERIAL PRESENTATION - PHASE 2";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Material_25.08.2021.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        //$data['rows'][2]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
+        //$data['rows'][2]['url'] = "https://view.genial.ly/60f51e9b18617d0fadf929c2/interactive-image-mr-shenisometric-detail-pantry19072021";
+        //$data['rows'][2]['button_title'] = "see presentation";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function william_project()
     {
         $data['rows'][0]['title'] = "WILLIAM - DESIGN PRESENTATION - PHASE 1";
