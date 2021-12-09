@@ -818,13 +818,17 @@ class Pano extends CI_Controller {
 
     public function maya_project()
     {
-        $data['rows'][0]['title'] = "MAYA - 360 RENDERING - PHASE 1 - REV 1";
+        $data['rows'][0]['title'] = "MAYA - 360 RENDERING - PHASE 1 - REV 2";
         $data['rows'][0]['url'] = "http://18.139.219.177/mayavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "MAYA - PRESENTATION - PHASE 1 - REV 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/maya/Maya_Presentation_02.12.2021.pdf";
+        $data['rows'][1]['title'] = "MAYA - PRESENTATION - PHASE 1 - REV 2";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/maya/Maya_Presentation_09.12.2021.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
+
+        $data['rows'][2]['title'] = "MAYA - INTERACTIVE PRESENTATION - PHASE 1 - REV 2 (BEST VIEWED USING PC or MAC)";
+        $data['rows'][2]['url'] = "https://view.genial.ly/619c9b2dba39a10d85c096c9/interactive-image-mayapantrybarinteractive";
+        $data['rows'][2]['button_title'] = "see presentation";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
