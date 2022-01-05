@@ -831,7 +831,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "KEVIN - PRESENTATION - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/kevin/Kevin_Rendering_05.01.2022.pdf";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/kevin/Kevin_Presentation_05.01.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
@@ -845,7 +845,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "WILLY SOENARYO - PRESENTATION - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/willy/Willy_Rendering_05.01.2022.pdf";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/willy/Willy_Presentation_05.01.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
