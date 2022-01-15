@@ -519,7 +519,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "MR. SHEN -  PRESENTATION - PHASE 2";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Presentation_14.12.2021.pdf";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_PresentationA_15.01.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         //$data['rows'][2]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
@@ -537,7 +537,7 @@ class Pano extends CI_Controller {
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "MR. SHEN -  PRESENTATION - PHASE 3";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Presentation_07.01.2022.pdf";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_PresentationB_15.01.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
