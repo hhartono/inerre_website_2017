@@ -826,6 +826,25 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function sohpia_project_2()
+    {
+        $data['rows'][0]['title'] = "SOHPIA - 360 RENDERING - PHASE 2";
+        $data['rows'][0]['url'] = "http://18.139.219.177/sohpiavtour3/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "SOHPIA - PRESENTATION - PHASE 1 - ALT 1";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/sohpia/Sohpia_Presentation_29.10.2021.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        //$data['rows'][2]['title'] = "SOHPIA - 360 RENDERING - PHASE 1 - ALT 2";
+        //$data['rows'][2]['url'] = "http://18.139.219.177/sohpiavtour2/tour.html";
+        //$data['rows'][2]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+
     public function kevin_project()
     {
         //$data['rows'][0]['title'] = "KEVIN - INTERACTIVE PRESENTATION - PHASE 1 (BEST VIEWED USING PC or MAC)";
