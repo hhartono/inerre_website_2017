@@ -782,13 +782,17 @@ class Pano extends CI_Controller {
 
     public function sumarko_project_3()
     {
-        $data['rows'][0]['title'] = "SUMARKO - 360 RENDERING - PHASE 3A";
+        $data['rows'][0]['title'] = "KIDS BEDROOM - 360 RENDERING - PHASE 3A";
         $data['rows'][0]['url'] = "http://18.139.219.177/sumarkovtour3/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "SUMARKO - 360 RENDERING - PHASE 3B";
+        $data['rows'][1]['title'] = "GRANDKIDS BEDROOM - 360 RENDERING - PHASE 3B";
         $data['rows'][1]['url'] = "http://18.139.219.177/sumarkovtour4/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $data['rows'][2]['title'] = "FAMILY ROOM - 360 RENDERING - PHASE 3C";
+        $data['rows'][2]['url'] = "http://18.139.219.177/sumarkovtour5/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "SUMARKO - PRESENTATION - PHASE 2";
         //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/sumarko/Sumarko_Presentation_09.12.2021.pdf";
