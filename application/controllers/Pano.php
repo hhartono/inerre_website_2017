@@ -794,6 +794,10 @@ class Pano extends CI_Controller {
         $data['rows'][2]['url'] = "http://18.139.219.177/sumarkovtour5/tour.html";
         $data['rows'][2]['button_title'] = "see 360 rendering";
 
+        $data['rows'][3]['title'] = "FOYER - 360 RENDERING - PHASE 3D";
+        $data['rows'][3]['url'] = "http://18.139.219.177/sumarkovtour6/tour.html";
+        $data['rows'][3]['button_title'] = "see 360 rendering";
+
         //$data['rows'][1]['title'] = "SUMARKO - PRESENTATION - PHASE 2";
         //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/sumarko/Sumarko_Presentation_09.12.2021.pdf";
         //$data['rows'][1]['button_title'] = "download PDF document";
