@@ -730,13 +730,13 @@ class Pano extends CI_Controller {
         $data['rows'][1]['url'] = "http://18.139.219.177/lenyvtour6/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "LENY - DAPUR KOTOR - 360 RENDERING - PHASE 4";
-        $data['rows'][1]['url'] = "http://18.139.219.177/lenyvtour7/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
+        $data['rows'][2]['title'] = "LENY - DAPUR KOTOR - 360 RENDERING - PHASE 4";
+        $data['rows'][2]['url'] = "http://18.139.219.177/lenyvtour7/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "LENY - LAUNDRY ROOM - 360 RENDERING - PHASE 4";
-        $data['rows'][1]['url'] = "http://18.139.219.177/lenyvtour8/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
+        $data['rows'][3]['title'] = "LENY - LAUNDRY ROOM - 360 RENDERING - PHASE 4";
+        $data['rows'][3]['url'] = "http://18.139.219.177/lenyvtour8/tour.html";
+        $data['rows'][3]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 3";
         //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_22.11.2021.pdf";
