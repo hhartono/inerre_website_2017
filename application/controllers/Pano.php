@@ -728,10 +728,14 @@ class Pano extends CI_Controller {
         $data['rows'][3]['url'] = "http://18.139.219.177/lenyvtour8/tour.html";
         $data['rows'][3]['button_title'] = "see 360 rendering";
 
-        $data['rows'][3]['title'] = "LENY - GUEST BEDROOM - 360 RENDERING - PHASE 4";
-        $data['rows'][3]['url'] = "http://18.139.219.177/lenyvtour9/tour.html";
-        $data['rows'][3]['button_title'] = "see 360 rendering";
-        
+        $data['rows'][4]['title'] = "LENY - GUEST BEDROOM - 360 RENDERING - PHASE 4";
+        $data['rows'][4]['url'] = "http://18.139.219.177/lenyvtour9/tour.html";
+        $data['rows'][4]['button_title'] = "see 360 rendering";
+
+        $data['rows'][5]['title'] = "LENY - PRAYER ROOM - 360 RENDERING - PHASE 4";
+        $data['rows'][5]['url'] = "http://18.139.219.177/lenyvtour10/tour.html";
+        $data['rows'][5]['button_title'] = "see 360 rendering";
+
         //$data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 3";
         //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_22.11.2021.pdf";
         //$data['rows'][1]['button_title'] = "download PDF document";
