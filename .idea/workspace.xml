@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/panoexisting/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/panoexisting/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,7 +384,8 @@
       <workItem from="1646664057912" duration="154000" />
       <workItem from="1646712395973" duration="231000" />
       <workItem from="1646799993012" duration="86000" />
-      <workItem from="1647349305845" duration="88000" />
+      <workItem from="1647349305845" duration="165000" />
+      <workItem from="1647483696989" duration="252000" />
     </task>
     <servers />
   </component>
