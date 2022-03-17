@@ -792,6 +792,10 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/faizalvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "FAIZAL - PRESENTATION - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/faizal/FaizalRamali_Presentation_16.03.2022.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
+        
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
