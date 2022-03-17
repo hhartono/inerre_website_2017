@@ -736,9 +736,9 @@ class Pano extends CI_Controller {
         $data['rows'][5]['url'] = "http://18.139.219.177/lenyvtour10/tour.html";
         $data['rows'][5]['button_title'] = "see 360 rendering";
 
-        //$data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 3";
-        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_22.11.2021.pdf";
-        //$data['rows'][1]['button_title'] = "download PDF document";
+        $data['rows'][6]['title'] = "LENY - PRESENTATION - PHASE 4";
+        $data['rows'][6]['url'] = "http://18.139.219.177/pdf/leny/Leny_Presentation_17.03.2022.pdf";
+        $data['rows'][6]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
@@ -795,7 +795,7 @@ class Pano extends CI_Controller {
         $data['rows'][1]['title'] = "FAIZAL - PRESENTATION - PHASE 1";
         $data['rows'][1]['url'] = "http://18.139.219.177/pdf/faizal/FaizalRamali_Presentation_16.03.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
-        
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
