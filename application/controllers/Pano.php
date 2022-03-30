@@ -128,6 +128,16 @@ class Pano extends CI_Controller {
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function rinny_project_2()
+    {
+        $data['rows'][0]['title'] = "RINNY - CINERE - Grandkids Bedroom";
+        $data['rows'][0]['url'] = "http://18.139.219.177/rinnyrtcvtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function fabiola_project()
     {
         $data['rows'][0]['title'] = "FABIOLA - TASIKMALAYA - Pantry & Dining";
