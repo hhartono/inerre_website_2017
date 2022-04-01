@@ -528,13 +528,13 @@ class Pano extends CI_Controller {
         $data['rows'][0]['url'] = "http://18.139.219.177/shenvtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "MR. SHEN - 360 RENDERING - PHASE 2 - FOYER";
-        $data['rows'][1]['url'] = "http://18.139.219.177/shenvtour3/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
+        //$data['rows'][1]['title'] = "MR. SHEN - 360 RENDERING - PHASE 2 - FOYER";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/shenvtour3/tour.html";
+        //$data['rows'][1]['button_title'] = "see 360 rendering";
 
-        $data['rows'][2]['title'] = "MR. SHEN -  PRESENTATION - PHASE 2";
-        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Presentation_25.02.2022.pdf";
-        $data['rows'][2]['button_title'] = "download PDF document";
+        $data['rows'][1]['title'] = "MR. SHEN -  PRESENTATION - PHASE 2";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/shen/MrShen_Presentation_01.04.2022.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
 
         //$data['rows'][2]['title'] = "MR. SHEN - INTERACTIVE PANTRY PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
         //$data['rows'][2]['url'] = "https://view.genial.ly/60f51e9b18617d0fadf929c2/interactive-image-mr-shenisometric-detail-pantry19072021";
