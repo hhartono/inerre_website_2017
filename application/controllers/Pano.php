@@ -1,28 +1,29 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pano extends CI_Controller {
+class Pano extends CI_Controller
+{
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
-	public function index()
-	{
+    /**
+     * Index Page for this controller.
+     *
+     * Maps to the following URL
+     *        http://example.com/index.php/welcome
+     *    - or -
+     *        http://example.com/index.php/welcome/index
+     *    - or -
+     * Since this controller is set as the default controller in
+     * config/routes.php, it's displayed at http://example.com/
+     *
+     * So any other public methods not prefixed with an underscore will
+     * map to /index.php/welcome/<method_name>
+     * @see https://codeigniter.com/user_guide/general/urls.html
+     */
+    public function index()
+    {
         $this->load->helper('url');
         $this->load->view('pano/landing');
-	}
+    }
 
     public function glenn_project()
     {
@@ -287,7 +288,7 @@ class Pano extends CI_Controller {
         $data['rows'][3]['title'] = "CHRISNA - LAMANDAU - Lantai 2 - 360 Rendering";
         $data['rows'][3]['url'] = "http://18.139.219.177/chrisnavtourlt2/tour.html";
         $data['rows'][3]['button_title'] = "see 360 rendering";
-        
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
@@ -785,7 +786,7 @@ class Pano extends CI_Controller {
         $data['rows'][1]['title'] = "ERNI - INTERACTIVE PRESENTATION - PHASE 2 (BEST VIEWED USING PC or MAC)";
         $data['rows'][1]['url'] = "https://view.genial.ly/6152e071e5ee85102512a5f7/interactive-image-ernidapur-kotor-detail-bagian-dalam";
         $data['rows'][1]['button_title'] = "see presentation";
-        
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
@@ -1077,7 +1078,7 @@ class Pano extends CI_Controller {
 
     public function regina_project()
     {
-        $data['rows'][0]['title'] = "REGINA - 360 RENDERING";
+        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - {ANTRY";
         $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
@@ -1088,6 +1089,16 @@ class Pano extends CI_Controller {
         $data['rows'][2]['title'] = "REGINA - PRESENTATION - PANTRY";
         $data['rows'][2]['url'] = "http://18.139.219.177/pdf/regina/Regina_Presentation_11.05.2022.pdf";
         $data['rows'][2]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function regina_project_2()
+    {
+        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - KITCHEN";
+        $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
