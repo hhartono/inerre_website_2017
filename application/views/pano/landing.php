@@ -377,6 +377,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">FITRIA - BANDUNG</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/fitria_project'); ?>">see project</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">GLENN - TITISWARI</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/glenn_project'); ?>">see project</a>
                             </div>
@@ -622,6 +631,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">MR. SHEN - KOTA BARU PARAHYANGAN - FASE 3</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/shen_project_3'); ?>">see project</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">MR. SHEN - KOTA BARU PARAHYANGAN - FASE 4</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/shen_project_4'); ?>">see project</a>
                             </div>
                         </div>
                         <div class="cis-cont">

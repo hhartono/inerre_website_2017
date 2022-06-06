@@ -559,6 +559,16 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function shen_project_4()
+    {
+        $data['rows'][0]['title'] = "MR. SHEN - 360 RENDERING - PHASE 4 - SAUNA BATHROOM";
+        $data['rows'][0]['url'] = "http://18.139.219.177/shenvtour4/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function william_project()
     {
         $data['rows'][0]['title'] = "WILLIAM - DESIGN PRESENTATION - PHASE 1";
@@ -1132,6 +1142,16 @@ class Pano extends CI_Controller
     {
         $data['rows'][0]['title'] = "REGINA - 360 RENDERING - KITCHEN";
         $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function fitria_project()
+    {
+        $data['rows'][0]['title'] = "FITRIA - 360 RENDERING";
+        $data['rows'][0]['url'] = "http://18.139.219.177/fitriavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
