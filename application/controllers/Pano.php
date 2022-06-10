@@ -1134,6 +1134,26 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function regina_project_2()
+    {
+        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - KITCHEN";
+        $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function regina_project_3()
+    {
+        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - LIVING";
+        $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour3/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function irene_project()
     {
         $data['rows'][0]['title'] = "IRENE - 360 RENDERING - MASTER BEDROOM";
@@ -1143,16 +1163,6 @@ class Pano extends CI_Controller
         $data['rows'][1]['title'] = "IRENE - PRESENTATION - MASTER BEDROOM";
         $data['rows'][1]['url'] = "http://18.139.219.177/pdf/irene/Irene_Presentation_04.06.2022.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
-
-        $this->load->helper('url');
-        $this->load->view('pano/basic_project_view', $data);
-    }
-
-    public function regina_project_2()
-    {
-        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - KITCHEN";
-        $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour2/tour.html";
-        $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
