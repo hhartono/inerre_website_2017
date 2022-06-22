@@ -867,7 +867,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <a href="https://www.instagram.com/inerre_interior/?hl=en" class="igfloat" target="_blank">
             <i class="fa fa-instagram my-float"></i>
         </a>
-        <a href="https://wa.me/6281311234455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
+        <a href="https://wa.me/628111324455?text=Hello%20INERRE!%20I%20have%20a%20question%20about%20your%20interior%20design%20service." class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
 

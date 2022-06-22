@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/library/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/library/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/panoexisting/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/panoexisting/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/portfolio/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/portfolio/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,6 +415,8 @@
       <workItem from="1654695202084" duration="90000" />
       <workItem from="1654865335842" duration="216000" />
       <workItem from="1655719843361" duration="55000" />
+      <workItem from="1655730965874" duration="181000" />
+      <workItem from="1655897272517" duration="417000" />
     </task>
     <servers />
   </component>
@@ -421,13 +427,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="526" y="227" key="run.anything.popup" timestamp="1610526368620">
+    <state x="397" y="328" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1655897584250">
       <screen x="0" y="23" width="1680" height="982" />
     </state>
-    <state x="526" y="227" key="run.anything.popup/0.23.1680.982@0.23.1680.982" timestamp="1610526368620" />
-    <state x="526" y="229" width="670" height="158" key="search.everywhere.popup" timestamp="1610526127257">
-      <screen x="0" y="23" width="1680" height="982" />
-    </state>
-    <state x="526" y="229" width="670" height="158" key="search.everywhere.popup/0.23.1680.982@0.23.1680.982" timestamp="1610526127257" />
+    <state x="397" y="328" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.1680.982@0.23.1680.982" timestamp="1655897584250" />
   </component>
 </project>
