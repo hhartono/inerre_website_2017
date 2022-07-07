@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/library/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/library/landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/panoexisting/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/panoexisting/landing.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/portfolio/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/portfolio/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,6 +414,7 @@
       <workItem from="1655719843361" duration="55000" />
       <workItem from="1655730965874" duration="181000" />
       <workItem from="1655897272517" duration="417000" />
+      <workItem from="1657167119192" duration="178000" />
     </task>
     <servers />
   </component>
