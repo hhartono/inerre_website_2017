@@ -841,7 +841,7 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/ernivtour3/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "ERNI - 360 RENDERING - OFFICE";
+        $data['rows'][1]['title'] = "ERNI - 360 RENDERING - OFFICE, LOUNGE, HOBBY";
         $data['rows'][1]['url'] = "http://18.139.219.177/ernivtour4/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
