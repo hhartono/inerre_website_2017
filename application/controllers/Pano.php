@@ -298,6 +298,9 @@ class Pano extends CI_Controller
         $data['rows'][0]['title'] = "CHRISNA - LAMANDAU - Tambahan - 360 Rendering";
         $data['rows'][0]['url'] = "http://18.139.219.177/chrisnavtourlt2tambahan/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
     }
 
     public function davin_project()
