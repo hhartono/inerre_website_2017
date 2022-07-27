@@ -826,6 +826,26 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    public function lamitak_shiro_chidori()
+    {
+        $data['title'] = "Shiro Chidori";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_taupe()
+    {
+        $data['title'] = "Taupe";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
     /*
     *
     * HPL AICA SECTION
@@ -856,6 +876,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Gray Artizan Oak";
         $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/aica_gray_artizan_oak.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function aica_morning_tanny_oak()
+    {
+        $data['title'] = "Morning Tanny Oak";
+        $data['subtitle'] = "HPL AICA (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
