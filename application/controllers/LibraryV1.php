@@ -240,6 +240,16 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][16]['controller'] = "LibraryV1/lamitak_fiona_marmol_suprema";
         $data['lamitaks'][16]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
+        $data['lamitaks'][17]['title'] = "Shiro Chidori";
+        $data['lamitaks'][17]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][17]['controller'] = "LibraryV1/lamitak_shiro_chidori";
+        $data['lamitaks'][17]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][18]['title'] = "Taupe";
+        $data['lamitaks'][18]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][18]['controller'] = "LibraryV1/lamitak_taupe";
+        $data['lamitaks'][18]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
@@ -256,15 +266,15 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][2]['controller'] = "LibraryV1/aica_gray_artizan_oak";
         $data['aicas'][2]['sample_url'] = "/assets/images/inerre/library/hpl/aica_gray_artizan_oak.png";
 
-        $data['aicas'][3]['title'] = "Light Gray Rasen";
+        $data['aicas'][3]['title'] = "Morning Tanny Oak";
         $data['aicas'][3]['subtitle'] = "HPL AICA";
-        $data['aicas'][3]['controller'] = "LibraryV1/aica_light_gray_rasen";
-        $data['aicas'][3]['sample_url'] = "/assets/images/inerre/library/hpl/aica_light_gray_rasen.png";
+        $data['aicas'][3]['controller'] = "LibraryV1/aica_morning_tanny_oak";
+        $data['aicas'][3]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
-        $data['aicas'][4]['title'] = "Linen Walk the Line";
-        $data['aicas'][4]['subtitle'] = "HPL EDL";
-        $data['aicas'][4]['controller'] = "LibraryV1/edl_linen_walk";
-        $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
+        $data['aicas'][4]['title'] = "Light Gray Rasen";
+        $data['aicas'][4]['subtitle'] = "HPL AICA";
+        $data['aicas'][4]['controller'] = "LibraryV1/aica_light_gray_rasen";
+        $data['aicas'][4]['sample_url'] = "/assets/images/inerre/library/hpl/aica_light_gray_rasen.png";
 
         $data['aicas'][5]['title'] = "Mocassin Ivory";
         $data['aicas'][5]['subtitle'] = "HPL TACO";
@@ -275,6 +285,11 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][6]['subtitle'] = "HPL TACO";
         $data['aicas'][6]['controller'] = "LibraryV1/taco_olivie_afromosia";
         $data['aicas'][6]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][7]['title'] = "Linen Walk the Line";
+        $data['aicas'][7]['subtitle'] = "HPL EDL";
+        $data['aicas'][7]['controller'] = "LibraryV1/edl_linen_walk";
+        $data['aicas'][7]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
         /* veneer section */
         $veneeriter = 0;
