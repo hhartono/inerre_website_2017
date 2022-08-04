@@ -1206,6 +1206,20 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function fitria_project_2()
+    {
+        $data['rows'][0]['title'] = "FITRIA - 360 RENDERING - LIVING & PANTRY";
+        $data['rows'][0]['url'] = "http://18.139.219.177/fitriavtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "FITRIA - PRESENTATION - MASTER BEDROOM";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/fitria/Fitria_Presentation_12.07.2022.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function sample_idea()
     {
         $data['rows'][0]['title'] = "SAMPLE IDEA 1 - 360 RENDERING";
