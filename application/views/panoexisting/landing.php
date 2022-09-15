@@ -577,6 +577,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">SRI SATRIATY - BANDUNG</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/srisatriaty/tour.html">see existing</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">SUMARKO - GREEN GARDEN</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sumarko/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="https://youtube.com/playlist?list=PLk1-2BMr7SzrmEKzm6yjvvTkKB2ZXojIP">see video</a>
