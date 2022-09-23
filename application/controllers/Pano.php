@@ -1110,7 +1110,7 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
-    public function sri_project()
+    public function sri_project_1()
     {
         $data['rows'][0]['title'] = "SRI - 360 RENDERING - PANTRY";
         $data['rows'][0]['url'] = "http://18.139.219.177/srivtour1/tour.html";
