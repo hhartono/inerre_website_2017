@@ -1096,6 +1096,20 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function hari_project()
+    {
+        $data['rows'][0]['title'] = "HARI - 360 RENDERING - PANTRY";
+        $data['rows'][0]['url'] = "http://18.139.219.177/harivtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][1]['title'] = "HARI - PRESENTATION - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/desi/Hari_presentation_06.10.2022.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function desi_project()
     {
         $data['rows'][0]['title'] = "IBU DESI - 360 RENDERING - MASTER BEDROOM";
