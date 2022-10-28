@@ -1098,13 +1098,27 @@ class Pano extends CI_Controller
 
     public function hari_project()
     {
-        $data['rows'][0]['title'] = "HARI - 360 RENDERING - PANTRY";
+        $data['rows'][0]['title'] = "HARI - 360 RENDERING - PANTRY & LIVING";
         $data['rows'][0]['url'] = "http://18.139.219.177/harivtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "HARI - PRESENTATION - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/desi/Hari_presentation_06.10.2022.pdf";
+        $data['rows'][1]['title'] = "HARI - PRESENTATION - PANTRY - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_28.10.2022_pantry.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
+
+        $data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_28.10.2022_living.pdf";
+        $data['rows'][2]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function kingking_project()
+    {
+        $data['rows'][0]['title'] = "KING KING - PRESENTATION - PANTRY - PHASE 1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/kingking/Kingking_presentation_28.10.2022.pdf";
+        $data['rows'][0]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
