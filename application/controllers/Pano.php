@@ -1106,8 +1106,8 @@ class Pano extends CI_Controller
         $data['rows'][1]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_28.10.2022_pantry.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
-        $data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 1";
-        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_28.10.2022_living.pdf";
+        $data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 1 - REVISI 1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_04.11.2022_living.pdf";
         $data['rows'][2]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
