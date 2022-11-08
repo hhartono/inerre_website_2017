@@ -1116,9 +1116,13 @@ class Pano extends CI_Controller
 
     public function kingking_project()
     {
-        $data['rows'][0]['title'] = "KING KING - PRESENTATION - PANTRY - PHASE 1";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/kingking/Kingking_presentation_28.10.2022.pdf";
-        $data['rows'][0]['button_title'] = "download PDF document";
+        $data['rows'][0]['title'] = "KING KING - 360 RENDERING - PANTRY - PHASE 1";
+        $data['rows'][0]['url'] = "http://18.139.219.177/kingkingvtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][1]['title'] = "KING KING - PRESENTATION - PANTRY - PHASE 1";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/kingking/Kingking_presentation_28.10.2022.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
