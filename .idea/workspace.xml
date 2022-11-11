@@ -4,6 +4,7 @@
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/pano/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pano/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +447,8 @@
       <workItem from="1666931700221" duration="405000" />
       <workItem from="1667569526241" duration="50000" />
       <workItem from="1667788377223" duration="132000" />
-      <workItem from="1667892198793" duration="87000" />
+      <workItem from="1667892198793" duration="271000" />
+      <workItem from="1668173487661" duration="61000" />
     </task>
     <servers />
   </component>
