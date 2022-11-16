@@ -523,6 +523,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">REGINA - BSD</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina2/tour.html">update 22/07/2022</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina3/tour.html">update 15/11/2022</a>
                             </div>
                         </div>
                     </div>
