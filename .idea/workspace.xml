@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/panoexisting/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/panoexisting/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -450,6 +451,7 @@
       <workItem from="1668575055059" duration="85000" />
       <workItem from="1668575379118" duration="77000" />
       <workItem from="1668657705496" duration="30000" />
+      <workItem from="1668657794932" duration="14000" />
     </task>
     <servers />
   </component>
