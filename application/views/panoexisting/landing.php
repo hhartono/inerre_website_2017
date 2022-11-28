@@ -396,20 +396,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">LENY - DUTA GARDEN</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny/tour.html">see existing</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="cis-cont">
-                            <div class="cis-icon">
-                                <div class="icon icon-basic-pin1"></div>
-                            </div>
-                            <div class="cis-text">
-                                <h3><span class="bold">LENY 2 - DUTA GARDEN - UPDATE 17 JUNE 2022</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny2/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny2/tour.html">update 17/06/2022</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny3/tour.html">update 25/11/2022</a>
                             </div>
                         </div>
                     </div>
