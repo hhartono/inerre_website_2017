@@ -1300,6 +1300,20 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function regina_project_7()
+    {
+        $data['rows'][0]['title'] = "REGINA - 360 RENDERING - GYM";
+        $data['rows'][0]['url'] = "http://18.139.219.177/reginavtour7/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "REGINA - PRESENTATION - MASTER BEDROOM";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/regina/Regina_Presentation_02.09.2022.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function irene_project()
     {
         $data['rows'][0]['title'] = "IRENE - 360 RENDERING - MASTER BEDROOM";
