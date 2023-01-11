@@ -332,13 +332,13 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore - 2 x 2";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore_2x2";
-        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
         $veneeriter++;
 
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore - CNC1";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore_CNC1";
-        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $veneeriter++;
 
         $data['veneers'][$veneeriter]['title'] = "Oak - Natural";
