@@ -162,7 +162,7 @@ class LibraryV1 extends CI_Controller {
 
         $data['ducos'][$ducoiter]['title'] = "Cashmere Gray - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_cashmeregrey_matte";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_cashmeregray_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
@@ -677,9 +677,9 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/duco/duco_view', $data);
     }
 
-    public function duco_cashmeregrey_matte()
+    public function duco_cashmeregray_matte()
     {
-        $data['title'] = "Cashmere Grey - Matte - 4 x 2";
+        $data['title'] = "Cashmere Gray - Matte - 4 x 2";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
