@@ -162,7 +162,7 @@ class LibraryV1 extends CI_Controller {
 
         $data['ducos'][$ducoiter]['title'] = "Cashmere Gray - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_cashmeregray_matte";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_cashmeregrey_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
