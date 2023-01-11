@@ -679,7 +679,7 @@ class LibraryV1 extends CI_Controller {
 
     public function duco_cashmeregray_matte()
     {
-        $data['title'] = "Cashmere Gray - Matte - 4 x 2";
+        $data['title'] = "Cashmere Gray - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
@@ -689,7 +689,7 @@ class LibraryV1 extends CI_Controller {
 
     public function duco_sand_matte()
     {
-        $data['title'] = "Sand - Matte - 4 x 2";
+        $data['title'] = "Sand - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
