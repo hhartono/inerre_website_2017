@@ -64,6 +64,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
         $ducoiter++;
 
+        $data['ducos'][$ducoiter]['title'] = "Tundra Gray No 2 - Barcode - 2 x 2";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_tundragray2_2x2_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
         $data['ducos'][$ducoiter]['title'] = "Gray No 3 - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Steel Plate - Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_gray3_plate_matte";
@@ -145,6 +151,24 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['title'] = "Beige - Matte - 4 x 2";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_beige_4x2_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Ivory White - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_ivorywhite_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Cashmere Gray - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_cashmeregray_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Sand - Matte";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_sand_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
@@ -311,6 +335,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_coffeeopenpore_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+        $veneeriter++;
+
         $data['veneers'][$veneeriter]['title'] = "Oak - Natural";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_natural";
@@ -401,6 +431,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Oak - Autumn";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_autumn";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
+
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
 	}
@@ -486,6 +522,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Tundra Gray No 2 - Barcode - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_tundragray2_barcode_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_tundragray2_2x2_matte()
+    {
+        $data['title'] = "Tundra Gray No 2 - 2 x 2 - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
@@ -624,6 +670,26 @@ class LibraryV1 extends CI_Controller {
     public function duco_beige_4x2_matte()
     {
         $data['title'] = "Beige - Matte - 4 x 2";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_cashmeregrey_matte()
+    {
+        $data['title'] = "Cashmere Grey - Matte - 4 x 2";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_sand_matte()
+    {
+        $data['title'] = "Sand - Matte - 4 x 2";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
@@ -966,6 +1032,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/veneer_view', $data);
     }
 
+    public function oak_coffeeopenpore_CNC1()
+    {
+        $data['title'] = "Oak - Coffee Open Pore - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/oak_coffeeopenpore_2x2.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
     public function oak_natural()
     {
         $data['title'] = "Oak - Natural";
@@ -1109,6 +1185,16 @@ class LibraryV1 extends CI_Controller {
     public function oak_dune_CNC1()
     {
         $data['title'] = "Oak - Dune - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_autumn()
+    {
+        $data['title'] = "Oak - Autumn";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
