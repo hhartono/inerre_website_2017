@@ -527,6 +527,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">RINNY - CINERE</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/rinny/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/rinny2/tour.html">home theather & gym</a>
                             </div>
                         </div>
                     </div>
