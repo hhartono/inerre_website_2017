@@ -1122,8 +1122,12 @@ class Pano extends CI_Controller
 
     public function hari_project()
     {
-        $data['rows'][0]['title'] = "HARI - 360 RENDERING - PANTRY & LIVING";
+        $data['rows'][0]['title'] = "HARI - 360 RENDERING - PANTRY & LIVING & FOYER";
         $data['rows'][0]['url'] = "http://18.139.219.177/harivtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][0]['title'] = "HARI - 360 RENDERING - STUDY";
+        $data['rows'][0]['url'] = "http://18.139.219.177/harivtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "HARI - PRESENTATION - PANTRY - PHASE 1";
@@ -1133,6 +1137,10 @@ class Pano extends CI_Controller
         $data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 2";
         $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
         $data['rows'][2]['button_title'] = "download PDF document";
+
+        //$data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 3";
+        //$data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
+        //$data['rows'][2]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
