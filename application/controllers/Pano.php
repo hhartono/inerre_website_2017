@@ -1126,21 +1126,21 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/harivtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][0]['title'] = "HARI - 360 RENDERING - STUDY";
-        $data['rows'][0]['url'] = "http://18.139.219.177/harivtour2/tour.html";
-        $data['rows'][0]['button_title'] = "see 360 rendering";
+        $data['rows'][1]['title'] = "HARI - 360 RENDERING - STUDY";
+        $data['rows'][1]['url'] = "http://18.139.219.177/harivtour2/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "HARI - PRESENTATION - PANTRY - PHASE 1";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_05.01.2023_pantry.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
-
-        $data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 2";
-        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
+        $data['rows'][2]['title'] = "HARI - PRESENTATION - PANTRY - PHASE 1";
+        $data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_05.01.2023_pantry.pdf";
         $data['rows'][2]['button_title'] = "download PDF document";
 
-        //$data['rows'][2]['title'] = "HARI - PRESENTATION - LIVING - PHASE 3";
-        //$data['rows'][2]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
-        //$data['rows'][2]['button_title'] = "download PDF document";
+        $data['rows'][3]['title'] = "HARI - PRESENTATION - LIVING - PHASE 2";
+        $data['rows'][3]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
+        $data['rows'][3]['button_title'] = "download PDF document";
+
+        //$data['rows'][4]['title'] = "HARI - PRESENTATION - LIVING - PHASE 3";
+        //$data['rows'][4]['url'] = "http://18.139.219.177/pdf/hari/Hari_presentation_25.01.2023_living.pdf";
+        //$data['rows'][4]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
