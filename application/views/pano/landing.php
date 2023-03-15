@@ -596,7 +596,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">MEITY - MAKASSAR</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/meity_project'); ?>">see project</a>
                             </div>
-                        </di>
+                        </div>
                         <div class="cis-cont">
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
