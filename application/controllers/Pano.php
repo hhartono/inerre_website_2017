@@ -1146,6 +1146,10 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/vinavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "VINA - PRESENTATION - RTU";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/vina/Vina_Presentation_15.03.2023.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
@@ -1292,9 +1296,9 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/erlandvtour3/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - RTA Erland";
-        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/erland/Erland_Presentation_06.09.2022.pdf";
-        //$data['rows'][1]['button_title'] = "download PDF document";
+        $data['rows'][1]['title'] = "ERLAND - PRESENTATION - RTA 2";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/erland/Erland_Presentation_10.03.2023.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
