@@ -410,7 +410,7 @@ class Pano extends CI_Controller
     public function edward_project_2()
     {
         $data['rows'][0]['title'] = "EDWARD - DESIGN PRESENTATION - RTU & WIC UTAMA";
-        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/edward/Edward_Presentation_19.03.2021.pdf";
+        $data['rows'][0]['url'] = "http://18.139.219.177/pdf/edward/Edward_Presentation_31.03.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
         $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - RTU & WIC UTAMA";
