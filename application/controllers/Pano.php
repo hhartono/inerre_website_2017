@@ -1258,9 +1258,9 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/nanavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "NANA - PANTRY & LIVING - PRESENTATION";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/nana/Nana_Presentation_14.04.2023.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
+        //$data['rows'][1]['title'] = "NANA - PANTRY & LIVING - PRESENTATION";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/nana/Nana_Presentation_14.04.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
@@ -1334,9 +1334,9 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/erlandvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/erland/Erland_Presentation_03.04.2023.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
+        //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/erland/Erland_Presentation_03.04.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
