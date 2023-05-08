@@ -1147,7 +1147,7 @@ class Pano extends CI_Controller
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "VINA - PRESENTATION - RTU";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/vina/Vina_Presentation_20.03.2023.pdf";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/vina/Vina_Presentation_08.05.2023.pdf";
         $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
