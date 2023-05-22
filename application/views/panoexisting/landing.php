@@ -456,6 +456,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny3/tour.html">update 25/11/2022</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny4/tour.html">update 7/1/2023</a>                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny4/tour.html">update 7/1/2023</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny5/tour.html">rooftop 10/5/2023</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny6/tour.html">update 20/5/2023</a>
                             </div>
                         </div>
                     </div>
@@ -572,6 +573,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina2/tour.html">update 22/07/2022</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina3/tour.html">update 15/11/2022</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina4/tour.html">update 29/03/2023</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina5/tour.html">master bath 20/05/2023</a>
                             </div>
                         </div>
                     </div>
