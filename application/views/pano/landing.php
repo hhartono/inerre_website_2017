@@ -224,6 +224,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">BAIS - LIBRARY</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/bais_project'); ?>">RTU1</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">CHELSEA - TASIKMALAYA</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/chelsea_project_rev3'); ?>">see project</a>
                             </div>
