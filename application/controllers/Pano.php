@@ -1132,13 +1132,13 @@ class Pano extends CI_Controller
 
     public function dian_project()
     {
-        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - LIVING, DINING, PANTRY";
+        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - RTA";
         $data['rows'][0]['url'] = "http://18.139.219.177/dianvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "IBU DIAN - PRESENTATION - LIVING, DINING, PANTRY";
-        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/dian/Dian_Presentation_14.06.2023.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
+        //$data['rows'][1]['title'] = "IBU DIAN - PRESENTATION - LIVING, DINING, PANTRY";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/dian/Dian_Presentation_14.06.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
@@ -1146,13 +1146,13 @@ class Pano extends CI_Controller
 
     public function dian_kbp_project()
     {
-        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - PANTRY & LIVING";
+        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - LIVING, DINING, PANTRY";
         $data['rows'][0]['url'] = "http://18.139.219.177/diankbpvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        //$data['rows'][1]['title'] = "JANE - PRESENTATION - PHASE 1";
-        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/jane/Jane_Presentation_24.08.2021.pdf";
-        //$data['rows'][1]['button_title'] = "download PDF document";
+        $data['rows'][1]['title'] = "IBU DIAN - PRESENTATION - LIVING, DINING, PANTRY";
+        $data['rows'][1]['url'] = "http://18.139.219.177/pdf/dian/Dian_Presentation_14.06.2023.pdf";
+        $data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
