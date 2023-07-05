@@ -432,7 +432,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">FELYN - ASTANA ANYAR - FASE1</span></h3>
-                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/felyn_project_1'); ?>">see project</a>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/felyn_project'); ?>">see project</a>
                             </div>
                         </div>
                         <div class="cis-cont">
