@@ -1144,6 +1144,16 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function felyn_project()
+    {
+        $data['rows'][0]['title'] = "FELYN - 360 RENDERING - RTU & WIC utama";
+        $data['rows'][0]['url'] = "http://18.139.219.177/felynvtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function dian_kbp_project()
     {
         $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - LIVING, DINING, PANTRY";
