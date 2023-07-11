@@ -653,6 +653,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepoliform/tour.html">Poliform</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepp/tour.html">Moie PP</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomprodotti/tour.html">Prodotti</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/indobuildtech2023/tour.html">Indobuild 2023</a>
                             </div>
                         </div>
                     </div>
