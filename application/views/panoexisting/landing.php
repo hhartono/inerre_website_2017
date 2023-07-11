@@ -645,6 +645,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">SHOWROOM VISIT - JULY 2023</span></h3>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomabodestyle/tour.html">Abode</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomcasaitalialiving/tour.html">Casa Italia</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomlaflo/tour.html">LAFLO</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommagranliving/tour.html">Magran</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepoliform/tour.html">Poliform</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepp/tour.html">Moie PP</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomprodotti/tour.html">Prodotti</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">SOHPIA - PALEMBANG</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sohpia/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sohpia2/tour.html">update 27/09/2022</a>
