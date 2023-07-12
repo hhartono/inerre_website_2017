@@ -299,6 +299,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">ERNI - BSD</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni2/tour.html">update 05/06/2023</a>
+                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni3/tour.html">update 10/07/2023</a>
                             </div>
                         </div>
                     </div>
