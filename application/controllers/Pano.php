@@ -1174,9 +1174,9 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://18.139.219.177/diankbpvtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - GUEST ROOM, FOYER, LOUNGE";
-        $data['rows'][0]['url'] = "http://18.139.219.177/diankbpvtour3/tour.html";
-        $data['rows'][0]['button_title'] = "see 360 rendering";
+        $data['rows'][1]['title'] = "IBU DIAN - 360 RENDERING - GUEST ROOM, FOYER, LOUNGE";
+        $data['rows'][1]['url'] = "http://18.139.219.177/diankbpvtour3/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "IBU DIAN - PRESENTATION - LIVING, DINING, PANTRY (update mirror pantry)";
         //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/dian/Dian_Presentation_16.06.2023.pdf";
