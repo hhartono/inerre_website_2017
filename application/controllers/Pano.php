@@ -1168,6 +1168,24 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function dian_kbp_project_2()
+    {
+        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - RTU";
+        $data['rows'][0]['url'] = "http://18.139.219.177/diankbpvtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][0]['title'] = "IBU DIAN - 360 RENDERING - GUEST ROOM, FOYER, LOUNGE";
+        $data['rows'][0]['url'] = "http://18.139.219.177/diankbpvtour3/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "IBU DIAN - PRESENTATION - LIVING, DINING, PANTRY (update mirror pantry)";
+        //$data['rows'][1]['url'] = "http://18.139.219.177/pdf/dian/Dian_Presentation_16.06.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function meity_project()
     {
         $data['rows'][0]['title'] = "IBU MEITY - 360 RENDERING - RTU";
