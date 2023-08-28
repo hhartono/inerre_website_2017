@@ -1231,7 +1231,7 @@ class LibraryV1 extends CI_Controller {
 
     public function oak_autumn_CNC1()
     {
-        $data['title'] = "Oak - Autumn";
+        $data['title'] = "Oak - Autumn - CNC1";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
@@ -1241,7 +1241,7 @@ class LibraryV1 extends CI_Controller {
 
     public function oak_autumn_2x2()
     {
-        $data['title'] = "Oak - Autumn";
+        $data['title'] = "Oak - Autumn - 2 x 2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
