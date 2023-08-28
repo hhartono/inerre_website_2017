@@ -186,13 +186,13 @@ class LibraryV1 extends CI_Controller {
 
         $data['ducos'][$ducoiter]['title'] = "Taupe - Matte - CNC1";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_taupe_matte_CNC1";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_taupe_CNC1_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
         $data['ducos'][$ducoiter]['title'] = "Taupe - Matte - 2 x 2";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
-        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_taupe_matte_2x2";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_taupe_2x2_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
@@ -742,7 +742,7 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/duco/duco_view', $data);
     }
 
-    public function duco_taupe_matte_CNC1()
+    public function duco_taupe_CNC1_matte()
     {
         $data['title'] = "Taupe - Matte - CNC1";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
@@ -752,7 +752,7 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/duco/duco_view', $data);
     }
 
-    public function duco_taupe_matte_2x2()
+    public function duco_taupe_2x2_matte()
     {
         $data['title'] = "Taupe - Matte - 2 x 2";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
