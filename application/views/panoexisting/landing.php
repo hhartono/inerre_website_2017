@@ -529,7 +529,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MEITI - MAKASSAR</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/meiti/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://inerre.com/index.php/Existing/meiti_existing">see existing</a>
                             </div>
                         </div>
                     </div>
