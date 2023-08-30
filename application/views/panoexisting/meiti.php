@@ -170,8 +170,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">MEITI - MAKASSAR</span></h3>
+                                <h3><span class="bold">MEITI - MAKASSAR - 360</span></h3>
                                 <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/meiti/tour.html">see existing</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">MEITI - MAKASSAR - PHOTOS</span></h3>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/LdgM1qBwH2BMaJv49">RTU</a>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6SAKSkdXgtBD9sAUA">WIC utama</a>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/BkZ9un7ehP1UMGLt6">Ruang Kerja RTU</a>
                             </div>
                         </div>
                     </div>
