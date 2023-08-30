@@ -188,7 +188,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">MEITI - MAKASSAR - PHOTOS</span></h3>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/LdgM1qBwH2BMaJv49">RTU</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6SAKSkdXgtBD9sAUA">WIC utama</a><br>
-                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/BkZ9un7ehP1UMGLt6">Ruang Kerja RTU</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/BkZ9un7ehP1UMGLt6">Ruang Kerja RTU</a><br><br>
+
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/K35JrNpfr6omqDGm6">RTA1</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/u8iyvRbqGCVFPstf9">WIC RTA1</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6YEoTH7psLgGhyRo6">Ruang Kerja RTA1</a><br><br>
                             </div>
                         </div>
                     </div>
