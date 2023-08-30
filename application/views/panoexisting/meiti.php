@@ -193,6 +193,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/K35JrNpfr6omqDGm6">RTA1</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/u8iyvRbqGCVFPstf9">WIC RTA1</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6YEoTH7psLgGhyRo6">Ruang Kerja RTA1</a><br><br>
+
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/xhoafCmeJD5ms9it7">RTA2</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/pwJoSCg9HHPyWLqV9">WIC RTA2</a><br><br>
+
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/EJMRyXAcqubeuGmT9">RTA4</a><br><br>
+
                             </div>
                         </div>
                     </div>
