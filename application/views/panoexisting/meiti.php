@@ -198,7 +198,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/pwJoSCg9HHPyWLqV9">WIC RTA2</a><br><br>
 
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/EJMRyXAcqubeuGmT9">RTA4</a><br><br>
-
                             </div>
                         </div>
                     </div>
