@@ -23,4 +23,10 @@ class Existing extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('panoexisting/landing');
 	}
+
+    public function meiti_existing()
+    {
+        $this->load->helper('url');
+        $this->load->view('panoexisting/meiti');
+    }
 }
