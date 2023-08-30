@@ -35,19 +35,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/application/views/panoexisting" />
+      <recent name="$PROJECT_DIR$/application/views/pano" />
+      <recent name="$PROJECT_DIR$/application/views" />
+      <recent name="$PROJECT_DIR$/application/controllers" />
+      <recent name="$PROJECT_DIR$/application/views/profile" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage8" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/veneer" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7/portfolio" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/portfolio/portfoliopage7" />
       <recent name="$PROJECT_DIR$/assets/images/inerre/library/hpl" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/views/pano" />
-      <recent name="$PROJECT_DIR$/application/views" />
-      <recent name="$PROJECT_DIR$/application/controllers" />
-      <recent name="$PROJECT_DIR$/application/views/profile" />
-      <recent name="$PROJECT_DIR$/assets/js" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.assets">
@@ -505,7 +505,7 @@
       <workItem from="1693197613656" duration="955000" />
       <workItem from="1693380056437" duration="204000" />
       <workItem from="1693380314465" duration="95000" />
-      <workItem from="1693380467812" duration="760000" />
+      <workItem from="1693380467812" duration="1072000" />
     </task>
     <servers />
   </component>
