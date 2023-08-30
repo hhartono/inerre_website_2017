@@ -187,7 +187,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">MEITI - MAKASSAR - PHOTOS</span></h3>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/LdgM1qBwH2BMaJv49">RTU</a><br>
-                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6SAKSkdXgtBD9sAUA">WIC utama</a><br><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/6SAKSkdXgtBD9sAUA">WIC utama</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/BkZ9un7ehP1UMGLt6">Ruang Kerja RTU</a><br>
                             </div>
                         </div>
