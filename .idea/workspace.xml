@@ -31,7 +31,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/pano" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -503,6 +503,8 @@
       <workItem from="1691589796813" duration="98000" />
       <workItem from="1691837871942" duration="551000" />
       <workItem from="1693197613656" duration="955000" />
+      <workItem from="1693380056437" duration="204000" />
+      <workItem from="1693380314465" duration="95000" />
     </task>
     <servers />
   </component>
@@ -513,9 +515,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="328" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog" timestamp="1655897584250">
-      <screen x="0" y="23" width="1680" height="982" />
+    <state x="797" y="429" key="com.intellij.ide.util.TipDialog" timestamp="1693380060884">
+      <screen x="0" y="25" width="2240" height="1150" />
     </state>
-    <state x="397" y="328" width="927" height="331" key="#com.intellij.structuralsearch.plugin.ui.StructuralSearchDialog/0.23.1680.982@0.23.1680.982" timestamp="1655897584250" />
+    <state x="797" y="429" key="com.intellij.ide.util.TipDialog/0.25.2240.1150@0.25.2240.1150" timestamp="1693380060884" />
   </component>
 </project>
