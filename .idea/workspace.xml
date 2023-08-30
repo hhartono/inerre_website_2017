@@ -31,7 +31,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/application/views/panoexisting" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -505,6 +505,7 @@
       <workItem from="1693197613656" duration="955000" />
       <workItem from="1693380056437" duration="204000" />
       <workItem from="1693380314465" duration="95000" />
+      <workItem from="1693380467812" duration="760000" />
     </task>
     <servers />
   </component>
