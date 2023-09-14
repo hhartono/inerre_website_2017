@@ -1188,11 +1188,11 @@ class Pano extends CI_Controller
 
     public function meity_project()
     {
-        $data['rows'][0]['title'] = "IBU MEITY - 360 RENDERING - RTU";
+        $data['rows'][0]['title'] = "IBU MEITI - 360 RENDERING - RTU";
         $data['rows'][0]['url'] = "http://18.139.219.177/meityvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "IBU MEITY - 360 RENDERING - RTU PART 2";
+        $data['rows'][1]['title'] = "IBU MEITI - 360 RENDERING - RTU PART 2";
         $data['rows'][1]['url'] = "http://18.139.219.177/meityvtour2/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
