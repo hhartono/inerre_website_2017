@@ -269,7 +269,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ELLEN - PANTAI MUTIARA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/ellen/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/ellen/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ERLAND - BOGOR</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erland/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erland/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -297,9 +297,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ERNI - BSD</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni2/tour.html">update 05/06/2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/erni3/tour.html">update 10/07/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni2/tour.html">update 05/06/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni3/tour.html">update 10/07/2023</a>
                             </div>
                         </div>
                     </div>
@@ -313,7 +313,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">FABIOLA - TASIKMALAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/fabiola/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/fabiola/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -327,7 +327,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">FERRY - CIPAGANTI</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/ferry/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/ferry/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -341,7 +341,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">FITRIA - PODOMORO PARK</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/fitria/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/fitria/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -355,7 +355,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">GLENN - TITISWARI</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/glenn/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/glenn/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -369,7 +369,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">GUNUNG MAS - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/gunungmas/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/gunungmas/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -383,8 +383,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">HARI - PIK</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/hari/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/hari2/tour.html">update 18/07/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/hari/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/hari2/tour.html">update 18/07/2023</a>
                             </div>
                         </div>
                     </div>
@@ -398,7 +398,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">HENDRY - KBP</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/hendry/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/hendry/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -412,7 +412,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">INERRE - SHOWROOM</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/inerreshowroom/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/inerreshowroom/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -426,7 +426,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">INTERCON - DAGO</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/intercon/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/intercon/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -440,7 +440,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">JENSEN - PASIRKALIKI</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/jensen/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/jensen/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -454,7 +454,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">KING KING - DAGO RESORT</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/kingking/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/kingking/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -468,12 +468,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">LENY - DUTA GARDEN</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny2/tour.html">update 17/06/2022</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny3/tour.html">update 25/11/2022</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny4/tour.html">update 7/1/2023</a>                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny4/tour.html">update 7/1/2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny5/tour.html">rooftop 10/5/2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/leny6/tour.html">update 20/5/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny2/tour.html">update 17/06/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny3/tour.html">update 25/11/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny4/tour.html">update 7/1/2023</a>                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny4/tour.html">update 7/1/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny5/tour.html">rooftop 10/5/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/leny6/tour.html">update 20/5/2023</a>
                             </div>
                         </div>
                     </div>
@@ -487,7 +487,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">LUSIANA - GURUMINDA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/lusiana/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/lusiana/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -501,7 +501,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MAYA - KOTA BARU PARAHYANGAN</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/maya/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/maya/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -515,7 +515,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MERRY - APT HEGARMANAH</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/merry/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/merry/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -543,7 +543,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MONICA - CISANGKUY</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/monica/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/monica/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -557,9 +557,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">MR SHEN - KBP</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/shen/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/shen3/tour.html">18 Jan 2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/shen4/tour.html">Ruang Doa</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen3/tour.html">18 Jan 2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen4/tour.html">Ruang Doa</a>
                             </div>
                         </div>
                     </div>
@@ -573,7 +573,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">NANA - PIK</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/nana/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/nana/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -587,7 +587,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">PRISCILIA - PAKUWON</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/priscilia/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/priscilia/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -601,7 +601,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">PRISCILIA RTA2 - PAKUWON</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/priscilia2/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/priscilia2/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -615,12 +615,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">REGINA - BSD</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina2/tour.html">update 22/07/2022</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina3/tour.html">update 15/11/2022</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina4/tour.html">update 29/03/2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina5/tour.html">master bath 20/05/2023</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/regina6/tour.html">update 20/06/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina2/tour.html">update 22/07/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina3/tour.html">update 15/11/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina4/tour.html">update 29/03/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina5/tour.html">master bath 20/05/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/regina6/tour.html">update 20/06/2023</a>
                             </div>
                         </div>
                     </div>
@@ -634,8 +634,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">RINNY - CINERE</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/rinny/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/rinny2/tour.html">home theather & gym</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/rinny/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/rinny2/tour.html">home theather & gym</a>
                             </div>
                         </div>
                     </div>
@@ -649,7 +649,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ROBERT - KOPO</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/robert/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/robert/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -663,7 +663,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SARIWATI - ANCOL</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sariwati/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sariwati/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -677,14 +677,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SHOWROOM VISIT - JULY 2023</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomabodestyle/tour.html">Abode</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomcasaitalialiving/tour.html">Casa Italia</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomlaflo/tour.html">LAFLO</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommagranliving/tour.html">Magran</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepoliform/tour.html">Poliform</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroommoiepp/tour.html">Moie PP</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/showroomprodotti/tour.html">Prodotti</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/indobuildtech2023/tour.html">Indobuild 2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomabodestyle/tour.html">Abode</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomcasaitalialiving/tour.html">Casa Italia</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomlaflo/tour.html">LAFLO</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroommagranliving/tour.html">Magran</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroommoiepoliform/tour.html">Poliform</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroommoiepp/tour.html">Moie PP</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomprodotti/tour.html">Prodotti</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/indobuildtech2023/tour.html">Indobuild 2023</a>
                             </div>
                         </div>
                     </div>
@@ -698,9 +698,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SOHPIA - PALEMBANG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sohpia/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sohpia2/tour.html">update 27/09/2022</a>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sohpia3/tour.html">update 4/11/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sohpia/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sohpia2/tour.html">update 27/09/2022</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sohpia3/tour.html">update 4/11/2022</a>
                             </div>
                         </div>
                     </div>
@@ -714,7 +714,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SRI SATRIATY - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/srisatriaty/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/srisatriaty/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -728,7 +728,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SUMARKO - GREEN GARDEN</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sumarko/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sumarko/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="https://youtube.com/playlist?list=PLk1-2BMr7SzrmEKzm6yjvvTkKB2ZXojIP">see video</a>
                             </div>
                         </div>
@@ -743,7 +743,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SUMARKO - GREEN GARDEN - UPDATE 20 MEI 2022</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sumarko2/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sumarko2/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -757,7 +757,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SUMARKO - GREEN GARDEN - UPDATE 16 JUNI 2022</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sumarko3/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sumarko3/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -771,7 +771,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">SUNSUN - PAJAJARAN</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/sunsun/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/sunsun/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -785,7 +785,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">TERATE - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/terate/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/terate/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -799,7 +799,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">THE COLOR OF INDONESIA - 2022</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/tcoi2022/tour.html">see exhibition</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/tcoi2022/tour.html">see exhibition</a>
                             </div>
                         </div>
                     </div>
@@ -813,7 +813,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">TRANSCONTINENT - TEBET</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/transcontinent/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/transcontinent/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -827,7 +827,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">TRUNOJOYO - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/trunojoyo/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/trunojoyo/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -841,7 +841,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WANDI - HOLIS</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/wandi/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/wandi/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -855,7 +855,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WILLIAM - KBP</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/william/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/william/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -869,7 +869,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WILLIAM 2 - UPDATE 13 OCT 2021 - KBP</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/william2/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/william2/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -883,7 +883,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WILLY SOENARYO - SETRA DUTA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/willysoenaryo/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/willysoenaryo/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -897,7 +897,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">WILSON & STACEY - SETRA DUTA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/stephanie/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/stephanie/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -911,7 +911,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">YUSUF - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/yusuf/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/yusuf/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
