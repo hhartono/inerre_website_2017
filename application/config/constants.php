@@ -51,7 +51,7 @@ defined('FOPEN_READ_WRITE_CREATE_STRICT')       OR define('FOPEN_READ_WRITE_CREA
 /*
  * IP Address of AWS server
  */
-$GLOBALS['inerre_vr'] = '13.229.209.171';
+$GLOBALS['inerre_vr'] = "13.229.209.171";
 
 /*
 |--------------------------------------------------------------------------
