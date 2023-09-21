@@ -186,7 +186,7 @@ ga('send', 'pageview');
 
                                             <!-- MENU ITEM -->
                                             <li>
-                                                <a href="http://18.139.219.177/pdf/production/inerre_production_facility.pdf"><div class="main-menu-title">PRODUCTION</div></a>
+                                                <a href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/pdf/production/inerre_production_facility.pdf"><div class="main-menu-title">PRODUCTION</div></a>
                                             </li>
 
                                             <!-- MENU ITEM -->
