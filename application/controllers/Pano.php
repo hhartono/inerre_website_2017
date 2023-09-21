@@ -20,6 +20,11 @@ class Pano extends CI_Controller
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
 
+    /*
+     * IP Address of server are declared at
+     * config/constants.php
+     */
+
     public function index()
     {
         $this->load->helper('url');
@@ -83,7 +88,7 @@ class Pano extends CI_Controller
     public function ayu_project()
     {
         //$data['rows'][0]['title'] = "AYU - KELAPA GADING - Master Bedroom Lantai 2";
-        //$data['rows'][0]['url'] = "http://18.139.219.177/ayurtu2vtour1/tour.html";
+        //$data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/ayurtu2vtour1/tour.html";
         //$data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][0]['title'] = "AYU - KELAPA GADING - Master Bedroom Lantai 2";
@@ -97,19 +102,19 @@ class Pano extends CI_Controller
     public function priscilia_project()
     {
         $data['rows'][0]['title'] = "PRISCILIA - SURABAYA - All Rooms";
-        $data['rows'][0]['url'] = "http://18.139.219.177/prisciliavtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/prisciliavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "PRISCILIA - SURABAYA - Ruang Tidur Orang Tua";
-        $data['rows'][1]['url'] = "http://18.139.219.177/prisciliartovtour/tour.html";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/prisciliartovtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $data['rows'][2]['title'] = "PRISCILIA - SURABAYA - Office";
-        $data['rows'][2]['url'] = "http://18.139.219.177/prisciliaofficevtour/tour.html";
+        $data['rows'][2]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/prisciliaofficevtour/tour.html";
         $data['rows'][2]['button_title'] = "see 360 rendering";
 
         $data['rows'][3]['title'] = "PRISCILIA - SURABAYA - Kids Bedroom 2";
-        $data['rows'][3]['url'] = "http://18.139.219.177/prisciliarta2vtour/tour.html";
+        $data['rows'][3]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/prisciliarta2vtour/tour.html";
         $data['rows'][3]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
@@ -119,15 +124,15 @@ class Pano extends CI_Controller
     public function rinny_project()
     {
         $data['rows'][0]['title'] = "RINNY - CINERE - All Rooms";
-        $data['rows'][0]['url'] = "http://18.139.219.177/rinnyvtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/rinnyvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "RINNY - CINERE - Master Bedroom";
-        $data['rows'][1]['url'] = "http://18.139.219.177/rinnyrtuvtour/tour.html";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/rinnyrtuvtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $data['rows'][2]['title'] = "RINNY - CINERE - Kids Bedroom 1";
-        $data['rows'][2]['url'] = "http://18.139.219.177/rinnyrtavtour/tour.html";
+        $data['rows'][2]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/rinnyrtavtour/tour.html";
         $data['rows'][2]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
@@ -137,7 +142,7 @@ class Pano extends CI_Controller
     public function rinny_project_2()
     {
         $data['rows'][0]['title'] = "RINNY - CINERE - Grandkids Bedroom";
-        $data['rows'][0]['url'] = "http://18.139.219.177/rinnyrtcvtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/rinnyrtcvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
@@ -147,7 +152,7 @@ class Pano extends CI_Controller
     public function rinny_project_3()
     {
         $data['rows'][0]['title'] = "RINNY - CINERE - Home Theather";
-        $data['rows'][0]['url'] = "http://18.139.219.177/rinnyvtour2/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/rinnyvtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
