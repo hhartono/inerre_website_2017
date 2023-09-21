@@ -171,7 +171,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ABIGAIL - BANDUNG</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/abigail/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/abigail/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ADELINE - SETRA DUTA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/adeline/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/adeline/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">BAIS - LIBRARY</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/bais/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/bais/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CHELSEA - TASIKMALAYA</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/chelsea/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/chelsea/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -227,7 +227,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CHRISNA - LAMANDAU</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/chrisna/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/chrisna/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">DENNY - NAVA PARK</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/denny/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/denny/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">DIAN - GURUMINDA - KBP</span></h3>
-                                <a class="button medium thin hover-dark" href="http://18.139.219.177/existing/dian/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/dian/tour.html">see existing</a>
                             </div>
                         </div>
                     </div>
