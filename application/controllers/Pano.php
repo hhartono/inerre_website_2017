@@ -20,8 +20,6 @@ class Pano extends CI_Controller
      * @see https://codeigniter.com/user_guide/general/urls.html
      */
 
-
-
     public function index()
     {
         $this->load->helper('url');
@@ -89,7 +87,7 @@ class Pano extends CI_Controller
         //$data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][0]['title'] = "AYU - KELAPA GADING - Master Bedroom Lantai 2";
-        $data['rows'][0]['url'] = "http://13.229.209.171/ayurtu2vtour2/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/ayurtu2vtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
