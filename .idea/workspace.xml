@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="" />
+    <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/application/views/profile/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/profile/landing.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -508,7 +510,7 @@
       <workItem from="1693733827499" duration="848000" />
       <workItem from="1694697267464" duration="178000" />
       <workItem from="1694697494387" duration="267000" />
-      <workItem from="1695303522222" duration="3062000" />
+      <workItem from="1695303522222" duration="3226000" />
     </task>
     <servers />
   </component>
@@ -523,9 +525,9 @@
       <screen x="0" y="25" width="2240" height="1150" />
     </state>
     <state x="797" y="429" key="com.intellij.ide.util.TipDialog/0.25.2240.1150@0.25.2240.1150" timestamp="1693380060884" />
-    <state x="1051" y="198" width="674" height="729" key="find.popup" timestamp="1695306845747">
+    <state x="1051" y="198" width="674" height="729" key="find.popup" timestamp="1695307006787">
       <screen x="0" y="25" width="2240" height="1150" />
     </state>
-    <state x="1051" y="198" width="674" height="729" key="find.popup/0.25.2240.1150@0.25.2240.1150" timestamp="1695306845747" />
+    <state x="1051" y="198" width="674" height="729" key="find.popup/0.25.2240.1150@0.25.2240.1150" timestamp="1695307006787" />
   </component>
 </project>
