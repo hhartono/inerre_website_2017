@@ -1397,7 +1397,7 @@ class Pano extends CI_Controller
     public function erland_project_4()
     {
         $data['rows'][0]['title'] = "ERLAND - 360 RENDERING - LIVING & PANTRY";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/erlandvtour4/tour.html";
+        $data['rows'][0]['url'] = "http://13.212.20.93/erlandvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY";
