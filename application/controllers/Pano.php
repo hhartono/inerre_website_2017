@@ -1397,7 +1397,7 @@ class Pano extends CI_Controller
     public function erland_project_4()
     {
         $data['rows'][0]['title'] = "ERLAND - 360 RENDERING - LIVING & PANTRY";
-        $data['rows'][0]['url'] = "http://13.212.20.93/erlandvtour4/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/erlandvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY";
@@ -1511,12 +1511,12 @@ class Pano extends CI_Controller
     public function irene_project()
     {
         $data['rows'][0]['title'] = "IRENE - 360 RENDERING - MASTER BEDROOM";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/irenevtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/irenevtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "IRENE - PRESENTATION - MASTER BEDROOM";
-        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/irene/Irene_Presentation_08.08.2023.pdf";
-        $data['rows'][1]['button_title'] = "download PDF document";
+        //$data['rows'][1]['title'] = "IRENE - PRESENTATION - MASTER BEDROOM";
+        //$data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/irene/Irene_Presentation_08.08.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
