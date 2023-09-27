@@ -1321,7 +1321,7 @@ class Pano extends CI_Controller
     public function nana_project()
     {
         $data['rows'][0]['title'] = "NANA - PANTRY & LIVING - 360 RENDERING";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/nanavtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/nanavtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "NANA - PANTRY & LIVING - PRESENTATION";
