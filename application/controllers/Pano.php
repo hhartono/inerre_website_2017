@@ -1163,7 +1163,7 @@ class Pano extends CI_Controller
     public function felyn_project()
     {
         $data['rows'][0]['title'] = "FELYN - 360 RENDERING - RTU & WIC utama";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/felynvtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/felynvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
