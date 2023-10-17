@@ -1406,11 +1406,11 @@ class Pano extends CI_Controller
 
     public function erland_project_4()
     {
-        $data['rows'][0]['title'] = "ERLAND - 360 RENDERING - LIVING & PANTRY";
+        $data['rows'][0]['title'] = "ERLAND - 360 RENDERING - LIVING & PANTRY & DAPUR KOTOR & LOUNGE";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/erlandvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY";
+        //$data['rows'][1]['title'] = "ERLAND - PRESENTATION - LIVING & PANTRY & DAPUR KOTOR & LOUNGE";
         //$data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/erland/Erland_Presentation_03.04.2023.pdf";
         //$data['rows'][1]['button_title'] = "download PDF document";
 
