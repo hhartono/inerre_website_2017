@@ -784,7 +784,7 @@ class Pano extends CI_Controller
     public function leny_project_3()
     {
         $data['rows'][0]['title'] = "LENY - LIVING, DINING, PANTRY - 360 RENDERING - PHASE 3";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/lenyvtour4/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/lenyvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         //$data['rows'][1]['title'] = "LENY - PRESENTATION - PHASE 3";
