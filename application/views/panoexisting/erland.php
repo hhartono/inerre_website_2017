@@ -189,7 +189,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/xRBeL1iY6BXCHN759">RTA 1, WIC RTA 1 & Bathroom RTA 1</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/z9JyF6pH5FPypxdP9">RTA 2, WIC RTA 2 & Bathroom RTA 2</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/9S75QFQ4XJHxs2RZ8">Lounge Lt.2 & Guest Bathroom</a><br>
-                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/qmThKs3EHHSneQYh">Living, Dining, Pantry & Powder room</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/qmThKs3EHHSneQYh8">Living, Dining, Pantry & Powder room</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/voJNjJQAd5AE51WB8">Dapur Kotor</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/1cYYeeCpZ2rUWXxs8">Laundry</a><br>
 
