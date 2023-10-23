@@ -29,4 +29,10 @@ class Existing extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('panoexisting/meiti');
     }
+
+    public function erland_existing()
+    {
+        $this->load->helper('url');
+        $this->load->view('panoexisting/erland');
+    }
 }
