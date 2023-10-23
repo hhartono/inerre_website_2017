@@ -170,9 +170,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">MEITI - MAKASSAR - 360</span></h3>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/meiti/tour.html">LANTAI 2</a><br>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/meiti2/tour.html">LANTAI 3</a>
+                                <h3><span class="bold">ERLAND - BOGOR - 360 19 OKT 2023</span></h3>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erland2/tour.html">see existing</a><br>
                             </div>
                         </div>
                     </div>
