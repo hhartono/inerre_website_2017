@@ -315,6 +315,11 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][19]['controller'] = "LibraryV1/lamitak_sullivan_faux_denim";
         $data['lamitaks'][19]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
+        $data['lamitaks'][20]['title'] = "Stoffa Crema";
+        $data['lamitaks'][20]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][20]['controller'] = "LibraryV1/lamitak_stoffa_crema";
+        $data['lamitaks'][20]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
@@ -1030,6 +1035,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Sullivan Faux Denim";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_stoffa_crema()
+    {
+        $data['title'] = "Stoffa Crema";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         $this->load->helper('url');
         $this->load->view('library/hpl/lamitak_hpl', $data);
