@@ -1534,7 +1534,7 @@ class Pano extends CI_Controller
 
     public function irene_project_2()
     {
-        $data['rows'][0]['title'] = "IRENE - 360 RENDERING - MASTER BEDROOM";
+        $data['rows'][0]['title'] = "IRENE - 360 RENDERING - LIVING, DINING, PANTRY";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/irenevtour2/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
