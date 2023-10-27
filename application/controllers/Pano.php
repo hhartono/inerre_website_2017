@@ -1532,6 +1532,20 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function irene_project_2()
+    {
+        $data['rows'][0]['title'] = "IRENE - 360 RENDERING - MASTER BEDROOM";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/irenevtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        //$data['rows'][1]['title'] = "IRENE - PRESENTATION - MASTER BEDROOM";
+        //$data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/irene/Irene_Presentation_08.08.2023.pdf";
+        //$data['rows'][1]['button_title'] = "download PDF document";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function fitria_project()
     {
         $data['rows'][0]['title'] = "FITRIA - 360 RENDERING";
