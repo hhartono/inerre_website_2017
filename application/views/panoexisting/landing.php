@@ -283,8 +283,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ERLAND - BOGOR</span></h3>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erland/tour.html">see existing</a>
-                                <a class="button medium thin hover-dark" href="http://inerre.com/index.php/Existing/erland_existing">update 19 OKT 2023</a>
+                                <a class="button medium thin hover-dark" href="http://inerre.com/index.php/Existing/erland_existing">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erland/tour.html">see existing (first survey)</a>
                             </div>
                         </div>
                     </div>
