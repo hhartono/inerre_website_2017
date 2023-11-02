@@ -183,6 +183,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-icon">
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
+
+                            <div class="cis-text">
+                                <h3><span class="bold">ERLAND - BOGOR - PHOTOS 1 NOV 2023</span></h3>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/14qfGzM4VSK31bUf7">All Areas</a><br>
+                            </div>
+
                             <div class="cis-text">
                                 <h3><span class="bold">ERLAND - BOGOR - PHOTOS 19 OKT 2023</span></h3>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/ZxFc6n5AW7ojVkRd9">RTU, WIC RTU & Bathroom RTU</a><br>
@@ -192,7 +198,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/qmThKs3EHHSneQYh8">Living, Dining, Pantry & Powder room</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/voJNjJQAd5AE51WB8">Dapur Kotor</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/1cYYeeCpZ2rUWXxs8">Laundry</a><br>
-
                             </div>
                         </div>
                     </div>
