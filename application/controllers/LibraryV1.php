@@ -435,6 +435,24 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoky";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoky";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoky - 2 x 2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoky_2x2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png";
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Smoky - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_smoky_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
+        $veneeriter++;
+
         $data['veneers'][$veneeriter]['title'] = "Walnut - Natural";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_natural";
@@ -1255,6 +1273,36 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Walnut - Smoke - CNC2";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc2.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function walnut_smoky()
+    {
+        $data['title'] = "Walnut - Smoky";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function walnut_smoky_2x2()
+    {
+        $data['title'] = "Walnut - Smoky - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_2x2.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function walnut_smoky_CNC1()
+    {
+        $data['title'] = "Walnut - Smoky - CNC1";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_smoke_cnc1.png";
 
         $this->load->helper('url');
         $this->load->view('library/veneer/veneer_view', $data);
