@@ -604,7 +604,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">MR SHEN - KBP</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen3/tour.html">18 Jan 2023</a>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen4/tour.html">Ruang Doa</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen4/tour.html">Ruang Doa</a><br>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/shen5/tour.html">RTU</a>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/sqkCQV6VKE2cpRKSA">Foto RTU</a><br>
                             </div>
