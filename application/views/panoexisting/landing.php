@@ -474,7 +474,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
+                                <h3><span class="bold">KAMANDAKA - KBP</span></h3>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/kamandaka/tour.html">RTUm</a>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/2n3WobP68kEvHQqSA">Foto Pantry</a><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
@@ -590,6 +605,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen3/tour.html">18 Jan 2023</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/shen4/tour.html">Ruang Doa</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/shen5/tour.html">RTUm</a>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/sqkCQV6VKE2cpRKSA">Foto RTU</a><br>
                             </div>
                         </div>
                     </div>
