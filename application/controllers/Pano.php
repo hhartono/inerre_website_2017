@@ -1202,7 +1202,7 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
-    public function meity_project()
+    public function meiti_project()
     {
         $data['rows'][0]['title'] = "IBU MEITI - 360 RENDERING - RTU";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour/tour.html";
@@ -1211,6 +1211,16 @@ class Pano extends CI_Controller
         $data['rows'][1]['title'] = "IBU MEITI - 360 RENDERING - RTU PART 2";
         $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/meityvtour2/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
+    public function meiti_project_2()
+    {
+        $data['rows'][0]['title'] = "IBU MEITI - 360 RENDERING - LIVING, DINING, PANTRY";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour3/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
