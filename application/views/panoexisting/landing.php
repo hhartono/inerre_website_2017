@@ -634,7 +634,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">NANA - PIK</span></h3>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/nana/tour.html">see existing</a><br>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/nana/tour.html">see existing</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/4gY148iT7eJ4MV2i9">WARNING & Foto Update 12 DEC 23</a>
                             </div>
                         </div>
