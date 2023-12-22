@@ -456,7 +456,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">IRENE - BSD</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/irene/tour.html">see existing</a><br>
-                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/o8K6LZnxP71CpKCr5">Update 20 DEC 23</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/o8K6LZnxP71CpKCr5">Update 20 DEC 23 (FOTO)</a><br>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/irene2/tour.html">Update 20 DEC 23</a><br>
                             </div>
                         </div>
                     </div>
