@@ -1209,7 +1209,7 @@ class Pano extends CI_Controller
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $data['rows'][1]['title'] = "IBU MEITI - 360 RENDERING - RTU PART 2";
-        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/meityvtour2/tour.html";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour2/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
