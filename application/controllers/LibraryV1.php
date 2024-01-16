@@ -477,6 +477,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural_barcode.png";
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Walnut - Honey";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/walnut_honey";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+        $veneeriter++;
+
         $data['veneers'][$veneeriter]['title'] = "Oak - Dune";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_dune";
@@ -528,6 +534,12 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['title'] = "Oak - Tokyo - CNC1";
         $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
         $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_tokyo_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Oak - Butter";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_butter";
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $veneeriter++;
 
@@ -1366,6 +1378,16 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/veneer/veneer_view', $data);
     }
 
+    public function walnut_honey()
+    {
+        $data['title'] = "Walnut - Honey";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/veneer/walnut_natural.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
     public function oak_dune()
     {
         $data['title'] = "Oak - Dune";
@@ -1449,6 +1471,16 @@ class LibraryV1 extends CI_Controller {
     public function oak_tokyo_2x2()
     {
         $data['title'] = "Oak - Tokyo - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_butter()
+    {
+        $data['title'] = "Oak - Butter";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
