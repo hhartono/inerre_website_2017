@@ -1262,6 +1262,10 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour3/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "IBU MEITI - 360 RENDERING - GUEST AREA";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour7/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
@@ -1271,6 +1275,14 @@ class Pano extends CI_Controller
         $data['rows'][0]['title'] = "IBU MEITI - 360 RENDERING - RTA MELDA";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour4/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $data['rows'][1]['title'] = "IBU MEITI - 360 RENDERING - RTA JACKSON";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour5/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $data['rows'][2]['title'] = "IBU MEITI - 360 RENDERING - RTA AMELIA";
+        $data['rows'][2]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/meityvtour6/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
