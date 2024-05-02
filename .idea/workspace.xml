@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -537,6 +538,7 @@
       <workItem from="1709133833086" duration="145000" />
       <workItem from="1712240562179" duration="61000" />
       <workItem from="1713953326121" duration="91000" />
+      <workItem from="1714646806954" duration="348000" />
     </task>
     <servers />
   </component>
@@ -547,9 +549,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="891" y="284" width="670" height="676" key="search.everywhere.popup" timestamp="1705585903571">
-      <screen x="0" y="25" width="2240" height="1150" />
+    <state x="520" y="265" width="670" height="676" key="search.everywhere.popup" timestamp="1714646974901">
+      <screen x="0" y="39" width="1710" height="983" />
     </state>
-    <state x="891" y="284" width="670" height="676" key="search.everywhere.popup/0.25.2240.1150@0.25.2240.1150" timestamp="1705585903571" />
+    <state x="520" y="265" width="670" height="676" key="search.everywhere.popup/0.39.1710.983@0.39.1710.983" timestamp="1714646974901" />
   </component>
 </project>
