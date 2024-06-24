@@ -411,41 +411,31 @@ class Pano extends CI_Controller
 
     public function edward_project()
     {
+        /*
         $data['rows'][0]['title'] = "EDWARD - DESIGN PRESENTATION - LIVING & PANTRY";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/edward/Edward_Presentation_08.01.2021.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
 
-        $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - LIVING & PANTRY";
-        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/edwardvtour/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
-
-        $this->load->helper('url');
-        $this->load->view('pano/basic_project_view', $data);
-    }
-
-    public function edward_project_2()
-    {
         $data['rows'][0]['title'] = "EDWARD - DESIGN PRESENTATION - RTU & WIC UTAMA";
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/pdf/edward/Edward_Presentation_31.03.2023.pdf";
         $data['rows'][0]['button_title'] = "download PDF document";
+        */
 
-        $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - RTU & WIC UTAMA";
-        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/edwardrtuvtour/tour.html";
-        $data['rows'][1]['button_title'] = "see 360 rendering";
-
-        $this->load->helper('url');
-        $this->load->view('pano/basic_project_view', $data);
-    }
-
-    public function edward_project_3()
-    {
-        $data['rows'][0]['title'] = "EDWARD - 360 RENDERING - KIDS BEDROOM 1 (EDWARD) - PHASE 3";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/edwardvtour3A/tour.html";
+        $data['rows'][0]['title'] = "EDWARD - 360 RENDERING - LIVING & PANTRY - PHASE 1";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/edwardvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
-        $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - KIDS BEDROOM 2 (EDWARD) - PHASE 3";
-        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/edwardvtour3B/tour.html";
+        $data['rows'][1]['title'] = "EDWARD - 360 RENDERING - RTU & WIC UTAMA - PHASE 2";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/edwardrtuvtour/tour.html";
         $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $data['rows'][2]['title'] = "EDWARD - 360 RENDERING - KIDS BEDROOM 1 (EDWARD) - PHASE 3";
+        $data['rows'][2]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/edwardvtour3a/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
+
+        $data['rows'][3]['title'] = "EDWARD - 360 RENDERING - KIDS BEDROOM 2 (Priscilla) - PHASE 3";
+        $data['rows'][3]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/edwardvtour3b/tour.html";
+        $data['rows'][3]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
