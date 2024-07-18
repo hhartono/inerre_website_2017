@@ -1618,6 +1618,16 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function ira_project_2()
+    {
+        $data['rows'][0]['title'] = "IRA - 360 RENDERING - LIVING ROOM";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/iravtour2/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function rinaldo_project()
     {
         $data['rows'][0]['title'] = "RINALDO - 360 RENDERING - MASTER BEDROOM";
