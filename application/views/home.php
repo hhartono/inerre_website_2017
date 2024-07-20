@@ -185,9 +185,10 @@ ga('send', 'pageview');
                                             </li>
 
                                             <!-- MENU ITEM -->
-                                            <li>
+                                            <!--<li>
                                                 <a href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/pdf/production/inerre_production_facility.pdf"><div class="main-menu-title">PRODUCTION</div></a>
                                             </li>
+                                            -->
 
                                             <!-- MENU ITEM -->
                                             <li>
