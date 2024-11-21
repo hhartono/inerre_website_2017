@@ -1660,6 +1660,16 @@ class Pano extends CI_Controller
         $this->load->view('pano/basic_project_view', $data);
     }
 
+    public function lidya_project_2()
+    {
+        $data['rows'][0]['title'] = "LIDYA - 360 RENDERING - KIDS BEDROOM";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/lidyavtour/tour.html";
+        $data['rows'][0]['button_title'] = "see 360 rendering";
+
+        $this->load->helper('url');
+        $this->load->view('pano/basic_project_view', $data);
+    }
+
     public function monica_project()
     {
         $data['rows'][0]['title'] = "MONICA - 360 RENDERING - PANTRY & DINING";
