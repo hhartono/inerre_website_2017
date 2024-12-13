@@ -40,6 +40,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
         $ducoiter++;
 
+        $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - Matte - CNC1";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_CNC1_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
         $data['ducos'][$ducoiter]['title'] = "Soft Gray No 2 - High Gloss";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_softgray2_gloss";
@@ -121,6 +127,12 @@ class LibraryV1 extends CI_Controller {
         $data['ducos'][$ducoiter]['title'] = "Espresso - Matte";
         $data['ducos'][$ducoiter]['subtitle'] = "Duco";
         $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_espresso_matte";
+        $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $ducoiter++;
+
+        $data['ducos'][$ducoiter]['title'] = "Espresso - Matte - CNC1";
+        $data['ducos'][$ducoiter]['subtitle'] = "Duco";
+        $data['ducos'][$ducoiter]['controller'] = "LibraryV1/duco_espresso_CNC1_matte";
         $data['ducos'][$ducoiter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $ducoiter++;
 
@@ -319,6 +331,11 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][20]['subtitle'] = "HPL Lamitak";
         $data['lamitaks'][20]['controller'] = "LibraryV1/lamitak_stoffa_crema";
         $data['lamitaks'][20]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][21]['title'] = "Cloudy Cement";
+        $data['lamitaks'][21]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][21]['controller'] = "LibraryV1/lamitak_cloudy_cement";
+        $data['lamitaks'][21]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
@@ -543,6 +560,18 @@ class LibraryV1 extends CI_Controller {
         $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
         $veneeriter++;
 
+        $data['veneers'][$veneeriter]['title'] = "Oak - Butter - 2 x 2";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_butter_2x2";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
+
+        $data['veneers'][$veneeriter]['title'] = "Oak - Butter - CNC1";
+        $data['veneers'][$veneeriter]['subtitle'] = "Veneer";
+        $data['veneers'][$veneeriter]['controller'] = "LibraryV1/oak_butter_CNC1";
+        $data['veneers'][$veneeriter]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+        $veneeriter++;
+
         $this->load->helper('url');
         $this->load->view('library/landing', $data);
 	}
@@ -588,6 +617,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Soft Gray No 2 - Matte";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/duco/duco_softgray2_matte.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_softgray2_CNC1_matte()
+    {
+        $data['title'] = "Soft Gray No 2 - Matte - CVC1";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
         $this->load->helper('url');
         $this->load->view('library/duco/duco_view', $data);
@@ -726,6 +765,16 @@ class LibraryV1 extends CI_Controller {
     public function duco_espresso_matte()
     {
         $data['title'] = "Espresso - Matte";
+        $data['subtitle'] = "Duco (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/duco/duco_view', $data);
+    }
+
+    public function duco_espresso_CNC1_matte()
+    {
+        $data['title'] = "Espresso - Matte - CNC1";
         $data['subtitle'] = "Duco (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
@@ -1091,6 +1140,16 @@ class LibraryV1 extends CI_Controller {
     public function lamitak_stoffa_crema()
     {
         $data['title'] = "Stoffa Crema";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_cloudy_cement()
+    {
+        $data['title'] = "Cloudy Cement";
         $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
@@ -1481,6 +1540,26 @@ class LibraryV1 extends CI_Controller {
     public function oak_butter()
     {
         $data['title'] = "Oak - Butter";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_butter_2x2()
+    {
+        $data['title'] = "Oak - Butter - 2 x 2";
+        $data['subtitle'] = "Veneer (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/veneer/veneer_view', $data);
+    }
+
+    public function oak_butter_CNC1()
+    {
+        $data['title'] = "Oak - Butter - CNC1";
         $data['subtitle'] = "Veneer (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
