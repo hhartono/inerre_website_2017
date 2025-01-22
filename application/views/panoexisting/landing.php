@@ -528,6 +528,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/irene/tour.html">see existing</a><br>
                                 <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/o8K6LZnxP71CpKCr5">Update 20 DEC 23 (FOTO)</a><br>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/irene2/tour.html">Update 20 DEC 23</a><br>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/irene3/tour.html">Update 21 JAN 25</a><br>
                             </div>
                         </div>
                     </div>
