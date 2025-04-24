@@ -326,6 +326,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">DAVID SHELLA - PERMATA BUANA</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella2/tour.html">see existing (23 04 2025)</a>
                             </div>
                         </div>
                     </div>
