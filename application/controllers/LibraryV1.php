@@ -378,6 +378,11 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][7]['controller'] = "LibraryV1/edl_linen_walk";
         $data['aicas'][7]['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
 
+        $data['aicas'][8]['title'] = "Katovik Noce";
+        $data['aicas'][8]['subtitle'] = "HPL EDL";
+        $data['aicas'][8]['controller'] = "LibraryV1/edl_katovik_noce";
+        $data['aicas'][8]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
         /* veneer section */
         $veneeriter = 0;
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore";
@@ -1217,6 +1222,16 @@ class LibraryV1 extends CI_Controller {
         $data['title'] = "Linen Walk the Line";
         $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/hpl/edl_linen_walk_line.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function edl_katovik_noce()
+    {
+        $data['title'] = "Katovik Noce";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
