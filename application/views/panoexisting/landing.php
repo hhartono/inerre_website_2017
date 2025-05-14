@@ -471,6 +471,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">FITRIA - PODOMORO PARK</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/fitria/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/fitria2/tour.html">see existing (14 05 2025)</a>
                             </div>
                         </div>
                     </div>
