@@ -383,6 +383,21 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][8]['controller'] = "LibraryV1/edl_katovik_noce";
         $data['aicas'][8]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
+        $data['aicas'][9]['title'] = "Antique Oak";
+        $data['aicas'][9]['subtitle'] = "HPL EDL";
+        $data['aicas'][9]['controller'] = "LibraryV1/edl_antique_oak";
+        $data['aicas'][9]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][10]['title'] = "Cosmopolitan";
+        $data['aicas'][10]['subtitle'] = "HPL EDL";
+        $data['aicas'][10]['controller'] = "LibraryV1/edl_cosmopolitan";
+        $data['aicas'][10]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][11]['title'] = "Rodez Oak";
+        $data['aicas'][11]['subtitle'] = "HPL EDL";
+        $data['aicas'][11]['controller'] = "LibraryV1/edl_rodez_oak";
+        $data['aicas'][11]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
         /* veneer section */
         $veneeriter = 0;
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore";
@@ -1237,6 +1252,36 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/aica_hpl', $data);
     }
 
+    public function edl_antique_oak()
+    {
+        $data['title'] = "Antique Oak";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function edl_cosmopolitan()
+    {
+        $data['title'] = "Cosmopolitan";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function edl_rodez_oak()
+    {
+        $data['title'] = "Rodez Oak";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+    
     public function taco_olivie_afromosia()
     {
         $data['title'] = "Olivie Afromosia";
