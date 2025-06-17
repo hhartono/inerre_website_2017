@@ -398,6 +398,11 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][11]['controller'] = "LibraryV1/edl_rodez_oak";
         $data['aicas'][11]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
+        $data['aicas'][12]['title'] = "Mediterranean";
+        $data['aicas'][12]['subtitle'] = "HPL EDL";
+        $data['aicas'][12]['controller'] = "LibraryV1/edl_mediterranean";
+        $data['aicas'][12]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
         /* veneer section */
         $veneeriter = 0;
         $data['veneers'][$veneeriter]['title'] = "Oak - Coffee Open Pore";
@@ -1281,7 +1286,17 @@ class LibraryV1 extends CI_Controller {
         $this->load->helper('url');
         $this->load->view('library/hpl/aica_hpl', $data);
     }
-    
+
+    public function edl_mediterranean()
+    {
+        $data['title'] = "Mediterranean";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
     public function taco_olivie_afromosia()
     {
         $data['title'] = "Olivie Afromosia";
