@@ -198,6 +198,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">SALONE - MILAN - 2023</span></h3>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/9WxFWEpuxC5SKhnW8">Salone 2023</a><br>
+                                <a class="button medium thin hover-dark" href="https://photos.app.goo.gl/92jU8xBUujq1sDaM7">Showroom Tour 2023</a><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">SHOWROOM VISIT - JULY 2023</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomabodestyle/tour.html">Abode</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/showroomcasaitalialiving/tour.html">Casa Italia</a>
