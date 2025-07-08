@@ -197,6 +197,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text demo-buttons">
+                                <h3><span class="bold">Showroom Visit & Expo Photos</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Expo'); ?>">see photos</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text demo-buttons">
                                 <h3><span class="bold">Blum - Kitchen Organizers</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('BlumV1'); ?>">see Blum demo</a>
                             </div>
