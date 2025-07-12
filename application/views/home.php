@@ -95,7 +95,7 @@ ga('send', 'pageview');
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Facebook Pixel Code -->
+    <!-- Meta Pixel Code -->
     <script>
         !function(f,b,e,v,n,t,s)
         {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -105,14 +105,14 @@ ga('send', 'pageview');
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '{your-pixel-id-goes-here}');
+        fbq('init', '1793088424639689');
         fbq('track', 'PageView');
     </script>
-    <noscript>
-        <img height="1" width="1" style="display:none"
-             src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1793088424639689&ev=PageView&noscript=1"
+        />
     </noscript>
-    <!-- End Facebook Pixel Code -->
+    <!-- End Meta Pixel Code -->
 
     <!-- Modernizr -->
     <!-- <script src="js/modernizr.js"></script> -->
