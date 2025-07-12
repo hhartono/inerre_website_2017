@@ -1353,7 +1353,7 @@ ga('send', 'pageview');
                             <div class="cis-text">
                                 <h3><span class="bold">CALL US</span></h3>
                                 <p><a href="tel:+62224232200">+62 22 423-2200 (office)</a></p>
-                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 81 1132-4455 (click for WhatsApp message)</a></p>
+                                <p><a href="https://api.whatsapp.com/send?phone=628111324455">+62 81 1132-4455 (click for WhatsApp message)</a></p>
                             </div>
                         </div>
                     </div>
