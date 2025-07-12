@@ -1346,14 +1346,14 @@ ga('send', 'pageview');
                     <div class="col-md-4 col-sm-6">
                         <div class="cis-cont">
                             <div class="cis-icon">
-                                <a href="https://api.whatsapp.com/send?phone=6281311234455">
+                                <a href="https://api.whatsapp.com/send?phone=628111324455">
                                     <div class="icon icon-basic-smartphone"></div>
                                 </a>
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">CALL US</span></h3>
                                 <p><a href="tel:+62224232200">+62 22 423-2200 (office)</a></p>
-                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 813 1123-4455 (click for WhatsApp message)</a></p>
+                                <p><a href="https://api.whatsapp.com/send?phone=6281311234455">+62 81 1132-4455 (click for WhatsApp message)</a></p>
                             </div>
                         </div>
                     </div>
