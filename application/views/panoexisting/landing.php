@@ -371,6 +371,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="cis-text">
                                 <h3><span class="bold">EDWARD - BADAK SINGA - BANDUNG</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/edward/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/edward2/tour.html">see existing (OFFICE & GYM)</a>
                             </div>
                         </div>
                     </div>
