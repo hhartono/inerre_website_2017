@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a873a46-7863-4154-a486-78e67077640c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/Pano.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Pano.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/panoexisting/landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/panoexisting/landing.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -575,6 +575,7 @@
       <workItem from="1752314565883" duration="201000" />
       <workItem from="1752554140455" duration="102000" />
       <workItem from="1753242303535" duration="339000" />
+      <workItem from="1753759194080" duration="70000" />
     </task>
     <servers />
   </component>
