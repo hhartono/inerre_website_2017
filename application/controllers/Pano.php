@@ -1510,6 +1510,10 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/mozartvtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "MOZART - MASTER BEDROOM - 360 RENDERING";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/mozartvtour2/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
