@@ -342,6 +342,16 @@ class LibraryV1 extends CI_Controller {
         $data['lamitaks'][22]['controller'] = "LibraryV1/lamitak_bruno_caraceni";
         $data['lamitaks'][22]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
 
+        $data['lamitaks'][23]['title'] = "Bianco Caraceni";
+        $data['lamitaks'][23]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][23]['controller'] = "LibraryV1/lamitak_bianco_caraceni";
+        $data['lamitaks'][23]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $data['lamitaks'][24]['title'] = "Almond Yugen Oak";
+        $data['lamitaks'][24]['subtitle'] = "HPL Lamitak";
+        $data['lamitaks'][24]['controller'] = "LibraryV1/lamitak_yugen_oak";
+        $data['lamitaks'][24]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
         /* HPL AICA section */
         $data['aicas'][0]['title'] = "Antique White Leather";
         $data['aicas'][0]['subtitle'] = "HPL AICA";
@@ -388,9 +398,9 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][8]['controller'] = "LibraryV1/taco_sleek_walnut";
         $data['aicas'][8]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
-        $data['aicas'][9]['title'] = "Antique Oak";
-        $data['aicas'][9]['subtitle'] = "HPL EDL";
-        $data['aicas'][9]['controller'] = "LibraryV1/edl_antique_oak";
+        $data['aicas'][9]['title'] = "Pine Walnut";
+        $data['aicas'][9]['subtitle'] = "HPL TACO";
+        $data['aicas'][9]['controller'] = "LibraryV1/taco_pine_walnut";
         $data['aicas'][9]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         $data['aicas'][10]['title'] = "Cosmopolitan";
@@ -417,6 +427,21 @@ class LibraryV1 extends CI_Controller {
         $data['aicas'][14]['subtitle'] = "HPL EDL";
         $data['aicas'][14]['controller'] = "LibraryV1/edl_katovik_noce";
         $data['aicas'][14]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][15]['title'] = "Antique Oak";
+        $data['aicas'][15]['subtitle'] = "HPL EDL";
+        $data['aicas'][15]['controller'] = "LibraryV1/edl_antique_oak";
+        $data['aicas'][15]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][16]['title'] = "Luserna Grigio";
+        $data['aicas'][16]['subtitle'] = "HPL EDL";
+        $data['aicas'][16]['controller'] = "LibraryV1/edl_luserna_grigio";
+        $data['aicas'][16]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $data['aicas'][17]['title'] = "Sartoria Cremoso";
+        $data['aicas'][17]['subtitle'] = "HPL EDL";
+        $data['aicas'][17]['controller'] = "LibraryV1/edl_sartoria_cremoso";
+        $data['aicas'][17]['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
         /* veneer section */
         $veneeriter = 0;
@@ -1207,6 +1232,26 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/lamitak_hpl', $data);
     }
 
+    public function lamitak_bianco_caraceni()
+    {
+        $data['title'] = "Bianco Caraceni";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+
+    public function lamitak_yugen_oak()
+    {
+        $data['title'] = "Almond Yugen Oak";
+        $data['subtitle'] = "HPL Lamitak (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png";
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/lamitak_hpl', $data);
+    }
+    
     /*
     *
     * HPL AICA SECTION
@@ -1322,6 +1367,26 @@ class LibraryV1 extends CI_Controller {
         $this->load->view('library/hpl/aica_hpl', $data);
     }
 
+    public function edl_luserna_grigio()
+    {
+        $data['title'] = "Luserna Grigio";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function edl_sartoria_cremoso()
+    {
+        $data['title'] = "Sartoria Cremoso";
+        $data['subtitle'] = "HPL EDL (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
     public function taco_olivie_afromosia()
     {
         $data['title'] = "Olivie Afromosia";
@@ -1355,6 +1420,16 @@ class LibraryV1 extends CI_Controller {
     public function taco_sleek_walnut()
     {
         $data['title'] = "Sleek Walnut";
+        $data['subtitle'] = "HPL TACO (TAP to ENLARGE)";
+        $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
+
+        $this->load->helper('url');
+        $this->load->view('library/hpl/aica_hpl', $data);
+    }
+
+    public function taco_pine_walnut()
+    {
+        $data['title'] = "Pine Walnut";
         $data['subtitle'] = "HPL TACO (TAP to ENLARGE)";
         $data['sample_url'] = "/assets/images/inerre/library/sample_dummy.png"; // DUMMY
 
