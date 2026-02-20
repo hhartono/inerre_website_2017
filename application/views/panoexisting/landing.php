@@ -342,11 +342,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">DAVID SHELLA - PERMATA BUANA</span></h3>
+                                <!--
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella2/tour.html">see existing (23 04 2025)</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella3/tour.html">see existing (06 05 2025)</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella4/tour.html">see existing (10 06 2025)</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella5/tour.html">see existing (01 12 2025)</a>
+                                -->
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/davidshella6/tour.html">see existing (20 02 2026)</a>
                             </div>
                         </div>
                     </div>
