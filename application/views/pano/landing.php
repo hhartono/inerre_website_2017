@@ -1016,6 +1016,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">SEVELYN - BUDI ASIH</span></h3>
+                                <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/sevelynproject'); ?>">see project</a>
+                            </div>
+                        </div>
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">MR. SHEN - KOTA BARU PARAHYANGAN</span></h3>
                                 <a class="button medium thin hover-dark" href="<?php echo site_url('Pano/shen_project'); ?>">see project</a>
                             </div>
