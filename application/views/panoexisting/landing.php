@@ -885,6 +885,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h3><span class="bold">MOZART - PIK</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/mozart2/tour.html">see existing (NADINE)</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/mozart/tour.html">see existing</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/mozart3/tour.html">see existing (26022026)</a>
                             </div>
                         </div>
                     </div>
