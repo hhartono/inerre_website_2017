@@ -199,10 +199,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="cis-text">
                                 <h3><span class="bold">ALFRED - PAKUBUWONO</span></h3>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred1/tour.html">see existing (NEW)</a>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred2/tour.html">see existing (OLD)</a>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred3/tour.html">see existing (NEW, BONGKAR 19122025)</a>
-                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred4/tour.html">see existing (NEW, BONGKAR 09022026)</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred1/tour.html">see existing (NEW, ALL)</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred2/tour.html">see existing (OLD, ALL)</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred3/tour.html">see existing (NEW, RTU BONGKAR 19122025)</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred4/tour.html">see existing (NEW, RTU BONGKAR 09022026)</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/alfred5/tour.html">see existing (NEW, LDF BONGKAR 04032026)</a>
                             </div>
                         </div>
                     </div>
