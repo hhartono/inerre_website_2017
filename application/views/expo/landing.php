@@ -234,6 +234,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
+                                <h3><span class="bold">INDOBUILD TECH</span></h3>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/indobuildtech2023/tour.html">Indobuild 2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr_backup']); ?>/existing/indobuildtech/tour.html">Indobuild 2026</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="cis-cont">
+                            <div class="cis-icon">
+                                <div class="icon icon-basic-pin1"></div>
+                            </div>
+                            <div class="cis-text">
                                 <h3><span class="bold">THE COLOR OF INDONESIA - 2022</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/tcoi2022/tour.html">see exhibition</a>
                             </div>
