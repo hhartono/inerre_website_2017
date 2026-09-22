@@ -465,10 +465,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <div class="icon icon-basic-pin1"></div>
                             </div>
                             <div class="cis-text">
-                                <h3><span class="bold">ERNI - BSD</span></h3>
+                                <h3><span class="bold">ERNI (EMI) - BSD</span></h3>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni/tour.html">see existing</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni2/tour.html">update 05/06/2023</a>
                                 <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni3/tour.html">update 10/07/2023</a>
+                                <a class="button medium thin hover-dark" href="http://<?php echo urldecode($GLOBALS['inerre_vr']); ?>/existing/erni4/tour.html">extension 2026</a>
                             </div>
                         </div>
                     </div>
