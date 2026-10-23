@@ -942,7 +942,7 @@ class Pano extends CI_Controller
     public function erni_project_4()
     {
         $data['rows'][0]['title'] = "ERNI (EMI) - 360 RENDERING - WIC EXTENSION";
-        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr'] . "/emivtour/tour.html";
+        $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/emivtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
         $this->load->helper('url');
