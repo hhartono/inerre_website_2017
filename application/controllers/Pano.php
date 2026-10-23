@@ -945,6 +945,14 @@ class Pano extends CI_Controller
         $data['rows'][0]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/emivtour/tour.html";
         $data['rows'][0]['button_title'] = "see 360 rendering";
 
+        $data['rows'][1]['title'] = "ERNI (EMI) - 360 RENDERING - FOYER RUMAH BARU";
+        $data['rows'][1]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/emivtour2/tour.html";
+        $data['rows'][1]['button_title'] = "see 360 rendering";
+
+        $data['rows'][2]['title'] = "ERNI (EMI) - 360 RENDERING - LIVING & FOYER RUMAH LAMA";
+        $data['rows'][2]['url'] = "http://" . $GLOBALS['inerre_vr_backup'] . "/emivtour3/tour.html";
+        $data['rows'][2]['button_title'] = "see 360 rendering";
+
         $this->load->helper('url');
         $this->load->view('pano/basic_project_view', $data);
     }
